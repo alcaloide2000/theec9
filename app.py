@@ -7,6 +7,7 @@ import pathlib
 from gtts import gTTS
 import base64
 import io
+import os
 
 # --------------------------------------------------
 # APP INIT
@@ -421,4 +422,5 @@ def never_actions(btn1, btn2, current):
 # --------------------------------------------------
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=871)
+    port = int(os.environ.get("PORT", 871))
+    app.run_server(debug=False, port=port)
