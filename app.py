@@ -251,14 +251,14 @@ def warm_actions(btn1, btn2, data, current):
     if button == 'btn-warm-es':
         row = pick_random(data)
         if not row:
-            return "No data", [], "", ""
-        return row['esp'], [row], "", ""
+            return "No data", [], "", None
+        return row['esp'], [row], "", None
 
     if button == 'btn-warm-en' and current:
         row = current[0]
         return no_update, current, row['eng'], generate_audio(row['eng'])
 
-    return "", [], "", ""
+    return "", [], "", None
 
 # Pictures
 @app.callback(
@@ -278,16 +278,16 @@ def picture_actions(btn1, btn2, current):
     if button == 'btn-pic-show':
         row = pick_random(didfpic)
         if not row:
-            return "No data", [], "", ""
+            return "No data", [], "", None
         filename = str(row['name']).strip()
         return html.Img(src=f"/assets/{filename}",
-                        style={'width': '40%', 'display': 'block', 'margin': 'auto'}), [row], "", ""
+                        style={'width': '40%', 'display': 'block', 'margin': 'auto'}), [row], "", None
 
     if button == 'btn-pic-desc' and current:
         row = current[0]
         return no_update, current, row['eng'], generate_audio(row['eng'])
 
-    return "", [], "", ""
+    return "", [], "", None
 
 # Reported Speech
 @app.callback(
@@ -316,14 +316,14 @@ def rep_actions(btn1, btn2, data, current):
     if button == 'btn-rep-direct':
         row = pick_random(data)
         if not row:
-            return "", [], "", ""
-        return row['direct'], [row], "", ""
+            return "", [], "", None
+        return row['direct'], [row], "", None
 
     if button == 'btn-rep-reported' and current:
         row = current[0]
         return no_update, current, row['reported'], generate_audio(row['reported'])
 
-    return "", [], "", ""
+    return "", [], "", None
 
 
 # Interrogative
@@ -355,14 +355,14 @@ def inter_actions(btn1, btn2, data, current):
     if button == 'btn-inter-answer':
         row = pick_random(data)
         if not row:
-            return "", [], "", ""
-        return row['answer'], [row], "", ""
+            return "", [], "", None
+        return row['answer'], [row], "", None
 
     if button == 'btn-inter-question' and current:
         row = current[0]
         return no_update, current, row['question'], generate_audio(row['question'])
 
-    return "", [], "", ""
+    return "", [], "", None
 
 
 # Question Tags
@@ -383,15 +383,15 @@ def tag_actions(btn1, btn2, current):
     if button == 'btn-tag-sentence':
         row = pick_random(didftag)
         if not row:
-            return "", [], "", ""
-        return row['sentence'], [row], "", ""
+            return "", [], "", None
+        return row['sentence'], [row], "", None
 
     if button == 'btn-tag-answer' and current:
         row = current[0]
         full = f"{row['sentence']} {row['tag']}"
         return no_update, current, row['tag'], generate_audio(full)
 
-    return "", [], "", ""
+    return "", [], "", None
 
 
 # Never Done
@@ -412,14 +412,14 @@ def never_actions(btn1, btn2, current):
     if button == 'btn-never-question':
         row = pick_random(didfnever)
         if not row:
-            return "", [], "", ""
-        return row['question'], [row], "", ""
+            return "", [], "", None
+        return row['question'], [row], "", None
 
     if button == 'btn-never-answer' and current:
         row = current[0]
         return no_update, current, row['answer'], generate_audio(row['answer'])
 
-    return "", [], "", ""
+    return "", [], "", None
 
 # --------------------------------------------------
 # RUN
