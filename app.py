@@ -250,6 +250,8 @@ def warm_actions(btn1, btn2, data, current):
 
     if button == 'btn-warm-es':
         row = pick_random(data)
+        if not row:
+            return "No data", [], "", ""
         return row['esp'], [row], "", ""
 
     if button == 'btn-warm-en' and current:
@@ -275,6 +277,8 @@ def picture_actions(btn1, btn2, current):
 
     if button == 'btn-pic-show':
         row = pick_random(didfpic)
+        if not row:
+            return "No data", [], "", ""
         filename = str(row['name']).strip()
         return html.Img(src=f"/assets/{filename}",
                         style={'width': '40%', 'display': 'block', 'margin': 'auto'}), [row], "", ""
