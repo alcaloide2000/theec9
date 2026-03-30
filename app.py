@@ -111,12 +111,27 @@ card_warm = make_card(
     [
         html.H4('CHOOSE A STRUCTURE'),
         dcc.Dropdown(warm_options, value='all', id='mydrop'),
+        html.P('Select a bunch of questions:', style={'marginBottom': '4px', 'marginTop': '8px'}),
+        dcc.RadioItems(
+            id='warm-limit',
+            options=[{'label': ' 10 ', 'value': 10},
+                     {'label': ' 20 ', 'value': 20},
+                     {'label': ' 30 ', 'value': 30}],
+            value=10,
+            inline=True,
+            style={'marginBottom': '8px'}
+        ),
         html.Div(id='container-button-timestamp0'),
         dbc.Button('SPANISH', id='btn-warm-es', color="info"),
         html.Div(id='container-button-timestamp'),
         dbc.Button('ENGLISH', id='btn-warm-en', color="primary"),
         html.Div(id='container-button-timestamp2'),
-        html.Audio(id='tts-audiowarm', controls=True, style={'width': '100%'})
+        html.Audio(id='tts-audiowarm', controls=True, style={'width': '100%'}),
+        dbc.ButtonGroup([
+            dbc.Button('✓ CORRECT', id='btn-warm-correct', color="success"),
+            dbc.Button('✗ INCORRECT', id='btn-warm-incorrect', color="danger"),
+        ], style={'marginTop': '10px', 'width': '100%'}),
+        html.Div(id='warm-score-display', style={'marginTop': '8px', 'fontWeight': 'bold'})
     ]
 )
 
@@ -208,6 +223,8 @@ app.layout = dbc.Container([
 
     dcc.Store(id='warm-store'),
     dcc.Store(id='warm-current'),
+    dcc.Store(id='warm-count', data=0, storage_type='memory'),
+    dcc.Store(id='warm-score', data={'correct': 0, 'incorrect': 0}),
     dcc.Store(id='rep-store'),
     dcc.Store(id='rep-index'),
     dcc.Store(id='inter-store'),
@@ -237,28 +254,76 @@ def filter_warm(value):
     [Output('container-button-timestamp', 'children'),
      Output('warm-current', 'data'),
      Output('container-button-timestamp2', 'children'),
-     Output('tts-audiowarm', 'src')],
+     Output('tts-audiowarm', 'src'),
+     Output('container-button-timestamp0', 'children'),
+     Output('warm-count', 'data')],
     [Input('btn-warm-es', 'n_clicks'),
-     Input('btn-warm-en', 'n_clicks')],
+     Input('btn-warm-en', 'n_clicks'),
+     Input('mydrop', 'value'),
+     Input('warm-limit', 'value')],
     [State('warm-store', 'data'),
-     State('warm-current', 'data')],
+     State('warm-current', 'data'),
+     State('warm-count', 'data')],
     prevent_initial_call=True
 )
-def warm_actions(btn1, btn2, data, current):
+def warm_actions(btn1, btn2, drop_val, limit, data, current, count):
     ctx = callback_context
     button = ctx.triggered[0]['prop_id'].split('.')[0]
 
+    if button in ('mydrop', 'warm-limit'):
+        return "", [], "", None, "", 0
+
     if button == 'btn-warm-es':
+        if count >= limit:
+            done_msg = html.Span(f"Done! {limit}/{limit} questions completed.", style={'color': 'green', 'fontWeight': 'bold'})
+            return no_update, no_update, no_update, no_update, done_msg, count
         row = pick_random(data)
         if not row:
-            return "No data", [], "", None
-        return row['esp'], [row], "", None
+            return "No data", [], "", None, "", count
+        new_count = count + 1
+        progress = html.Span(f"Question {new_count} / {limit}")
+        return row['esp'], [row], "", None, progress, new_count
 
     if button == 'btn-warm-en' and current:
         row = current[0]
-        return no_update, current, row['eng'], generate_audio(row['eng'])
+        return no_update, current, row['eng'], generate_audio(row['eng']), no_update, no_update
 
-    return "", [], "", None
+    return "", [], "", None, "", count
+
+@app.callback(
+    [Output('warm-score', 'data'),
+     Output('warm-score-display', 'children')],
+    [Input('btn-warm-correct', 'n_clicks'),
+     Input('btn-warm-incorrect', 'n_clicks'),
+     Input('mydrop', 'value'),
+     Input('warm-limit', 'value')],
+    [State('warm-score', 'data')],
+    prevent_initial_call=True
+)
+def warm_score(btn_correct, btn_incorrect, drop_val, limit_val, score):
+    ctx = callback_context
+    button = ctx.triggered[0]['prop_id'].split('.')[0]
+
+    if button in ('mydrop', 'warm-limit'):
+        reset = {'correct': 0, 'incorrect': 0}
+        return reset, ""
+
+    total = score['correct'] + score['incorrect']
+    if total >= limit_val:
+        return no_update, no_update
+
+    if button == 'btn-warm-correct':
+        score['correct'] += 1
+    elif button == 'btn-warm-incorrect':
+        score['incorrect'] += 1
+
+    total = score['correct'] + score['incorrect']
+    display = html.Span(
+        f"Score: {score['correct']} correct, {score['incorrect']} incorrect ({total}/{limit_val})",
+        style={'color': 'green' if score['correct'] >= score['incorrect'] else 'red'}
+    )
+    return score, display
+
 
 # Pictures
 @app.callback(
@@ -427,4 +492,4 @@ def never_actions(btn1, btn2, current):
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 871))
-    app.run_server(debug=False, port=port)
+    app.run_server(debug=True, port=port)
