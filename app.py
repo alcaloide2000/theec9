@@ -1,36 +1,36 @@
-from dash import html, dcc
-from dash import Dash, Input, Output, State, callback_context, no_update
-import dash_bootstrap_components as dbc
-import random
+import streamlit as st
 import pandas as pd
+import random
 import pathlib
-from gtts import gTTS
-import base64
 import io
-import os
+from gtts import gTTS
+
+st.set_page_config(page_title="theec practice", layout="centered")
 
 # --------------------------------------------------
-# APP INIT
-# --------------------------------------------------
-
-app = Dash(
-    __name__,
-    external_stylesheets=[
-        dbc.themes.BOOTSTRAP,
-        "https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    ]
-)
-
-server = app.server
-app.title = "theec practice"
-
-# --------------------------------------------------
-# LOAD EXCEL SAFELY
+# DATA
 # --------------------------------------------------
 
 BASE_PATH = pathlib.Path(__file__).parent
 EXCEL_PATH = BASE_PATH / "the.xlsx"
-dithe = pd.read_excel(EXCEL_PATH, sheet_name=None)
+
+@st.cache_data
+def load_data():
+    return pd.read_excel(EXCEL_PATH, sheet_name=None)
+
+dithe = load_data()
+
+dfwarm  = dithe['warm'].dropna(subset=['structure'])
+dfreport = dithe['reportedsp']
+dfpic   = dithe['pictures']
+dfinter = dithe['question'].dropna(subset=['word'])
+dfinter['word'] = dfinter['word'].astype(str).str.strip()
+dftag   = dithe['tags']
+dfnever = dithe['never']
+
+didfpic   = dfpic.to_dict('records')
+didftag   = dftag.to_dict('records')
+didfnever = dfnever.to_dict('records')
 
 # --------------------------------------------------
 # UTILS
@@ -38,458 +38,358 @@ dithe = pd.read_excel(EXCEL_PATH, sheet_name=None)
 
 def generate_audio(text):
     if not text:
-        return ""
+        return None
     tts = gTTS(text=str(text), lang='en', tld='ca')
-    buffer = io.BytesIO()
-    tts.write_to_fp(buffer)
-    audio_base64 = base64.b64encode(buffer.getvalue()).decode()
-    return f"data:audio/mp3;base64,{audio_base64}"
+    buf = io.BytesIO()
+    tts.write_to_fp(buf)
+    buf.seek(0)
+    return buf.getvalue()
 
 def pick_random(records):
-    if not records:
-        return None
-    return random.choice(records)
+    return random.choice(records) if records else None
 
 # --------------------------------------------------
-# DATA
+# SESSION STATE DEFAULTS
 # --------------------------------------------------
 
-dfwarm = dithe['warm'].dropna(subset=['structure'])
-dfreport = dithe['reportedsp']
-dfpic = dithe['pictures']
-dfinter = dithe['question'].dropna(subset=['word'])
-dfinter['word'] = dfinter['word'].astype(str).str.strip()
-dftag = dithe['tags']
-dfnever = dithe['never']
-
-warm_options = [{'label': 'all', 'value': 'all'}] + [
-    {'label': str(x), 'value': x} for x in dfwarm['structure'].unique()
-]
-
-rep_options = [
-    {'label': str(x), 'value': x} for x in dfreport['story'].unique()
-]
-
-inter_options = [{'label': 'all', 'value': 'all'}] + [
-    {'label': x, 'value': x} for x in sorted(dfinter['word'].unique())
-]
-
-didfpic = dfpic.to_dict('records')
-didftag = dftag.to_dict('records')
-didfnever = dfnever.to_dict('records')
-
-# --------------------------------------------------
-# STYLE
-# --------------------------------------------------
-
-card_style = {
-    "width": "100%",
-    "margin": "auto",
-    "padding": "10px",
-    "borderColor": "#d9534f",
-    "borderWidth": "2px"
+_defaults = {
+    'warm_structure': 'all',
+    'warm_limit':     10,
+    'warm_count':     0,
+    'warm_score':     {'correct': 0, 'incorrect': 0},
+    'warm_current':   None,
+    'warm_esp':       '',
+    'warm_eng':       '',
+    'warm_audio':     None,
+    'rep_story':      None,
+    'rep_current':    None,
+    'rep_direct':     '',
+    'rep_reported':   '',
+    'rep_audio':      None,
+    'inter_word':     'all',
+    'inter_current':  None,
+    'inter_answer':   '',
+    'inter_question': '',
+    'inter_audio':    None,
+    'pic_current':    None,
+    'pic_img':        None,
+    'pic_desc':       '',
+    'pic_audio':      None,
+    'tag_current':    None,
+    'tag_sentence':   '',
+    'tag_answer':     '',
+    'tag_audio':      None,
+    'never_current':  None,
+    'never_question': '',
+    'never_answer':   '',
+    'never_audio':    None,
 }
 
-# --------------------------------------------------
-# CARDS
-# --------------------------------------------------
-
-def make_card(title, icon, body):
-    return dbc.Card([
-        html.H6([
-            html.I(className=f"fas {icon} fa-3x", style={'color': 'grey'}),
-            f" {title} ",
-            html.I(className=f"fas {icon} fa-3x", style={'color': 'grey'})
-        ], className="class-subtitle"),
-        dbc.CardBody(body)
-    ], style=card_style)
-
-# Warm
-card_warm = make_card(
-    "TRANSLATION WARM-UP",
-    "fa-running",
-    [
-        html.H4('CHOOSE A STRUCTURE'),
-        dcc.Dropdown(warm_options, value='all', id='mydrop'),
-        html.P('Select a bunch of questions:', style={'marginBottom': '4px', 'marginTop': '8px'}),
-        dcc.RadioItems(
-            id='warm-limit',
-            options=[{'label': ' 10 ', 'value': 10},
-                     {'label': ' 20 ', 'value': 20},
-                     {'label': ' 30 ', 'value': 30}],
-            value=10,
-            inline=True,
-            style={'marginBottom': '8px'}
-        ),
-        html.Div(id='container-button-timestamp0'),
-        dbc.Button('SPANISH', id='btn-warm-es', color="info"),
-        html.Div(id='container-button-timestamp'),
-        dbc.Button('ENGLISH', id='btn-warm-en', color="primary"),
-        html.Div(id='container-button-timestamp2'),
-        html.Audio(id='tts-audiowarm', controls=True, style={'width': '100%'}),
-        dbc.ButtonGroup([
-            dbc.Button('✓ CORRECT', id='btn-warm-correct', color="success"),
-            dbc.Button('✗ INCORRECT', id='btn-warm-incorrect', color="danger"),
-        ], style={'marginTop': '10px', 'width': '100%'}),
-        html.Div(id='warm-score-display', style={'marginTop': '8px', 'fontWeight': 'bold'})
-    ]
-)
-
-# Reported
-card_rep = make_card(
-    "REPORTED SPEECH",
-    "fa-comments",
-    [
-        dcc.Dropdown(rep_options, value=rep_options[0]['value'], id='mydroprep'),
-        html.Div(id='rep-info'),
-        dbc.Button('DIRECT', id='btn-rep-direct', color="info"),
-        html.Div(id='rep-direct'),
-        dbc.Button('REPORTED', id='btn-rep-reported', color="primary"),
-        html.Div(id='rep-reported'),
-        html.Audio(id='tts-audiorep', controls=True, style={'width': '100%'})
-    ]
-)
-
-# Interrogative
-card_inter = make_card(
-    "INTERROGATIVE CHALLENGE",
-    "fa-question",
-    [
-        dcc.Dropdown(inter_options, value='all', id='mydropinter'),
-        html.Div(id='inter-info'),
-        dbc.Button('ANSWER', id='btn-inter-answer', color="info"),
-        html.Div(id='inter-answer'),
-        dbc.Button('QUESTION', id='btn-inter-question', color="primary"),
-        html.Div(id='inter-question'),
-        html.Audio(id='tts-audiointer', controls=True, style={'width': '100%'})
-    ]
-)
-
-# Pictures
-card_pic = make_card(
-    "DESCRIBE THE PICTURES",
-    "fa-camera",
-    [
-        dbc.Button('PICTURE', id='btn-pic-show', color="info"),
-        html.Div(id='pic-img'),
-        dbc.Button('DESCRIPTION', id='btn-pic-desc', color="primary"),
-        html.Div(id='pic-desc'),
-        html.Audio(id='tts-audiopic', controls=True, style={'width': '100%'})
-    ]
-)
-
-# Tags
-card_tag = make_card(
-    "GUESS THE QUESTION TAG",
-    "fa-tag",
-    [
-        dbc.Button('SENTENCE', id='btn-tag-sentence', color="info"),
-        html.Div(id='tag-sentence'),
-        dbc.Button('TAG', id='btn-tag-answer', color="primary"),
-        html.Div(id='tag-answer'),
-        html.Audio(id='tts-audiotag', controls=True, style={'width': '100%'})
-    ]
-)
-
-# Never
-card_never = make_card(
-    "THINGS YOU HAVE NEVER DONE",
-    "fa-icons",
-    [
-        dbc.Button('THING', id='btn-never-question', color="info"),
-        html.Div(id='never-question'),
-        dbc.Button('ANSWER', id='btn-never-answer', color="primary"),
-        html.Div(id='never-answer'),
-        html.Audio(id='tts-audionever', controls=True, style={'width': '100%'})
-    ]
-)
+for k, v in _defaults.items():
+    if k not in st.session_state:
+        st.session_state[k] = v
 
 # --------------------------------------------------
-# LAYOUT
+# TABS
 # --------------------------------------------------
 
-app.layout = dbc.Container([
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    'Warm-Up',
+    'Reported Speech',
+    'Interrogative',
+    'Pictures',
+    'Question Tags',
+    'Never Done',
+])
 
-    dcc.Tabs([
+# ==================================================
+# TAB 1 — WARM-UP
+# ==================================================
 
-        dcc.Tab(label='Warm-Up', children=[dbc.Row(dbc.Col(card_warm))]),
-        dcc.Tab(label='Reported Speech', children=[dbc.Row(dbc.Col(card_rep))]),
-        dcc.Tab(label='Interrogative', children=[dbc.Row(dbc.Col(card_inter))]),
-        dcc.Tab(label='Pictures', children=[dbc.Row(dbc.Col(card_pic))]),
-        dcc.Tab(label='Question Tags', children=[dbc.Row(dbc.Col(card_tag))]),
-        dcc.Tab(label='Never Done', children=[dbc.Row(dbc.Col(card_never))]),
+with tab1:
+    st.subheader('TRANSLATION WARM-UP')
 
-    ]),
+    warm_structures = ['all'] + list(dfwarm['structure'].unique())
+    structure = st.selectbox('Choose a structure', warm_structures, key='warm_drop')
+    limit = st.radio('Select a bunch of questions:', [10, 20, 30], horizontal=True, key='warm_radio')
 
-    dcc.Store(id='warm-store'),
-    dcc.Store(id='warm-current'),
-    dcc.Store(id='warm-count', data=0, storage_type='memory'),
-    dcc.Store(id='warm-score', data={'correct': 0, 'incorrect': 0}),
-    dcc.Store(id='rep-store'),
-    dcc.Store(id='rep-index'),
-    dcc.Store(id='inter-store'),
-    dcc.Store(id='inter-current'),
-    dcc.Store(id='pic-current'),
-    dcc.Store(id='tag-current'),
-    dcc.Store(id='never-current')
+    if structure != st.session_state.warm_structure or limit != st.session_state.warm_limit:
+        st.session_state.warm_structure = structure
+        st.session_state.warm_limit     = limit
+        st.session_state.warm_count     = 0
+        st.session_state.warm_score     = {'correct': 0, 'incorrect': 0}
+        st.session_state.warm_current   = None
+        st.session_state.warm_esp       = ''
+        st.session_state.warm_eng       = ''
+        st.session_state.warm_audio     = None
 
-], fluid=True)
-
-# --------------------------------------------------
-# CALLBACKS
-# --------------------------------------------------
-
-# Warm
-@app.callback(
-    Output('warm-store', 'data'),
-    Input('mydrop', 'value')
-)
-def filter_warm(value):
-    if value == 'all':
-        return dfwarm.to_dict('records')
-    return dfwarm[dfwarm['structure'] == value].to_dict('records')
-
-
-@app.callback(
-    [Output('container-button-timestamp', 'children'),
-     Output('warm-current', 'data'),
-     Output('container-button-timestamp2', 'children'),
-     Output('tts-audiowarm', 'src'),
-     Output('container-button-timestamp0', 'children'),
-     Output('warm-count', 'data')],
-    [Input('btn-warm-es', 'n_clicks'),
-     Input('btn-warm-en', 'n_clicks'),
-     Input('mydrop', 'value'),
-     Input('warm-limit', 'value')],
-    [State('warm-store', 'data'),
-     State('warm-current', 'data'),
-     State('warm-count', 'data')],
-    prevent_initial_call=True
-)
-def warm_actions(btn1, btn2, drop_val, limit, data, current, count):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
-
-    if button in ('mydrop', 'warm-limit'):
-        return "", [], "", None, "", 0
-
-    if button == 'btn-warm-es':
-        if count >= limit:
-            done_msg = html.Span(f"Done! {limit}/{limit} questions completed.", style={'color': 'green', 'fontWeight': 'bold'})
-            return no_update, no_update, no_update, no_update, done_msg, count
-        row = pick_random(data)
-        if not row:
-            return "No data", [], "", None, "", count
-        new_count = count + 1
-        progress = html.Span(f"Question {new_count} / {limit}")
-        return row['esp'], [row], "", None, progress, new_count
-
-    if button == 'btn-warm-en' and current:
-        row = current[0]
-        return no_update, current, row['eng'], generate_audio(row['eng']), no_update, no_update
-
-    return "", [], "", None, "", count
-
-@app.callback(
-    [Output('warm-score', 'data'),
-     Output('warm-score-display', 'children')],
-    [Input('btn-warm-correct', 'n_clicks'),
-     Input('btn-warm-incorrect', 'n_clicks'),
-     Input('mydrop', 'value'),
-     Input('warm-limit', 'value')],
-    [State('warm-score', 'data')],
-    prevent_initial_call=True
-)
-def warm_score(btn_correct, btn_incorrect, drop_val, limit_val, score):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
-
-    if button in ('mydrop', 'warm-limit'):
-        reset = {'correct': 0, 'incorrect': 0}
-        return reset, ""
-
-    total = score['correct'] + score['incorrect']
-    if total >= limit_val:
-        return no_update, no_update
-
-    if button == 'btn-warm-correct':
-        score['correct'] += 1
-    elif button == 'btn-warm-incorrect':
-        score['incorrect'] += 1
-
-    total = score['correct'] + score['incorrect']
-    display = html.Span(
-        f"Score: {score['correct']} correct, {score['incorrect']} incorrect ({total}/{limit_val})",
-        style={'color': 'green' if score['correct'] >= score['incorrect'] else 'red'}
+    warm_data = (
+        dfwarm.to_dict('records')
+        if structure == 'all'
+        else dfwarm[dfwarm['structure'] == structure].to_dict('records')
     )
-    return score, display
+    count     = st.session_state.warm_count
+    limit_val = st.session_state.warm_limit
 
+    if count >= limit_val and count > 0:
+        st.success(f"Done! {limit_val}/{limit_val} questions completed.")
+    elif count > 0:
+        st.caption(f"Question {count} / {limit_val}")
 
-# Pictures
-@app.callback(
-    [Output('pic-img', 'children'),
-     Output('pic-current', 'data'),
-     Output('pic-desc', 'children'),
-     Output('tts-audiopic', 'src')],
-    [Input('btn-pic-show', 'n_clicks'),
-     Input('btn-pic-desc', 'n_clicks')],
-    [State('pic-current', 'data')],
-    prevent_initial_call=True
-)
-def picture_actions(btn1, btn2, current):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
+    col1, col2 = st.columns(2)
 
-    if button == 'btn-pic-show':
-        row = pick_random(didfpic)
-        if not row:
-            return "No data", [], "", None
-        filename = str(row['name']).strip()
-        return html.Img(src=f"/assets/{filename}",
-                        style={'width': '40%', 'display': 'block', 'margin': 'auto'}), [row], "", None
+    with col1:
+        if st.button('SPANISH', use_container_width=True, key='btn_warm_es'):
+            if count < limit_val:
+                row = pick_random(warm_data)
+                if row:
+                    st.session_state.warm_count   += 1
+                    st.session_state.warm_current  = row
+                    st.session_state.warm_esp      = row['esp']
+                    st.session_state.warm_eng      = ''
+                    st.session_state.warm_audio    = None
 
-    if button == 'btn-pic-desc' and current:
-        row = current[0]
-        return no_update, current, row['eng'], generate_audio(row['eng'])
+    with col2:
+        if st.button('ENGLISH', use_container_width=True, key='btn_warm_en'):
+            if st.session_state.warm_current:
+                row = st.session_state.warm_current
+                st.session_state.warm_eng   = row['eng']
+                st.session_state.warm_audio = generate_audio(row['eng'])
 
-    return "", [], "", None
+    if st.session_state.warm_esp:
+        st.info(st.session_state.warm_esp)
 
-# Reported Speech
-@app.callback(
-    Output('rep-store', 'data'),
-    Input('mydroprep', 'value')
-)
-def filter_rep(value):
-    return dfreport[dfreport['story'] == value].to_dict('records')
+    if st.session_state.warm_eng:
+        st.success(st.session_state.warm_eng)
 
+    if st.session_state.warm_audio:
+        st.audio(st.session_state.warm_audio, format='audio/mp3')
 
-@app.callback(
-    [Output('rep-direct', 'children'),
-     Output('rep-index', 'data'),
-     Output('rep-reported', 'children'),
-     Output('tts-audiorep', 'src')],
-    [Input('btn-rep-direct', 'n_clicks'),
-     Input('btn-rep-reported', 'n_clicks')],
-    [State('rep-store', 'data'),
-     State('rep-index', 'data')],
-    prevent_initial_call=True
-)
-def rep_actions(btn1, btn2, data, current):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
+    st.divider()
 
-    if button == 'btn-rep-direct':
-        row = pick_random(data)
-        if not row:
-            return "", [], "", None
-        return row['direct'], [row], "", None
+    score       = st.session_state.warm_score
+    total_scored = score['correct'] + score['incorrect']
 
-    if button == 'btn-rep-reported' and current:
-        row = current[0]
-        return no_update, current, row['reported'], generate_audio(row['reported'])
+    col3, col4 = st.columns(2)
 
-    return "", [], "", None
+    with col3:
+        if st.button('✓ CORRECT', use_container_width=True, type='primary', key='btn_warm_correct'):
+            if total_scored < limit_val:
+                st.session_state.warm_score['correct'] += 1
+                score       = st.session_state.warm_score
+                total_scored = score['correct'] + score['incorrect']
 
+    with col4:
+        if st.button('✗ INCORRECT', use_container_width=True, key='btn_warm_incorrect'):
+            if total_scored < limit_val:
+                st.session_state.warm_score['incorrect'] += 1
+                score       = st.session_state.warm_score
+                total_scored = score['correct'] + score['incorrect']
 
-# Interrogative
-@app.callback(
-    Output('inter-store', 'data'),
-    Input('mydropinter', 'value')
-)
-def filter_inter(value):
-    if value == 'all':
-        return dfinter.to_dict('records')
-    return dfinter[dfinter['word'] == value].to_dict('records')
+    if total_scored > 0:
+        color = 'green' if score['correct'] >= score['incorrect'] else 'red'
+        st.markdown(
+            f"<b style='color:{color}'>Score: {score['correct']} correct, "
+            f"{score['incorrect']} incorrect ({total_scored}/{limit_val})</b>",
+            unsafe_allow_html=True,
+        )
 
+# ==================================================
+# TAB 2 — REPORTED SPEECH
+# ==================================================
 
-@app.callback(
-    [Output('inter-answer', 'children'),
-     Output('inter-current', 'data'),
-     Output('inter-question', 'children'),
-     Output('tts-audiointer', 'src')],
-    [Input('btn-inter-answer', 'n_clicks'),
-     Input('btn-inter-question', 'n_clicks')],
-    [State('inter-store', 'data'),
-     State('inter-current', 'data')],
-    prevent_initial_call=True
-)
-def inter_actions(btn1, btn2, data, current):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
+with tab2:
+    st.subheader('REPORTED SPEECH')
 
-    if button == 'btn-inter-answer':
-        row = pick_random(data)
-        if not row:
-            return "", [], "", None
-        return row['answer'], [row], "", None
+    rep_stories = list(dfreport['story'].unique())
+    story = st.selectbox('Choose a story', rep_stories, key='rep_drop')
 
-    if button == 'btn-inter-question' and current:
-        row = current[0]
-        return no_update, current, row['question'], generate_audio(row['question'])
+    if story != st.session_state.rep_story:
+        st.session_state.rep_story    = story
+        st.session_state.rep_current  = None
+        st.session_state.rep_direct   = ''
+        st.session_state.rep_reported = ''
+        st.session_state.rep_audio    = None
 
-    return "", [], "", None
+    rep_data = dfreport[dfreport['story'] == story].to_dict('records')
 
+    col1, col2 = st.columns(2)
 
-# Question Tags
-@app.callback(
-    [Output('tag-sentence', 'children'),
-     Output('tag-current', 'data'),
-     Output('tag-answer', 'children'),
-     Output('tts-audiotag', 'src')],
-    [Input('btn-tag-sentence', 'n_clicks'),
-     Input('btn-tag-answer', 'n_clicks')],
-    [State('tag-current', 'data')],
-    prevent_initial_call=True
-)
-def tag_actions(btn1, btn2, current):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
+    with col1:
+        if st.button('DIRECT', use_container_width=True, key='btn_rep_direct'):
+            row = pick_random(rep_data)
+            if row:
+                st.session_state.rep_current  = row
+                st.session_state.rep_direct   = row['direct']
+                st.session_state.rep_reported = ''
+                st.session_state.rep_audio    = None
 
-    if button == 'btn-tag-sentence':
-        row = pick_random(didftag)
-        if not row:
-            return "", [], "", None
-        return row['sentence'], [row], "", None
+    with col2:
+        if st.button('REPORTED', use_container_width=True, key='btn_rep_reported'):
+            if st.session_state.rep_current:
+                row = st.session_state.rep_current
+                st.session_state.rep_reported = row['reported']
+                st.session_state.rep_audio    = generate_audio(row['reported'])
 
-    if button == 'btn-tag-answer' and current:
-        row = current[0]
-        full = f"{row['sentence']} {row['tag']}"
-        return no_update, current, row['tag'], generate_audio(full)
+    if st.session_state.rep_direct:
+        st.info(st.session_state.rep_direct)
 
-    return "", [], "", None
+    if st.session_state.rep_reported:
+        st.success(st.session_state.rep_reported)
 
+    if st.session_state.rep_audio:
+        st.audio(st.session_state.rep_audio, format='audio/mp3')
 
-# Never Done
-@app.callback(
-    [Output('never-question', 'children'),
-     Output('never-current', 'data'),
-     Output('never-answer', 'children'),
-     Output('tts-audionever', 'src')],
-    [Input('btn-never-question', 'n_clicks'),
-     Input('btn-never-answer', 'n_clicks')],
-    [State('never-current', 'data')],
-    prevent_initial_call=True
-)
-def never_actions(btn1, btn2, current):
-    ctx = callback_context
-    button = ctx.triggered[0]['prop_id'].split('.')[0]
+# ==================================================
+# TAB 3 — INTERROGATIVE
+# ==================================================
 
-    if button == 'btn-never-question':
-        row = pick_random(didfnever)
-        if not row:
-            return "", [], "", None
-        return row['question'], [row], "", None
+with tab3:
+    st.subheader('INTERROGATIVE CHALLENGE')
 
-    if button == 'btn-never-answer' and current:
-        row = current[0]
-        return no_update, current, row['answer'], generate_audio(row['answer'])
+    inter_words = ['all'] + sorted(dfinter['word'].unique().tolist())
+    word = st.selectbox('Filter by question word', inter_words, key='inter_drop')
 
-    return "", [], "", None
+    if word != st.session_state.inter_word:
+        st.session_state.inter_word     = word
+        st.session_state.inter_current  = None
+        st.session_state.inter_answer   = ''
+        st.session_state.inter_question = ''
+        st.session_state.inter_audio    = None
 
-# --------------------------------------------------
-# RUN
-# --------------------------------------------------
+    inter_data = (
+        dfinter.to_dict('records')
+        if word == 'all'
+        else dfinter[dfinter['word'] == word].to_dict('records')
+    )
 
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 871))
-    app.run_server(debug=True, port=port)
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button('ANSWER', use_container_width=True, key='btn_inter_answer'):
+            row = pick_random(inter_data)
+            if row:
+                st.session_state.inter_current  = row
+                st.session_state.inter_answer   = row['answer']
+                st.session_state.inter_question = ''
+                st.session_state.inter_audio    = None
+
+    with col2:
+        if st.button('QUESTION', use_container_width=True, key='btn_inter_question'):
+            if st.session_state.inter_current:
+                row = st.session_state.inter_current
+                st.session_state.inter_question = row['question']
+                st.session_state.inter_audio    = generate_audio(row['question'])
+
+    if st.session_state.inter_answer:
+        st.info(st.session_state.inter_answer)
+
+    if st.session_state.inter_question:
+        st.success(st.session_state.inter_question)
+
+    if st.session_state.inter_audio:
+        st.audio(st.session_state.inter_audio, format='audio/mp3')
+
+# ==================================================
+# TAB 4 — PICTURES
+# ==================================================
+
+with tab4:
+    st.subheader('DESCRIBE THE PICTURES')
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button('PICTURE', use_container_width=True, key='btn_pic_show'):
+            row = pick_random(didfpic)
+            if row:
+                st.session_state.pic_current = row
+                st.session_state.pic_img     = str(row['name']).strip()
+                st.session_state.pic_desc    = ''
+                st.session_state.pic_audio   = None
+
+    with col2:
+        if st.button('DESCRIPTION', use_container_width=True, key='btn_pic_desc'):
+            if st.session_state.pic_current:
+                row = st.session_state.pic_current
+                st.session_state.pic_desc  = row['eng']
+                st.session_state.pic_audio = generate_audio(row['eng'])
+
+    if st.session_state.pic_img:
+        img_path = BASE_PATH / 'assets' / st.session_state.pic_img
+        st.image(str(img_path), width=320)
+
+    if st.session_state.pic_desc:
+        st.success(st.session_state.pic_desc)
+
+    if st.session_state.pic_audio:
+        st.audio(st.session_state.pic_audio, format='audio/mp3')
+
+# ==================================================
+# TAB 5 — QUESTION TAGS
+# ==================================================
+
+with tab5:
+    st.subheader('GUESS THE QUESTION TAG')
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button('SENTENCE', use_container_width=True, key='btn_tag_sentence'):
+            row = pick_random(didftag)
+            if row:
+                st.session_state.tag_current  = row
+                st.session_state.tag_sentence = row['sentence']
+                st.session_state.tag_answer   = ''
+                st.session_state.tag_audio    = None
+
+    with col2:
+        if st.button('TAG', use_container_width=True, key='btn_tag_answer'):
+            if st.session_state.tag_current:
+                row = st.session_state.tag_current
+                full = f"{row['sentence']} {row['tag']}"
+                st.session_state.tag_answer = row['tag']
+                st.session_state.tag_audio  = generate_audio(full)
+
+    if st.session_state.tag_sentence:
+        st.info(st.session_state.tag_sentence)
+
+    if st.session_state.tag_answer:
+        st.success(st.session_state.tag_answer)
+
+    if st.session_state.tag_audio:
+        st.audio(st.session_state.tag_audio, format='audio/mp3')
+
+# ==================================================
+# TAB 6 — NEVER DONE
+# ==================================================
+
+with tab6:
+    st.subheader('THINGS YOU HAVE NEVER DONE')
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button('THING', use_container_width=True, key='btn_never_question'):
+            row = pick_random(didfnever)
+            if row:
+                st.session_state.never_current  = row
+                st.session_state.never_question = row['question']
+                st.session_state.never_answer   = ''
+                st.session_state.never_audio    = None
+
+    with col2:
+        if st.button('ANSWER', use_container_width=True, key='btn_never_answer'):
+            if st.session_state.never_current:
+                row = st.session_state.never_current
+                st.session_state.never_answer = row['answer']
+                st.session_state.never_audio  = generate_audio(row['answer'])
+
+    if st.session_state.never_question:
+        st.info(st.session_state.never_question)
+
+    if st.session_state.never_answer:
+        st.success(st.session_state.never_answer)
+
+    if st.session_state.never_audio:
+        st.audio(st.session_state.never_audio, format='audio/mp3')
