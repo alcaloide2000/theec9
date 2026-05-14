@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 ~$*.xlsx
+users.json
+progress.json
+history.json
+classes.json
+.streamlit/secrets.toml
+assets/classes/*.mp4
