@@ -29,16 +29,20 @@ for _cls in _cache:
 if not _cache:
     st.info("No class content available.")
 else:
+    _sorted = sorted(_cache, key=lambda c: c["date"], reverse=True)
+
     if "class_sel_idx" not in st.session_state:
         st.session_state.class_sel_idx = 0
 
     st.markdown("### Select a class")
-    cols = st.columns(len(_cache))
-    for i, (col, c) in enumerate(zip(cols, _cache)):
+    cols = st.columns(len(_sorted))
+    for i, (col, c) in enumerate(zip(cols, _sorted)):
         with col:
             is_sel = st.session_state.class_sel_idx == i
+            is_latest = i == 0
+            label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
             if st.button(
-                f"**{c['date']}**\n\n{c['topic']}",
+                label,
                 key=f"cls_btn_{i}",
                 use_container_width=True,
                 type="primary" if is_sel else "secondary",
@@ -46,7 +50,7 @@ else:
                 st.session_state.class_sel_idx = i
                 st.rerun()
 
-    _cls = _cache[st.session_state.class_sel_idx]
+    _cls = _sorted[st.session_state.class_sel_idx]
     st.divider()
     st.subheader(f"CLASS — {_cls['title']}")
     st.markdown(f"**{_cls['date']}** · {_cls['topic']}")
