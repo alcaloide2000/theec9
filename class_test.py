@@ -29,9 +29,25 @@ for _cls in _cache:
 if not _cache:
     st.info("No class content available.")
 else:
-    _cls_options = {f"{c['date']} · {c['topic']}": c for c in _cache}
-    _sel_label = st.selectbox("Select class", list(_cls_options.keys()), key="class_sel")
-    _cls = _cls_options[_sel_label]
+    if "class_sel_idx" not in st.session_state:
+        st.session_state.class_sel_idx = 0
+
+    st.markdown("### Select a class")
+    cols = st.columns(len(_cache))
+    for i, (col, c) in enumerate(zip(cols, _cache)):
+        with col:
+            is_sel = st.session_state.class_sel_idx == i
+            if st.button(
+                f"**{c['date']}**\n\n{c['topic']}",
+                key=f"cls_btn_{i}",
+                use_container_width=True,
+                type="primary" if is_sel else "secondary",
+            ):
+                st.session_state.class_sel_idx = i
+                st.rerun()
+
+    _cls = _cache[st.session_state.class_sel_idx]
+    st.divider()
     st.subheader(f"CLASS — {_cls['title']}")
     st.markdown(f"**{_cls['date']}** · {_cls['topic']}")
     st.divider()
