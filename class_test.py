@@ -1,4 +1,6 @@
+import base64
 import streamlit as st
+import streamlit.components.v1 as components
 import json
 import pathlib
 
@@ -6,6 +8,33 @@ st.set_page_config(page_title="Class Test", layout="wide")
 
 BASE_PATH = pathlib.Path(__file__).parent
 CACHE_PATH = BASE_PATH / "class_cache.json"
+
+
+def _render_hotspot_image(img_path, hotspots):
+    with open(img_path, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+    spots = ""
+    for h in hotspots:
+        # tooltip above when hotspot is in lower half, below when in upper half
+        tt_pos = "bottom:calc(100% + 5px);top:auto" if h["y"] >= 32 else "top:calc(100% + 5px);bottom:auto"
+        spots += (
+            f'<div class="hs" style="left:{h["x"]}%;top:{h["y"]}%;'
+            f'width:{h["w"]}%;height:{h["h"]}%;">'
+            f'<span class="tt" style="{tt_pos}">{h["label"]}</span></div>'
+        )
+    html = f"""<style>
+.wrap{{position:relative;max-width:700px;margin:0 auto;font-family:sans-serif;}}
+.wrap img{{width:100%;display:block;border-radius:8px;}}
+.hs{{position:absolute;border-radius:5px;cursor:default;box-sizing:border-box;}}
+.hs:hover{{background:rgba(255,255,255,0.18);outline:2px solid rgba(255,255,255,0.8);}}
+.tt{{display:none;position:absolute;left:50%;transform:translateX(-50%);
+background:rgba(10,10,10,0.88);color:#fff;padding:4px 12px;border-radius:6px;
+white-space:nowrap;font-size:13px;font-weight:700;pointer-events:none;z-index:30;
+box-shadow:0 2px 8px rgba(0,0,0,0.45);}}
+.hs:hover .tt{{display:block;}}
+</style>
+<div class="wrap"><img src="data:image/jpeg;base64,{b64}">{spots}</div>"""
+    components.html(html, height=415)
 
 
 def _load_class_cache():
@@ -58,6 +87,11 @@ else:
 
     for sec in _cls.get("sections", []):
         with st.expander(sec["title"], expanded=sec.get("expanded", False)):
+            if "image" in sec:
+                if "image_hotspots" in sec:
+                    _render_hotspot_image(BASE_PATH / sec["image"], sec["image_hotspots"])
+                else:
+                    st.image(str(BASE_PATH / sec["image"]))
             st.markdown(sec["content"])
 
     st.divider()
