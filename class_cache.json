@@ -391,6 +391,138 @@
     ]
   },
   {
+    "id": "kyle_20260505",
+    "title": "English with Kyle",
+    "date": "2026-05-05",
+    "topic": "What does he look like? / What is he like? / Negative Comparisons",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "| Spanish | English |\n|---|---|\n| Según él, deberías haberlo hecho | According to him, you should have done it |\n| Hay un viejo dicho sobre ese tema | There's an old saying about that subject |\n| En cuanto a mí se refiere | As far as I'm concerned *(you can do whatever you want)* |\n| Si fueras un poco más optimista | If you were a little more optimistic |\n| Soy pesimista por naturaleza | I'm a pessimist / I'm pessimistic |\n| Todos a favor del plan que levanten la mano | All in favor of the plan, raise your hand |\n| Se fue por el desagüe | It went down the drain |\n| ¿Qué harás cuando te jubiles? | What will you do when you retire? |\n| Haré un viaje alrededor del mundo | I'll take a trip around the world |\n\n> **Vocabulary:** *to gurgle* — the sound water makes going down a drain. Informal: *it went down the gurgler.*\n\n> **Trip vs. Travel:** *travel* is the verb (*we traveled to Rome*); *trip* is the noun and needs another verb — *to take a trip, to go on a trip* (*not* ~~to trip to Rome~~)."
+      },
+      {
+        "title": "2. What does he look like? / How does he look? / What is he like?  ★ Main topic",
+        "expanded": true,
+        "content": "Two dimensions to consider: **physical appearance** vs. **personality**, and **permanent/fact** vs. **temporary/opinion**.\n\n| | Physical appearance | Personality |\n|---|---|---|\n| Permanent / fact | **What does he look like?** | **What is he like?** |\n| Temporary / opinion | **How does he look?** | **How is he?** |\n\n---\n\n### Physical appearance\n\n**What does he look like?** — permanent, factual description\n\n- What does your brother look like? → *He's tall and has gray hair.*\n- What did your grandfather look like? → *He was tall and strong and had gray hair.*\n- What will the city look like after the renovations?\n- What does Santa Claus look like? → *He's fat and wears a red suit.*\n\n> Answer with **to be** or **to have** — never *he looks like tall* ✗\n\n**How does he look?** — temporary, invites an opinion\n\n- How did he look when you saw him? → *He looked tired / ill / different.*\n- How does she look? → *She looks much healthier than before.*\n\n---\n\n### Personality\n\n**What is he like?** — permanent character traits\n\n- What is your brother like? → *He's hardworking, stubborn, and very generous.*\n- What was your grandmother like? → *She was strict but loving.*\n\n**How is he?** — temporary mood or state\n\n- How is your neighbour these days? → *He's much more relaxed than he used to be.*\n- How was John when you saw him? → *He was in a great mood.*\n\n---\n\n> **Rule of thumb:** *What* asks for facts/descriptions. *How* asks for opinion or current state. *Like* = permanent. No *like* = temporary."
+      },
+      {
+        "title": "3. Negative Comparisons: not as many / not as much",
+        "expanded": false,
+        "content": "Convert **fewer / less** sentences into **not as many / not as much**.\n\n| Type | Direct comparison | Negative comparison |\n|---|---|---|\n| Countable | There are **fewer** horses in Portugal than in Spain. | There are **not as many** horses in Portugal **as** in Spain. |\n| Uncountable | There is **less** water in Jordan than in Canada. | There is **not as much** water in Jordan **as** in Canada. |\n| Countable | There are **fewer** languages spoken in Finland than in Africa. | There are **not as many** languages spoken in Finland **as** in Africa. |\n| Uncountable | There is **less** sand in Andorra than in Egypt. | There is **not as much** sand in Andorra **as** in Egypt. |\n| Countable | There are **fewer** olive trees in Galicia than in Andalusia. | There are **not as many** olive trees in Galicia **as** in Andalusia. |\n\n> The negative form (*there isn't as much / there aren't as many*) is very common in natural speech — more so than the positive *there is as much*. Worth mastering.\n\n**Key:** *as many* = countable (fewer ↔ not as many) · *as much* = uncountable (less ↔ not as much)"
+      },
+      {
+        "title": "4. Grammar Notes",
+        "expanded": false,
+        "content": "### Noun vs. adjective: pessimist / pessimistic\n\n| Form | Example | Note |\n|---|---|---|\n| Noun | I'm **a pessimist** | Needs the article |\n| Adjective | I'm **pessimistic** | No article |\n| Adjective + noun | I'm **a pessimistic person** | Article goes with the noun |\n\n---\n\n### Raise vs. Rise\n\n| Verb | Type | Forms | Example |\n|---|---|---|---|\n| **Raise** | Transitive (needs object) | raise / raised / raised | I am **raising** my hand. The government **raises** taxes. |\n| **Rise** | Intransitive (no object) | rise / **rose** / **risen** | My hand is **rising**. Taxes **rise**. |\n\n> *I raise the phone → the phone rises.* Same event, two verbs depending on whether there is a subject performing the action."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · What does he look like? / What is he like?",
+        "key": "may05_t1",
+        "qs": [
+          {
+            "q": "You want to know about someone's permanent physical appearance. Which question is correct?",
+            "opts": [
+              "How does he look?",
+              "What does he look like?",
+              "What is he like?"
+            ],
+            "ans": "What does he look like?"
+          },
+          {
+            "q": "\"He looked tired and pale.\" Which question prompted this answer?",
+            "opts": [
+              "What did he look like?",
+              "How did he look?",
+              "What was he like?"
+            ],
+            "ans": "How did he look?"
+          },
+          {
+            "q": "\"She's hardworking, funny and very generous.\" Which question prompted this?",
+            "opts": [
+              "How does she look?",
+              "What does she look like?",
+              "What is she like?"
+            ],
+            "ans": "What is she like?"
+          },
+          {
+            "q": "\"He's much more relaxed than he used to be.\" Which question prompted this?",
+            "opts": [
+              "What is he like?",
+              "How is he these days?",
+              "What does he look like?"
+            ],
+            "ans": "How is he these days?"
+          },
+          {
+            "q": "Which answer is correct for \"What does your father look like?\"",
+            "opts": [
+              "He looks like tall and strong.",
+              "He is tall and has gray hair.",
+              "He looks tall and gray hair."
+            ],
+            "ans": "He is tall and has gray hair."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Negative Comparisons & Grammar",
+        "key": "may05_t2",
+        "qs": [
+          {
+            "q": "\"There are fewer factories in Belgium than in China.\" →",
+            "opts": [
+              "There are not as much factories in Belgium as in China.",
+              "There are not as many factories in Belgium as in China.",
+              "There are not as many factories in Belgium than in China."
+            ],
+            "ans": "There are not as many factories in Belgium as in China."
+          },
+          {
+            "q": "\"There is less oil in Belgium than in Texas.\" →",
+            "opts": [
+              "There is not as many oil in Belgium as in Texas.",
+              "There is not as much oil in Belgium as in Texas.",
+              "There is not as much oil in Belgium than in Texas."
+            ],
+            "ans": "There is not as much oil in Belgium as in Texas."
+          },
+          {
+            "q": "Which word goes with countable nouns?",
+            "opts": [
+              "not as much",
+              "not as many",
+              "not as few"
+            ],
+            "ans": "not as many"
+          },
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "I'm a pessimistic.",
+              "I'm pessimist.",
+              "I'm a pessimist."
+            ],
+            "ans": "I'm a pessimist."
+          },
+          {
+            "q": "\"The government __ taxes and then taxes __.\"",
+            "opts": [
+              "rises / raises",
+              "raises / rise",
+              "raise / rises"
+            ],
+            "ans": "raises / rise"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "kyle_20260512",
     "title": "English with Kyle",
     "date": "2026-05-12",
