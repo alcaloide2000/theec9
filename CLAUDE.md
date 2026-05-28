@@ -71,7 +71,15 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
     "date": "2026-04-28",
     "topic": "...",
     "sections": [
-      { "title": "1. ...", "expanded": false, "content": "...markdown..." }
+      {
+        "title": "1. ...",
+        "expanded": false,
+        "content": "...markdown...",
+        "image": "assets/foo.jpg",
+        "image_hotspots": [
+          { "x": 0, "y": 10, "w": 50, "h": 8, "label": "Tooltip text on hover" }
+        ]
+      }
     ],
     "tests": [
       {
@@ -85,6 +93,8 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
   }
 ]
 ```
+
+**Section fields:** `image` and `image_hotspots` are optional. If `image` is present without `image_hotspots`, the image is rendered with `st.image()`. If both are present, `_render_hotspot_image()` renders it as an inline HTML component with interactive hover regions. Hotspot coordinates (`x`, `y`, `w`, `h`) are percentages of the image dimensions. `content` (markdown) always renders below the image.
 
 **Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/*.mp4` is gitignored).
 

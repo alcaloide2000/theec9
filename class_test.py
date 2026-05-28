@@ -13,28 +13,49 @@ CACHE_PATH = BASE_PATH / "class_cache.json"
 def _render_hotspot_image(img_path, hotspots):
     with open(img_path, "rb") as f:
         b64 = base64.b64encode(f.read()).decode()
-    spots = ""
-    for h in hotspots:
-        # tooltip above when hotspot is in lower half, below when in upper half
-        tt_pos = "bottom:calc(100% + 5px);top:auto" if h["y"] >= 32 else "top:calc(100% + 5px);bottom:auto"
-        spots += (
-            f'<div class="hs" style="left:{h["x"]}%;top:{h["y"]}%;'
-            f'width:{h["w"]}%;height:{h["h"]}%;">'
-            f'<span class="tt" style="{tt_pos}">{h["label"]}</span></div>'
-        )
     html = f"""<style>
-.wrap{{position:relative;max-width:700px;margin:0 auto;font-family:sans-serif;}}
-.wrap img{{width:100%;display:block;border-radius:8px;}}
-.hs{{position:absolute;border-radius:5px;cursor:default;box-sizing:border-box;}}
-.hs:hover{{background:rgba(255,255,255,0.18);outline:2px solid rgba(255,255,255,0.8);}}
-.tt{{display:none;position:absolute;left:50%;transform:translateX(-50%);
-background:rgba(10,10,10,0.88);color:#fff;padding:4px 12px;border-radius:6px;
-white-space:nowrap;font-size:13px;font-weight:700;pointer-events:none;z-index:30;
-box-shadow:0 2px 8px rgba(0,0,0,0.45);}}
-.hs:hover .tt{{display:block;}}
+*{{box-sizing:border-box;margin:0;padding:0;}}
+body{{background:transparent;font-family:sans-serif;overflow:hidden;}}
+#wrap{{position:relative;max-width:700px;margin:0 auto;}}
+#wrap img{{width:100%;display:block;border-radius:8px;}}
+.hs{{position:absolute;border-radius:4px;cursor:help;transition:background .12s;}}
+.hs:hover{{background:rgba(255,215,0,0.25);box-shadow:inset 0 0 0 2px rgba(255,185,0,0.85);}}
+.tt{{
+  visibility:hidden;opacity:0;transition:opacity .15s;
+  position:absolute;z-index:99;
+  background:rgba(12,12,12,0.93);color:#fff;
+  padding:8px 13px;border-radius:8px;
+  white-space:normal;max-width:280px;
+  font-size:13px;line-height:1.5;font-weight:600;
+  pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,0.55);
+}}
+.hs:hover .tt{{visibility:visible;opacity:1;}}
 </style>
-<div class="wrap"><img src="data:image/jpeg;base64,{b64}">{spots}</div>"""
-    components.html(html, height=415)
+<div id="wrap"><img id="img" src="data:image/jpeg;base64,{b64}"></div>
+<script>
+var HS={json.dumps(hotspots)};
+var img=document.getElementById('img');
+var wrap=document.getElementById('wrap');
+function build(){{
+  HS.forEach(function(h){{
+    var el=document.createElement('div');
+    el.className='hs';
+    el.style.cssText='left:'+h.x+'%;top:'+h.y+'%;width:'+h.w+'%;height:'+h.h+'%';
+    var tt=document.createElement('div');
+    tt.className='tt';
+    tt.textContent=h.label;
+    var mid=h.y+h.h/2;
+    if(mid>=50){{tt.style.bottom='calc(100% + 6px)';tt.style.top='auto';}}
+    else{{tt.style.top='calc(100% + 6px)';tt.style.bottom='auto';}}
+    if(h.x+h.w/2>55){{tt.style.right='0';tt.style.left='auto';}}
+    else{{tt.style.left='0';tt.style.right='auto';}}
+    el.appendChild(tt);wrap.appendChild(el);
+  }});
+  window.parent.postMessage({{isStreamlitMessage:true,type:'streamlit:setFrameHeight',height:wrap.offsetHeight+10}},'*');
+}}
+img.complete?build():img.onload=build;
+</script>"""
+    components.html(html, height=500, scrolling=False)
 
 
 def _load_class_cache():
