@@ -57,7 +57,11 @@ Single-file Streamlit app backed by `the.xlsx`.
 
 Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely from `class_cache.json`.
 
-**Class selector:** Buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
+**Two tabs:** `st.tabs(["English with Kyle", "Essential English · Julia"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"`). Each tab has its own session state key (`sel_kyle` / `sel_julia`) for the selected class index.
+
+**Class selector:** Within each tab, buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
+
+**Rendering:** `_render_teacher_tab(classes, sel_key)` handles the selector and delegates to `_render_class(cls)` for sections and tests.
 
 **Test state:** Each test uses session state keys `{key}_sub` (submitted flag), `{key}_q{i}` (radio answer per question), `{key}_reset_pending` (cleared before widget renders to avoid widget-key conflict). Reset handler runs at the top of the script before any widgets render.
 
@@ -70,6 +74,7 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
     "title": "English with Kyle",
     "date": "2026-04-28",
     "topic": "...",
+    "teacher": "kyle",
     "sections": [
       {
         "title": "1. ...",
@@ -96,7 +101,11 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Section fields:** `image` and `image_hotspots` are optional. If `image` is present without `image_hotspots`, the image is rendered with `st.image()`. If both are present, `_render_hotspot_image()` renders it as an inline HTML component with interactive hover regions. Hotspot coordinates (`x`, `y`, `w`, `h`) are percentages of the image dimensions. `content` (markdown) always renders below the image.
 
-**Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/*.mp4` is gitignored).
+**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes. Defaults to `"kyle"` if absent (for backwards compatibility).
+
+**MP4 location:** `assets/classes/english_with_kyle/` or `assets/classes/esential_english_julia/` depending on teacher.
+
+**Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
 ## Deployment
 

@@ -65,48 +65,12 @@ def _load_class_cache():
         return json.load(f)
 
 
-_cache = _load_class_cache()
-
-for _cls in _cache:
-    for _t in _cls.get("tests", []):
-        _tk = _t.get("key", "")
-        if _tk and st.session_state.pop(f"{_tk}_reset_pending", False):
-            st.session_state[f"{_tk}_sub"] = False
-            for _qi in range(len(_t.get("qs", []))):
-                st.session_state.pop(f"{_tk}_q{_qi}", None)
-            st.rerun()
-
-if not _cache:
-    st.info("No class content available.")
-else:
-    _sorted = sorted(_cache, key=lambda c: c["date"], reverse=True)
-
-    if "class_sel_idx" not in st.session_state:
-        st.session_state.class_sel_idx = 0
-
-    st.markdown("### Select a class")
-    cols = st.columns(len(_sorted))
-    for i, (col, c) in enumerate(zip(cols, _sorted)):
-        with col:
-            is_sel = st.session_state.class_sel_idx == i
-            is_latest = i == 0
-            label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
-            if st.button(
-                label,
-                key=f"cls_btn_{i}",
-                use_container_width=True,
-                type="primary" if is_sel else "secondary",
-            ):
-                st.session_state.class_sel_idx = i
-                st.rerun()
-
-    _cls = _sorted[st.session_state.class_sel_idx]
-    st.divider()
-    st.subheader(f"CLASS — {_cls['title']}")
-    st.markdown(f"**{_cls['date']}** · {_cls['topic']}")
+def _render_class(cls):
+    st.subheader(f"CLASS — {cls['title']}")
+    st.markdown(f"**{cls['date']}** · {cls['topic']}")
     st.divider()
 
-    for sec in _cls.get("sections", []):
+    for sec in cls.get("sections", []):
         with st.expander(sec["title"], expanded=sec.get("expanded", False)):
             if "image" in sec:
                 if "image_hotspots" in sec:
@@ -118,7 +82,7 @@ else:
     st.divider()
     st.markdown("### Tests")
 
-    for test in _cls.get("tests", []):
+    for test in cls.get("tests", []):
         key = test["key"]
         sub_key = f"{key}_sub"
         if sub_key not in st.session_state:
@@ -158,3 +122,59 @@ else:
                     f"<b style='color:{color}'>Score: {score} / {total}</b>",
                     unsafe_allow_html=True,
                 )
+
+
+def _render_teacher_tab(classes, sel_key):
+    if not classes:
+        st.info("No classes available yet.")
+        return
+
+    sorted_cls = sorted(classes, key=lambda c: c["date"], reverse=True)
+
+    if sel_key not in st.session_state:
+        st.session_state[sel_key] = 0
+
+    st.markdown("### Select a class")
+    cols = st.columns(len(sorted_cls))
+    for i, (col, c) in enumerate(zip(cols, sorted_cls)):
+        with col:
+            is_sel = st.session_state[sel_key] == i
+            is_latest = i == 0
+            label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
+            if st.button(
+                label,
+                key=f"{sel_key}_btn_{i}",
+                use_container_width=True,
+                type="primary" if is_sel else "secondary",
+            ):
+                st.session_state[sel_key] = i
+                st.rerun()
+
+    st.divider()
+    _render_class(sorted_cls[st.session_state[sel_key]])
+
+
+_cache = _load_class_cache()
+
+for _cls in _cache:
+    for _t in _cls.get("tests", []):
+        _tk = _t.get("key", "")
+        if _tk and st.session_state.pop(f"{_tk}_reset_pending", False):
+            st.session_state[f"{_tk}_sub"] = False
+            for _qi in range(len(_t.get("qs", []))):
+                st.session_state.pop(f"{_tk}_q{_qi}", None)
+            st.rerun()
+
+if not _cache:
+    st.info("No class content available.")
+else:
+    kyle_classes = [c for c in _cache if c.get("teacher", "kyle") == "kyle"]
+    julia_classes = [c for c in _cache if c.get("teacher") == "julia"]
+
+    tab_kyle, tab_julia = st.tabs(["English with Kyle", "Essential English · Julia"])
+
+    with tab_kyle:
+        _render_teacher_tab(kyle_classes, "sel_kyle")
+
+    with tab_julia:
+        _render_teacher_tab(julia_classes, "sel_julia")
