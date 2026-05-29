@@ -1,5 +1,96 @@
 [
   {
+    "id": "julia_20260527",
+    "title": "Essential English · Julia",
+    "date": "2026-05-27",
+    "topic": "To Pick Up & Drop Off / Pronoun Position in Phrasal Verbs",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Pick Up & Drop Off — Meaning",
+        "expanded": false,
+        "content": "Two opposite phrasal verbs for collecting and leaving people (or things).\n\n| Phrasal verb | Spanish | Example |\n|---|---|---|\n| **Pick up** | Recoger / ir a buscar | *I'll pick you up at the airport.* |\n| **Drop off** | Dejar (a alguien en un sitio) | *He dropped her off at the hotel.* |\n\n> **Drop** alone = dejar caer (accidentally). **Drop off** = leave someone somewhere on purpose.\n\n> In English, if a phrasal verb option exists, prefer it over the plain verb — especially in spoken English."
+      },
+      {
+        "title": "2. Separable Phrasal Verbs & the Pronoun Rule  ★ Main topic",
+        "expanded": true,
+        "content": "**Pick up** and **drop off** are both separable — the object can go in two positions.\n\n### When the object is a noun → two options (both correct)\n\n| Position | Example |\n|---|---|\n| Noun **after** the preposition | She will pick up **Peter** at the airport. |\n| Noun **between** verb and preposition | She will pick **Peter** up at the airport. |\n\n---\n\n### When the object is a pronoun → only ONE option\n\nThe pronoun **must** go between the verb and the preposition. No exceptions.\n\n| Correct | Wrong |\n|---|---|\n| She will pick **him** up at the airport. ✓ | ~~She will pick up him at the airport.~~ ✗ |\n| He dropped **her** off at the hotel. ✓ | ~~He dropped off her at the hotel.~~ ✗ |\n| She picks **them** up from school. ✓ | ~~She picks up them from school.~~ ✗ |\n\n---\n\n### Non-separable phrasal verbs (for reference)\n\nNon-separable phrasal verbs cannot have anything placed between verb and preposition — not even a pronoun.\n\n- *listen to it* ✓ · ~~listen it to~~ ✗\n\n---\n\n### The 'chunk' rule\n\nWhen using a pronoun, treat the three words as one unit — say them connected:\n\n> **pick him up** · **drop her off** · **picks them up**\n\nAvoid leaving the preposition hanging: ~~pick him ... up~~ sounds unnatural."
+      },
+      {
+        "title": "3. Practice: The Three Variations",
+        "expanded": false,
+        "content": "For each question, give three answers: noun at end → noun in middle → pronoun in middle.\n\n---\n\n**Will she pick up Peter at the airport?**\n1. Yes, she will pick up Peter at the airport.\n2. Yes, she will pick Peter up at the airport.\n3. Yes, she will pick **him** up at the airport.\n\n---\n\n**Did he drop off his boss at the hotel?**\n1. Yes, he dropped off his boss at the hotel.\n2. Yes, he dropped his boss off at the hotel.\n3. Yes, he dropped **him/her** off at the hotel.\n\n> *his boss* — the possessive *his* refers to the subject, not the gender of *boss*. Boss can be male or female, so the pronoun can be *him* or *her*.\n\n---\n\n**Does she pick up the children from school?**\n1. Yes, she picks up the children from school.\n2. Yes, she picks the children up from school.\n3. Yes, she picks **them** up from school.\n\n> Third person -s goes on the verb only — never on the preposition: *she picks up* ✓ · ~~she picks ups~~ ✗\n\n---\n\n**Can you drop me off at the station?**\n→ Already a pronoun, so only one option:\nYes, I can drop **you** off at the station.\n\n---\n\n**Will you drop off your colleagues at the office?**\n1. Yes, I will drop off my colleagues at the office.\n2. Yes, I will drop my colleagues off at the office.\n3. Yes, I will drop **them** off at the office.\n\n---\n\n**Did Susan pick up her mother at the hospital?**\n1. Yes, Susan picked up her mother at the hospital.\n2. Yes, Susan picked her mother up at the hospital.\n3. Yes, Susan picked **her** up at the hospital."
+      },
+      {
+        "title": "4. Vocabulary & Pronunciation Notes",
+        "expanded": false,
+        "content": "### Vocabulary\n\n| Word / phrase | Notes |\n|---|---|\n| **Colleagues** | British English = compañeros de trabajo. American = *co-workers*. |\n| **Fellas** | Very American informal for 'guys'. Not rude. Used alone: *hi fellas.* |\n| **Fellow** | Used as adjective: *fellow students* = compañeros de clase. |\n| **Mates** | British informal for friends/companions (*fellas* equivalent). |\n| **A chunk** | A connected group of words: *pick him up* is one chunk. |\n| **From/at school** | Both work: *pick up the children from school / at school.* |\n\n---\n\n### Pronunciation: -ed endings\n\n**Dropped** — regular verb, double *p* in writing. Pronounce as one syllable: **dropped** /drɒpt/\n\n- Say the *d* and *t* as one blended sound at the end — not two syllables.\n- ~~drop-it~~ ✗ → **dropped** ✓\n\n**Picked** — one syllable: /pɪkt/ — same principle.\n\n---\n\n### Hotel — stress\n\nStress falls on the **second** syllable: *ho-**TEL*** — not ~~**HO**-tel~~."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Pick Up & Drop Off",
+        "key": "julia_may27_t1",
+        "qs": [
+          {
+            "q": "What does 'drop off' mean?",
+            "opts": [
+              "To accidentally drop something",
+              "To leave someone somewhere on purpose",
+              "To collect someone from a place"
+            ],
+            "ans": "To leave someone somewhere on purpose"
+          },
+          {
+            "q": "Which sentence is WRONG?",
+            "opts": [
+              "She will pick Peter up at the airport.",
+              "She will pick up him at the airport.",
+              "She will pick him up at the airport."
+            ],
+            "ans": "She will pick up him at the airport."
+          },
+          {
+            "q": "Where must a pronoun go with a separable phrasal verb?",
+            "opts": [
+              "After the preposition",
+              "Before the verb",
+              "Between the verb and the preposition"
+            ],
+            "ans": "Between the verb and the preposition"
+          },
+          {
+            "q": "'Does she pick up the children from school?' → with pronoun:",
+            "opts": [
+              "Yes, she picks up them from school.",
+              "Yes, she picks them up from school.",
+              "Yes, she pick them up from school."
+            ],
+            "ans": "Yes, she picks them up from school."
+          },
+          {
+            "q": "'Did he drop off his boss at the hotel?' → 'his boss' refers to:",
+            "opts": [
+              "A male boss (his = masculine)",
+              "Either a male or female boss — 'his' refers to the subject, not the gender of 'boss'",
+              "Only a female boss"
+            ],
+            "ans": "Either a male or female boss — 'his' refers to the subject, not the gender of 'boss'"
+          },
+          {
+            "q": "How do you pronounce 'dropped'?",
+            "opts": [
+              "Two syllables: drop-it",
+              "One syllable: /drɒpt/",
+              "Two syllables: drop-ed"
+            ],
+            "ans": "One syllable: /drɒpt/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "kyle_20260428",
     "title": "English with Kyle",
     "date": "2026-04-28",
@@ -2431,91 +2522,179 @@
     "teacher": "kyle"
   },
   {
-    "id": "julia_20260527",
-    "title": "Essential English · Julia",
-    "date": "2026-05-27",
-    "topic": "To Pick Up & Drop Off / Pronoun Position in Phrasal Verbs",
-    "teacher": "julia",
+    "id": "kyle_20260528",
+    "title": "English with Kyle",
+    "date": "2026-05-28",
+    "topic": "Miss vs Lose / Can vs To Be Able To / Mastering the Interrogative",
+    "teacher": "kyle",
     "sections": [
       {
-        "title": "1. Pick Up & Drop Off — Meaning",
+        "title": "1. Warm-Up Translations",
         "expanded": false,
-        "content": "Two opposite phrasal verbs for collecting and leaving people (or things).\n\n| Phrasal verb | Spanish | Example |\n|---|---|---|\n| **Pick up** | Recoger / ir a buscar | *I'll pick you up at the airport.* |\n| **Drop off** | Dejar (a alguien en un sitio) | *He dropped her off at the hotel.* |\n\n> **Drop** alone = dejar caer (accidentally). **Drop off** = leave someone somewhere on purpose.\n\n> In English, if a phrasal verb option exists, prefer it over the plain verb — especially in spoken English."
+        "content": "Practice translating these Spanish sentences into English.\n\n| Spanish | English |\n|---|---|\n| Hay una escasez de mano de obra cualificada en este país. | There's a shortage of skilled labor in this country. |\n| No hay ni un solo ingeniero de caminos. | There's not even a single civil engineer. |\n| Debería haber previsto ese problema. | You should have foreseen that problem. |\n| Mándame un fontanero y un electricista. | Send me a plumber and an electrician. |\n| El pobre hombre sufrió lesiones graves. | The poor man suffered serious injuries. |\n| Tuvo varias costillas rotas. | He had several broken ribs. |\n| Menos mal que estaba asegurado. | It's a good thing he was insured. |\n| Abra el libro por la página cuarenta. | Open the book **to** page 40. |\n| La letra de la canción. | The lyrics **to** the song. |\n| El conductor estaba muerto de miedo. | The driver was scared to death. |\n\n**Vocabulary notes:**\n\n- **shortage** = escasez (emphasises lack; *falta* is more neutral)\n- **skilled labor** = mano de obra cualificada\n- **foresee / foreseen** = prever / previsto\n- **plumber** = fontanero (silent B — P-L-U-M-B-E-R; possibly from Latin *plumbum* = lead, as pipes were once made of lead)\n- **injury** = lesión (general); **wound** = herida (open cut); **bruise** = moratón\n- **several** = varios, emphasising the quantity is large (vs *some* = algunos, neutral)\n\n**Preposition challenge:**\n\n- Open the book **to** page 40 — not *on* page 40.\n- The lyrics **to** the song — not *of* the song (though *of* is not wrong, *to* is far more natural)."
       },
       {
-        "title": "2. Separable Phrasal Verbs & the Pronoun Rule  ★ Main topic",
-        "expanded": true,
-        "content": "**Pick up** and **drop off** are both separable — the object can go in two positions.\n\n### When the object is a noun → two options (both correct)\n\n| Position | Example |\n|---|---|\n| Noun **after** the preposition | She will pick up **Peter** at the airport. |\n| Noun **between** verb and preposition | She will pick **Peter** up at the airport. |\n\n---\n\n### When the object is a pronoun → only ONE option\n\nThe pronoun **must** go between the verb and the preposition. No exceptions.\n\n| Correct | Wrong |\n|---|---|\n| She will pick **him** up at the airport. ✓ | ~~She will pick up him at the airport.~~ ✗ |\n| He dropped **her** off at the hotel. ✓ | ~~He dropped off her at the hotel.~~ ✗ |\n| She picks **them** up from school. ✓ | ~~She picks up them from school.~~ ✗ |\n\n---\n\n### Non-separable phrasal verbs (for reference)\n\nNon-separable phrasal verbs cannot have anything placed between verb and preposition — not even a pronoun.\n\n- *listen to it* ✓ · ~~listen it to~~ ✗\n\n---\n\n### The 'chunk' rule\n\nWhen using a pronoun, treat the three words as one unit — say them connected:\n\n> **pick him up** · **drop her off** · **picks them up**\n\nAvoid leaving the preposition hanging: ~~pick him ... up~~ sounds unnatural."
+        "title": "2. Miss vs Lose",
+        "expanded": false,
+        "content": "Inspired by an old **Vaughan English** magazine from April 2006 with the headline:\n\n> *\"Missing Miss Loses the Plot\"*\n\n---\n\n### TO MISS\n\n**1. No aprovechar / no ver something** — to fail to catch, attend, or notice\n\n| Example | Translation |\n|---|---|\n| I missed the bus, so I had to get a taxi. | Perdí el autobús, así que tuve que coger un taxi. |\n| Due to the traffic, we missed the match. | Perdimos el partido debido al tráfico. |\n| She missed three mistakes in the text. | Se le pasaron tres errores en el texto. |\n| Excuse me, could you repeat? I missed that. | Perdón, ¿puedes repetir? No lo he entendido. |\n\n**2. Miss out / FOMO**\n\n- **To miss out** = perderse algo, no aprovechar una oportunidad.\n- **FOMO** = *Fear Of Missing Out* — the anxiety of feeling you're missing something fun while others are enjoying it.\n\n> *I don't want to go, but what if it's a lot of fun and I'm not there? I would miss out.*\n\n**3. Echar de menos — to miss someone or something**\n\n| Example | Translation |\n|---|---|\n| I miss my mother's cooking. | Echo de menos la cocina de mi madre. |\n| I miss being young. | Echo de menos ser joven. |\n\n> **Grammar tip:** After *miss*, use the **-ing** form of a verb, not the infinitive.\n> - ✅ *I miss **being** with my friends.*\n> - ❌ *I miss **to be** with my friends.*\n\n---\n\n### TO LOSE\n\n**1. No encontrar — to be unable to find**\n\n| Example | Translation |\n|---|---|\n| I've lost my keys. | He perdido mis llaves. |\n| I lost the piece of paper you gave me. | He perdido el papel que me diste. |\n\n**2. No ganar — to fail to win**\n\n| Example | Translation |\n|---|---|\n| She always loses at cards. | Siempre pierde a las cartas. |\n\n**3. Get lost = perderse**\n\n> *When I first came to Madrid, I got lost a lot. It was pre-smartphone — I had an El Corte Inglés map in my pocket.*\n\n**4. Lose the plot** = perder la chaveta; no entender qué está pasando\n\n> *I've lost the plot.* = No entiendo qué está pasando aquí."
       },
       {
-        "title": "3. Practice: The Three Variations",
+        "title": "3. Can vs To Be Able To",
         "expanded": false,
-        "content": "For each question, give three answers: noun at end → noun in middle → pronoun in middle.\n\n---\n\n**Will she pick up Peter at the airport?**\n1. Yes, she will pick up Peter at the airport.\n2. Yes, she will pick Peter up at the airport.\n3. Yes, she will pick **him** up at the airport.\n\n---\n\n**Did he drop off his boss at the hotel?**\n1. Yes, he dropped off his boss at the hotel.\n2. Yes, he dropped his boss off at the hotel.\n3. Yes, he dropped **him/her** off at the hotel.\n\n> *his boss* — the possessive *his* refers to the subject, not the gender of *boss*. Boss can be male or female, so the pronoun can be *him* or *her*.\n\n---\n\n**Does she pick up the children from school?**\n1. Yes, she picks up the children from school.\n2. Yes, she picks the children up from school.\n3. Yes, she picks **them** up from school.\n\n> Third person -s goes on the verb only — never on the preposition: *she picks up* ✓ · ~~she picks ups~~ ✗\n\n---\n\n**Can you drop me off at the station?**\n→ Already a pronoun, so only one option:\nYes, I can drop **you** off at the station.\n\n---\n\n**Will you drop off your colleagues at the office?**\n1. Yes, I will drop off my colleagues at the office.\n2. Yes, I will drop my colleagues off at the office.\n3. Yes, I will drop **them** off at the office.\n\n---\n\n**Did Susan pick up her mother at the hospital?**\n1. Yes, Susan picked up her mother at the hospital.\n2. Yes, Susan picked her mother up at the hospital.\n3. Yes, Susan picked **her** up at the hospital."
+        "content": "Both express ability, but they behave differently across tenses.\n\n| | Can | To be able to |\n|---|---|---|\n| Present | I **can** do it. | I **am able to** do it. |\n| Past | I **could** do it. | I **was able to** do it. |\n| Future | ❌ *will can* does not exist | I **will be able to** do it. |\n\n**Key rule:** *Can* has no future form. Use *to be able to* whenever you need a future tense.\n\n| Spanish | English |\n|---|---|\n| ¿Podrá encontrarles? | Will she be able to find them? |\n| ¿Por qué no podrá hacerlo? | Why won't he be able to do it? |\n\n**Extra nuance:** *Can* often implies a **skill** or **knowledge**.\n\n> *Can you read?* — implies knowing the skill of reading.\n\nWhen *podrás* refers to a future possibility, you must switch to *will be able to*."
       },
       {
-        "title": "4. Vocabulary & Pronunciation Notes",
+        "title": "4. Mastering the Interrogative",
         "expanded": false,
-        "content": "### Vocabulary\n\n| Word / phrase | Notes |\n|---|---|\n| **Colleagues** | British English = compañeros de trabajo. American = *co-workers*. |\n| **Fellas** | Very American informal for 'guys'. Not rude. Used alone: *hi fellas.* |\n| **Fellow** | Used as adjective: *fellow students* = compañeros de clase. |\n| **Mates** | British informal for friends/companions (*fellas* equivalent). |\n| **A chunk** | A connected group of words: *pick him up* is one chunk. |\n| **From/at school** | Both work: *pick up the children from school / at school.* |\n\n---\n\n### Pronunciation: -ed endings\n\n**Dropped** — regular verb, double *p* in writing. Pronounce as one syllable: **dropped** /drɒpt/\n\n- Say the *d* and *t* as one blended sound at the end — not two syllables.\n- ~~drop-it~~ ✗ → **dropped** ✓\n\n**Picked** — one syllable: /pɪkt/ — same principle.\n\n---\n\n### Hotel — stress\n\nStress falls on the **second** syllable: *ho-**TEL*** — not ~~**HO**-tel~~."
+        "content": "Practice: given the **answer**, form the correct **question**.\n\n| Answer | Question |\n|---|---|\n| The new law went into effect **last month**. | **When** did the new law go into effect? |\n| The new rule has been in force **for a year and a half**. | **How long** has the new rule been in force? |\n| You can stay here **as long as you want**. | **How long** can I stay here? |\n| He broke it **last night**. | **When** did he break it? |\n| They're expecting us **at 10 o'clock**. | **When** are they expecting us? |\n| He's going to resign **later this year**. | **When** is he going to resign? |\n| **This** book is mine. | **Whose** book is this? |\n| **That** idea was Jennifer's. | **Whose** idea was that? |\n| It depends **on you**. | **Who** does it depend on? |\n| I used **the elevator on the left**. | **Which** elevator did you use? |\n| The tank was emptied **by means of a pump**. | **How** was the tank emptied? |\n| I got this shirt **in a small neighbourhood shop**. | **Where** did you get that shirt? |\n| The bill was paid **on the 17th**. | **When** was the bill paid? |\n| Nobody spoke to him because he was ill. | **Why** didn't anyone speak to him? |\n| It stopped raining **shortly after lunch**. | **When** did it stop raining? |\n| I used **a fire extinguisher** to put out the fire. | **What** did you use to put out the fire? |\n\n---\n\n**Grammar notes:**\n\n**Whose — the noun always follows directly:**\n- ✅ *Whose **book** is this?*\n- ❌ *Whose is this book?* — wrong order.\n\n**Nobody → Why didn't anyone…?**\nWhen the statement uses *nobody / no one*, the question is more natural with a negative:\n- ✅ *Why didn't **anyone** speak to him?*\n- ⚠️ *Why did **no one** speak to him?* — grammatically possible but less common.\n\n**Put out** = apagar (phrasal verb; the *out* signals extinction):\n- *put out* the fire\n- *blow out* the candles\n- *smother out* a flame\n\n**In effect / in force** — used interchangeably for laws and rules:\n- *The law has been **in effect** / **in force** for two years.*"
       }
     ],
     "tests": [
       {
-        "title": "Test 1 · Pick Up & Drop Off",
-        "key": "julia_may27_t1",
+        "title": "Test 1 · Miss vs Lose",
+        "key": "kyle_20260528_t1",
         "qs": [
           {
-            "q": "What does 'drop off' mean?",
+            "q": "Complete the sentence: 'Due to the traffic, we _____ the match.'",
             "opts": [
-              "To accidentally drop something",
-              "To leave someone somewhere on purpose",
-              "To collect someone from a place"
+              "lost",
+              "missed",
+              "forgot",
+              "left"
             ],
-            "ans": "To leave someone somewhere on purpose"
+            "ans": "missed"
           },
           {
-            "q": "Which sentence is WRONG?",
+            "q": "What does FOMO stand for?",
             "opts": [
-              "She will pick Peter up at the airport.",
-              "She will pick up him at the airport.",
-              "She will pick him up at the airport."
+              "Fear Of Missing Out",
+              "Feeling Of Moving On",
+              "Focus On My Objectives",
+              "Fear Of Making Offers"
             ],
-            "ans": "She will pick up him at the airport."
+            "ans": "Fear Of Missing Out"
           },
           {
-            "q": "Where must a pronoun go with a separable phrasal verb?",
+            "q": "Which sentence is grammatically correct?",
             "opts": [
-              "After the preposition",
-              "Before the verb",
-              "Between the verb and the preposition"
+              "I miss to be young.",
+              "I miss being young.",
+              "I miss be young.",
+              "I miss to being young."
             ],
-            "ans": "Between the verb and the preposition"
+            "ans": "I miss being young."
           },
           {
-            "q": "'Does she pick up the children from school?' → with pronoun:",
+            "q": "'To lose the plot' means…",
             "opts": [
-              "Yes, she picks up them from school.",
-              "Yes, she picks them up from school.",
-              "Yes, she pick them up from school."
+              "To lose a book",
+              "To forget the story of a film",
+              "To be confused or to go crazy",
+              "To miss an opportunity"
             ],
-            "ans": "Yes, she picks them up from school."
+            "ans": "To be confused or to go crazy"
           },
           {
-            "q": "'Did he drop off his boss at the hotel?' → 'his boss' refers to:",
+            "q": "When I first came to Madrid, I _____ a lot because I didn't have a smartphone.",
             "opts": [
-              "A male boss (his = masculine)",
-              "Either a male or female boss — 'his' refers to the subject, not the gender of 'boss'",
-              "Only a female boss"
+              "lost",
+              "missed",
+              "got lost",
+              "was losing"
             ],
-            "ans": "Either a male or female boss — 'his' refers to the subject, not the gender of 'boss'"
+            "ans": "got lost"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Can vs To Be Able To",
+        "key": "kyle_20260528_t2",
+        "qs": [
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "Will you can come tomorrow?",
+              "Will you be able to come tomorrow?",
+              "You will can come tomorrow?",
+              "Can you will come tomorrow?"
+            ],
+            "ans": "Will you be able to come tomorrow?"
           },
           {
-            "q": "How do you pronounce 'dropped'?",
+            "q": "Translate: '¿Por qué no podrá hacerlo?'",
             "opts": [
-              "Two syllables: drop-it",
-              "One syllable: /drɒpt/",
-              "Two syllables: drop-ed"
+              "Why can't he do it?",
+              "Why won't he be able to do it?",
+              "Why doesn't he do it?",
+              "Why couldn't he do it?"
             ],
-            "ans": "One syllable: /drɒpt/"
+            "ans": "Why won't he be able to do it?"
+          },
+          {
+            "q": "'Can' exists in which tenses?",
+            "opts": [
+              "Present and future only",
+              "Past and future only",
+              "Present and past only",
+              "All tenses"
+            ],
+            "ans": "Present and past only"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Mastering the Interrogative",
+        "key": "kyle_20260528_t3",
+        "qs": [
+          {
+            "q": "Answer: 'The bill was paid on the 17th.' — What is the correct question?",
+            "opts": [
+              "When was the bill paying?",
+              "When was the bill paid?",
+              "When did the bill paid?",
+              "When has the bill been paid?"
+            ],
+            "ans": "When was the bill paid?"
+          },
+          {
+            "q": "Answer: 'That idea was Jennifer's.' — What is the correct question?",
+            "opts": [
+              "Whose was that idea?",
+              "Who idea was that?",
+              "Whose idea was that?",
+              "Who's was that idea?"
+            ],
+            "ans": "Whose idea was that?"
+          },
+          {
+            "q": "Answer: 'Nobody spoke to him because he was ill.' — What is the most natural question?",
+            "opts": [
+              "Why nobody spoke to him?",
+              "Why did no one spoke to him?",
+              "Why didn't anyone speak to him?",
+              "Why wasn't anyone spoke to him?"
+            ],
+            "ans": "Why didn't anyone speak to him?"
+          },
+          {
+            "q": "'Open the book _____ page 40.' Which preposition is correct?",
+            "opts": [
+              "on",
+              "at",
+              "in",
+              "to"
+            ],
+            "ans": "to"
+          },
+          {
+            "q": "Answer: 'I used the elevator on the left.' — What is the correct question?",
+            "opts": [
+              "What elevator did you use?",
+              "Which elevator did you use?",
+              "Where is the elevator you used?",
+              "Which elevator you used?"
+            ],
+            "ans": "Which elevator did you use?"
           }
         ]
       }
