@@ -4,7 +4,9 @@ import streamlit.components.v1 as components
 import json
 import pathlib
 
-st.set_page_config(page_title="Class Test", layout="wide")
+st.set_page_config(page_title="Reviewing The English Collective", layout="wide")
+
+st.title("Reviewing The English Collective")
 
 BASE_PATH = pathlib.Path(__file__).parent
 CACHE_PATH = BASE_PATH / "class_cache.json"
