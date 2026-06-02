@@ -57,7 +57,7 @@ Single-file Streamlit app backed by `the.xlsx`.
 
 Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely from `class_cache.json`.
 
-**Two tabs:** `st.tabs(["English with Kyle", "Essential English · Julia"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"`). Each tab has its own session state key (`sel_kyle` / `sel_julia`) for the selected class index.
+**Three tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls`) for the selected class index.
 
 **Class selector:** Within each tab, buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
 
@@ -101,9 +101,9 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Section fields:** `image` and `image_hotspots` are optional. If `image` is present without `image_hotspots`, the image is rendered with `st.image()`. If both are present, `_render_hotspot_image()` renders it as an inline HTML component with interactive hover regions. Hotspot coordinates (`x`, `y`, `w`, `h`) are percentages of the image dimensions. `content` (markdown) always renders below the image.
 
-**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes. Defaults to `"kyle"` if absent (for backwards compatibility).
+**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes, `"juls"` for English Time with Juls classes. Defaults to `"kyle"` if absent (for backwards compatibility).
 
-**MP4 location:** `assets/classes/english_with_kyle/` or `assets/classes/esential_english_julia/` depending on teacher.
+**MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, or `assets/classes/english_time_with_juls/` depending on teacher.
 
 **Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 

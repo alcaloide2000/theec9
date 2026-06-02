@@ -2699,5 +2699,109 @@
         ]
       }
     ]
+  },
+  {
+    "id": "juls_20260601",
+    "title": "English Time with Juls",
+    "date": "2026-06-01",
+    "topic": "Vocabulary About Birth",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Vocabulary About Birth — Main Table",
+        "expanded": true,
+        "content": "All vocabulary is practised inside full sentences using the **Ask Me** format.\n\n| Word / Expression | Spanish | Example |\n|---|---|---|\n| **birth** (n.) | nacimiento | *The birth took place at 7 a.m.* |\n| **due date** (n.) | fecha prevista / salir de cuentas | *My sister's due date is on the 7th of August.* |\n| **to be due** (adj.) | estar previsto | *The baby is due on the 21st of December.* |\n| **to have a nice ring to it** | sonar bien / ser eufónico | *Does the name Pamela have a nice ring to it?* |\n| **to snort at sth** | resoplar / bufar ante algo | *Did you snort at his comment about the baby?* |\n| **risky** (adj.) | arriesgado | *Is it risky to use too much medication for your baby?* |\n| **at random** | aleatoriamente / al azar | *Will you pick your baby's name at random?* |\n\n---\n\n### Due Date vs To Be Due\n\n**Due date** = noun. *My due date is the 7th of August.*\n\n**To be due** = adjective use of *due*. *The baby is due on the 21st of December.*\n\n> Both express a prediction / estimate, not a guarantee — that is why *due* (estar previsto) fits better than *will be born* (which sounds 100% certain).\n\n---\n\n### To Have a Nice Ring to It\n\nUsed when a name or word sounds pleasant, harmonious, or euphonic.\n\n- *I really like the name Paloma. It has a nice ring to it.*\n- Opposite: *That name does not have a very nice ring to it.*\n\n> **Euphonious** (eufónico) = producing a soft, harmonious, pleasant sound — the adjective behind this expression.\n\n---\n\n### To Snort At\n\nLiterally: the nasal sound you make (bufar). Figuratively: to show **rejection or dissatisfaction** at a comment you do not like.\n\n- *She snorted at his suggestion.* = resopló ante su sugerencia.\n\n---\n\n### At Random\n\n= aleatoriamente, al azar.\n\n- *They picked a name at random from the list.*\n- *Do not choose at random — think carefully!*"
+      },
+      {
+        "title": "2. Ask Me — Exercises",
+        "expanded": false,
+        "content": "The class used the **Ask Me** format: the teacher gives a prompt, students form the question, then everyone repeats.\n\n| Prompt | Question to Form |\n|---|---|\n| Ask me if my sister's **due date** is on the 7th of August | *Is your sister's due date on the 7th of August?* |\n| Ask me if the name Pamela has a **nice ring to it** | *Does the name Pamela have a nice ring to it?* |\n| Ask me if the baby **is due** on the 21st of December | *Is the baby due on the 21st of December?* |\n| Ask me if I **snorted at** his comment about the baby | *Did you snort at his comment about the baby?* |\n| Ask me if it is **risky** to use too much medication for your baby | *Is it risky to use too much medication for your baby?* |\n| Ask me if I will pick my baby's name **at random** | *Will you pick your baby's name at random?* |\n\n---\n\n### Pronunciation Note — August\n\nStress the **first** syllable with an open sound: **AW**-gust — not *ah-GOOST*.\n\nPractise: *August · August · August*"
+      },
+      {
+        "title": "3. Extra Vocabulary — From Class Anecdotes",
+        "expanded": false,
+        "content": "These words came up naturally during the teacher's stories about births.\n\n| Word | Spanish | Note |\n|---|---|---|\n| **labour** (n.) | estar de parto | *She was in labour the whole night.* |\n| **epidural** (n.) | epidural | *The doctors suggested getting the epidural.* |\n| **dilated** (adj.) | dilatada | *She was 7 centimetres dilated when she arrived.* |\n| **a leap year** | año bisiesto | *The year 2000 was a leap year.* |\n| **side effects** | efectos secundarios | *The epidural gave her a lot of side effects.* |\n| **empowering** (adj.) | empoderador | *It was an incredibly empowering experience.* |\n\n> **Fun fact from class:** Only ~7% of babies are born exactly on their due date — the concept was invented by a Dutch doctor in the early 19th century."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Birth Vocabulary",
+        "key": "juls_jun01_t1",
+        "qs": [
+          {
+            "q": "How do you say *nacimiento* in English?",
+            "opts": [
+              "Labour",
+              "Birth",
+              "Due date"
+            ],
+            "ans": "Birth"
+          },
+          {
+            "q": "What is the correct meaning of **due date**?",
+            "opts": [
+              "The exact day a baby will be born",
+              "The estimated date a baby is expected to be born",
+              "The date the mother goes to hospital"
+            ],
+            "ans": "The estimated date a baby is expected to be born"
+          },
+          {
+            "q": "Which sentence uses 'to be due' correctly?",
+            "opts": [
+              "The baby is due on the 21st of December.",
+              "The baby is due to born on the 21st.",
+              "The baby dues on the 21st of December."
+            ],
+            "ans": "The baby is due on the 21st of December."
+          },
+          {
+            "q": "What does 'to have a nice ring to it' mean?",
+            "opts": [
+              "To make a telephone call",
+              "To sound pleasant or euphonious",
+              "To be a popular name"
+            ],
+            "ans": "To sound pleasant or euphonious"
+          },
+          {
+            "q": "What does 'to snort at something' express?",
+            "opts": [
+              "Excitement and enthusiasm",
+              "Confusion or misunderstanding",
+              "Rejection or dissatisfaction"
+            ],
+            "ans": "Rejection or dissatisfaction"
+          },
+          {
+            "q": "'Will you pick your baby's name at random?' — What does *at random* mean?",
+            "opts": [
+              "Aleatoriamente / al azar",
+              "Con mucho cuidado",
+              "Basado en la familia"
+            ],
+            "ans": "Aleatoriamente / al azar"
+          },
+          {
+            "q": "Which word means *estar de parto*?",
+            "opts": [
+              "Labour",
+              "Epidural",
+              "Dilated"
+            ],
+            "ans": "Labour"
+          },
+          {
+            "q": "How do you say *año bisiesto* in English?",
+            "opts": [
+              "A rare year",
+              "A leap year",
+              "A full year"
+            ],
+            "ans": "A leap year"
+          }
+        ]
+      }
+    ]
   }
 ]

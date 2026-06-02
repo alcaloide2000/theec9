@@ -58,6 +58,30 @@ img.complete?build():img.onload=build;
     components.html(html, height=500, scrolling=False)
 
 
+def _inject_tab_avatars(pic_paths):
+    css_rules = []
+    for i, pic in enumerate(pic_paths, start=1):
+        with open(pic, "rb") as f:
+            b64 = base64.b64encode(f.read()).decode()
+        css_rules.append(f"""
+button[data-baseweb="tab"]:nth-child({i})::after {{
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-image: url('data:image/jpeg;base64,{b64}');
+    background-size: cover;
+    background-position: center;
+    margin-left: 8px;
+    vertical-align: middle;
+    align-self: center;
+    flex-shrink: 0;
+    border: 2px solid #d0d0d0;
+}}""")
+    st.markdown(f"<style>{''.join(css_rules)}</style>", unsafe_allow_html=True)
+
+
 def _load_class_cache():
     if not CACHE_PATH.exists():
         return []
@@ -170,11 +194,20 @@ if not _cache:
 else:
     kyle_classes = [c for c in _cache if c.get("teacher", "kyle") == "kyle"]
     julia_classes = [c for c in _cache if c.get("teacher") == "julia"]
+    juls_classes = [c for c in _cache if c.get("teacher") == "juls"]
 
-    tab_kyle, tab_julia = st.tabs(["English with Kyle", "Essential English · Julia"])
+    _inject_tab_avatars([
+        BASE_PATH / "assets/profilepictures/kyle.jpg",
+        BASE_PATH / "assets/profilepictures/julia.jpg",
+        BASE_PATH / "assets/profilepictures/juls.jpg",
+    ])
+    tab_kyle, tab_julia, tab_juls = st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])
 
     with tab_kyle:
         _render_teacher_tab(kyle_classes, "sel_kyle")
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")
+
+    with tab_juls:
+        _render_teacher_tab(juls_classes, "sel_juls")
