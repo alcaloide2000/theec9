@@ -28,6 +28,7 @@ streamlit run app.py --server.port=8501
 | `the.xlsx` | Multi-sheet Excel workbook — source data for all practice modules |
 | `Procfile` | Render start command for `app.py` |
 | `requirements.txt` | `streamlit`, `pandas`, `gTTS`, `openpyxl` |
+| `assets/profilepictures/` | Circular avatar images shown in tab labels (`kyle.jpg`, `julia.jpg`, `juls.jpg`) |
 
 ## app.py architecture
 
@@ -57,7 +58,11 @@ Single-file Streamlit app backed by `the.xlsx`.
 
 Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely from `class_cache.json`.
 
+**Page title:** "Reviewing The English Collective" — set in both `st.set_page_config` and `st.title()`.
+
 **Three tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls`) for the selected class index.
+
+**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`.
 
 **Class selector:** Within each tab, buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
 
