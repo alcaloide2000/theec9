@@ -747,25 +747,30 @@ markmap:
     clearHighlights();
     if (!q) { countEl.textContent = ''; btnClear.style.display = 'none'; return; }
 
-    const mm = window.__mmInstance;
-    if (mm && mm.state && mm.state.data) {
-      // Fold non-matching branches, unfold paths that lead to matches
-      applyFold(mm.state.data, q);
-      mm.state.data.payload.fold = 0; // always keep root open
-      const renderFn = typeof mm.renderData === 'function' ? () => mm.renderData()
-                     : typeof mm.setData    === 'function' ? () => mm.setData(mm.state.data)
-                     : null;
-      if (renderFn) {
-        const p = renderFn();
-        // renderData may be async — chain highlight after it resolves
-        if (p && typeof p.then === 'function') p.then(() => highlightDOM(q));
-        else setTimeout(() => highlightDOM(q), 400);
-      } else {
-        setTimeout(() => highlightDOM(q), 400);
-      }
-    } else {
-      highlightDOM(q);
+    const svg = document.querySelector('svg.markmap');
+    if (!svg) { highlightDOM(q); return; }
+
+    // Expand every collapsed node by simulating a click — markmap adds the
+    // class "markmap-fold" to collapsed <g class="markmap-node"> elements,
+    // and its internal click handler toggles the fold state + re-renders.
+    const collapsed = [...svg.querySelectorAll('g.markmap-node.markmap-fold')];
+
+    // Fallback: detect via D3 __data__ if markmap-fold class is absent
+    if (!collapsed.length) {
+      svg.querySelectorAll('g.markmap-node').forEach(g => {
+        const d = g.__data__;
+        const fold = d && (
+          (d.payload && d.payload.fold) ||
+          (d.data && d.data.payload && d.data.payload.fold)
+        );
+        if (fold) collapsed.push(g);
+      });
     }
+
+    collapsed.forEach(g => g.dispatchEvent(new MouseEvent('click', { bubbles: false })));
+
+    // Wait for D3 transitions to finish, then highlight
+    setTimeout(() => highlightDOM(q), collapsed.length > 0 ? 700 : 50);
   }
 
   function doClear() {
