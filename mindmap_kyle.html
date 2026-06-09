@@ -651,32 +651,40 @@ markmap:
 </div>
 <script>
 // ── PART 1: Intercept Markmap.create to capture the instance ─────────────────
-// markmap-autoloader calls Markmap.create() on window.load.
-// We wrap it here (body-parse time, before load fires) so we get the instance.
+// markmap-autoloader@0.14 calls Markmap.create() on window.load.
+// create() may return the instance directly (sync) or a Promise (async).
+// We handle both so window.__mmInstance is always the real instance.
 (function () {
+  function onInstance(instance) {
+    window.__mmInstance = instance;
+    function fitWhenReady() {
+      const svg = document.querySelector('svg.markmap');
+      if (svg) {
+        const r = svg.getBoundingClientRect();
+        if (r.width > 100 && r.height > 100) { instance.fit(); return; }
+      }
+      requestAnimationFrame(fitWhenReady);
+    }
+    setTimeout(fitWhenReady, 300);
+  }
+
   function tryWrap() {
     const M = window.markmap && window.markmap.Markmap;
     if (!M || !M.create || M.__wrapped) return false;
     const orig = M.create;
     M.create = function (...args) {
-      const instance = orig.apply(this, args);
-      window.__mmInstance = instance;
-      function fitWhenReady() {
-        const svg = document.querySelector('svg.markmap');
-        if (svg) {
-          const r = svg.getBoundingClientRect();
-          if (r.width > 100 && r.height > 100) { instance.fit(); return; }
-        }
-        requestAnimationFrame(fitWhenReady);
+      const result = orig.apply(this, args);
+      if (result && typeof result.then === 'function') {
+        result.then(onInstance);  // async: Markmap.create() returns a Promise
+      } else {
+        onInstance(result);       // sync: result is the instance directly
       }
-      setTimeout(fitWhenReady, 300);
-      return instance;
+      return result;
     };
     M.__wrapped = true;
     return true;
   }
   if (!tryWrap()) {
-    // markmap bundle not ready yet — retry every few ms until it is
     const t = setInterval(function () { if (tryWrap()) clearInterval(t); }, 5);
   }
 })();
@@ -691,13 +699,6 @@ markmap:
   function clearHighlights() {
     document.querySelectorAll('g.markmap-node.search-match')
             .forEach(el => el.classList.remove('search-match'));
-  }
-
-  // Plain text from a markmap data node (content is an HTML string)
-  function nodeText(node) {
-    const tmp = document.createElement('div');
-    tmp.innerHTML = node.content || '';
-    return tmp.textContent || '';
   }
 
   // Plain text from a markmap data node (content is an HTML string)
@@ -751,9 +752,17 @@ markmap:
       // Fold non-matching branches, unfold paths that lead to matches
       applyFold(mm.state.data, q);
       mm.state.data.payload.fold = 0; // always keep root open
-      if (typeof mm.renderData === 'function') mm.renderData();
-      else if (typeof mm.setData === 'function') mm.setData(mm.state.data);
-      setTimeout(() => highlightDOM(q), 400);
+      const renderFn = typeof mm.renderData === 'function' ? () => mm.renderData()
+                     : typeof mm.setData    === 'function' ? () => mm.setData(mm.state.data)
+                     : null;
+      if (renderFn) {
+        const p = renderFn();
+        // renderData may be async — chain highlight after it resolves
+        if (p && typeof p.then === 'function') p.then(() => highlightDOM(q));
+        else setTimeout(() => highlightDOM(q), 400);
+      } else {
+        setTimeout(() => highlightDOM(q), 400);
+      }
     } else {
       highlightDOM(q);
     }
