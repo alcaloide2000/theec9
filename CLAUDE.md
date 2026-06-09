@@ -31,6 +31,8 @@ streamlit run app.py --server.port=8501
 | `assets/profilepictures/` | Circular avatar images shown in tab labels (`kyle.jpg`, `julia.jpg`, `juls.jpg`) |
 | `mindmap_kyle.html` | Interactive markmap mind map of all Kyle class content — searchable, expandable |
 | `mindmap_kyle_network.html` | Alternative vis-network graph view of Kyle class content |
+| `static/mindmap_kyle.html` | Copy of `mindmap_kyle.html` served at `/app/static/mindmap_kyle.html` via Streamlit static serving |
+| `.streamlit/config.toml` | Enables `enableStaticServing = true` so files in `static/` are publicly accessible |
 
 ## app.py architecture
 
@@ -62,9 +64,11 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Page title:** "Reviewing The English Collective" — set in both `st.set_page_config` and `st.title()`.
 
-**Three tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls`) for the selected class index.
+**Three outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls`) for the selected class index.
 
-**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`.
+**Kyle sub-tabs:** The English with Kyle tab contains two nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map"])`. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab.
+
+**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`. An additional CSS rule using `[role="tabpanel"] button[data-baseweb="tab"]::after { content: none }` cancels the avatar bleed onto nested sub-tabs.
 
 **Class selector:** Within each tab, buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
 
@@ -116,7 +120,9 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Tests:** Every class entry must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class.
 
-**After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content — new grammar sections, phrasal verbs, vocabulary, and increment the class count in the header.
+**After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content — new grammar sections, phrasal verbs, vocabulary, and increment the class count in the header. Then sync: `cp mindmap_kyle.html static/mindmap_kyle.html` so the static-served version stays up to date.
+
+**Images in class sections:** If a section references an `"image"` field (e.g. `"assets/classes/english_with_kyle/prepositions.png"`), the image file must be committed to git — MP4 files are gitignored but images are not.
 
 ## Deployment
 
@@ -129,6 +135,8 @@ Two separate Render web services, both auto-deploy on push to `master` at `githu
 
 ## Gitignored files
 
-`users.json`, `progress.json`, `history.json`, `classes.json`, `.streamlit/secrets.toml`, `assets/classes/*.mp4`
+`users.json`, `progress.json`, `history.json`, `classes.json`, `.streamlit/secrets.toml`, `assets/classes/**/*.mp4`
 
 `class_cache.json` is **not** gitignored — commit it so Render can serve class content without the MP4 files.
+
+Images inside `assets/classes/` (e.g. `prepositions.png`) are **not** gitignored and must be committed for Render to serve them.
