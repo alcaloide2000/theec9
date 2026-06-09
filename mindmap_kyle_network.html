@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English with Kyle — Network Mind Map</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@9.1.2/dist/vis-network.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.2/dist/vis-network.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #eeeeee; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; }
+  .header {
+    background: #dde0e8;
+    border-bottom: 1px solid #b8bcc8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    user-select: none;
+  }
+  .header strong { color: #3a3a6a; font-size: 15px; }
+  .hint { font-size: 11px; color: #7a7a9a; }
+  #network { width: 100vw; height: calc(100vh - 44px); background: #eeeeee; }
+  #loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.92);
+    padding: 16px 36px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #5050a0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    z-index: 100;
+    pointer-events: none;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <strong>English with Kyle — Network Mind Map</strong>
+  <span class="hint">Scroll to zoom &nbsp;·&nbsp; Drag canvas to pan &nbsp;·&nbsp; Drag nodes to reposition</span>
+</div>
+<div id="network"></div>
+<div id="loading">Organising layout…</div>
+
+<script>
+// ── DATA ─────────────────────────────────────────────────────────────────────
+const BRANCHES = [
+  {
+    name: "Comparisons\n& Degree",
+    topics: [
+      { name: "as…as\nStructures", subs: [
+          "not quite as…as\n(small gap, casi igual)",
+          "not nearly as…as\n(large gap, mucha diferencia)",
+          "just about as…as\n(almost equal, casi)"
+        ]
+      },
+      { name: "just about to", subs: [
+          "on the verge of doing sth\n(a punto de hacer algo)",
+          "I was just about to call you\nwhen you rang"
+        ]
+      },
+      { name: "Way\nAmplifier", subs: [
+          "way + comparative\n(way better, way bigger)",
+          "way more / way less\n(never way many ✗)",
+          "way too + adjective\n(way too far, way too hot)"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Grammar\nRules",
+    topics: [
+      { name: "Question Tags", subs: [
+          "flip auxiliary: pos ↔ neg",
+          "repeat the subject pronoun",
+          "He likes fish, doesn't he?",
+          "to be = its own auxiliary"
+        ]
+      },
+      { name: "Negative Shift", subs: [
+          "negate THINK, not the clause",
+          "I don't think they heard ✓",
+          "I think they didn't hear ✗",
+          "to make it = poder asistir"
+        ]
+      },
+      { name: "Past Continuous", subs: [
+          "was / were + -ing",
+          "action in progress, interrupted",
+          "by the time (para cuando)"
+        ]
+      },
+      { name: "Let vs Allow", subs: [
+          "let + bare infinitive\n(Let me explain)",
+          "allow + to + infinitive\n(Allow me to do it)"
+        ]
+      },
+      { name: "Used to\nStructures", subs: [
+          "used to + inf\n(past habit, no longer true)",
+          "be used to + -ing\n(already accustomed)",
+          "get used to + -ing\n(still adapting)"
+        ]
+      },
+      { name: "Raise vs Rise", subs: [
+          "raise = transitive (needs object)\nI raise my hand → taxes rise",
+          "rise = intransitive (no object)\nMy hand rises → taxes rise"
+        ]
+      },
+      { name: "Can vs\nTo Be Able To", subs: [
+          "can (present) / could (past)",
+          "will be able to (future only)",
+          "will can ❌ does not exist"
+        ]
+      },
+      { name: "Adjective\nFormation", subs: [
+          "noun + -y\n(watery, spicy, smoky, juicy)",
+          "compound + hyphen\n(tight-fisted, left-handed)",
+          "The + nationality (no -s)\n(The Scottish, The Chinese)"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Time\nExpressions",
+    topics: [
+      { name: "In / On / At", subs: [
+          "in → months, seasons, years\n(in June, in 2020)",
+          "on → days & specific dates\n(on Monday, on the 23rd)",
+          "at → clock times · at night\n(exception: not 'in the night')",
+          "at Christmas (whole period)\nvs on Christmas Day (Dec 25)"
+        ]
+      },
+      { name: "Since", subs: [
+          "since + moment → perfect tense",
+          "I've known him since 2010",
+          "since = ya que (causal reason)\nSince it's raining, let's stay",
+          "ever since = desde entonces"
+        ]
+      },
+      { name: "Ago / For / During\n/ From…to", subs: [
+          "ago + simple past\n(five minutes ago)",
+          "for + period\n(for three years)",
+          "during + noun/event\n(during the party)",
+          "from…to → closed completed period\n(Obama 2009–2017)"
+        ]
+      },
+      { name: "While / Before\n/ After", subs: [
+          "while + subject + verb\n(while I was in class)",
+          "before/after + noun / gerund / clause\n(3 options, all correct)",
+          "meanwhile = at the same time",
+          "in the meantime = while you wait"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Phrasal\nVerbs",
+    topics: [
+      { name: "Get + Vehicles", subs: [
+          "get into / get out of\n(cars, taxis, enclosed spaces)",
+          "get on / get off\n(buses, planes, trains)"
+        ]
+      },
+      { name: "Blow & Fire", subs: [
+          "go off → bomb explodes",
+          "blow up → building explodes",
+          "blow out → candle (soplar)",
+          "put out → fire (apagar)"
+        ]
+      },
+      { name: "Think", subs: [
+          "think about → in your mind\n(no invention implied)",
+          "think of → idea appeared\n(se me ocurrió)",
+          "think up → pure invention\n(idear algo nuevo)"
+        ]
+      },
+      { name: "Pick Up &\nDrop Off", subs: [
+          "separable phrasal verbs",
+          "pronoun between verb & preposition",
+          "She picks him up ✓\nShe picks up him ✗"
+        ]
+      },
+      { name: "Way\nDirection", subs: [
+          "on the way → de camino",
+          "in the way → obstruyendo el paso",
+          "out of the way → quítate de en medio"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Commonly\nConfused",
+    topics: [
+      { name: "Miss vs Lose", subs: [
+          "miss → fail to catch / attend / notice",
+          "miss + -ing → echo de menos\n(I miss being young ✓)",
+          "FOMO = Fear Of Missing Out",
+          "lose → can't find / fail to win",
+          "get lost → perderse",
+          "lose the plot → perder la chaveta"
+        ]
+      },
+      { name: "Notice vs Realize", subs: [
+          "notice → sensory (sight/smell/sound)\nless cerebral",
+          "realize → mental understanding\nmore cerebral"
+        ]
+      },
+      { name: "False Friends\n& Pairs", subs: [
+          "compromise ≠ compromiso\n(= punto medio, mutual agreement)",
+          "commitment = obligación\n(el compromiso real)",
+          "customer (buys a product)\nclient (buys a service)",
+          "enclosed (in the envelope)\nattached (file in email)",
+          "try (intentar)\ntry out (probar algo nuevo)"
+        ]
+      },
+      { name: "Work vs Job", subs: [
+          "work → uncountable (hard work)",
+          "job → countable (two jobs)",
+          "works (pl.) → literary / artistic obras\n(works of Shakespeare)"
+        ]
+      },
+      { name: "Laid Off vs Fired", subs: [
+          "laid off → economic reasons\n(not your fault)",
+          "fired → your fault\n(misconduct, poor performance)"
+        ]
+      },
+      { name: "More Pairs", subs: [
+          "oversleep (problem, unintentional)\nvs sleep in (intentional, fine)",
+          "like (metaphorical comparison)\nvs as (factual role)",
+          "pessimist (noun)\nvs pessimistic (adjective)"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Questions &\nDescribing",
+    topics: [
+      { name: "Mastering\nthe Interrogative", subs: [
+          "Q word + auxiliary + subject + verb",
+          "Whose + noun directly\n(Whose book is this? ✓)",
+          "nobody → why didn't anyone…?\n(more natural than 'no one')",
+          "in effect / in force\n(law is currently active)"
+        ]
+      },
+      { name: "Describing\nAppearance", subs: [
+          "What does he look like?\n(physical, permanent, factual)",
+          "How does he look?\n(physical, temporary / opinion)",
+          "Answer with be or have\n(He's tall · He has gray hair)"
+        ]
+      },
+      { name: "Describing\nPersonality", subs: [
+          "What is he like?\n(permanent character traits)",
+          "How is he?\n(current mood / temporary state)"
+        ]
+      },
+      { name: "Quantity\nComparisons", subs: [
+          "not as many → countable nouns\n(fewer ↔ not as many)",
+          "not as much → uncountable nouns\n(less ↔ not as much)"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Formal English\n& Business",
+    topics: [
+      { name: "Business Letter", subs: [
+          "To whom it may concern",
+          "take for granted\n(dar por sentado)",
+          "make up for (compensar)",
+          "the offending blade\n(objeto culpable — for objects)",
+          "will be able to\n(will can ❌ does not exist)"
+        ]
+      },
+      { name: "Business\nVocabulary", subs: [
+          "speculate → opinion without\nfirm evidence; bolsa",
+          "forecast → prever\n(both verb and noun)",
+          "merge / merger → fusionarse",
+          "industry more natural\nthan 'sector' in English"
+        ]
+      },
+      { name: "Blame /\nFault / Guilty", subs: [
+          "blame → verb\n(Don't blame me)",
+          "fault → noun\n(It was Pepe's fault)",
+          "guilty → adjective\n(He was found guilty)"
+        ]
+      }
+    ]
+  },
+  {
+    name: "Vocabulary\nThemes",
+    topics: [
+      { name: "Weather", subs: [
+          "pour / pouring → diluviar",
+          "drizzle / drizzling → chispear",
+          "sprinkle / sprinkling\n(llovizna muy ligera)"
+        ]
+      },
+      { name: "Nosy & Prying", subs: [
+          "nosy → cotilla / curioso por chismes",
+          "pry into → entrometerse con fuerza",
+          "snoop around → husmear secretamente"
+        ]
+      },
+      { name: "Key Idioms", subs: [
+          "lose the plot → perder la chaveta",
+          "tricks of the trade\n(secretos del oficio)",
+          "FOMO → Fear Of Missing Out",
+          "make it → poder asistir",
+          "castles in the air\n(castillos en el aire)",
+          "give a hard time → dar guerra"
+        ]
+      },
+      { name: "Coca-Cola\nClass", subs: [
+          "invented 1886 by John Pemberton\nat a pharmacy in Atlanta",
+          "New Coke 1985 — huge failure",
+          "pop (Canada) · soda (US NE)\nsoft drink (formal / universal)"
+        ]
+      }
+    ]
+  }
+];
+
+// ── BUILD VIS.JS NODES & EDGES ────────────────────────────────────────────────
+let nextId = 1;
+const nodesArr = [];
+const edgesArr = [];
+
+const rootId = nextId++;
+nodesArr.push({ id: rootId, label: 'English\nwith Kyle', group: 'root' });
+
+for (const branch of BRANCHES) {
+  const branchId = nextId++;
+  nodesArr.push({ id: branchId, label: branch.name, group: 'branch' });
+  edgesArr.push({ from: rootId, to: branchId });
+
+  for (const topic of branch.topics) {
+    const topicId = nextId++;
+    nodesArr.push({ id: topicId, label: topic.name, group: 'topic' });
+    edgesArr.push({ from: branchId, to: topicId });
+
+    for (const sub of topic.subs || []) {
+      const subId = nextId++;
+      nodesArr.push({ id: subId, label: sub, group: 'leaf' });
+      edgesArr.push({ from: topicId, to: subId });
+    }
+  }
+}
+
+// ── VIS.JS NETWORK ────────────────────────────────────────────────────────────
+const container = document.getElementById('network');
+const visData = {
+  nodes: new vis.DataSet(nodesArr),
+  edges: new vis.DataSet(edgesArr)
+};
+
+const options = {
+  autoResize: true,
+  nodes: {
+    shapeProperties: { borderRadius: 10 }
+  },
+  groups: {
+    root: {
+      shape: 'ellipse',
+      color: {
+        background: '#7878b8',
+        border: '#5050a0',
+        highlight: { background: '#9090cc', border: '#4040a0' }
+      },
+      font: { size: 18, bold: true, color: '#ffffff', face: 'Segoe UI' },
+      widthConstraint: { maximum: 130 },
+      borderWidth: 2,
+      mass: 10
+    },
+    branch: {
+      shape: 'box',
+      shapeProperties: { borderRadius: 10 },
+      color: {
+        background: '#82c282',
+        border: '#4e9050',
+        highlight: { background: '#a0dea0', border: '#3c7040' }
+      },
+      font: { size: 13, bold: true, color: '#1a4a1a', face: 'Segoe UI' },
+      margin: { top: 8, bottom: 8, left: 12, right: 12 },
+      borderWidth: 1.5,
+      widthConstraint: { maximum: 130 },
+      mass: 4
+    },
+    topic: {
+      shape: 'box',
+      shapeProperties: { borderRadius: 8 },
+      color: {
+        background: '#c8e8c8',
+        border: '#88b888',
+        highlight: { background: '#d8f0d8', border: '#68a068' }
+      },
+      font: { size: 11, color: '#2a4a2a', face: 'Segoe UI' },
+      margin: { top: 6, bottom: 6, left: 10, right: 10 },
+      borderWidth: 1,
+      widthConstraint: { maximum: 160 },
+      mass: 2
+    },
+    leaf: {
+      shape: 'box',
+      shapeProperties: { borderRadius: 7 },
+      color: {
+        background: '#f5c0d0',
+        border: '#cc8898',
+        highlight: { background: '#ffd0de', border: '#aa6080' }
+      },
+      font: { size: 10, color: '#5a1e30', face: 'Segoe UI' },
+      margin: { top: 5, bottom: 5, left: 8, right: 8 },
+      borderWidth: 1,
+      widthConstraint: { maximum: 210 },
+      mass: 1
+    }
+  },
+  edges: {
+    color: { color: '#5555a5', highlight: '#3333cc', opacity: 0.75 },
+    width: 1.2,
+    smooth: { type: 'cubicBezier', roundness: 0.25 },
+    selectionWidth: 2.5
+  },
+  physics: {
+    enabled: true,
+    solver: 'forceAtlas2Based',
+    forceAtlas2Based: {
+      gravitationalConstant: -110,
+      centralGravity: 0.004,
+      springLength: 110,
+      springConstant: 0.06,
+      damping: 0.45,
+      avoidOverlap: 1
+    },
+    stabilization: {
+      enabled: true,
+      iterations: 500,
+      updateInterval: 15
+    }
+  },
+  interaction: {
+    hover: true,
+    zoomView: true,
+    dragView: true,
+    dragNodes: true,
+    keyboard: true
+  }
+};
+
+const network = new vis.Network(container, visData, options);
+
+network.once('stabilizationIterationsDone', function () {
+  network.setOptions({ physics: { enabled: false } });
+  document.getElementById('loading').style.display = 'none';
+});
+</script>
+</body>
+</html>

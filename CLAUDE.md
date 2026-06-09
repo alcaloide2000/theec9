@@ -29,6 +29,8 @@ streamlit run app.py --server.port=8501
 | `Procfile` | Render start command for `app.py` |
 | `requirements.txt` | `streamlit`, `pandas`, `gTTS`, `openpyxl` |
 | `assets/profilepictures/` | Circular avatar images shown in tab labels (`kyle.jpg`, `julia.jpg`, `juls.jpg`) |
+| `mindmap_kyle.html` | Interactive markmap mind map of all Kyle class content — searchable, expandable |
+| `mindmap_kyle_network.html` | Alternative vis-network graph view of Kyle class content |
 
 ## app.py architecture
 
@@ -111,6 +113,10 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 **MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, or `assets/classes/english_time_with_juls/` depending on teacher.
 
 **Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
+
+**Tests:** Every class entry must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class.
+
+**After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content — new grammar sections, phrasal verbs, vocabulary, and increment the class count in the header.
 
 ## Deployment
 

@@ -81,6 +81,12 @@ button[data-baseweb="tab"]:nth-child({i})::after {{
     flex-shrink: 0;
     border: 2px solid #d0d0d0;
 }}""")
+    css_rules.append("""
+[role="tabpanel"] button[data-baseweb="tab"]::after {
+    content: none !important;
+    background-image: none !important;
+    display: none !important;
+}""")
     st.markdown(f"<style>{''.join(css_rules)}</style>", unsafe_allow_html=True)
 
 
@@ -207,7 +213,11 @@ else:
     tab_kyle, tab_julia, tab_juls = st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])
 
     with tab_kyle:
-        _render_teacher_tab(kyle_classes, "sel_kyle")
+        kyle_tab_classes, kyle_tab_mindmap = st.tabs(["Classes", "🧠 Mind Map"])
+        with kyle_tab_classes:
+            _render_teacher_tab(kyle_classes, "sel_kyle")
+        with kyle_tab_mindmap:
+            st.link_button("Open full mind map ↗", url="/app/static/mindmap_kyle.html", use_container_width=True)
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")
