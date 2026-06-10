@@ -54,6 +54,8 @@
     transition: background 0.15s;
     white-space: nowrap;
   }
+  #btnReset { background: #e8e8e8; color: #555555; }
+  #btnReset:hover { background: #d0d0d0; }
   #btnSearch { background: #7878b8; color: #ffffff; }
   #btnSearch:hover { background: #5a5aa0; }
   #btnClear { background: #e8e8e8; color: #555555; display: none; }
@@ -98,6 +100,7 @@
 <body>
 <div class="header">
   <strong>English with Kyle — Complete Mind Map (10 classes)</strong>
+  <button id="btnReset" class="sbtn">↺ Reset</button>
   <div class="search-wrap">
     <input id="searchInput" type="text" placeholder="Search a word…" autocomplete="off" />
     <button id="btnSearch" class="sbtn">Search</button>
@@ -764,6 +767,7 @@ markmap:
     input.focus();
   }
 
+  document.getElementById('btnReset').addEventListener('click', () => location.reload());
   btnSearch.addEventListener('click', doSearch);
   btnClear.addEventListener('click', doClear);
   input.addEventListener('keydown', e => {
