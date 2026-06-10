@@ -3522,5 +3522,164 @@
         ]
       }
     ]
+  },
+  {
+    "id": "juls_20260608",
+    "title": "English Time with Juls",
+    "date": "2026-06-08",
+    "topic": "Phrasal Verb: To Get By / As If & As Though",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Phrasal Verb: To Get By",
+        "expanded": false,
+        "content": "**To get by** = apañárselas / arreglárselas — to manage in a difficult situation or with limited money.\n\n> Non-transitive: no direct object needed — just say **I get by** or add context with *on / because / despite / somehow*.\n\n| Pattern | Example |\n|---|---|\n| get by **on** + amount | *Can you get by on your salary?* |\n| get by **because** + reason | *They got by because they had help* |\n| get by **despite** + obstacle | *She gets by despite having little money* |\n| get by **selling / doing** | *They are getting by selling postcards* |\n| get by **somehow** | *We will get by somehow* |\n\n**Rephrase practice** — simplify using *get by*:\n- *They managed to survive because they had help* → **They got by because they had help**\n- *I can manage with the money I earn* → **I can get by with the money I earn**\n- *We will manage to survive somehow* → **We will get by somehow**"
+      },
+      {
+        "title": "2. As If / As Though (Como Si)",
+        "expanded": false,
+        "content": "**As if** and **as though** are interchangeable — both translate *como si*.\n\nAfter *as if / as though*, use the **past simple** as the subjunctive equivalent — even when talking about the present.\n\n> ⚠️ In conditional sentences, always use **were** for all subjects (not *was*):\n> *I were · he were · she were · we were · they were*\n\n**Structure:**\n- *[Subject] + [verb] + as if/as though + [subject] + [past verb]*\n- *It is as if/as though + [subject] + [past verb]*\n\n**Translation practice:**\n\n| Spanish | English |\n|---|---|\n| *Es como si tuviéramos mucho tiempo libre* | It is as if we **had** a lot of free time |\n| *Él habla como si tuviera 80 años* | He speaks as if he **were** 80 years old |\n| *Es como si todo el mundo estuviera de vacaciones* | It is as if everyone **were** on holiday |\n| *Se mueven como si tuvieran prisa* | They move as if they **were** in a hurry |\n| *Actúas como si no supieses la respuesta* | You act as if you **didn't know** the answer |\n| *Es como si el fin de semana fuera interminable* | It is as if the weekend **were** never-ending |\n| *Prefiero vivir como si fuese la persona más afortunada del mundo* | I prefer to live as if I **were** the luckiest person in the world |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Warm-Up Translations",
+        "key": "juls_20260608_warmup",
+        "qs": [
+          {
+            "q": "Translate: '¿Puedes apañarte con tu sueldo?'",
+            "opts": [
+              "Can you get by with your salary?",
+              "Can you get by on your salary?",
+              "Can you get by for your salary?",
+              "Can you get by at your salary?"
+            ],
+            "ans": "Can you get by on your salary?"
+          },
+          {
+            "q": "Translate: 'Se las arreglaron porque tuvieron ayuda.'",
+            "opts": [
+              "They got by even though they had help.",
+              "They got by because they had help.",
+              "They get by because they have help.",
+              "They were getting by with help."
+            ],
+            "ans": "They got by because they had help."
+          },
+          {
+            "q": "Translate: 'Actúas como si no supieses la respuesta.'",
+            "opts": [
+              "You act as if you don't know the answer.",
+              "You act as if you didn't know the answer.",
+              "You act as if you will not know the answer.",
+              "You act as though you knew not the answer."
+            ],
+            "ans": "You act as if you didn't know the answer."
+          },
+          {
+            "q": "Translate: 'Es como si el fin de semana fuera interminable.'",
+            "opts": [
+              "It is as if the weekend is never-ending.",
+              "It is as if the weekend were never-ending.",
+              "It is as if the weekend was never-ending.",
+              "It is as the weekend were never-ending."
+            ],
+            "ans": "It is as if the weekend were never-ending."
+          }
+        ]
+      },
+      {
+        "title": "Test · To Get By",
+        "key": "juls_20260608_getby",
+        "qs": [
+          {
+            "q": "Which sentence uses 'to get by' correctly?",
+            "opts": [
+              "I get by my salary every month.",
+              "I can get by on my salary every month.",
+              "I get by with I earn.",
+              "She gets by the help."
+            ],
+            "ans": "I can get by on my salary every month."
+          },
+          {
+            "q": "'To get by' is a non-transitive verb. What does that mean?",
+            "opts": [
+              "It always needs a direct object after it.",
+              "It can only be used in the past tense.",
+              "It does not need a direct object.",
+              "It must always be followed by 'on'."
+            ],
+            "ans": "It does not need a direct object."
+          },
+          {
+            "q": "Which Spanish phrase best translates 'to get by'?",
+            "opts": [
+              "Conseguir algo",
+              "Apañárselas / arreglárselas",
+              "Pasar por",
+              "Obtener"
+            ],
+            "ans": "Apañárselas / arreglárselas"
+          },
+          {
+            "q": "Rephrase using 'get by': 'I can manage with the money I earn.'",
+            "opts": [
+              "I can get by the money I earn.",
+              "I can get by with the money I earn.",
+              "I can get by for the money I earn.",
+              "I get by on earned money."
+            ],
+            "ans": "I can get by with the money I earn."
+          }
+        ]
+      },
+      {
+        "title": "Test · As If / As Though",
+        "key": "juls_20260608_asif",
+        "qs": [
+          {
+            "q": "In a conditional with 'as if', which is correct for all subjects?",
+            "opts": [
+              "He speaks as if he was 80 years old.",
+              "He speaks as if he is 80 years old.",
+              "He speaks as if he were 80 years old.",
+              "He speaks as if he will be 80 years old."
+            ],
+            "ans": "He speaks as if he were 80 years old."
+          },
+          {
+            "q": "'As if' and 'as though' are…",
+            "opts": [
+              "Opposite in meaning.",
+              "Interchangeable — both mean 'como si'.",
+              "'As if' is formal; 'as though' is informal.",
+              "Only used in the past tense."
+            ],
+            "ans": "Interchangeable — both mean 'como si'."
+          },
+          {
+            "q": "After 'as if / as though', which verb form do we use?",
+            "opts": [
+              "Infinitive",
+              "Present simple",
+              "Past simple (subjunctive equivalent)",
+              "Future simple"
+            ],
+            "ans": "Past simple (subjunctive equivalent)"
+          },
+          {
+            "q": "Translate: 'Prefiero vivir como si fuese la persona más afortunada del mundo.'",
+            "opts": [
+              "I prefer to live as if I am the luckiest person in the world.",
+              "I prefer to live as if I were the luckiest person in the world.",
+              "I prefer to live as if I was the luckiest person in the world.",
+              "I prefer to live as if I will be the luckiest person in the world."
+            ],
+            "ans": "I prefer to live as if I were the luckiest person in the world."
+          }
+        ]
+      }
+    ]
   }
 ]
