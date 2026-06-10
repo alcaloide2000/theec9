@@ -3543,52 +3543,6 @@
     ],
     "tests": [
       {
-        "title": "Test · Warm-Up Translations",
-        "key": "juls_20260608_warmup",
-        "qs": [
-          {
-            "q": "Translate: '¿Puedes apañarte con tu sueldo?'",
-            "opts": [
-              "Can you get by with your salary?",
-              "Can you get by on your salary?",
-              "Can you get by for your salary?",
-              "Can you get by at your salary?"
-            ],
-            "ans": "Can you get by on your salary?"
-          },
-          {
-            "q": "Translate: 'Se las arreglaron porque tuvieron ayuda.'",
-            "opts": [
-              "They got by even though they had help.",
-              "They got by because they had help.",
-              "They get by because they have help.",
-              "They were getting by with help."
-            ],
-            "ans": "They got by because they had help."
-          },
-          {
-            "q": "Translate: 'Actúas como si no supieses la respuesta.'",
-            "opts": [
-              "You act as if you don't know the answer.",
-              "You act as if you didn't know the answer.",
-              "You act as if you will not know the answer.",
-              "You act as though you knew not the answer."
-            ],
-            "ans": "You act as if you didn't know the answer."
-          },
-          {
-            "q": "Translate: 'Es como si el fin de semana fuera interminable.'",
-            "opts": [
-              "It is as if the weekend is never-ending.",
-              "It is as if the weekend were never-ending.",
-              "It is as if the weekend was never-ending.",
-              "It is as the weekend were never-ending."
-            ],
-            "ans": "It is as if the weekend were never-ending."
-          }
-        ]
-      },
-      {
         "title": "Test · To Get By",
         "key": "juls_20260608_getby",
         "qs": [
