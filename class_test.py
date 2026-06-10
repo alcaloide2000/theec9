@@ -225,7 +225,7 @@ else:
         BASE_PATH / "assets/profilepictures/kyle.jpg",
         BASE_PATH / "assets/profilepictures/julia.jpg",
         BASE_PATH / "assets/profilepictures/juls.jpg",
-        None,  # no profile picture for Natural English yet
+        BASE_PATH / "assets/profilepictures/julia.jpg",
     ])
     tab_kyle, tab_julia, tab_juls, tab_natural = st.tabs([
         "English with Kyle",
