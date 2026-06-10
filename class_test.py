@@ -63,6 +63,8 @@ img.complete?build():img.onload=build;
 def _inject_tab_avatars(pic_paths):
     css_rules = []
     for i, pic in enumerate(pic_paths, start=1):
+        if pic is None:
+            continue
         with open(pic, "rb") as f:
             b64 = base64.b64encode(f.read()).decode()
         css_rules.append(f"""
@@ -217,13 +219,20 @@ else:
     kyle_classes = [c for c in _cache if c.get("teacher", "kyle") == "kyle"]
     julia_classes = [c for c in _cache if c.get("teacher") == "julia"]
     juls_classes = [c for c in _cache if c.get("teacher") == "juls"]
+    natural_classes = [c for c in _cache if c.get("teacher") == "natural"]
 
     _inject_tab_avatars([
         BASE_PATH / "assets/profilepictures/kyle.jpg",
         BASE_PATH / "assets/profilepictures/julia.jpg",
         BASE_PATH / "assets/profilepictures/juls.jpg",
+        None,  # no profile picture for Natural English yet
     ])
-    tab_kyle, tab_julia, tab_juls = st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])
+    tab_kyle, tab_julia, tab_juls, tab_natural = st.tabs([
+        "English with Kyle",
+        "Essential English · Julia",
+        "English Time with Juls",
+        "Natural English",
+    ])
 
     with tab_kyle:
         kyle_tab_classes, kyle_tab_mindmap = st.tabs(["Classes", "🧠 Mind Map"])
@@ -237,3 +246,6 @@ else:
 
     with tab_juls:
         _render_teacher_tab(juls_classes, "sel_juls")
+
+    with tab_natural:
+        _render_teacher_tab(natural_classes, "sel_natural")

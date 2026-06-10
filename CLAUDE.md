@@ -64,11 +64,11 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Page title:** "Reviewing The English Collective" — set in both `st.set_page_config` and `st.title()`.
 
-**Three outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls`) for the selected class index.
+**Four outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls", "Natural English"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"` / `"natural"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls` / `sel_natural`) for the selected class index.
 
 **Kyle sub-tabs:** The English with Kyle tab contains two nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map"])`. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab.
 
-**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`. An additional CSS rule using `[role="tabpanel"] button[data-baseweb="tab"]::after { content: none }` cancels the avatar bleed onto nested sub-tabs.
+**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`. Pass `None` in the list for a tab that has no profile picture yet — the function skips it silently. An additional CSS rule using `[role="tabpanel"] button[data-baseweb="tab"]::after { content: none }` cancels the avatar bleed onto nested sub-tabs.
 
 **Class selector:** Within each tab, buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
 
@@ -112,9 +112,9 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Section fields:** `image` and `image_hotspots` are optional. If `image` is present without `image_hotspots`, the image is rendered with `st.image()`. If both are present, `_render_hotspot_image()` renders it as an inline HTML component with interactive hover regions. Hotspot coordinates (`x`, `y`, `w`, `h`) are percentages of the image dimensions. `content` (markdown) always renders below the image.
 
-**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes, `"juls"` for English Time with Juls classes. Defaults to `"kyle"` if absent (for backwards compatibility).
+**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes, `"juls"` for English Time with Juls classes, `"natural"` for Natural English classes. Defaults to `"kyle"` if absent (for backwards compatibility).
 
-**MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, or `assets/classes/english_time_with_juls/` depending on teacher.
+**MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, `assets/classes/english_time_with_juls/`, or `assets/classes/natural_english/` depending on teacher.
 
 **Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
