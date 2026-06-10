@@ -118,9 +118,26 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
-**Tests:** Every class entry must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class.
+**Tests:** Kyle class entries must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural) do **not** have a warm-up section — omit that test entirely for them.
 
-**After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content — new grammar sections, phrasal verbs, vocabulary, and increment the class count in the header. Then sync: `cp mindmap_kyle.html static/mindmap_kyle.html` so the static-served version stays up to date.
+**After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content, increment the class count in the header, and sync: `cp mindmap_kyle.html static/mindmap_kyle.html`. Always commit both files together.
+
+**Mindmap branch categorisation:** Place each new `###` node under the correct `##` branch:
+
+| Content type | `##` branch |
+|---|---|
+| Pronunciation rules, silent letters, phonetics, sound distinctions | `## Pronunciation Tips` |
+| Phrasal verbs (including *take over for*, *get by*, etc.) | `## Phrasal Verbs` |
+| Grammar rules, tenses, structures, connectors, verb patterns | `## Grammar Rules` |
+| Prepositions of place | `## Prepositions of Place` |
+| Time prepositions (in/on/at), time expressions | `## Time Expressions` |
+| Interrogative structures, question formation | `## Interrogative Challenge` |
+| Describing people, personality adjectives | `## Describing People` |
+| Formal/business English, formal vocabulary | `## Formal English & Business` |
+| Vocabulary groups, confusable words, idioms, themed word sets | `## Vocabulary Themes` |
+| Warm-up translation exercises | `## Warm-Up Translations` |
+
+If a topic doesn't fit any existing branch, flag it to the user rather than guessing.
 
 **Images in class sections:** If a section references an `"image"` field (e.g. `"assets/classes/english_with_kyle/prepositions.png"`), the image file must be committed to git — MP4 files are gitignored but images are not.
 
