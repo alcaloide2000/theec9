@@ -30,6 +30,41 @@
   .markmap { position: fixed; top: 0; left: 0; right: 0; bottom: 0; touch-action: none; }
   .markmap svg { width: 100% !important; height: 100% !important; display: block; }
 
+  /* Search bar */
+  .search-wrap { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+  #searchInput {
+    padding: 4px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 16px;
+    font-size: 12px;
+    outline: none;
+    width: 200px;
+    background: #ffffff;
+    color: #333333;
+    transition: border-color 0.2s;
+  }
+  #searchInput:focus { border-color: #7878b8; box-shadow: 0 0 0 2px rgba(120,120,184,0.15); }
+  #searchInput::placeholder { color: #bbbbbb; }
+  .sbtn {
+    padding: 4px 14px;
+    border: none;
+    border-radius: 14px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.15s;
+    white-space: nowrap;
+  }
+  #btnSearch { background: #7878b8; color: #ffffff; }
+  #btnSearch:hover { background: #5a5aa0; }
+  #btnClear { background: #e8e8e8; color: #555555; display: none; }
+  #btnClear:hover { background: #d0d0d0; }
+  #searchCount { font-size: 11px; color: #7878b8; min-width: 70px; font-weight: 600; }
+
+  /* Highlight matched nodes */
+  g.markmap-node.search-match {
+    filter: drop-shadow(0 0 4px #e06000) drop-shadow(0 0 9px #ff9900);
+  }
+
   /* Ensure node labels are visible in all iframe contexts */
   g.markmap-node foreignObject { color: #333333 !important; overflow: visible; }
   g.markmap-node foreignObject body { color: #333333 !important; }
@@ -41,6 +76,7 @@
     .header { padding: 8px 16px; gap: 10px; }
     .header strong { font-size: 14px; }
     .hint { display: none; }
+    #searchInput { width: 160px; }
   }
 
   /* ── Responsive: mobile ──────────────────────────────────────────────────── */
@@ -52,12 +88,22 @@
     }
     .header strong { font-size: 13px; }
     .hint { display: none; }
+    .search-wrap { width: 100%; }
+    #searchInput { flex: 1; width: auto; min-width: 0; font-size: 16px; }
+    .sbtn { padding: 6px 14px; font-size: 13px; }
+    #searchCount { min-width: 60px; }
   }
 </style>
 </head>
 <body>
 <div class="header">
   <strong>English with Kyle — Complete Mind Map (10 classes)</strong>
+  <div class="search-wrap">
+    <input id="searchInput" type="text" placeholder="Search a word…" autocomplete="off" />
+    <button id="btnSearch" class="sbtn">Search</button>
+    <button id="btnClear" class="sbtn">✕ Clear</button>
+    <span id="searchCount"></span>
+  </div>
   <span class="hint">Scroll to zoom &nbsp;·&nbsp; Drag to pan &nbsp;·&nbsp; Click to expand</span>
 </div>
 <div class="markmap">
@@ -643,7 +689,90 @@ markmap:
   }
 })();
 
-// ── PART 2: Streamlit iframe auto-resize ─────────────────────────────────────
+// ── PART 2: Search ───────────────────────────────────────────────────────────
+(function () {
+  const input   = document.getElementById('searchInput');
+  const btnSearch = document.getElementById('btnSearch');
+  const btnClear  = document.getElementById('btnClear');
+  const countEl   = document.getElementById('searchCount');
+
+  function clearHighlights() {
+    document.querySelectorAll('g.markmap-node.search-match')
+            .forEach(el => el.classList.remove('search-match'));
+  }
+
+  // Walk the INode data tree rooted at d (or d.data if d is a D3 HierarchyNode).
+  // INode.children always contains ALL children regardless of fold state,
+  // so this finds matches even inside collapsed branches not yet in the DOM.
+  function subtreeHasMatch(d, q) {
+    const node = (d && d.data !== undefined) ? d.data : d;
+    if (!node) return false;
+    const text = (node.content || '').replace(/<[^>]*>/g, '').toLowerCase();
+    if (text.includes(q)) return true;
+    return (node.children || []).some(c => subtreeHasMatch(c, q));
+  }
+
+  function highlightDOM(q) {
+    const svg = document.querySelector('svg.markmap');
+    if (!svg) return;
+    let count = 0;
+    svg.querySelectorAll('g.markmap-node').forEach(g => {
+      if (g.textContent.toLowerCase().includes(q)) {
+        g.classList.add('search-match');
+        count++;
+      }
+    });
+    countEl.textContent = count > 0 ? count + ' match' + (count !== 1 ? 'es' : '') : 'No matches';
+    btnClear.style.display = 'inline-block';
+  }
+
+  function doSearch() {
+    const q = input.value.trim().toLowerCase();
+    clearHighlights();
+    if (!q) { countEl.textContent = ''; btnClear.style.display = 'none'; return; }
+
+    const svg = document.querySelector('svg.markmap');
+    if (!svg) { highlightDOM(q); return; }
+
+    // Each round: click the <circle> inside every collapsed node whose data
+    // subtree contains q. The circle is markmap's actual fold-toggle target.
+    // Repeat because expanding one level reveals newly visible collapsed nodes.
+    function expandRound(round) {
+      let expanded = false;
+      svg.querySelectorAll('g.markmap-node').forEach(g => {
+        const d = g.__data__;
+        const folded = g.classList.contains('markmap-fold') ||
+          !!(d && ((d.payload && d.payload.fold) ||
+                   (d.data && d.data.payload && d.data.payload.fold)));
+        if (folded && subtreeHasMatch(d, q)) {
+          const circle = g.querySelector('circle');
+          if (circle) circle.dispatchEvent(new MouseEvent('click', { bubbles: false }));
+          expanded = true;
+        }
+      });
+      if (!expanded || round > 6) { highlightDOM(q); return; }
+      setTimeout(() => expandRound(round + 1), 400);
+    }
+    expandRound(0);
+  }
+
+  function doClear() {
+    input.value = '';
+    clearHighlights();
+    countEl.textContent = '';
+    btnClear.style.display = 'none';
+    input.focus();
+  }
+
+  btnSearch.addEventListener('click', doSearch);
+  btnClear.addEventListener('click', doClear);
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') doSearch();
+    if (e.key === 'Escape') doClear();
+  });
+})();
+
+// ── PART 3: Streamlit iframe auto-resize ─────────────────────────────────────
 (function () {
   function reportHeight() {
     try {
