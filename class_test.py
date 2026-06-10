@@ -198,6 +198,19 @@ for _cls in _cache:
                 st.session_state.pop(f"{_tk}_q{_qi}", None)
             st.rerun()
 
+# Deep-link: /?class=kyle_XXXXXXXX jumps straight to that class in the Kyle tab.
+_qp_class = st.query_params.get("class")
+if _qp_class:
+    _kyle_sorted = sorted(
+        [c for c in _cache if c.get("teacher", "kyle") == "kyle"],
+        key=lambda c: c["date"], reverse=True,
+    )
+    for _i, _c in enumerate(_kyle_sorted):
+        if _c["id"] == _qp_class:
+            st.session_state["sel_kyle"] = _i
+            break
+    st.query_params.clear()
+
 if not _cache:
     st.info("No class content available.")
 else:
