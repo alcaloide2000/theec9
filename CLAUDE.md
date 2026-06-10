@@ -124,6 +124,30 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Images in class sections:** If a section references an `"image"` field (e.g. `"assets/classes/english_with_kyle/prepositions.png"`), the image file must be committed to git — MP4 files are gitignored but images are not.
 
+## mindmap_kyle.html architecture
+
+Standalone markmap interactive mind map. Served as a static file at `/app/static/mindmap_kyle.html`. Opened via `st.link_button` in the 🧠 Mind Map sub-tab.
+
+**Instance capture (PART 1):** Intercepts `window.markmap.Markmap.create` before markmap-autoloader calls it. Handles both sync and async return values (markmap-autoloader@0.14 / markmap-lib@0.17 can return a Promise):
+```javascript
+M.create = function (...args) {
+    const result = orig.apply(this, args);
+    if (result && typeof result.then === 'function') result.then(onInstance);
+    else onInstance(result);
+    return result;
+};
+```
+
+**Search (PART 2):** `doSearch()` expands all collapsed branches before highlighting. Uses CSS class detection — markmap adds `markmap-fold` to every `<g class="markmap-node">` that is currently collapsed. Simulates a click on each collapsed node, which triggers markmap's own internal fold-toggle handler (bypasses the private/minified `renderData` method entirely). Waits 700 ms for D3 transitions to finish, then calls `highlightDOM(q)`.
+
+Do NOT try to call `mm.renderData()` or `mm.setData()` to trigger re-renders — `renderData` is a private method that gets renamed during minification and is not accessible as `instance.renderData`. `setData` re-initializes fold state via `initializeData`, destroying any manual fold changes.
+
+**Key CSS classes set by markmap-view:**
+- `g.markmap-node` — every node in the tree
+- `g.markmap-node.markmap-fold` — collapsed nodes only
+
+**Sync requirement:** After every edit to `mindmap_kyle.html`, run `cp mindmap_kyle.html static/mindmap_kyle.html` and commit both files.
+
 ## Deployment
 
 Two separate Render web services, both auto-deploy on push to `master` at `github.com/alcaloide2000/theec9`.
