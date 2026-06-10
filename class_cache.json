@@ -3420,5 +3420,107 @@
         ]
       }
     ]
+  },
+  {
+    "id": "natural_20260605",
+    "title": "Natural English",
+    "date": "2026-06-05",
+    "topic": "Natural Reactions in Context",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Goal of This Class",
+        "expanded": false,
+        "content": "This Friday class focuses on **natural reactions** — the automatic responses native speakers use in everyday conversation.\n\n> We often learn to *produce* language (build sentences) but rarely practice *reacting* to what others say. This class fills that gap.\n\nThe four reaction categories practised today:\n\n| Category | Purpose |\n|---|---|\n| **Understanding** | Show you have understood |\n| **Agreement** | Show you agree |\n| **Doubt** | Express uncertainty |\n| **Thinking** | Buy time before answering |"
+      },
+      {
+        "title": "2. Showing Understanding",
+        "expanded": false,
+        "content": "When someone explains something and you want to show you have understood:\n\n| Expression | Notes |\n|---|---|\n| **Makes sense** | Drop *it / that* — more natural than *it makes sense* |\n| **I get it** | Very common, casual |\n| **Fair enough** | Accepting their reason as valid |\n| **I see** | Simple acknowledgement |\n| **Got it** / **Ah, got it** | Signals you have just understood |\n\n**Example:** *\"I was not at the meeting — I was not feeling well.\"*\n→ *Makes sense · Fair enough · Got it*"
+      },
+      {
+        "title": "3. Showing Agreement",
+        "expanded": false,
+        "content": "When you fully agree with what someone said:\n\n| Expression | Notes |\n|---|---|\n| **Absolutely** | Strong, enthusiastic agreement |\n| **For sure** | Casual, confident agreement |\n| **Couldn't agree more** | Emphatic — you agree 100% |\n| **Totally** | Informal, very common |\n| **Definitely** | Clear, confident agreement |\n| **Exactly** | You think exactly the same |\n\n**Example:** *\"Sleeping eight hours a day is fantastic.\"* → agree\n→ *For sure · Couldn't agree more · Totally*"
+      },
+      {
+        "title": "4. Expressing Doubt",
+        "expanded": false,
+        "content": "When you are not sure or cannot give a definite answer:\n\n| Expression | Notes |\n|---|---|\n| **It depends** | The answer varies by circumstances |\n| **I'm not sure** | Simple uncertainty |\n| **Maybe** | Possibility, but no commitment |\n| **Hard to say** | Difficult to give a clear answer |\n| **I'm not convinced** | You have some doubts |\n\n**Example:** *\"Will AI replace teachers?\"* → doubt\n→ *It depends · Hard to say · I'm not convinced*"
+      },
+      {
+        "title": "5. Buying Time to Think",
+        "expanded": false,
+        "content": "When you need a moment before answering:\n\n| Expression | Notes |\n|---|---|\n| **That's a good question** | Buys time while sounding engaged |\n| **Honestly...** | Signals a thoughtful, genuine answer |\n| **Let me think...** | Direct — you need a moment |\n| **I've never thought about that** | Shows the question caught you off guard |\n| **Off the top of my head...** | Giving an immediate, unpolished answer |\n\n**Example:** *\"What's your dream job?\"* → think\n→ *That's a good question · Let me think · Off the top of my head...*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Natural Reactions",
+        "key": "natural_20260605_reactions",
+        "qs": [
+          {
+            "q": "Your friend missed the meeting because of a headache. You want to show understanding. What is the most natural response?",
+            "opts": [
+              "I understand completely.",
+              "Makes sense.",
+              "Couldn't agree more.",
+              "Hard to say."
+            ],
+            "ans": "Makes sense."
+          },
+          {
+            "q": "Someone says: \"Getting enough sleep is really important.\" You totally agree. What do you say?",
+            "opts": [
+              "It depends.",
+              "I'm not sure.",
+              "Couldn't agree more.",
+              "Let me think."
+            ],
+            "ans": "Couldn't agree more."
+          },
+          {
+            "q": "Someone asks: \"Will AI replace all teachers?\" You are uncertain. What do you say?",
+            "opts": [
+              "Absolutely.",
+              "Got it.",
+              "Hard to say.",
+              "Fair enough."
+            ],
+            "ans": "Hard to say."
+          },
+          {
+            "q": "You are asked: \"What is your biggest fear?\" You need a moment to think. What do you say?",
+            "opts": [
+              "For sure.",
+              "Off the top of my head...",
+              "I see.",
+              "Couldn't agree more."
+            ],
+            "ans": "Off the top of my head..."
+          },
+          {
+            "q": "A colleague explains why they were late and you accept their reason. What do you say?",
+            "opts": [
+              "Maybe.",
+              "Exactly.",
+              "Fair enough.",
+              "I've never thought about that."
+            ],
+            "ans": "Fair enough."
+          },
+          {
+            "q": "Someone proposes an idea and you agree 100%. Which expression shows the STRONGEST agreement?",
+            "opts": [
+              "Maybe.",
+              "I'm not sure.",
+              "Couldn't agree more.",
+              "I've never thought about that."
+            ],
+            "ans": "Couldn't agree more."
+          }
+        ]
+      }
+    ]
   }
 ]
