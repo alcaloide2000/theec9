@@ -30,53 +30,17 @@
   .markmap { position: fixed; top: 0; left: 0; right: 0; bottom: 0; touch-action: none; }
   .markmap svg { width: 100% !important; height: 100% !important; display: block; }
 
-  /* Search bar */
-  .search-wrap { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
-  #searchInput {
-    padding: 4px 12px;
-    border: 1px solid #cccccc;
-    border-radius: 16px;
-    font-size: 12px;
-    outline: none;
-    width: 200px;
-    background: #ffffff;
-    color: #333333;
-    transition: border-color 0.2s;
-  }
-  #searchInput:focus { border-color: #7878b8; box-shadow: 0 0 0 2px rgba(120,120,184,0.15); }
-  #searchInput::placeholder { color: #bbbbbb; }
-  .sbtn {
-    padding: 4px 14px;
-    border: none;
-    border-radius: 14px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: background 0.15s;
-    white-space: nowrap;
-  }
-  #btnSearch { background: #7878b8; color: #ffffff; }
-  #btnSearch:hover { background: #5a5aa0; }
-  #btnClear { background: #e8e8e8; color: #555555; display: none; }
-  #btnClear:hover { background: #d0d0d0; }
-  #searchCount { font-size: 11px; color: #7878b8; min-width: 70px; font-weight: 600; }
-
   /* Ensure node labels are visible in all iframe contexts */
   g.markmap-node foreignObject { color: #333333 !important; overflow: visible; }
   g.markmap-node foreignObject body { color: #333333 !important; }
   g.markmap-node foreignObject div { color: #333333 !important; display: inline-block !important; }
   g.markmap-node text { fill: #333333 !important; }
 
-  /* Highlight matched nodes with a warm glow */
-  g.markmap-node.search-match {
-    filter: drop-shadow(0 0 4px #e06000) drop-shadow(0 0 9px #ff9900);
-  }
-
   /* ── Responsive: tablet ──────────────────────────────────────────────────── */
   @media (max-width: 900px) {
     .header { padding: 8px 16px; gap: 10px; }
     .header strong { font-size: 14px; }
     .hint { display: none; }
-    #searchInput { width: 160px; }
   }
 
   /* ── Responsive: mobile ──────────────────────────────────────────────────── */
@@ -88,22 +52,12 @@
     }
     .header strong { font-size: 13px; }
     .hint { display: none; }
-    .search-wrap { width: 100%; }
-    #searchInput { flex: 1; width: auto; min-width: 0; font-size: 16px; /* prevent iOS zoom */ }
-    .sbtn { padding: 6px 14px; font-size: 13px; }
-    #searchCount { min-width: 60px; }
   }
 </style>
 </head>
 <body>
 <div class="header">
   <strong>English with Kyle — Complete Mind Map (10 classes)</strong>
-  <div class="search-wrap">
-    <input id="searchInput" type="text" placeholder="Search a word…" autocomplete="off" />
-    <button id="btnSearch" class="sbtn">Search</button>
-    <button id="btnClear" class="sbtn">✕ Clear</button>
-    <span id="searchCount"></span>
-  </div>
   <span class="hint">Scroll to zoom &nbsp;·&nbsp; Drag to pan &nbsp;·&nbsp; Click to expand</span>
 </div>
 <div class="markmap">
@@ -689,107 +643,7 @@ markmap:
   }
 })();
 
-// ── PART 2: Search UI ────────────────────────────────────────────────────────
-(function () {
-  const input      = document.getElementById('searchInput');
-  const btnSearch  = document.getElementById('btnSearch');
-  const btnClear   = document.getElementById('btnClear');
-  const countEl    = document.getElementById('searchCount');
-
-  function clearHighlights() {
-    document.querySelectorAll('g.markmap-node.search-match')
-            .forEach(el => el.classList.remove('search-match'));
-  }
-
-  // Plain text from a markmap data node (content is an HTML string)
-  function nodeText(node) {
-    const tmp = document.createElement('div');
-    tmp.innerHTML = node.content || '';
-    return tmp.textContent || '';
-  }
-
-  // Walk the full data tree. Fold every branch that has NO match,
-  // unfold every branch that leads to at least one match.
-  // Returns true if this node or any descendant matches.
-  function applyFold(node, q) {
-    const self = nodeText(node).toLowerCase().includes(q);
-    let child = false;
-    if (node.children) {
-      for (const c of node.children) {
-        if (applyFold(c, q)) child = true;
-      }
-    }
-    const match = self || child;
-    if (!node.payload) node.payload = {};
-    node.payload.fold = match ? 0 : 1;
-    return match;
-  }
-
-  // Highlight every visible DOM node that contains q
-  function highlightDOM(q) {
-    const svg = document.querySelector('svg.markmap');
-    if (!svg) return;
-    let count = 0;
-    svg.querySelectorAll('g.markmap-node').forEach(node => {
-      if (node.textContent.toLowerCase().includes(q)) {
-        node.classList.add('search-match');
-        count++;
-      }
-    });
-    countEl.textContent = count > 0
-      ? count + ' match' + (count !== 1 ? 'es' : '')
-      : 'No matches';
-    btnClear.style.display = 'inline-block';
-  }
-
-  function doSearch() {
-    const q = input.value.trim().toLowerCase();
-    clearHighlights();
-    if (!q) { countEl.textContent = ''; btnClear.style.display = 'none'; return; }
-
-    const svg = document.querySelector('svg.markmap');
-    if (!svg) { highlightDOM(q); return; }
-
-    // Expand every collapsed node by simulating a click — markmap adds the
-    // class "markmap-fold" to collapsed <g class="markmap-node"> elements,
-    // and its internal click handler toggles the fold state + re-renders.
-    const collapsed = [...svg.querySelectorAll('g.markmap-node.markmap-fold')];
-
-    // Fallback: detect via D3 __data__ if markmap-fold class is absent
-    if (!collapsed.length) {
-      svg.querySelectorAll('g.markmap-node').forEach(g => {
-        const d = g.__data__;
-        const fold = d && (
-          (d.payload && d.payload.fold) ||
-          (d.data && d.data.payload && d.data.payload.fold)
-        );
-        if (fold) collapsed.push(g);
-      });
-    }
-
-    collapsed.forEach(g => g.dispatchEvent(new MouseEvent('click', { bubbles: false })));
-
-    // Wait for D3 transitions to finish, then highlight
-    setTimeout(() => highlightDOM(q), collapsed.length > 0 ? 700 : 50);
-  }
-
-  function doClear() {
-    input.value = '';
-    clearHighlights();
-    countEl.textContent = '';
-    btnClear.style.display = 'none';
-    input.focus();
-  }
-
-  btnSearch.addEventListener('click', doSearch);
-  btnClear.addEventListener('click', doClear);
-  input.addEventListener('keydown', e => {
-    if (e.key === 'Enter') doSearch();
-    if (e.key === 'Escape') doClear();
-  });
-})();
-
-// ── PART 3: Streamlit iframe auto-resize ─────────────────────────────────────
+// ── PART 2: Streamlit iframe auto-resize ─────────────────────────────────────
 (function () {
   function reportHeight() {
     try {

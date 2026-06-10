@@ -138,14 +138,6 @@ M.create = function (...args) {
 };
 ```
 
-**Search (PART 2):** `doSearch()` expands all collapsed branches before highlighting. Uses CSS class detection — markmap adds `markmap-fold` to every `<g class="markmap-node">` that is currently collapsed. Simulates a click on each collapsed node, which triggers markmap's own internal fold-toggle handler (bypasses the private/minified `renderData` method entirely). Waits 700 ms for D3 transitions to finish, then calls `highlightDOM(q)`.
-
-Do NOT try to call `mm.renderData()` or `mm.setData()` to trigger re-renders — `renderData` is a private method that gets renamed during minification and is not accessible as `instance.renderData`. `setData` re-initializes fold state via `initializeData`, destroying any manual fold changes.
-
-**Key CSS classes set by markmap-view:**
-- `g.markmap-node` — every node in the tree
-- `g.markmap-node.markmap-fold` — collapsed nodes only
-
 **Sync requirement:** After every edit to `mindmap_kyle.html`, run `cp mindmap_kyle.html static/mindmap_kyle.html` and commit both files.
 
 ## Deployment
