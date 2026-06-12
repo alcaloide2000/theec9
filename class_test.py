@@ -65,6 +65,7 @@ def _inject_tab_avatars(pic_paths):
     for i, pic in enumerate(pic_paths, start=1):
         if pic is None:
             continue
+        mime = "image/png" if str(pic).lower().endswith(".png") else "image/jpeg"
         with open(pic, "rb") as f:
             b64 = base64.b64encode(f.read()).decode()
         css_rules.append(f"""
@@ -74,7 +75,7 @@ button[data-baseweb="tab"]:nth-child({i})::after {{
     width: 26px;
     height: 26px;
     border-radius: 50%;
-    background-image: url('data:image/jpeg;base64,{b64}');
+    background-image: url('data:{mime};base64,{b64}');
     background-size: cover;
     background-position: center;
     margin-left: 8px;
@@ -220,18 +221,21 @@ else:
     julia_classes = [c for c in _cache if c.get("teacher") == "julia"]
     juls_classes = [c for c in _cache if c.get("teacher") == "juls"]
     natural_classes = [c for c in _cache if c.get("teacher") == "natural"]
+    brain_buffet_classes = [c for c in _cache if c.get("teacher") == "brain_buffet"]
 
     _inject_tab_avatars([
         BASE_PATH / "assets/profilepictures/kyle.jpg",
         BASE_PATH / "assets/profilepictures/julia.jpg",
         BASE_PATH / "assets/profilepictures/juls.jpg",
         BASE_PATH / "assets/profilepictures/julia.jpg",
+        BASE_PATH / "assets/profilepictures/brain_buffet.png",
     ])
-    tab_kyle, tab_julia, tab_juls, tab_natural = st.tabs([
+    tab_kyle, tab_julia, tab_juls, tab_natural, tab_brain_buffet = st.tabs([
         "English with Kyle",
         "Essential English · Julia",
         "English Time with Juls",
         "Natural English",
+        "Brain Buffet",
     ])
 
     with tab_kyle:
@@ -249,3 +253,6 @@ else:
 
     with tab_natural:
         _render_teacher_tab(natural_classes, "sel_natural")
+
+    with tab_brain_buffet:
+        _render_teacher_tab(brain_buffet_classes, "sel_brain_buffet")

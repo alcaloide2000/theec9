@@ -3635,5 +3635,535 @@
         ]
       }
     ]
+  },
+  {
+    "id": "brain_buffet_20260611",
+    "title": "Brain Buffet",
+    "date": "2026-06-11",
+    "topic": "Patterns and Materials",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Storing Clothes — Vocabulary",
+        "expanded": false,
+        "content": "Three main options for storing clothes:\n\n| English | Spanish | Description |\n|---|---|---|\n| **Walk-in closet** | Vestidor | A room you walk into — no furniture needed |\n| **Wardrobe** | Armario (libre) | A freestanding piece of furniture |\n| **Built-in** | Armario empotrado | Fixed wardrobe that comes with the house; cannot be moved |\n\n> In Spain, most homes come with **built-ins**. In Germany and the UK, **wardrobes** are more common. Walk-in closets are often created by converting a spare bedroom."
+      },
+      {
+        "title": "2. Clothing Patterns & Fit  ★ Main topic",
+        "expanded": true,
+        "content": "### Patterns\n\n| Word | Spanish | Description |\n|---|---|---|\n| **Checked** | A cuadros | Horizontal and vertical lines crossing each other |\n| **Striped** | A rayas | Parallel lines |\n| **Polka dot** | De lunares | Round dots on a plain background |\n| **Floral** | Floral / de flores | Flower motifs |\n| **Patterned** | Estampado / con dibujos | Any decorative design (e.g. geometric shapes) |\n| **Plain** | Liso | No pattern — solid colour only |\n\n---\n\n### Fit\n\n| Word | Spanish | Description |\n|---|---|---|\n| **Tight** | Ajustado / apretado | Fits closely to the body |\n| **Baggy** | Amplio / holgado | Loose, wide fit — easy to move in |"
+      },
+      {
+        "title": "3. Clothing Materials",
+        "expanded": false,
+        "content": "| Material | Spanish | Notes |\n|---|---|---|\n| **Leather** | Cuero / piel | Durable; used for jackets and shoes |\n| **Cotton** | Algodón | Breathable and common |\n| **Silk** | Seda | Smooth and delicate; considered luxurious |\n| **Denim** | Tela vaquera | The fabric jeans are made of |\n| **Polyester** | Poliéster | Synthetic (man-made) fabric |\n| **Corduroy** | Pana | Thick, soft fabric with raised parallel ridges |\n| **Linen** | Lino | Light summer fabric — creases / wrinkles easily |\n\n> **Linen** creases so much it becomes part of the look — great for summer but not very practical the rest of the year."
+      },
+      {
+        "title": "4. Pronunciation: -ed Endings on Adjectives",
+        "expanded": false,
+        "content": "When adjectives are formed with **-ed**, the ending does NOT always add a new syllable.\n\n| Word | Pronunciation | Rule |\n|---|---|---|\n| **striped** | /straɪpt/ | -ed → **t** (after voiceless consonant *p*) |\n| **checked** | /tʃekt/ | -ed → **t** (after voiceless consonant *k*) |\n| **patterned** | /ˈpætərnd/ | -ed → **d** (after voiced consonant *n*) |\n\n**Floral:** /ˈflɔːrəl/ — the 'o' is a close, rounded sound. Avoid the open 'a': ~~flAral~~ ✗ → **floral** ✓\n\n> Rule of thumb for -ed endings: after voiceless consonants (p, k, s, ch…) → **/t/**; after voiced sounds → **/d/**; after *t* or *d* → **/ɪd/** (adds a syllable, e.g. *wanted*, *needed*)."
+      },
+      {
+        "title": "5. Irregular Plural: Scarf → Scarves",
+        "expanded": false,
+        "content": "Nouns ending in **-f** or **-fe** usually form the plural by changing to **-ves**:\n\n| Singular | Plural |\n|---|---|\n| scarf | **scarves** |\n| half | **halves** |\n| leaf | **leaves** |\n| life | **lives** |\n| knife | **knives** |\n| wife | **wives** |\n\n> Remove the *f* and add **ves** — not just *s*."
+      },
+      {
+        "title": "6. Question Formation: Ask me if / Ask me whether",
+        "expanded": false,
+        "content": "**\"Ask me if\"** and **\"ask me whether\"** are interchangeable — both introduce an indirect question. The answer is a direct question in normal question word order.\n\n| Instruction | Direct question |\n|---|---|\n| Ask me if I own a leather jacket | **Do you own** a leather jacket? |\n| Ask me when I last wore denim jeans | **When did you last wear** denim jeans? |\n| Ask me whether I prefer cotton or polyester | **Do you prefer** cotton or polyester? |\n| Ask me if I would wear a silk shirt to work | **Would you wear** a silk shirt to work? |\n| Ask me which material I wear most often | **Which material do you wear** most often? |\n| Ask me if I have anything made of corduroy | **Do you have** anything made of corduroy? |\n| Ask me whether linen is practical in winter | **Is linen** practical in winter? |\n| Ask me what I usually wear at home | **What do you usually wear** at home? |\n| Ask me if expensive clothes are always better | **Are expensive clothes** always better? |\n\n> *If* and *whether* are both correct in these instructions — don't be confused when you see both used interchangeably."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Clothing Patterns",
+        "key": "bb_20260611_patterns",
+        "qs": [
+          {
+            "q": "Which word describes a fabric with horizontal and vertical lines crossing each other?",
+            "opts": [
+              "Striped",
+              "Checked",
+              "Polka dot",
+              "Plain"
+            ],
+            "ans": "Checked"
+          },
+          {
+            "q": "\"She wore a ___ dress with tiny red dots on a white background.\"",
+            "opts": [
+              "Floral",
+              "Striped",
+              "Polka dot",
+              "Checked"
+            ],
+            "ans": "Polka dot"
+          },
+          {
+            "q": "What does \"baggy\" mean?",
+            "opts": [
+              "Tight-fitting",
+              "Patterned",
+              "Loose and wide",
+              "Colourful"
+            ],
+            "ans": "Loose and wide"
+          },
+          {
+            "q": "A ___ outfit has no pattern at all — just a single solid colour.",
+            "opts": [
+              "Floral",
+              "Patterned",
+              "Plain",
+              "Tight"
+            ],
+            "ans": "Plain"
+          },
+          {
+            "q": "\"He always wears ___ trousers when he travels because they're easy to move in.\"",
+            "opts": [
+              "Tight",
+              "Polka dot",
+              "Checked",
+              "Baggy"
+            ],
+            "ans": "Baggy"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Clothing Materials",
+        "key": "bb_20260611_materials",
+        "qs": [
+          {
+            "q": "What material are jeans typically made of?",
+            "opts": [
+              "Silk",
+              "Corduroy",
+              "Denim",
+              "Linen"
+            ],
+            "ans": "Denim"
+          },
+          {
+            "q": "Which fabric is described as a thick, soft material with raised parallel ridges?",
+            "opts": [
+              "Cotton",
+              "Polyester",
+              "Silk",
+              "Corduroy"
+            ],
+            "ans": "Corduroy"
+          },
+          {
+            "q": "Which material is known for creasing / wrinkling very easily?",
+            "opts": [
+              "Leather",
+              "Polyester",
+              "Linen",
+              "Cotton"
+            ],
+            "ans": "Linen"
+          },
+          {
+            "q": "Which of these is a synthetic (man-made) material?",
+            "opts": [
+              "Cotton",
+              "Silk",
+              "Linen",
+              "Polyester"
+            ],
+            "ans": "Polyester"
+          },
+          {
+            "q": "\"She always wears a ___ scarf — it's so smooth and luxurious.\"",
+            "opts": [
+              "Denim",
+              "Corduroy",
+              "Cotton",
+              "Silk"
+            ],
+            "ans": "Silk"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Pronunciation, Plurals & Question Formation",
+        "key": "bb_20260611_grammar",
+        "qs": [
+          {
+            "q": "How is the -ed ending pronounced in \"striped\"?",
+            "opts": [
+              "As a separate syllable /ɪd/",
+              "As the sound /t/",
+              "As the sound /d/",
+              "Silent"
+            ],
+            "ans": "As the sound /t/"
+          },
+          {
+            "q": "How is the -ed ending pronounced in \"patterned\"?",
+            "opts": [
+              "As a separate syllable /ɪd/",
+              "As the sound /t/",
+              "As the sound /d/",
+              "Silent"
+            ],
+            "ans": "As the sound /d/"
+          },
+          {
+            "q": "What is the correct plural of \"scarf\"?",
+            "opts": [
+              "Scarfs",
+              "Scarvs",
+              "Scarfes",
+              "Scarves"
+            ],
+            "ans": "Scarves"
+          },
+          {
+            "q": "\"Ask me whether linen is practical in winter\" → Which direct question is correct?",
+            "opts": [
+              "Whether is linen practical in winter?",
+              "Linen is practical in winter?",
+              "Is linen practical in winter?",
+              "Whether linen is practical in winter?"
+            ],
+            "ans": "Is linen practical in winter?"
+          },
+          {
+            "q": "\"Ask me when I last wore denim jeans\" → Which question is correct?",
+            "opts": [
+              "When you last wore denim jeans?",
+              "When did you last wore denim jeans?",
+              "When have you last worn denim jeans?",
+              "When did you last wear denim jeans?"
+            ],
+            "ans": "When did you last wear denim jeans?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kyle_20260611",
+    "title": "English with Kyle",
+    "date": "2026-06-11",
+    "topic": "Supposed to / Trip vs. Travel vs. Journey",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations  ★",
+        "expanded": true,
+        "content": "| Spanish | English |\n|---|---|\n| ¿Qué te pasa ahora? | What's the **matter** with you now? |\n| Voy a retorcerte el cuello | I'm going to **wring** your neck |\n| Me estás haciendo la vida imposible | You're making my life **miserable** |\n| Parece que me estás castigando | It seems like you're **punishing** me |\n| Creí que se cortó la línea | I thought we **got cut off** |\n| Tenemos que recortar gastos | We have to **cut back on** expenses |\n| ¿Qué conclusión sacaste de esto? | What conclusion do you **draw** from this? |\n| Tenemos que recurrir a financiación externa | We had to **resort to** outside financing |\n| ¿Cómo puedes soportar esa clase de arte? | How can you **stand** that kind of art? |\n| Si sigues intentando a la larga tendrás éxito | If you keep trying, you'll **eventually** succeed |\n| Como se fueron hace una hora, no creo que puedas alcanzarles | Since they left an hour ago, I **don't think** you can **catch up with** them |\n\n---\n\n### Key notes\n\n**To wring** — spelled W-R-I-N-G (not *ring*). To twist and squeeze something.\n- *to wring out* a cloth = escurrir un trapo\n- *to wring someone's neck* = retorcerle el cuello a alguien (dramatic expression)\n\n**\"I don't think\" + affirmative** is preferred over **\"I think\" + negative**:\n- ~~I think you won't be able to catch up with them.~~ ✗\n- **I don't think you'll be able to catch up with them.** ✓\n\n**Catch up with / Catch up on:**\n- *catch up **with** someone* = alcanzar a alguien (physically)\n- *catch up **on** something* = ponerse al día en algo\n> *I need to catch up on my reading. I need to catch up with him.*"
+      },
+      {
+        "title": "2. Vocabulary: Draw — Multiple Meanings",
+        "expanded": false,
+        "content": "The word **draw** has many different uses in English:\n\n| Use | Spanish | Example |\n|---|---|---|\n| to draw (a picture) | dibujar | *She's drawing a portrait.* |\n| a draw (result) | un empate | *The match ended in a draw.* |\n| to draw (attention) | atraer | *The noise drew everyone's attention.* |\n| to draw (water from a well) | sacar | *They drew water from the well.* |\n| to draw a conclusion | sacar una conclusión | *What conclusion do you draw from this?* |\n| to withdraw / draw out (money) | sacar dinero del banco | *I need to withdraw some cash. / Draw out some money.* |\n| a drawback | un inconveniente / punto negativo | *The main drawback is the cost.* |\n\n> **Win, Lose or Draw** — a classic game show where *draw* plays on both meanings: to sketch AND to tie."
+      },
+      {
+        "title": "3. Stand vs. Put up with / Resort to / Reach out to",
+        "expanded": false,
+        "content": "### Stand vs. Put up with\n\nBoth mean *soportar / aguantar*, but there is a subtle difference:\n\n| Expression | Best used for | Example |\n|---|---|---|\n| **can't stand** | Things, sensations, tastes, types of people | *I can't stand the taste of pineapple.* / *I can't stand noisy neighbours.* |\n| **can't put up with** | Behaviour, ongoing situations | *I can't put up with that behaviour.* / *I'll have to put up with it.* |\n\n> Both overlap in many cases. The fine point: you *can't stand* a thing; you *have to put up with* an action or ongoing situation.\n\n---\n\n### Resort to\n\n**To resort to** = recurrir a (usually to something undesirable or last-resort)\n\n> *We had to resort to outside financing.*\n\n---\n\n### Reach out to\n\n**To reach out to** someone = intentar establecer contacto con alguien\n\n> *Reach out to me if you need any help.*\n\nDon't confuse with *catch up with* (alcanzar físicamente) or *reach* (llegar)."
+      },
+      {
+        "title": "4. Grammar: Uses of ONE (el/la que, los/las que)",
+        "expanded": false,
+        "content": "**ONE** / **ONES** replace a noun already mentioned to avoid repetition — equivalent to Spanish *el/la que* and *los/las que*.\n\n### Examples\n\n| Spanish | English |\n|---|---|\n| El que está en la mesa es de ellos | **The one** on the table is theirs |\n| El tuyo es el que rechazamos | Yours is **the one** we rejected |\n| Este y aquel son de ella | **This one** and **that one** are hers |\n| ¿Cuál te gusta más? | Which **one** do you like best? |\n| Prefiero el que me enseñaste ayer | I prefer **the one** you showed me yesterday |\n| ¿Cuál quieres? ¿El de la mesa o el de la silla? | Which one do you want? **The one** on the table or **the one** on the chair? |\n| Los míos son los verdes | Mine are **the green ones** |\n\n---\n\n### Possessive pronouns — never use \"the\" before them\n\n| Spanish | Wrong ✗ | Correct ✓ |\n|---|---|---|\n| El mío | ~~The mine~~ | **Mine** |\n| Los míos son los verdes | ~~The mines are the green ones~~ | **Mine are the green ones** |\n| La de ellos sigue perdida | — | **Theirs** is still lost |\n\n> *Mine, yours, his, hers, ours, theirs* — these stand alone. No article, no change for singular/plural.\n\n---\n\n### These / Those — \"ones\" optional\n\n*Estos y aquellos son míos* → **These and those are mine** (or: *these ones and those ones* — both correct, but the shorter form is more natural)."
+      },
+      {
+        "title": "5. Supposed to — Three Uses  ★ Main topic",
+        "expanded": false,
+        "content": "**Supposed to** has three main uses in English:\n\n---\n\n### 1. Obligation / Expected behaviour\n\nEquivalent to *se supone que* (deber, tener que).\n\n- *You're supposed to wear a tie at work.*\n- *What time are we supposed to be there?*\n- *Am I supposed to bring anything to eat?*\n- *Are you supposed to wear a seat belt?*\n\n---\n\n### 2. Past unfulfilled expectation\n\nUsed with **was / were supposed to** — something that was expected but may not have happened.\n\n- *Was I supposed to call you after class?*\n- *She was supposed to be here at 9.*\n- *Was I supposed to be in the meeting?*\n\n---\n\n### 3. Reputation / \"People say that...\"\n\nEquivalent to *se dice que / dicen que / se supone que es...* — based on what others say or general expectation.\n\n- *He's supposed to be great at telling jokes.* (= dicen que es buenísimo contando chistes)\n- *Isn't this supposed to be a safe city?*\n- *Isn't this movie supposed to be scary?*\n- *Spain is supposed to be one of the best teams.*\n- *These classes are supposed to be good for your English.*"
+      },
+      {
+        "title": "6. Trip vs. Travel vs. Journey",
+        "expanded": false,
+        "content": "These three words all relate to *viaje* in Spanish, but they are not interchangeable:\n\n| Word | Part of speech | Spanish | Use |\n|---|---|---|---|\n| **trip** | noun | viaje (ida y vuelta) | A specific journey, usually with a return; the whole experience |\n| **travel** | verb / gerund | viajar | The general action of going from place to place |\n| **journey** | noun | trayecto / viaje (aventurero) | The act of traveling itself — often implies length, difficulty, or adventure |\n\n---\n\n### Examples\n\n- *Have a nice **trip**!* — greeting before someone leaves\n- *I took a **trip** to Calpe in April.* — specific round trip\n- *I love **traveling**.* — the general activity\n- *We've **traveled** a great distance.* — the verb in action\n- ***The journey** was tiring, but it was a great **trip**.* — journey = the time spent moving; trip = the overall experience\n- *Christopher Columbus went on a **journey** to the New World.* — long, uncertain, adventurous\n\n---\n\n### Key distinction\n\n> **Trip** = the whole experience (what you did, where you went).\n> **Journey** = the traveling part itself (the trayecto), especially when it was long, hard, or adventurous.\n> **Travel** = the verb or the general concept of moving between places.\n\n*The journey was tough, but we had a great trip.* — Notice how both words appear in the same sentence with different meanings."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Warm-Up Translations",
+        "key": "kyle_20260611_warmup",
+        "qs": [
+          {
+            "q": "\"¿Qué te pasa ahora?\" →",
+            "opts": [
+              "What's wrong for you now?",
+              "What's the matter with you now?",
+              "What happened to you now?",
+              "What's going on now?"
+            ],
+            "ans": "What's the matter with you now?"
+          },
+          {
+            "q": "\"Tenemos que recortar gastos.\" →",
+            "opts": [
+              "We have to stop the expenses.",
+              "We have to cut off expenses.",
+              "We have to cut back on expenses.",
+              "We have to remove the expenses."
+            ],
+            "ans": "We have to cut back on expenses."
+          },
+          {
+            "q": "\"¿Qué conclusión sacaste de esto?\" → Which verb replaces \"sacar\" here?",
+            "opts": [
+              "to make",
+              "to take",
+              "to get",
+              "to draw"
+            ],
+            "ans": "to draw"
+          },
+          {
+            "q": "Which structure is more natural in English?",
+            "opts": [
+              "I think you won't be able to catch up with them.",
+              "I don't think you'll be able to catch up with them.",
+              "I think they can't be caught up with.",
+              "I not think you can catch up with them."
+            ],
+            "ans": "I don't think you'll be able to catch up with them."
+          },
+          {
+            "q": "\"Tenemos que recurrir a financiación externa.\" →",
+            "opts": [
+              "We have to give up outside financing.",
+              "We have to look for outside financing.",
+              "We had to resort to outside financing.",
+              "We have to refuse outside financing."
+            ],
+            "ans": "We had to resort to outside financing."
+          }
+        ]
+      },
+      {
+        "title": "Test · Vocabulary — Draw & Key Phrases",
+        "key": "kyle_20260611_vocab",
+        "qs": [
+          {
+            "q": "\"What conclusion do you draw from this?\" → \"Draw\" here means:",
+            "opts": [
+              "To sketch or illustrate",
+              "To tie / draw equal",
+              "To extract / derive (sacar)",
+              "To attract attention"
+            ],
+            "ans": "To extract / derive (sacar)"
+          },
+          {
+            "q": "\"A drawback\" means:",
+            "opts": [
+              "A way of drawing",
+              "A negative aspect / disadvantage",
+              "A step taken backward",
+              "A bank withdrawal"
+            ],
+            "ans": "A negative aspect / disadvantage"
+          },
+          {
+            "q": "\"I can't ___ the taste of pineapple.\" / \"I can't ___ my neighbour's behaviour.\" → Which pair is correct?",
+            "opts": [
+              "stand / stand",
+              "put up with / put up with",
+              "stand / put up with",
+              "put up with / stand"
+            ],
+            "ans": "stand / put up with"
+          },
+          {
+            "q": "\"Reach out to me if you need help.\" → \"Reach out to\" means:",
+            "opts": [
+              "To physically reach for something",
+              "To catch up with someone running",
+              "To try to contact someone",
+              "To resort to something"
+            ],
+            "ans": "To try to contact someone"
+          },
+          {
+            "q": "\"I need to catch up ___ my reading.\" / \"I need to catch up ___ her.\" → Correct prepositions:",
+            "opts": [
+              "with / on",
+              "on / on",
+              "on / with",
+              "with / with"
+            ],
+            "ans": "on / with"
+          }
+        ]
+      },
+      {
+        "title": "Test · Uses of ONE",
+        "key": "kyle_20260611_one",
+        "qs": [
+          {
+            "q": "\"El que está en la mesa es de ellos.\" →",
+            "opts": [
+              "The one is on the table is theirs.",
+              "That one the table is theirs.",
+              "The one on the table is theirs.",
+              "The ones on the table is theirs."
+            ],
+            "ans": "The one on the table is theirs."
+          },
+          {
+            "q": "\"El mío es el verde.\" →",
+            "opts": [
+              "The mine is the green one.",
+              "Mine is the green one.",
+              "Mine one is the green.",
+              "My is the green one."
+            ],
+            "ans": "Mine is the green one."
+          },
+          {
+            "q": "\"Este y aquel son de ella.\" →",
+            "opts": [
+              "These and those are hers.",
+              "This and that one are her.",
+              "This one and that one are hers.",
+              "This one and that is hers."
+            ],
+            "ans": "This one and that one are hers."
+          },
+          {
+            "q": "\"¿Cuál quieres? ¿El que está en la mesa o el que está en la silla?\" →",
+            "opts": [
+              "Which one do you want? The one is on the table or the one is on the chair?",
+              "Which one do you want? The one on the table or the one on the chair?",
+              "Which do you want? The one on the table or the one on the chair?",
+              "Which ones do you want? The one on the table or the one on the chair?"
+            ],
+            "ans": "Which one do you want? The one on the table or the one on the chair?"
+          },
+          {
+            "q": "\"Los míos son los verdes.\" →",
+            "opts": [
+              "Mine ones are the green ones.",
+              "The mines are the green ones.",
+              "Mine are the green ones.",
+              "Mines are the green."
+            ],
+            "ans": "Mine are the green ones."
+          }
+        ]
+      },
+      {
+        "title": "Test · Supposed to",
+        "key": "kyle_20260611_supposed",
+        "qs": [
+          {
+            "q": "\"You're supposed to wear a tie at work.\" → \"Supposed to\" expresses:",
+            "opts": [
+              "Reputation / what people say",
+              "A past unfulfilled obligation",
+              "Obligation / expected behaviour",
+              "Permission"
+            ],
+            "ans": "Obligation / expected behaviour"
+          },
+          {
+            "q": "\"Was I supposed to call you after class?\" → This implies:",
+            "opts": [
+              "A past obligation that may not have been fulfilled",
+              "A question about future plans",
+              "What people say about the caller",
+              "Permission to call"
+            ],
+            "ans": "A past obligation that may not have been fulfilled"
+          },
+          {
+            "q": "\"He's supposed to be great at telling jokes.\" → \"Supposed to\" here means:",
+            "opts": [
+              "He is obliged to tell jokes",
+              "He was going to tell jokes",
+              "People say / they say he is great at telling jokes",
+              "He used to be good at telling jokes"
+            ],
+            "ans": "People say / they say he is great at telling jokes"
+          },
+          {
+            "q": "\"Isn't this movie supposed to be scary?\" → This expresses:",
+            "opts": [
+              "A past obligation",
+              "That the movie is obliged to be scary",
+              "An expectation based on what people say",
+              "Permission for the movie to be scary"
+            ],
+            "ans": "An expectation based on what people say"
+          },
+          {
+            "q": "\"Am I supposed to bring anything to eat?\" → Best Spanish equivalent:",
+            "opts": [
+              "¿Voy a traer algo de comer?",
+              "¿Debería traer algo de comer?",
+              "¿Se supone que tengo que traer algo de comer?",
+              "¿Puedo traer algo de comer?"
+            ],
+            "ans": "¿Se supone que tengo que traer algo de comer?"
+          }
+        ]
+      },
+      {
+        "title": "Test · Trip vs. Travel vs. Journey",
+        "key": "kyle_20260611_trip",
+        "qs": [
+          {
+            "q": "\"Have a nice ___!\" →",
+            "opts": [
+              "travel",
+              "journey",
+              "trip",
+              "voyage"
+            ],
+            "ans": "trip"
+          },
+          {
+            "q": "\"I love ___ to new places.\" →",
+            "opts": [
+              "trip",
+              "journey",
+              "traveling",
+              "a trip"
+            ],
+            "ans": "traveling"
+          },
+          {
+            "q": "\"The ___ was tiring, but we had a great trip.\" → What goes in the blank?",
+            "opts": [
+              "travel",
+              "trip",
+              "journey",
+              "voyage"
+            ],
+            "ans": "journey"
+          },
+          {
+            "q": "A \"journey\" most often implies:",
+            "opts": [
+              "A short, simple round trip",
+              "A long, adventurous, or difficult experience of traveling",
+              "Only international travel",
+              "Only travel by plane"
+            ],
+            "ans": "A long, adventurous, or difficult experience of traveling"
+          },
+          {
+            "q": "\"We've ___ a great distance.\" →",
+            "opts": [
+              "tripped",
+              "journeyed",
+              "traveled",
+              "gone on a trip"
+            ],
+            "ans": "traveled"
+          }
+        ]
+      }
+    ]
   }
 ]
