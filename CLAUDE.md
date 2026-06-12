@@ -28,7 +28,7 @@ streamlit run app.py --server.port=8501
 | `the.xlsx` | Multi-sheet Excel workbook — source data for all practice modules |
 | `Procfile` | Render start command for `app.py` |
 | `requirements.txt` | `streamlit`, `pandas`, `gTTS`, `openpyxl` |
-| `assets/profilepictures/` | Circular avatar images shown in tab labels (`kyle.jpg`, `julia.jpg`, `juls.jpg`) |
+| `assets/profilepictures/` | Circular avatar images shown in tab labels (`kyle.jpg`, `julia.jpg`, `juls.jpg`, `brain_buffet.png`) |
 | `mindmap_kyle.html` | Interactive markmap mind map of all Kyle class content — searchable, expandable |
 | `mindmap_kyle_network.html` | Alternative vis-network graph view of Kyle class content |
 | `static/mindmap_kyle.html` | Copy of `mindmap_kyle.html` served at `/app/static/mindmap_kyle.html` via Streamlit static serving |
@@ -64,11 +64,11 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Page title:** "Reviewing The English Collective" — set in both `st.set_page_config` and `st.title()`.
 
-**Four outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls", "Natural English"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"` / `"natural"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls` / `sel_natural`) for the selected class index.
+**Five outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls", "Natural English", "Brain Buffet"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"` / `"natural"` / `"brain_buffet"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls` / `sel_natural` / `sel_brain_buffet`) for the selected class index.
 
 **Kyle sub-tabs:** The English with Kyle tab contains two nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map"])`. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab.
 
-**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`. Pass `None` in the list for a tab that has no profile picture yet — the function skips it silently. An additional CSS rule using `[role="tabpanel"] button[data-baseweb="tab"]::after { content: none }` cancels the avatar bleed onto nested sub-tabs.
+**Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`. The function detects MIME type from the file extension (`.png` → `image/png`, anything else → `image/jpeg`). Pass `None` in the list for a tab that has no profile picture yet — the function skips it silently. An additional CSS rule using `[role="tabpanel"] button[data-baseweb="tab"]::after { content: none }` cancels the avatar bleed onto nested sub-tabs.
 
 **Class selector:** Within each tab, buttons sorted newest → oldest by `date` field. Most recent has a 🆕 badge and is selected by default. Selected button renders as `type="primary"`, others as `type="secondary"`.
 
@@ -112,13 +112,15 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Section fields:** `image` and `image_hotspots` are optional. If `image` is present without `image_hotspots`, the image is rendered with `st.image()`. If both are present, `_render_hotspot_image()` renders it as an inline HTML component with interactive hover regions. Hotspot coordinates (`x`, `y`, `w`, `h`) are percentages of the image dimensions. `content` (markdown) always renders below the image.
 
-**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes, `"juls"` for English Time with Juls classes, `"natural"` for Natural English classes. Defaults to `"kyle"` if absent (for backwards compatibility).
+**`teacher` field:** `"kyle"` for English with Kyle classes, `"julia"` for Essential English · Julia classes, `"juls"` for English Time with Juls classes, `"natural"` for Natural English classes, `"brain_buffet"` for Brain Buffet classes. Defaults to `"kyle"` if absent (for backwards compatibility).
 
-**MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, `assets/classes/english_time_with_juls/`, or `assets/classes/natural_english/` depending on teacher.
+**MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, `assets/classes/english_time_with_juls/`, `assets/classes/natural_english/`, or `assets/classes/brain_buffet/` depending on teacher.
 
 **Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
-**Tests:** Kyle class entries must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural) do **not** have a warm-up section — omit that test entirely for them.
+**Transcribing from a Vimeo link:** if no local MP4 exists, download with `yt-dlp` (`pip install yt-dlp`). Vimeo streams may not merge without ffmpeg — if yt-dlp produces a `.fdash-audio-*.m4a` alongside the video file, transcribe directly from the `.m4a` (faster-whisper accepts it). Delete both partial files after transcription.
+
+**Tests:** Kyle class entries must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them.
 
 **After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content, increment the class count in the header, and sync: `cp mindmap_kyle.html static/mindmap_kyle.html`. Always commit both files together.
 
