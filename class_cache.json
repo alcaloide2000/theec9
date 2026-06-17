@@ -4615,5 +4615,155 @@
         ]
       }
     ]
+  },
+  {
+    "id": "julia_20260611",
+    "title": "Essential English · Julia",
+    "date": "2026-06-11",
+    "topic": "Need Something TO vs FOR / Vocabulary: Renting a House",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Need Something TO vs FOR",
+        "expanded": false,
+        "content": "The preposition after *need something* depends on what follows it.\n\n| Follows *need something* | Preposition | Example |\n|---|---|---|\n| A **noun** (object / place / event) | **for** | *I need something **for** the party* |\n| A **verb** (an action) | **to** + infinitive | *I need something **to** do* |\n\n### Structure\n- **Noun:** I need + [thing] + **for** + [noun] → *We need a boat **for** their holidays.*\n- **Verb:** I need + [thing] + **to** + [infinitive] → *We need a car **to** go to the beach.*\n\n### ⚠ Common mistake: 'for to'\nNever combine both prepositions. Choose one or the other.\n- ✗ ~~We need a car **for to** go to the beach.~~\n- ✓ We need a car **to** go to the beach.\n\n### Practice sentences\n| Cue | Sentence |\n|---|---|\n| we / car / go to the beach | We need a car **to** go to the beach. |\n| they / boat / their holidays | They need a boat **for** their holidays. |\n| she / pen / the document | She needs a pen **for** the document. |\n| he / suit / attend the conference | He needs a suit **to** attend the conference. |\n| we / new boots / the trip | We need new boots **for** the trip. |\n\n### Tense practice — *needed* pronunciation\n- Present: *We **need** a car to go to the beach.*\n- Past: *We **needed** a car to go to the beach.* — pronounce the extra syllable: **need-ed** /ˈniːdɪd/\n- Future: *We **will need** a car to go to the beach.*\n\n> *Needed* ends in D + -ed → extra syllable /ɪd/ is required. Don't swallow it."
+      },
+      {
+        "title": "2. Vocabulary: Renting a House",
+        "expanded": false,
+        "content": "### Core verbs\n\n| English | Spanish | Notes |\n|---|---|---|\n| **to rent** | alquilar (pagas tú) | You are the one paying |\n| **to rent out** | alquilar (cobras tú) | You are the owner receiving money |\n| **rent** *(noun)* | el alquiler | *pay rent* = pagar el alquiler |\n| **to book** | reservar | Short-term / holiday use only — not monthly rental |\n\n> ⚠ **to hire** = contratar (a person). Never say *hire a flat* — the flat doesn't work for you.\n\n### People\n\n| English | Spanish |\n|---|---|\n| **landlord** | el casero / arrendador (male) |\n| **landlady** | la casera / arrendadora (female) |\n| **tenant** | el inquilino / arrendatario (the person who pays and lives there) |\n\n> *Landlord* / *landlady* is one of the few English words with distinct masculine/feminine forms (like *actor* / *actress*).\n\n### Other key vocabulary\n\n| English | Spanish | Notes |\n|---|---|---|\n| **deposit** | la fianza | Paid upfront at the start of a rental |\n| **property / properties** | propiedad/es | *Do you rent out any properties?* |\n\n### False friend: congress\n- **congress** in English = the parliament/legislative institution of a country only\n- For a professional meeting/event → always say **conference**\n- ✗ ~~I have a congress tomorrow.~~ → ✓ I have a **conference** tomorrow.\n\n### Bonus: preposition IN for attire\nIn English, when describing what someone is wearing (clothing or colour), always use **in**:\n- *men **in** black* · *lady **in** red* · *the puss **in** boots* · *the man **in** the suit*\n- Spanish uses *con* or *de*: *el hombre **con** traje* / *los hombres **de** negro*\n- The English logic: the person is *inside* the clothing/colour.\n\n### Vocabulary note: suit\n- **suit** /suːt/ = traje — ⚠ not *sweet* /swiːt/ (= dulce)\n- Pronounce the I as silent: **suit**, not 'sweet'.\n\n### False friend: attend vs assist\n- **attend** = asistir a un evento (ir a) — **no preposition**: *attend the conference* ✓\n- **assist** = ayudar, dar asistencia — ✗ ~~assist the conference~~"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Need Something TO vs FOR",
+        "key": "julia_jun11_t1",
+        "qs": [
+          {
+            "q": "Which preposition follows 'need something' when the objective is a NOUN?",
+            "opts": [
+              "to",
+              "for",
+              "of"
+            ],
+            "ans": "for"
+          },
+          {
+            "q": "Which preposition follows 'need something' when the objective is a VERB?",
+            "opts": [
+              "for",
+              "of",
+              "to"
+            ],
+            "ans": "to"
+          },
+          {
+            "q": "'He needs a suit ___ attend the conference.' → correct preposition:",
+            "opts": [
+              "for",
+              "to",
+              "for to"
+            ],
+            "ans": "to"
+          },
+          {
+            "q": "'They need a boat ___ their holidays.' → correct preposition:",
+            "opts": [
+              "to",
+              "for",
+              "at"
+            ],
+            "ans": "for"
+          },
+          {
+            "q": "Which sentence is WRONG?",
+            "opts": [
+              "We need a car to go to the beach.",
+              "We need a car for to go to the beach.",
+              "We need new boots for the trip."
+            ],
+            "ans": "We need a car for to go to the beach."
+          },
+          {
+            "q": "How do you pronounce 'needed' correctly?",
+            "opts": [
+              "/niːd/ — same as the present tense",
+              "/niːdɪd/ — two syllables, with an extra /ɪd/",
+              "/niːdt/ — adding a T sound"
+            ],
+            "ans": "/niːdɪd/ — two syllables, with an extra /ɪd/"
+          }
+        ]
+      },
+      {
+        "title": "Test · Renting a House Vocabulary",
+        "key": "julia_jun11_t2",
+        "qs": [
+          {
+            "q": "What is the difference between 'rent' and 'rent out'?",
+            "opts": [
+              "They mean the same thing",
+              "'Rent' = you pay (tenant); 'rent out' = you receive payment (owner)",
+              "'Rent' is for houses; 'rent out' is for cars"
+            ],
+            "ans": "'Rent' = you pay (tenant); 'rent out' = you receive payment (owner)"
+          },
+          {
+            "q": "What does 'landlord' mean?",
+            "opts": [
+              "The tenant — the person who pays and lives in the property",
+              "The owner who rents the property to others (male)",
+              "A real estate agent"
+            ],
+            "ans": "The owner who rents the property to others (male)"
+          },
+          {
+            "q": "What does 'tenant' mean?",
+            "opts": [
+              "El inquilino — the person who pays to live in the property",
+              "El casero — the owner of the property",
+              "La fianza — the deposit"
+            ],
+            "ans": "El inquilino — the person who pays to live in the property"
+          },
+          {
+            "q": "In English, 'congress' refers to:",
+            "opts": [
+              "Any professional meeting or conference",
+              "The parliament/legislative institution of a country only",
+              "A large group of people"
+            ],
+            "ans": "The parliament/legislative institution of a country only"
+          },
+          {
+            "q": "What does 'attend' mean? (false friend)",
+            "opts": [
+              "To help someone (dar asistencia)",
+              "To go to / be present at an event (asistir a)",
+              "To pay attention to someone"
+            ],
+            "ans": "To go to / be present at an event (asistir a)"
+          },
+          {
+            "q": "How do you say 'los hombres de negro' in English?",
+            "opts": [
+              "The men of black",
+              "The men with black",
+              "Men in black"
+            ],
+            "ans": "Men in black"
+          },
+          {
+            "q": "What is a 'deposit' in the context of renting?",
+            "opts": [
+              "The monthly rent payment",
+              "La fianza — an upfront sum paid at the start of a rental",
+              "The rental contract"
+            ],
+            "ans": "La fianza — an upfront sum paid at the start of a rental"
+          }
+        ]
+      }
+    ]
   }
 ]
