@@ -4474,5 +4474,146 @@
         ]
       }
     ]
+  },
+  {
+    "id": "juls_20260615",
+    "title": "English Time with Juls",
+    "date": "2026-06-15",
+    "topic": "While & Whilst / Silent T Pronunciation",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. While & Whilst",
+        "expanded": false,
+        "content": "Two words that both mean *mientras* — identical in meaning, different in register.\n\n| Word | Register | Notes |\n|---|---|---|\n| **while** | Standard / neutral | The everyday word |\n| **whilst** | Formal / elevated | Very British — same meaning, different ending |\n\nJust swapping *while* for *whilst* automatically elevates your speech without any complex structure.\n\n### Don't confuse with…\n\n| Word | Meaning | Use |\n|---|---|---|\n| **whereas** | *Mientras que* (contrast) | Expresses opposition between two facts: *I'm blonde whereas he's dark-haired* |\n| **meanwhile** | *Mientras tanto* | Standalone expression — beginning/end of a sentence, not a connector |\n| **in the meantime** | *Mientras tanto* | Same as *meanwhile* — standalone expression |\n\n> **Key rule:** *while* / *whilst* connect two simultaneous actions. *Meanwhile* / *in the meantime* stand alone. *Whereas* expresses contrast.\n\n### Structure\n\n- while/whilst + subject + verb: *Can we discuss it **whilst** we drive to Madrid?*\n- while/whilst + -ing (same subject): *I did my homework **while** listening to music.*\n\n### Practice sentences\n- Did you fall asleep while reading the novel? → Yes, I **fell** asleep while reading the novel.\n- Can we discuss it whilst driving to Madrid? → Yes, we can discuss it whilst driving to Madrid.\n- What did you say to her whilst you were cooking? → I said something to her whilst I was cooking.\n- Would you like something to drink while you're waiting? → Yes, I would like something to drink while I'm waiting.\n- Did the phone ring while we were having dinner? → Yes, the phone **rang** while we were having dinner.\n- Did you do your homework while listening to music? → Yes, I did my homework while listening to music.\n- Did your son get scared whilst he rode the pony? → Yes, my son **got scared** whilst he rode the pony.\n- Did you read the book whilst laying on the sofa? → Yes, I **read** /rɛd/ the book whilst laying on the sofa.\n\n### Irregular verb reminders\n- **fall** → past: **fell** *(not 'felt' — that's the past of 'feel')*\n- **ring** → past: **rang**\n- **read** → past: **read** *(same spelling, pronounced /rɛd/ — like 'rojo')*"
+      },
+      {
+        "title": "2. Silent T Pronunciation",
+        "expanded": false,
+        "content": "In English, some words contain a **T that is completely silent** — ignore it as if it weren't there.\n\nThis is especially common in verbs. Accidentally pronouncing the T is a very typical mistake.\n\n### Silent T verbs\n\n| Verb | Pronunciation | Spanish | Notes |\n|---|---|---|---|\n| **glisten** | /ˈɡlɪsən/ | resplandecer, brillar con destellos | More specific than *shine* (= brillar general) |\n| **soften** | /ˈsɒfən/ | suavizarse, ablandarse | From adj. *soft* — ⚠ *soft* /sɒft/ HAS a T; *soften* does NOT |\n| **whistle** | /ˈwɪsəl/ | silbar | |\n| **fasten** | /ˈfɑːsən/ | abrochar, sujetar | *Fasten your seatbelt* = abrochar el cinturón |\n| **rustle** | /ˈrʌsəl/ | crujir, susurrar | The sound leaves make in the wind |\n\n### Important distinction: soft vs soften\n- **soft** *(adjective)* → /sɒft/ — **pronounce the T**\n- **soften** *(verb)* → /ˈsɒfən/ — **silent T**\n\n### Pronunciation of *jewellery*\nTrick: think of the Spanish word *chulería* — say it with an English accent and drop the Spanish flavour → **jewellery** /ˈdʒuːəlri/\n\n### Practice questions\n- Is your new jewellery glistening?\n- Has your dad softened since he's been retired?\n- Do you know how to whistle?\n- Do you always fasten your seatbelt when you travel by car?\n- Can you hear the leaves rustling in the forest?"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · While & Whilst",
+        "key": "juls_jun15_t1",
+        "qs": [
+          {
+            "q": "What is the difference between 'while' and 'whilst'?",
+            "opts": [
+              "They are synonyms — whilst is simply the more formal, British version",
+              "Whilst means 'whereas' (contrast); while means 'durante'",
+              "While is past tense; whilst is present tense"
+            ],
+            "ans": "They are synonyms — whilst is simply the more formal, British version"
+          },
+          {
+            "q": "Which word expresses CONTRAST ('mientras que')?",
+            "opts": [
+              "whilst",
+              "meanwhile",
+              "whereas"
+            ],
+            "ans": "whereas"
+          },
+          {
+            "q": "How is 'meanwhile' used differently from 'while'?",
+            "opts": [
+              "Meanwhile connects two simultaneous actions inside a sentence",
+              "Meanwhile is a standalone expression (mientras tanto), not a connector between clauses",
+              "Meanwhile is only used in questions"
+            ],
+            "ans": "Meanwhile is a standalone expression (mientras tanto), not a connector between clauses"
+          },
+          {
+            "q": "'Did you fall asleep while reading the novel?' → correct answer:",
+            "opts": [
+              "Yes, I felt asleep while reading the novel.",
+              "Yes, I fall asleep while reading the novel.",
+              "Yes, I fell asleep while reading the novel."
+            ],
+            "ans": "Yes, I fell asleep while reading the novel."
+          },
+          {
+            "q": "The past tense of 'read' is pronounced:",
+            "opts": [
+              "/riːd/ — the same as the present tense",
+              "/rɛd/ — like the colour red / like 'rojo'",
+              "/rɛdt/ — with a T at the end"
+            ],
+            "ans": "/rɛd/ — like the colour red / like 'rojo'"
+          },
+          {
+            "q": "Which structure is correct with while/whilst when both verbs share the same subject?",
+            "opts": [
+              "while/whilst + subject + verb (full clause only)",
+              "while/whilst + -ing (the second subject can be omitted)",
+              "while/whilst + to + infinitive"
+            ],
+            "ans": "while/whilst + -ing (the second subject can be omitted)"
+          }
+        ]
+      },
+      {
+        "title": "Test · Silent T Pronunciation",
+        "key": "juls_jun15_t2",
+        "qs": [
+          {
+            "q": "Which word has a silent T?",
+            "opts": [
+              "soft",
+              "soften",
+              "start"
+            ],
+            "ans": "soften"
+          },
+          {
+            "q": "What does 'glisten' mean?",
+            "opts": [
+              "To listen carefully",
+              "To sparkle / shine with a glistening light (resplandecer)",
+              "To make a sound"
+            ],
+            "ans": "To sparkle / shine with a glistening light (resplandecer)"
+          },
+          {
+            "q": "How do you correctly pronounce 'whistle'?",
+            "opts": [
+              "/ˈwɪstəl/ — pronouncing the T",
+              "/ˈwɪsəl/ — silent T",
+              "/ˈwɪtʃəl/ — like 'which'"
+            ],
+            "ans": "/ˈwɪsəl/ — silent T"
+          },
+          {
+            "q": "What does 'fasten your seatbelt' mean?",
+            "opts": [
+              "Remove your seatbelt",
+              "Check your seatbelt is working",
+              "Buckle / clip your seatbelt (abrochar el cinturón)"
+            ],
+            "ans": "Buckle / clip your seatbelt (abrochar el cinturón)"
+          },
+          {
+            "q": "'The leaves are rustling in the forest.' What does rustle mean?",
+            "opts": [
+              "To fall from the trees",
+              "To make a soft crackling / swishing sound (crujir)",
+              "To move very fast"
+            ],
+            "ans": "To make a soft crackling / swishing sound (crujir)"
+          },
+          {
+            "q": "The trick to pronounce 'jewellery' correctly is to think of the Spanish word:",
+            "opts": [
+              "joyería",
+              "chulería",
+              "juerga"
+            ],
+            "ans": "chulería"
+          }
+        ]
+      }
+    ]
   }
 ]
