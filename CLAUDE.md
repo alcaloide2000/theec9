@@ -66,7 +66,15 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Five outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls", "Natural English", "Brain Buffet"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"` / `"natural"` / `"brain_buffet"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls` / `sel_natural` / `sel_brain_buffet`) for the selected class index.
 
-**Kyle sub-tabs:** The English with Kyle tab contains two nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map"])`. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab.
+**Kyle sub-tabs:** The English with Kyle tab contains three nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo"])`. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab. The Warm-Up Linguo sub-tab runs a Duolingo-style quiz (see below).
+
+**Warm-Up Linguo:** `_collect_warmup_questions(kyle_classes)` scans all Kyle classes and collects every question from tests whose title contains `"warm"` (case-insensitive). `_render_warmup_linguo(all_qs)` drives the quiz — three screens controlled by `linguo_started` / `linguo_idx` in `st.session_state`:
+- **Start screen** — question count + Start button; shuffles questions into `linguo_qs` on click.
+- **Question screen** — progress bar, `linguo_idx`/total counter, live score, question text, option buttons. Clicking an option sets `linguo_selected` and `linguo_answered`; increments `linguo_score` if correct; reruns.
+- **After answer** — options replaced by colour-coded HTML divs (`_linguo_option_html`): green = correct, red = wrong selection, grey = unchosen. Feedback message + class source caption + "Continue →" button that increments `linguo_idx` and clears `linguo_answered`/`linguo_selected`.
+- **Finish screen** — score, percentage, motivational message, "Play Again" (reshuffles) / "Quit" (resets `linguo_started`).
+
+New warm-up questions are picked up automatically — no code change needed, only adding the test to `class_cache.json`.
 
 **Tab avatars:** `_inject_tab_avatars(pic_paths)` injects a `<style>` block that uses CSS `::after` pseudo-elements on each `button[data-baseweb="tab"]:nth-child(n)` to render a 26×26 px circular profile photo (base64-embedded) to the right of the tab label text. Avatar images live in `assets/profilepictures/`. The function detects MIME type from the file extension (`.png` → `image/png`, anything else → `image/jpeg`). Pass `None` in the list for a tab that has no profile picture yet — the function skips it silently. An additional CSS rule using `[role="tabpanel"] button[data-baseweb="tab"]::after { content: none }` cancels the avatar bleed onto nested sub-tabs.
 
@@ -120,7 +128,7 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Transcribing from a Vimeo link:** if no local MP4 exists, download with `yt-dlp` (`pip install yt-dlp`). Vimeo streams may not merge without ffmpeg — if yt-dlp produces a `.fdash-audio-*.m4a` alongside the video file, transcribe directly from the `.m4a` (faster-whisper accepts it). Delete both partial files after transcription.
 
-**Tests:** Kyle class entries must include a dedicated **"Test · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences), plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them.
+**Tests:** Kyle class entries must include a dedicated **"Test 1 · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences) as the **first** entry in `tests`, plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them.
 
 **After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content, increment the class count in the header, and sync: `cp mindmap_kyle.html static/mindmap_kyle.html`. Always commit both files together.
 
