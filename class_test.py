@@ -1,4 +1,5 @@
 import base64
+import random
 import streamlit as st
 import streamlit.components.v1 as components
 import json
@@ -190,6 +191,171 @@ def _render_teacher_tab(classes, sel_key):
 
 
 
+def _collect_warmup_questions(kyle_classes):
+    qs = []
+    for cls in kyle_classes:
+        for test in cls.get("tests", []):
+            if "warm" in test["title"].lower():
+                for q in test["qs"]:
+                    qs.append({
+                        "q": q["q"],
+                        "opts": q["opts"],
+                        "ans": q["ans"],
+                        "from_date": cls["date"],
+                        "from_topic": cls["topic"],
+                        "from_id": cls["id"],
+                    })
+    return qs
+
+
+def _linguo_option_html(label, state):
+    cfg = {
+        "correct":    ("#45a100", "#d7f5b1", "#2d7a00", "600", "✓ "),
+        "wrong":      ("#cc0000", "#ffd3d3", "#aa0000", "600", "✗ "),
+        "neutral":    ("#d0d0d0", "#f5f5f5", "#666",    "400", ""),
+    }
+    border, bg, color, fw, icon = cfg.get(state, cfg["neutral"])
+    st.markdown(
+        f'<div style="padding:13px 18px;margin:5px 0;border-radius:12px;'
+        f'border:2px solid {border};background:{bg};color:{color};'
+        f'font-size:15px;font-weight:{fw};">{icon}{label}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def _render_warmup_linguo(all_qs):
+    if not all_qs:
+        st.info("No warm-up translation questions found yet.")
+        return
+
+    # ── init state ──────────────────────────────────────────────────────────
+    for key, val in [
+        ("linguo_started", False),
+        ("linguo_qs", []),
+        ("linguo_idx", 0),
+        ("linguo_score", 0),
+        ("linguo_answered", False),
+        ("linguo_selected", None),
+    ]:
+        if key not in st.session_state:
+            st.session_state[key] = val
+
+    # ── start screen ────────────────────────────────────────────────────────
+    if not st.session_state.linguo_started:
+        st.markdown("## 🦜 Warm-Up Linguo")
+        st.markdown(
+            f"**{len(all_qs)} questions** collected from all Kyle classes — "
+            "shuffled fresh every round."
+        )
+        st.markdown(
+            "Each question shows the Spanish sentence from class; pick the correct English translation."
+        )
+        st.markdown("")
+        _, mid, _ = st.columns([1, 2, 1])
+        with mid:
+            if st.button("▶  Start", use_container_width=True, type="primary"):
+                shuffled = all_qs.copy()
+                random.shuffle(shuffled)
+                st.session_state.linguo_qs = shuffled
+                st.session_state.linguo_idx = 0
+                st.session_state.linguo_score = 0
+                st.session_state.linguo_answered = False
+                st.session_state.linguo_selected = None
+                st.session_state.linguo_started = True
+                st.rerun()
+        return
+
+    qs       = st.session_state.linguo_qs
+    idx      = st.session_state.linguo_idx
+    score    = st.session_state.linguo_score
+    answered = st.session_state.linguo_answered
+    selected = st.session_state.linguo_selected
+    total    = len(qs)
+
+    # ── finish screen ────────────────────────────────────────────────────────
+    if idx >= total:
+        pct = int(score / total * 100) if total else 0
+        color = "green" if pct >= 70 else ("orange" if pct >= 40 else "red")
+        msg = (
+            "Outstanding! 🏆" if pct >= 90 else
+            "Excellent! 🎉"   if pct >= 75 else
+            "Good job! 👍"    if pct >= 60 else
+            "Keep practising! 💪" if pct >= 40 else
+            "Don't give up! 🔄"
+        )
+        st.markdown(f"## {msg}")
+        st.markdown(
+            f"<h2 style='color:{color};text-align:center'>{score} / {total} correct ({pct}%)</h2>",
+            unsafe_allow_html=True,
+        )
+        st.progress(score / total)
+        st.markdown("")
+        c1, c2 = st.columns(2)
+        with c1:
+            if st.button("▶  Play Again", use_container_width=True, type="primary"):
+                shuffled = all_qs.copy()
+                random.shuffle(shuffled)
+                st.session_state.linguo_qs = shuffled
+                st.session_state.linguo_idx = 0
+                st.session_state.linguo_score = 0
+                st.session_state.linguo_answered = False
+                st.session_state.linguo_selected = None
+                st.rerun()
+        with c2:
+            if st.button("✕  Quit", use_container_width=True):
+                st.session_state.linguo_started = False
+                st.rerun()
+        return
+
+    # ── question screen ──────────────────────────────────────────────────────
+    q = qs[idx]
+
+    st.progress((idx) / total)
+    prog_col, score_col = st.columns([3, 1])
+    with prog_col:
+        st.caption(f"Question {idx + 1} of {total}")
+    with score_col:
+        if idx > 0:
+            st.caption(f"✅ {score} / {idx}")
+
+    st.markdown("")
+    st.markdown(f"### {q['q']}")
+    st.markdown("")
+
+    opts = q["opts"]
+
+    if not answered:
+        for i, opt in enumerate(opts):
+            if st.button(opt, key=f"linguo_opt_{idx}_{i}", use_container_width=True):
+                st.session_state.linguo_selected = opt
+                st.session_state.linguo_answered = True
+                if opt == q["ans"]:
+                    st.session_state.linguo_score += 1
+                st.rerun()
+    else:
+        for opt in opts:
+            if opt == q["ans"]:
+                state = "correct"
+            elif opt == selected:
+                state = "wrong"
+            else:
+                state = "neutral"
+            _linguo_option_html(opt, state)
+
+        st.markdown("")
+        if selected == q["ans"]:
+            st.success("🎉 Correct!")
+        else:
+            st.error(f"The correct answer was: **{q['ans']}**")
+        st.caption(f"From: {q['from_date']} — {q['from_topic']}")
+        st.markdown("")
+        if st.button("Continue →", key=f"linguo_continue_{idx}", use_container_width=True, type="primary"):
+            st.session_state.linguo_idx += 1
+            st.session_state.linguo_answered = False
+            st.session_state.linguo_selected = None
+            st.rerun()
+
+
 _cache = _load_class_cache()
 
 for _cls in _cache:
@@ -239,11 +405,13 @@ else:
     ])
 
     with tab_kyle:
-        kyle_tab_classes, kyle_tab_mindmap = st.tabs(["Classes", "🧠 Mind Map"])
+        kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo = st.tabs(["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo"])
         with kyle_tab_classes:
             _render_teacher_tab(kyle_classes, "sel_kyle")
         with kyle_tab_mindmap:
             st.link_button("Open full mind map ↗", url="/app/static/mindmap_kyle.html", use_container_width=True)
+        with kyle_tab_linguo:
+            _render_warmup_linguo(_collect_warmup_questions(kyle_classes))
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")

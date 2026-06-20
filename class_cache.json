@@ -129,6 +129,75 @@
     ],
     "tests": [
       {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_apr28_warmup",
+        "qs": [
+          {
+            "q": "\"Explícamelo una vez más\" →",
+            "opts": [
+              "Explain me it one more time",
+              "Explain it to me one more time",
+              "Explain to me it one more time"
+            ],
+            "ans": "Explain it to me one more time"
+          },
+          {
+            "q": "\"Kyle le está dando el libro a Pepe\" → replacing both objects with pronouns:",
+            "opts": [
+              "He is giving him it",
+              "He is giving it to him",
+              "He is giving to him it"
+            ],
+            "ans": "He is giving it to him"
+          },
+          {
+            "q": "\"Fue mucho más fácil que la última vez\" →",
+            "opts": [
+              "It was much more easy than the last time",
+              "It was much easier that the last time",
+              "It was much easier than the last time"
+            ],
+            "ans": "It was much easier than the last time"
+          },
+          {
+            "q": "\"¿Cuánto tardó?\" →",
+            "opts": [
+              "How long took it?",
+              "How much time did it take?",
+              "How long did it take?"
+            ],
+            "ans": "How long did it take?"
+          },
+          {
+            "q": "\"Él estaba mejor preparado que yo\" →",
+            "opts": [
+              "He was better prepared that me",
+              "He was better prepared than me",
+              "He was more prepared that I was"
+            ],
+            "ans": "He was better prepared than me"
+          },
+          {
+            "q": "\"Se estaban quejando de la falta de un plan concreto\" →",
+            "opts": [
+              "They were complaining of the lack of a concrete plan",
+              "They complained about the lack of a concrete plan",
+              "They were complaining about the lack of a concrete plan"
+            ],
+            "ans": "They were complaining about the lack of a concrete plan"
+          },
+          {
+            "q": "\"Pero vieron esto, ¿no?\" — which question tag is correct?",
+            "opts": [
+              "But they saw this, didn't they?",
+              "But they saw this, did they?",
+              "But they saw this, haven't they?"
+            ],
+            "ans": "But they saw this, didn't they?"
+          }
+        ]
+      },
+      {
         "title": "Test 1 · Pronouns & Translations",
         "key": "ctest1",
         "qs": [
@@ -511,6 +580,75 @@
     ],
     "tests": [
       {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_may05_warmup",
+        "qs": [
+          {
+            "q": "\"Según él, deberías haberlo hecho\" →",
+            "opts": [
+              "According him, you should have done it",
+              "According to him, you should had done it",
+              "According to him, you should have done it"
+            ],
+            "ans": "According to him, you should have done it"
+          },
+          {
+            "q": "\"En cuanto a mí se refiere\" →",
+            "opts": [
+              "As far as I'm concerned",
+              "As far as it concerns to me",
+              "In terms of me"
+            ],
+            "ans": "As far as I'm concerned"
+          },
+          {
+            "q": "\"Si fueras un poco más optimista\" →",
+            "opts": [
+              "If you would be a little more optimistic",
+              "If you were a little more optimistic",
+              "If you are a little more optimistic"
+            ],
+            "ans": "If you were a little more optimistic"
+          },
+          {
+            "q": "\"Todos a favor del plan que levanten la mano\" →",
+            "opts": [
+              "All in favor of the plan raise the hand",
+              "Everybody who favors the plan should raise their hand",
+              "All in favor of the plan, raise your hand"
+            ],
+            "ans": "All in favor of the plan, raise your hand"
+          },
+          {
+            "q": "\"Se fue por el desagüe\" →",
+            "opts": [
+              "It went down the sink",
+              "It went down the plug",
+              "It went down the drain"
+            ],
+            "ans": "It went down the drain"
+          },
+          {
+            "q": "\"Hay un viejo dicho sobre ese tema\" →",
+            "opts": [
+              "There is an old say about that topic",
+              "There's an old saying about that subject",
+              "There's an old proverb about that subject"
+            ],
+            "ans": "There's an old saying about that subject"
+          },
+          {
+            "q": "\"Haré un viaje alrededor del mundo\" — which is natural English?",
+            "opts": [
+              "I'll make a trip around the world",
+              "I'll travel around the world",
+              "I'll take a trip around the world"
+            ],
+            "ans": "I'll take a trip around the world"
+          }
+        ]
+      },
+      {
         "title": "Test 1 · What does he look like? / What is he like?",
         "key": "may05_t1",
         "qs": [
@@ -653,6 +791,75 @@
       }
     ],
     "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_may12_warmup",
+        "qs": [
+          {
+            "q": "\"¿Qué pasó cuando venías aquí?\" →",
+            "opts": [
+              "What happened when you came here?",
+              "What did happen when you were coming here?",
+              "What happened when you were coming here?"
+            ],
+            "ans": "What happened when you were coming here?"
+          },
+          {
+            "q": "\"Le vi cuando iba a clase\" →",
+            "opts": [
+              "I saw him when he went to class",
+              "I saw him when he was going to class",
+              "I see him when he was going to class"
+            ],
+            "ans": "I saw him when he was going to class"
+          },
+          {
+            "q": "\"¿Qué hacías cuando les viste?\" →",
+            "opts": [
+              "What did you do when you saw them?",
+              "What were you doing when did you see them?",
+              "What were you doing when you saw them?"
+            ],
+            "ans": "What were you doing when you saw them?"
+          },
+          {
+            "q": "\"Bajaba de su coche cuando la bomba estalló\" →",
+            "opts": [
+              "He got out of his car when the bomb exploded",
+              "He was getting out of his car when the bomb went off",
+              "He was getting off his car when the bomb went off"
+            ],
+            "ans": "He was getting out of his car when the bomb went off"
+          },
+          {
+            "q": "\"Pensaba en ti cuando me llamaste\" →",
+            "opts": [
+              "I was thinking in you when you called me",
+              "I thought about you when you called me",
+              "I was thinking about you when you called me"
+            ],
+            "ans": "I was thinking about you when you called me"
+          },
+          {
+            "q": "\"Cuando me di cuenta del error, ya se iba\" →",
+            "opts": [
+              "When I realized of my mistake, he was already leaving",
+              "When I realized my mistake, he already left",
+              "When I realized my mistake, he was already leaving"
+            ],
+            "ans": "When I realized my mistake, he was already leaving"
+          },
+          {
+            "q": "Why can't we say 'What did it happen?'",
+            "opts": [
+              "Because 'happen' is an irregular verb",
+              "Because 'what' is the subject — no auxiliary needed when asking for the subject",
+              "Because we should say 'What did happen?' instead"
+            ],
+            "ans": "Because 'what' is the subject — no auxiliary needed when asking for the subject"
+          }
+        ]
+      },
       {
         "title": "Test 1 · Past Continuous",
         "key": "may12_t1",
@@ -2550,6 +2757,75 @@
       }
     ],
     "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_may28_warmup",
+        "qs": [
+          {
+            "q": "\"Hay una escasez de mano de obra cualificada en este país\" →",
+            "opts": [
+              "There's a lack of qualified workers in this country",
+              "There's a shortage of skilled labor in this country",
+              "There's a shortage of skilled workers in this country"
+            ],
+            "ans": "There's a shortage of skilled labor in this country"
+          },
+          {
+            "q": "\"Debería haber previsto ese problema\" →",
+            "opts": [
+              "You should have previewed that problem",
+              "You should have foreseen that problem",
+              "You should have predicted that problem"
+            ],
+            "ans": "You should have foreseen that problem"
+          },
+          {
+            "q": "\"El pobre hombre sufrió lesiones graves\" →",
+            "opts": [
+              "The poor man suffered serious wounds",
+              "The poor man had serious injuries",
+              "The poor man suffered serious injuries"
+            ],
+            "ans": "The poor man suffered serious injuries"
+          },
+          {
+            "q": "\"Menos mal que estaba asegurado\" →",
+            "opts": [
+              "Luckily he was insured",
+              "It's a good thing he was insured",
+              "At least he was insured"
+            ],
+            "ans": "It's a good thing he was insured"
+          },
+          {
+            "q": "\"Abra el libro por la página cuarenta\" — which preposition is correct?",
+            "opts": [
+              "Open the book on page 40",
+              "Open the book at page 40",
+              "Open the book to page 40"
+            ],
+            "ans": "Open the book to page 40"
+          },
+          {
+            "q": "\"La letra de la canción\" — which is more natural?",
+            "opts": [
+              "The lyrics of the song",
+              "The lyrics to the song",
+              "The letter of the song"
+            ],
+            "ans": "The lyrics to the song"
+          },
+          {
+            "q": "\"El conductor estaba muerto de miedo\" →",
+            "opts": [
+              "The driver was dead of fear",
+              "The driver was very frightened",
+              "The driver was scared to death"
+            ],
+            "ans": "The driver was scared to death"
+          }
+        ]
+      },
       {
         "title": "Test 1 · Miss vs Lose",
         "key": "kyle_20260528_t1",
