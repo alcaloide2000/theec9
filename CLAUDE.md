@@ -139,6 +139,7 @@ New warm-up questions are picked up automatically — no code change needed, onl
 | Content type | `##` branch |
 |---|---|
 | Pronunciation rules, silent letters, phonetics, sound distinctions | `## Pronunciation Tips` |
+| Linking words, connected speech, natural reductions (gonna/wanna, are ya) | `## Pronunciation Tips` |
 | Phrasal verbs (including *take over for*, *get by*, etc.) | `## Phrasal Verbs` |
 | Grammar rules, tenses, structures, connectors, verb patterns | `## Grammar Rules` |
 | Prepositions of place | `## Prepositions of Place` |
