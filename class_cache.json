@@ -5351,5 +5351,209 @@
         ]
       }
     ]
+  },
+  {
+    "id": "brain_buffet_20260618",
+    "title": "Brain Buffet",
+    "date": "2026-06-18",
+    "topic": "Behind the World Cup",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion: Impossible Choices",
+        "expanded": false,
+        "content": "Two discussion questions to kick off the class.\n\n**Choice 1:** You can only save one — which survives?\n- 🇧🇷 Brazil's **five** World Cup titles\n- 🇪🇸 Spain's **2010** World Cup\n\nThe other one disappears from history forever!\n\n---\n\n**Choice 2:** Your country reaches the World Cup final. Would you rather…\n- 🏟️ Watch the match **live at the stadium** (all expenses paid)\n- 💶 Receive **€10,000**\n\nWhich would you choose and why?"
+      },
+      {
+        "title": "2. What Is the World Cup Really About?",
+        "expanded": false,
+        "content": "The World Cup is not just about football. Which of these six things do you think matters most?\n\n| | Purpose | What it means |\n|---|---|---|\n| 🎭 | **Entertainment** | People love the drama and excitement |\n| 💰 | **Money** | Billions spent and earned — by countries, brands and players |\n| 🏳️ | **National identity** | A chance to feel proud of where you come from |\n| 🏛️ | **Politics** | Countries use the event to build their international image |\n| 🏆 | **Tradition** | Families and communities unite around shared rituals |\n| 📺 | **Advertising** | One of the biggest marketing platforms on Earth |\n\n---\n\n**Word of the class:** 🔑 **Unbiased** = fair, not influenced by personal feelings or opinions. Synonym: **impartial**.\n\n> *\"Today's class will be completely objective and unbiased.\"*"
+      },
+      {
+        "title": "3. Key Vocabulary — World Cup Terms",
+        "expanded": false,
+        "content": "Match each word to its meaning.\n\n| Word | Meaning |\n|---|---|\n| **Host nation** | The country that organises and hosts the event |\n| **Underdog** | A team nobody expects to win |\n| **Upset** | An unexpected victory / result |\n| **National pride** | Strong positive feelings about your country |\n| **Corruption** | Dishonest or illegal behaviour |\n\n---\n\n⚠️ **Watch out!** *Upset* has two meanings:\n- Everyday English → *sad or unhappy*: *\"I was upset when my team lost.\"*\n- Sport → *an unexpected victory*: *\"It was a massive upset — nobody expected them to win.\"*"
+      },
+      {
+        "title": "4. Speaking Drill — \"Ask Me If…\"",
+        "expanded": false,
+        "content": "Practise forming **yes/no questions** using *Ask me if…*\n\n| Prompt | Question |\n|---|---|\n| Ask me if the **host nation** organizes the World Cup. | Does the host nation organize the World Cup? |\n| Ask me if **national pride** is about loving your country's team. | Is national pride about loving your country's team? |\n| Ask me if an **underdog** is expected to lose. | Is an underdog expected to lose? |\n| Ask me if an underdog can **surprise** stronger teams. | Can an underdog surprise stronger teams? |\n| Ask me if an **upset** is an unexpected result. | Is an upset an unexpected result? |\n| Ask me if World Cups have many **upsets**. | Do World Cups have many upsets? |\n\n💡 *World Cups* is **plural** → use **do**, not *does*."
+      },
+      {
+        "title": "5. Reading — The World Cup: More Than a Game",
+        "expanded": false,
+        "content": "> Every four years, the World Cup becomes **one of the most watched events on Earth**. During the tournament, billions of people follow the same matches, discuss the same players and celebrate the same moments. For a few weeks, people from **different cultures, languages and backgrounds** share a common experience.\n>\n> However, the World Cup is not only about sport. Countries spend billions of dollars to host a tournament because they hope to attract tourists, improve their international image and stimulate their economy. Critics argue that the money could be spent on schools, hospitals or public transport instead. As a result, hosting the World Cup often **creates both excitement and controversy**.\n\n---\n\n**Find the expression that means…**\n\n| Meaning | Expression from the text |\n|---|---|\n| People from many different countries | *different cultures, languages and backgrounds* |\n| An event watched by a huge number of people | *one of the most watched events on Earth* |\n| Cause disagreement | *creates controversy* |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · World Cup Vocabulary",
+        "key": "bb_20260618_vocab",
+        "qs": [
+          {
+            "q": "What does 'underdog' mean in football?",
+            "opts": [
+              "The team that wins the most matches",
+              "A team nobody expects to win",
+              "The country that hosts the tournament",
+              "A player who performs under pressure"
+            ],
+            "ans": "A team nobody expects to win"
+          },
+          {
+            "q": "In a sports context, what does 'upset' mean?",
+            "opts": [
+              "Feeling sad or disappointed",
+              "A foul during a match",
+              "An unexpected victory by the weaker team",
+              "When a player gets injured"
+            ],
+            "ans": "An unexpected victory by the weaker team"
+          },
+          {
+            "q": "What is the 'host nation'?",
+            "opts": [
+              "The country with the best football team",
+              "The country that organizes and hosts the event",
+              "The country that wins the World Cup",
+              "The country with the most supporters"
+            ],
+            "ans": "The country that organizes and hosts the event"
+          },
+          {
+            "q": "What does 'national pride' mean?",
+            "opts": [
+              "The official anthem of a country",
+              "The number of World Cups a country has won",
+              "Strong positive feelings about your country",
+              "The flag of a national team"
+            ],
+            "ans": "Strong positive feelings about your country"
+          },
+          {
+            "q": "What does 'corruption' mean?",
+            "opts": [
+              "Celebrating a goal excessively",
+              "Dishonest or illegal behaviour",
+              "A surprising result in sport",
+              "Spending too much money on a tournament"
+            ],
+            "ans": "Dishonest or illegal behaviour"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Reading Comprehension",
+        "key": "bb_20260618_reading",
+        "qs": [
+          {
+            "q": "According to the reading, how often does the World Cup take place?",
+            "opts": [
+              "Every two years",
+              "Every three years",
+              "Every four years",
+              "Every five years"
+            ],
+            "ans": "Every four years"
+          },
+          {
+            "q": "Why do countries spend billions to host the World Cup?",
+            "opts": [
+              "To show off their football talent",
+              "To attract tourists, improve their image and stimulate the economy",
+              "To build new football stadiums",
+              "To win more World Cups in the future"
+            ],
+            "ans": "To attract tourists, improve their image and stimulate the economy"
+          },
+          {
+            "q": "What do critics say about hosting the World Cup?",
+            "opts": [
+              "It creates too much corruption",
+              "The money could be spent on schools, hospitals or public transport",
+              "It is not popular enough",
+              "It causes too many upsets"
+            ],
+            "ans": "The money could be spent on schools, hospitals or public transport"
+          },
+          {
+            "q": "Which expression from the text means 'people from many different countries'?",
+            "opts": [
+              "Billions of people",
+              "A common experience",
+              "Different cultures, languages and backgrounds",
+              "People from the same moments"
+            ],
+            "ans": "Different cultures, languages and backgrounds"
+          },
+          {
+            "q": "Which expression from the text means 'cause disagreement'?",
+            "opts": [
+              "Attracts tourists",
+              "Stimulates the economy",
+              "Creates controversy",
+              "Improves international image"
+            ],
+            "ans": "Creates controversy"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Grammar & Expressions",
+        "key": "bb_20260618_grammar",
+        "qs": [
+          {
+            "q": "'Ask me if the host nation organizes the World Cup.' — What is the correct question?",
+            "opts": [
+              "Do the host nation organize the World Cup?",
+              "Does the host nation organize the World Cup?",
+              "Is the host nation organizing the World Cup?",
+              "Did the host nation organize the World Cup?"
+            ],
+            "ans": "Does the host nation organize the World Cup?"
+          },
+          {
+            "q": "'Ask me if World Cups have many upsets.' — What is the correct question?",
+            "opts": [
+              "Does World Cups have many upsets?",
+              "Have World Cups many upsets?",
+              "Do World Cups have many upsets?",
+              "Is World Cups having many upsets?"
+            ],
+            "ans": "Do World Cups have many upsets?"
+          },
+          {
+            "q": "What is a synonym for 'unbiased'?",
+            "opts": [
+              "Enthusiastic",
+              "Competitive",
+              "Knowledgeable",
+              "Impartial"
+            ],
+            "ans": "Impartial"
+          },
+          {
+            "q": "'Ask me if an underdog can surprise stronger teams.' — What is the correct question?",
+            "opts": [
+              "Does an underdog can surprise stronger teams?",
+              "Can an underdog surprise stronger teams?",
+              "Is an underdog surprising stronger teams?",
+              "Did an underdog surprise stronger teams?"
+            ],
+            "ans": "Can an underdog surprise stronger teams?"
+          },
+          {
+            "q": "Which sentence uses 'upset' correctly in a sporting context?",
+            "opts": [
+              "I was very upset when Brazil lost.",
+              "The referee upset the penalty decision.",
+              "Brazil's win over Germany was a massive upset.",
+              "Messi felt upset during the match."
+            ],
+            "ans": "Brazil's win over Germany was a massive upset."
+          }
+        ]
+      }
+    ]
   }
 ]

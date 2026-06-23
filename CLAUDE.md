@@ -68,11 +68,11 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Kyle sub-tabs:** The English with Kyle tab contains three nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo"])`. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab. The Warm-Up Linguo sub-tab runs a Duolingo-style quiz (see below).
 
-**Warm-Up Linguo:** `_collect_warmup_questions(kyle_classes)` scans all Kyle classes and collects every question from tests whose title contains `"warm"` (case-insensitive). `_render_warmup_linguo(all_qs)` drives the quiz — three screens controlled by `linguo_started` / `linguo_idx` in `st.session_state`:
-- **Start screen** — question count + Start button; shuffles questions into `linguo_qs` on click.
+**Warm-Up Linguo:** `_collect_warmup_questions(kyle_classes)` scans all Kyle classes and collects every question from tests whose title contains `"warm"` (case-insensitive). `_render_warmup_linguo(all_qs)` drives the quiz — screens controlled by `linguo_started` / `linguo_idx` / `linguo_batch` in `st.session_state`. Inner helper `_start_round(batch)` sets up a new round: `batch="all"` shuffles the full pool; `batch=10` draws `random.sample(all_qs, 10)`.
+- **Start screen** — question count, horizontal radio ("All questions (N)" / "10 random questions"), Start button. Stores chosen batch in `linguo_batch` and calls `_start_round` on click.
 - **Question screen** — progress bar, `linguo_idx`/total counter, live score, question text, option buttons. Clicking an option sets `linguo_selected` and `linguo_answered`; increments `linguo_score` if correct; reruns.
 - **After answer** — options replaced by colour-coded HTML divs (`_linguo_option_html`): green = correct, red = wrong selection, grey = unchosen. Feedback message + class source caption + "Continue →" button that increments `linguo_idx` and clears `linguo_answered`/`linguo_selected`.
-- **Finish screen** — score, percentage, motivational message, "Play Again" (reshuffles) / "Quit" (resets `linguo_started`).
+- **Finish screen** — score, percentage, motivational message, "Play Again" (calls `_start_round(linguo_batch)` — redraws a fresh set of the same size without returning to the start screen) / "Quit" (resets `linguo_started`).
 
 New warm-up questions are picked up automatically — no code change needed, only adding the test to `class_cache.json`.
 
@@ -128,7 +128,7 @@ New warm-up questions are picked up automatically — no code change needed, onl
 
 **Transcribing from a Vimeo link:** if no local MP4 exists, download with `yt-dlp` (`pip install yt-dlp`). Vimeo streams may not merge without ffmpeg — if yt-dlp produces a `.fdash-audio-*.m4a` alongside the video file, transcribe directly from the `.m4a` (faster-whisper accepts it). Delete both partial files after transcription.
 
-**Tests:** Kyle class entries must include a dedicated **"Test 1 · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences) as the **first** entry in `tests`, plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them.
+**Tests:** Kyle class entries must include a dedicated **"Test 1 · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences) as the **first** entry in `tests`, plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them. Do not label any section "Warm-Up" for non-Kyle classes; use "Discussion" or another descriptive title instead.
 
 **After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content, increment the class count in the header, and sync: `cp mindmap_kyle.html static/mindmap_kyle.html`. Always commit both files together.
 

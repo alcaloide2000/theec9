@@ -236,9 +236,24 @@ def _render_warmup_linguo(all_qs):
         ("linguo_score", 0),
         ("linguo_answered", False),
         ("linguo_selected", None),
+        ("linguo_batch", "all"),
     ]:
         if key not in st.session_state:
             st.session_state[key] = val
+
+    def _start_round(batch):
+        st.session_state.linguo_batch = batch
+        if batch == 10:
+            pool = random.sample(all_qs, min(10, len(all_qs)))
+        else:
+            pool = all_qs.copy()
+            random.shuffle(pool)
+        st.session_state.linguo_qs = pool
+        st.session_state.linguo_idx = 0
+        st.session_state.linguo_score = 0
+        st.session_state.linguo_answered = False
+        st.session_state.linguo_selected = None
+        st.session_state.linguo_started = True
 
     # ── start screen ────────────────────────────────────────────────────────
     if not st.session_state.linguo_started:
@@ -253,15 +268,17 @@ def _render_warmup_linguo(all_qs):
         st.markdown("")
         _, mid, _ = st.columns([1, 2, 1])
         with mid:
+            batch_choice = st.radio(
+                "Round size",
+                [f"All questions ({len(all_qs)})", "10 random questions"],
+                index=0,
+                horizontal=True,
+                label_visibility="visible",
+            )
+            st.markdown("")
             if st.button("▶  Start", use_container_width=True, type="primary"):
-                shuffled = all_qs.copy()
-                random.shuffle(shuffled)
-                st.session_state.linguo_qs = shuffled
-                st.session_state.linguo_idx = 0
-                st.session_state.linguo_score = 0
-                st.session_state.linguo_answered = False
-                st.session_state.linguo_selected = None
-                st.session_state.linguo_started = True
+                batch = 10 if batch_choice.startswith("10") else "all"
+                _start_round(batch)
                 st.rerun()
         return
 
@@ -293,13 +310,7 @@ def _render_warmup_linguo(all_qs):
         c1, c2 = st.columns(2)
         with c1:
             if st.button("▶  Play Again", use_container_width=True, type="primary"):
-                shuffled = all_qs.copy()
-                random.shuffle(shuffled)
-                st.session_state.linguo_qs = shuffled
-                st.session_state.linguo_idx = 0
-                st.session_state.linguo_score = 0
-                st.session_state.linguo_answered = False
-                st.session_state.linguo_selected = None
+                _start_round(st.session_state.linguo_batch)
                 st.rerun()
         with c2:
             if st.button("✕  Quit", use_container_width=True):
