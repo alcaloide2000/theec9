@@ -124,7 +124,7 @@ New warm-up questions are picked up automatically — no code change needed, onl
 
 **MP4 location:** `assets/classes/english_with_kyle/`, `assets/classes/esential_english_julia/`, `assets/classes/english_time_with_juls/`, `assets/classes/natural_english/`, or `assets/classes/brain_buffet/` depending on teacher.
 
-**Adding a new class:** transcribe the MP4 with faster-whisper, write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump`, then delete the script. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
+**Adding a new class:** transcribe the MP4 with faster-whisper using `WhisperModel('medium', device='cpu', compute_type='int8')` and `model.transcribe(mp4, language='en', beam_size=5)`. Write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump` — put it in the Claude Code scratchpad directory (not the project root) so no cleanup is needed. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
 **Transcribing from a Vimeo link:** if no local MP4 exists, download with `yt-dlp` (`pip install yt-dlp`). Vimeo streams may not merge without ffmpeg — if yt-dlp produces a `.fdash-audio-*.m4a` alongside the video file, transcribe directly from the `.m4a` (faster-whisper accepts it). Delete both partial files after transcription.
 
