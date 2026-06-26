@@ -126,11 +126,13 @@ New warm-up questions are picked up automatically — no code change needed, onl
 
 **Adding a new class:** transcribe the MP4 with faster-whisper using `WhisperModel('medium', device='cpu', compute_type='int8')` and `model.transcribe(mp4, language='en', beam_size=5)`. Write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump` — put it in the Claude Code scratchpad directory (not the project root) so no cleanup is needed. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
-**Transcribing from a Vimeo link:** if no local MP4 exists, download with `yt-dlp` (`pip install yt-dlp`). Vimeo streams may not merge without ffmpeg — if yt-dlp produces a `.fdash-audio-*.m4a` alongside the video file, transcribe directly from the `.m4a` (faster-whisper accepts it). Delete both partial files after transcription.
+**Transcribing from a Vimeo link:** if no local MP4 exists, download audio only with `yt-dlp -f bestaudio -o scratchpad/filename.%(ext)s <url>` — this produces a single `.m4a` file. (Avoid downloading video: Vimeo streams may not merge without ffmpeg, and audio alone is sufficient for transcription.) Delete the `.m4a` after transcription.
 
 **Tests:** Kyle class entries must include a dedicated **"Test 1 · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences) as the **first** entry in `tests`, plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them. Do not label any section "Warm-Up" for non-Kyle classes; use "Discussion" or another descriptive title instead.
 
 **After adding a Kyle class:** update `mindmap_kyle.html` (and `mindmap_kyle_network.html` if maintained) with the new content, increment the class count in the header, and sync: `cp mindmap_kyle.html static/mindmap_kyle.html`. Always commit both files together.
+
+**After adding a non-Kyle class** (julia, juls, natural, brain_buffet): no mindmap update needed — just commit `class_cache.json`.
 
 **Mindmap "Go to class" links:** Every `###` and `####` node that carries a `*(date)*` tag must include a `- [→ Go to class](/?class=kyle_YYYYMMDD)` bullet as its **first** child line. Multi-date nodes (e.g. `*(May 21 & 26)*`) get one link per class. The `## Prepositions of Place` branch has no sub-nodes, so its link sits directly as the first bullet under the `##` heading. Always add this link when creating a new node.
 
@@ -148,6 +150,7 @@ New warm-up questions are picked up automatically — no code change needed, onl
 | Describing people, personality adjectives | `## Describing People` |
 | Formal/business English, formal vocabulary | `## Formal English & Business` |
 | Vocabulary groups, confusable words, idioms, themed word sets | `## Vocabulary Themes` |
+| Numbers, numerical expressions, dictation exercises | `## Vocabulary Themes` |
 | Warm-up translation exercises | `## Warm-Up Translations` |
 
 If a topic doesn't fit any existing branch, flag it to the user rather than guessing.

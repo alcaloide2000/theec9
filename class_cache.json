@@ -5910,5 +5910,518 @@
       }
     ],
     "teacher": "kyle"
+  },
+  {
+    "id": "kyle_20260625",
+    "title": "English with Kyle",
+    "date": "2026-06-25",
+    "topic": "Trip vs. Travel · About To · Numbers",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "The class opened with a translation round covering passive voice, modals, imperatives and more.\n\n| Spanish | English |\n|---|---|\n| Se ha cometido un crimen. | A crime has been committed. |\n| No se ha levantado el embargo aún. | The embargo hasn't been lifted yet. |\n| Ponlo aquí mismo. | Put it right here. |\n| No te disgustes. | Don't get upset. |\n| Habrá otra guerra si no hacemos algo. | There will be another war if we don't do something. |\n| El mundo nunca ha tenido un siglo de paz. | The world has never had a century of peace. |\n| Tengo que dar de comer a mucha gente. | I have to feed a lot of people. |\n| Debe de haber muerto antes de ayer. | He must have died the day before yesterday. |\n| Ha muerto por una explosión. | He was killed by an explosion. / He died in an explosion. |\n| Debería haber más escritorios. | There should be more desks. |\n| ¿Quién se llevó las cajas? | Who took the boxes? |\n| Haz que se traigan aquí otra vez. | Have them brought back here. |\n| Pero están en mala condición. | But they're in bad condition. |\n\n**Key notes:**\n- **Double negative rule:** English does *not* allow double negatives. \"Si no hacemos *nada*\" → \"if we don't do **something**\" (not \"nothing\").\n- **\"The day before yesterday\"** = antes de ayer. Similarly: *the day after tomorrow* = pasado mañana.\n- **Dar de comer = to feed.** The verb *feed* is the natural translation, not \"give to eat.\"\n- **\"Bad condition\" (no plural):** We say *in bad condition*, not *in bad conditions*.\n- **Causative \"have\":** \"Haz que se traigan\" → \"Have them brought (back here).\" Structure: *have + object + past participle*.\n- **\"Ha muerto por una explosión\"** uses simple past in English (*he was killed / he died*) because the moment of death is isolated in the past — we don't use present perfect for a completed event with a specific past reference."
+      },
+      {
+        "title": "2. Trip, Travel, Journey & Voyage",
+        "expanded": false,
+        "content": "All four words can translate the Spanish *viaje*, but they are not interchangeable.\n\n| Word | Spanish equivalent | When to use |\n|---|---|---|\n| **trip** | viaje (ida y vuelta) | A specific outing — you go somewhere and come back. Most common everyday word. |\n| **travel** | viajar (verb) | The act of moving from place to place. Used as a verb or general concept. |\n| **journey** | trayecto / recorrido | One leg of a trip, often with an epic or significant feel. More common in British English. |\n| **voyage** | travesía | A very long, exploratory or historic sea/air journey. |\n\n**Example sentences:**\n\n- *¿Que tengas un buen viaje!* → **Have a good trip!**\n- *I'm going on a trip to Ávila this weekend.*\n- *I'm traveling this weekend.* (verb)\n- *¿Cuándo es tu viaje a Rusia?* → **When's your trip to Russia?**\n- *Jim quiere hacer un largo viaje.* → **Jim wants to go on a long trip.**\n- *Es un viaje de tren de dos horas.* → **It's a two-hour train journey.**\n- *Columbus went on a voyage across the Atlantic.* (epic, exploratory — not just a weekend trip)\n\n**Useful structure:** *[Place] is famous for its [thing]*\n- Ávila is famous for its walls (murallas) and its *yemas* (egg-yolk sweets).\n- Segovia is famous for its aqueduct.\n- Albacete is famous for its knives (navajas).\n- Majorca is famous for its pearls and *sobrasada*."
+      },
+      {
+        "title": "3. About To (A punto de)",
+        "expanded": false,
+        "content": "**Structure:** *subject + to be + about to + base verb*\n\nThis expresses that something is going to happen **very soon** — it's imminent.\n\n| Spanish | English |\n|---|---|\n| Está a punto de llover. | It's about to rain. |\n| La obra está a punto de empezar. | The play is about to begin. |\n| Estamos a punto de cerrar. Por favor, vuelva mañana. | We're about to close. Please come back tomorrow. |\n| El niño está a punto de llorar. | The little boy is about to cry. |\n| Estaba a punto de llamarte cuando apareciste en la puerta. | I was about to call you when you showed up at the door. |\n\n**Pronunciation tip:** The words link together naturally in speech:\n> *I'm about to* → sounds like *\"I'm uh-BOUD-uh\"* — the *t* of *about* links into *to*."
+      },
+      {
+        "title": "4. Numbers",
+        "expanded": false,
+        "content": "The class practised **number dictation** — Kyle read numbers aloud and students wrote and read them back.\n\n**Key rules:**\n- Use a **comma** (,) as the thousands separator in English — *not* a period/full stop.\n  - ✅ 218,880 → two hundred and eighteen thousand, eight hundred and eighty\n  - ❌ 218.880 (this is the Spanish convention, not English)\n- Say **\"and\"** between the hundreds and the tens: *eight hundred **and** eighty*.\n\n**Numbers from the dictation:**\n\n| Number | How to say it |\n|---|---|\n| 218,880 | two hundred and eighteen thousand, eight hundred and eighty |\n| 545,455 | five hundred and forty-five thousand, four hundred and fifty-five |\n| 27,810 | twenty-seven thousand, eight hundred and ten |\n| 646,330 | six hundred and forty-six thousand, three hundred and thirty |\n| 691,989 | six hundred and ninety-one thousand, nine hundred and eighty-nine |\n| 841,111 | eight hundred and forty-one thousand, one hundred and eleven |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20260625_t1",
+        "qs": [
+          {
+            "q": "\"Se ha cometido un crimen.\" Which is the correct English translation?",
+            "opts": [
+              "A crime has been committed.",
+              "A crime was committed.",
+              "A crime is committed.",
+              "A crime had been committed."
+            ],
+            "ans": "A crime has been committed."
+          },
+          {
+            "q": "\"No se ha levantado el embargo aún.\" How do you say this in English?",
+            "opts": [
+              "The embargo wasn't lifted yet.",
+              "The embargo hasn't been lifted yet.",
+              "The embargo isn't lifted yet.",
+              "The embargo hadn't been lifted yet."
+            ],
+            "ans": "The embargo hasn't been lifted yet."
+          },
+          {
+            "q": "\"Habrá otra guerra si no hacemos algo.\" Which is correct?",
+            "opts": [
+              "There will be another war if we don't do nothing.",
+              "There will be another war if we don't do something.",
+              "There would be another war if we don't do something.",
+              "There is going to be another war if we do nothing."
+            ],
+            "ans": "There will be another war if we don't do something."
+          },
+          {
+            "q": "\"Tengo que dar de comer a mucha gente.\" The verb *dar de comer* translates as:",
+            "opts": [
+              "to give food",
+              "to feed",
+              "to nourish",
+              "to provide"
+            ],
+            "ans": "to feed"
+          },
+          {
+            "q": "\"Antes de ayer\" in English is:",
+            "opts": [
+              "Yesterday",
+              "Two days ago",
+              "The day before yesterday",
+              "Last Tuesday"
+            ],
+            "ans": "The day before yesterday"
+          },
+          {
+            "q": "\"Ha muerto por una explosión.\" Which is the most natural English translation?",
+            "opts": [
+              "He has died by an explosion.",
+              "He was killed by an explosion.",
+              "He is dead for an explosion.",
+              "He has been killed by an explosion."
+            ],
+            "ans": "He was killed by an explosion."
+          },
+          {
+            "q": "Why do we say \"if we don't do something\" (not \"nothing\") in \"There will be another war if we don't do something\"?",
+            "opts": [
+              "Because 'something' is more polite.",
+              "Because English does not allow double negatives.",
+              "Because 'nothing' changes the meaning completely.",
+              "Because 'something' sounds more formal."
+            ],
+            "ans": "Because English does not allow double negatives."
+          },
+          {
+            "q": "\"Pero están en mala condición.\" Which form is correct in English?",
+            "opts": [
+              "But they're in bad conditions.",
+              "But they're in bad condition.",
+              "But they're in a bad condition.",
+              "But they're on bad condition."
+            ],
+            "ans": "But they're in bad condition."
+          },
+          {
+            "q": "\"Haz que se traigan aquí otra vez.\" Which is correct?",
+            "opts": [
+              "Make them brought back here.",
+              "Have them brought back here.",
+              "Let them bring here again.",
+              "Get them bringing back here."
+            ],
+            "ans": "Have them brought back here."
+          },
+          {
+            "q": "\"El mundo nunca ha tenido un siglo de paz.\" Which is correct?",
+            "opts": [
+              "The world never had a century of peace.",
+              "The world has never had a century of peace.",
+              "The world hasn't never had a century of peace.",
+              "The world had never had a century of peace."
+            ],
+            "ans": "The world has never had a century of peace."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Trip, Travel, Journey & Voyage",
+        "key": "kyle_20260625_t2",
+        "qs": [
+          {
+            "q": "\"¡Que tengas un buen viaje!\" How do you say this in English?",
+            "opts": [
+              "Have a good journey!",
+              "Have a good travel!",
+              "Have a good trip!",
+              "Have a good voyage!"
+            ],
+            "ans": "Have a good trip!"
+          },
+          {
+            "q": "Which word best describes the one-way leg of a journey, often with an epic feel and common in British English?",
+            "opts": [
+              "Trip",
+              "Travel",
+              "Journey",
+              "Voyage"
+            ],
+            "ans": "Journey"
+          },
+          {
+            "q": "\"Jim quiere hacer un largo viaje.\" Which is the most natural translation?",
+            "opts": [
+              "Jim wants to make a long travel.",
+              "Jim wants to go on a long trip.",
+              "Jim wants to do a long journey.",
+              "Jim wants to take a long voyage."
+            ],
+            "ans": "Jim wants to go on a long trip."
+          },
+          {
+            "q": "\"Es un viaje de tren de dos horas.\" Which word fits best?",
+            "opts": [
+              "It's a two-hour train trip.",
+              "It's a two-hour train travel.",
+              "It's a two-hour train journey.",
+              "It's a two-hour train voyage."
+            ],
+            "ans": "It's a two-hour train journey."
+          },
+          {
+            "q": "Columbus crossing the Atlantic to discover the New World — which word best describes his experience?",
+            "opts": [
+              "Trip",
+              "Travel",
+              "Journey",
+              "Voyage"
+            ],
+            "ans": "Voyage"
+          },
+          {
+            "q": "Which sentence uses the correct word for the general act of moving between places?",
+            "opts": [
+              "I'm tripping this weekend.",
+              "I'm traveling this weekend.",
+              "I'm journeying this weekend.",
+              "I'm voyaging this weekend."
+            ],
+            "ans": "I'm traveling this weekend."
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · About To",
+        "key": "kyle_20260625_t3",
+        "qs": [
+          {
+            "q": "\"Está a punto de llover.\" Which is correct?",
+            "opts": [
+              "It's going to rain soon.",
+              "It's about to rain.",
+              "It will rain.",
+              "It's close to raining."
+            ],
+            "ans": "It's about to rain."
+          },
+          {
+            "q": "\"La obra está a punto de empezar.\" Which is correct?",
+            "opts": [
+              "The play is about to begin.",
+              "The play is about beginning.",
+              "The play about to begins.",
+              "The play is going about to begin."
+            ],
+            "ans": "The play is about to begin."
+          },
+          {
+            "q": "\"Estamos a punto de cerrar.\" How do you say this?",
+            "opts": [
+              "We are close to closing.",
+              "We about to close.",
+              "We are about to close.",
+              "We will be about to close."
+            ],
+            "ans": "We are about to close."
+          },
+          {
+            "q": "Which sentence uses \"about to\" correctly?",
+            "opts": [
+              "I am about called you.",
+              "I about to go home.",
+              "I was about to call you when you arrived.",
+              "I'm about going home."
+            ],
+            "ans": "I was about to call you when you arrived."
+          },
+          {
+            "q": "What is the correct structure for \"about to\"?",
+            "opts": [
+              "subject + to be + about to + base verb",
+              "subject + about to + infinitive",
+              "subject + be + about + gerund",
+              "subject + to be + about + past participle"
+            ],
+            "ans": "subject + to be + about to + base verb"
+          }
+        ]
+      },
+      {
+        "title": "Test 4 · Numbers",
+        "key": "kyle_20260625_t4",
+        "qs": [
+          {
+            "q": "In English, what separates the thousands in a large number like 646,330?",
+            "opts": [
+              "A period (.)",
+              "A comma (,)",
+              "A space",
+              "A hyphen (-)"
+            ],
+            "ans": "A comma (,)"
+          },
+          {
+            "q": "How do you say 218,880 in English?",
+            "opts": [
+              "Two hundred and eighteen thousand, eight hundred and eighty",
+              "Two hundred and eighteen thousands, eight hundreds and eighty",
+              "Two-eighteen thousand, eight-eighty",
+              "Two hundred eighteen, eight hundred and eighty"
+            ],
+            "ans": "Two hundred and eighteen thousand, eight hundred and eighty"
+          },
+          {
+            "q": "How do you say 27,810 in English?",
+            "opts": [
+              "Twenty-seven thousand, eight hundred ten",
+              "Twenty-seven thousand, eight hundred and ten",
+              "Two thousand seven hundred eighty-one zero",
+              "Twenty seven hundred and eight ten"
+            ],
+            "ans": "Twenty-seven thousand, eight hundred and ten"
+          },
+          {
+            "q": "Which is the correctly written form of \"six hundred and forty-six thousand, three hundred and thirty\"?",
+            "opts": [
+              "646.330",
+              "646 330",
+              "646,330",
+              "6,46,330"
+            ],
+            "ans": "646,330"
+          },
+          {
+            "q": "How do you say 841,111 in English?",
+            "opts": [
+              "Eight hundred and forty-one thousand, one hundred and eleven",
+              "Eight hundred forty-one thousand eleven hundred",
+              "Eight hundred and forty one thousand and a hundred and eleven",
+              "Eight-forty-one thousand, one-eleven"
+            ],
+            "ans": "Eight hundred and forty-one thousand, one hundred and eleven"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain_buffet_20260625",
+    "title": "Brain Buffet",
+    "date": "2026-06-25",
+    "topic": "Communication Styles",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion — Say What You Mean",
+        "expanded": false,
+        "content": "The class opened with the expression **\"Say what you mean, and mean what you say.\"**\n\nThis means: be honest, be direct, and make sure your words reflect your thoughts. Don't **beat around the bush** (andarse por las ramas) — don't take a very long way to get to the point.\n\n**Vocabulary preview:**\n- **mall** *(US)* = shopping center *(UK)* = centro comercial\n  - *Let's go to the mall* · *Where you have shops, cinemas, gyms*\n- **beat around the bush** → andarse por las ramas; to avoid saying something directly"
+      },
+      {
+        "title": "2. Communication Style Adjectives",
+        "expanded": false,
+        "content": "Vocabulary for describing how people communicate — personality traits, not physical appearance.\n\n| Adjective | Meaning | Example |\n|---|---|---|\n| **assertive** | Confident in expressing needs; never afraid to say what you want, without offending | *Ibrahim is assertive — he says what he wants without being blunt* |\n| **blunt** | Honest in a way that is sometimes rude; very direct, gets straight to the point | *Don't be so blunt — you hurt her feelings* |\n| **reserved** | Doesn't like showing feelings or expressing thoughts; keeps to themselves | *Penny is reserved around new people* |\n| **outspoken** | Very willing to share opinions; speaks their mind | *Once you get to know her, she's really outspoken* |\n| **vague** | Not clear about what you mean; impreciso | *His explanation was very vague* |\n| **straightforward** | Direct; gets straight to the point, even on sensitive topics | *Stefan is very straightforward — you always know how he's feeling* |\n| **tactful** | Handles difficult situations in a careful, polite way without hurting people | *Michelle is so tactful — she never upsets anyone* |\n| **passive-aggressive** | Expresses negative feelings **indirectly** — throws the stone and hides the hand | *A passive-aggressive person won't tell you directly that they're upset* |\n\n**Key contrasts:**\n- **assertive** vs **blunt**: both say what they think, but assertive does so *without* offending; blunt can be rude\n- **reserved** vs **outspoken**: reserved keeps thoughts inside; outspoken shares them freely\n- **vague** vs **straightforward**: vague is unclear; straightforward gets right to the point\n- **tactful** vs **passive-aggressive**: tactful handles difficult things politely; passive-aggressive avoids confrontation but shows negativity indirectly\n\n**Grammar note — too vs very:**\n- **very** = neutral/positive intensifier: *He was very tactful at the meeting* ✓\n- **too** = demasiado (negative connotation): *He was too tactful* → implies it was unnecessary or excessive ⚠\n\n**I'd rather** requires a verb after it:\n- ✗ *I'd rather straightforward people*\n- ✓ *I'd rather deal with / work with straightforward people*"
+      },
+      {
+        "title": "3. Translation Practice",
+        "expanded": false,
+        "content": "Spanish → English translations using the class vocabulary.\n\n| Spanish | English |\n|---|---|\n| Mi jefe es muy asertivo. | My boss is very assertive. |\n| Ella es muy reservada. | She's very reserved. |\n| Es muy directo al hablar. | He's very straightforward when speaking. |\n| No seas tan brusco. | Don't be so blunt. |\n| Fue muy diplomático en la reunión. | He was very tactful at the meeting. |\n| Su explicación fue muy vaga. | His explanation was very vague. |\n| Ese comentario fue bastante brusco. | That comment was quite blunt. |\n| Prefiero a la gente directa. | I prefer straightforward people. |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Communication Style Adjectives",
+        "key": "brain_buffet_20260625_t1",
+        "qs": [
+          {
+            "q": "Someone who is **assertive** is:",
+            "opts": [
+              "Confident in expressing their needs without offending others",
+              "Honest in a rude, blunt way",
+              "Unwilling to show their feelings",
+              "Indirect about expressing negative feelings"
+            ],
+            "ans": "Confident in expressing their needs without offending others"
+          },
+          {
+            "q": "A **blunt** person:",
+            "opts": [
+              "Avoids conflict and never says what they think",
+              "Is honest in a way that can sometimes be rude",
+              "Handles sensitive situations with great care",
+              "Is very vague and unclear"
+            ],
+            "ans": "Is honest in a way that can sometimes be rude"
+          },
+          {
+            "q": "What does it mean to be **reserved**?",
+            "opts": [
+              "Very willing to share your opinion",
+              "Direct and always getting straight to the point",
+              "Not liking to show feelings or express thoughts",
+              "Expressing negativity in an indirect way"
+            ],
+            "ans": "Not liking to show feelings or express thoughts"
+          },
+          {
+            "q": "An **outspoken** person is:",
+            "opts": [
+              "Someone who rarely shares their opinion",
+              "Very willing to share their opinion",
+              "Careful not to hurt others' feelings",
+              "Unclear and imprecise"
+            ],
+            "ans": "Very willing to share their opinion"
+          },
+          {
+            "q": "If someone is **vague**, they are:",
+            "opts": [
+              "Very direct and clear",
+              "Not very clear about what they mean",
+              "Confident and assertive",
+              "Polite and careful"
+            ],
+            "ans": "Not very clear about what they mean"
+          },
+          {
+            "q": "A **straightforward** person:",
+            "opts": [
+              "Gets straight to the point, even on sensitive topics",
+              "Avoids saying what they truly think",
+              "Is always polite and tactful",
+              "Keeps feelings to themselves"
+            ],
+            "ans": "Gets straight to the point, even on sensitive topics"
+          },
+          {
+            "q": "A **tactful** person handles difficult situations:",
+            "opts": [
+              "In a rude and direct way",
+              "By avoiding the subject entirely",
+              "In a careful, polite way without hurting people",
+              "Aggressively and confrontationally"
+            ],
+            "ans": "In a careful, polite way without hurting people"
+          },
+          {
+            "q": "A **passive-aggressive** person expresses negative feelings:",
+            "opts": [
+              "Directly and openly",
+              "Indirectly — they avoid confrontation but show negativity",
+              "In a tactful and careful way",
+              "By being very assertive"
+            ],
+            "ans": "Indirectly — they avoid confrontation but show negativity"
+          },
+          {
+            "q": "What is the difference between **assertive** and **blunt**?",
+            "opts": [
+              "Assertive people are shy; blunt people are confident",
+              "Assertive people are direct without offending; blunt people can be rude",
+              "There is no difference — they mean the same thing",
+              "Blunt people are more polite than assertive people"
+            ],
+            "ans": "Assertive people are direct without offending; blunt people can be rude"
+          },
+          {
+            "q": "Why should you say \"He was **very** tactful\" instead of \"He was **too** tactful\"?",
+            "opts": [
+              "Because 'too' is informal",
+              "Because 'too' (= demasiado) implies a negative connotation",
+              "Because 'very' is stronger than 'too'",
+              "Because 'too' can only be used with negative adjectives"
+            ],
+            "ans": "Because 'too' (= demasiado) implies a negative connotation"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Translations",
+        "key": "brain_buffet_20260625_t2",
+        "qs": [
+          {
+            "q": "\"Mi jefe es muy asertivo.\" Which is correct?",
+            "opts": [
+              "My boss is very aggressive.",
+              "My boss is very assertive.",
+              "My boss is very blunt.",
+              "My boss is very outspoken."
+            ],
+            "ans": "My boss is very assertive."
+          },
+          {
+            "q": "\"No seas tan brusco.\" Which is correct?",
+            "opts": [
+              "Don't be so vague.",
+              "Don't be so passive-aggressive.",
+              "Don't be so blunt.",
+              "Don't be so reserved."
+            ],
+            "ans": "Don't be so blunt."
+          },
+          {
+            "q": "\"Fue muy diplomático en la reunión.\" Which is correct?",
+            "opts": [
+              "He was very diplomatic at the meeting.",
+              "He was very vague at the meeting.",
+              "He was very tactful at the meeting.",
+              "He was too tactful at the meeting."
+            ],
+            "ans": "He was very tactful at the meeting."
+          },
+          {
+            "q": "\"Su explicación fue muy vaga.\" Which is correct?",
+            "opts": [
+              "His explanation was very straightforward.",
+              "His explanation was very vague.",
+              "His explanation was very blunt.",
+              "His explanation was very reserved."
+            ],
+            "ans": "His explanation was very vague."
+          },
+          {
+            "q": "\"Prefiero a la gente directa.\" Which is the most natural translation?",
+            "opts": [
+              "I'd rather straightforward people.",
+              "I prefer direct people.",
+              "I prefer straightforward people.",
+              "I'd rather deal with blunt people."
+            ],
+            "ans": "I prefer straightforward people."
+          },
+          {
+            "q": "\"Ese comentario fue bastante brusco.\" Which is correct?",
+            "opts": [
+              "That comment was quite vague.",
+              "That comment was quite assertive.",
+              "That comment was quite blunt.",
+              "That comment was quite passive-aggressive."
+            ],
+            "ans": "That comment was quite blunt."
+          }
+        ]
+      }
+    ]
   }
 ]
