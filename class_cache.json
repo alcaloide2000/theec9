@@ -1,5 +1,127 @@
 [
   {
+    "id": "natural_20260630",
+    "title": "Natural English",
+    "date": "2026-06-30",
+    "topic": "Storytelling: Connectors & Expressions for Natural Speech",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Why This Class Exists",
+        "expanded": false,
+        "content": "The **Natural English** Friday class focuses on the small details that make spoken English sound fluent and authentic — not academic or forced.\n\n> Traditional classes teach grammar and vocabulary for writing. This class trains the *connectors and expressions* that native speakers use automatically in conversation.\n\n**The shadowing technique:** Imitate what you hear as closely as possible — repeat words out loud, mimic rhythm and intonation. The goal is to make new expressions feel comfortable *before* you need them in a real conversation, so they sound organic, not rehearsed.\n\nToday's focus: **storytelling** — expressions that make an anecdote flow naturally, organised into four categories."
+      },
+      {
+        "title": "2. Introducing Unexpected Events",
+        "expanded": false,
+        "content": "Use these when something surprising happens in your story:\n\n| Expression | Example |\n|---|---|\n| **All of a sudden** | *I was giving a class and **all of a sudden** the ceiling broke in half.* |\n| **Out of nowhere** | *I was walking down the street and **out of nowhere** this man came up to me.* |\n\n> **Out of the blue** (mentioned by a student) is also correct but less common as a story connector.\n\nBoth expressions go at the beginning of the clause that introduces the surprise."
+      },
+      {
+        "title": "3. Introducing Surprising or Contrasting Information",
+        "expanded": false,
+        "content": "Use these when you reveal something unexpected relative to what you just said — the English equivalent of *resulta que...* or *¿lo que son las cosas?*\n\n| Expression | Notes |\n|---|---|\n| **Believe it or not** | Placed at the start: *Believe it or not, he was from Kathmandu.* |\n| **Turns out** | Always in present form, even for past events. Placed at the start: *I thought he was from China, but turns out he was from Kathmandu.* |\n\n**Key rule for *turns out*:** Do not conjugate it. It is a fixed expression — never *turned out that*, always just **turns out** followed by the clause.\n\n> *Turns out* = Spanish *resulta que* — very natural and very common in spoken English."
+      },
+      {
+        "title": "4. Moving the Story Forward",
+        "expanded": false,
+        "content": "Use these to transition between parts of a story — the spoken equivalent of academic connectors like *furthermore* or *subsequently*, but natural and colloquial.\n\n| Expression | Notes |\n|---|---|\n| **Then** | The classic, always correct. |\n| **So** | Very natural; also signals a slight change of direction. |\n| **Anyway** | Closes one part of the story and opens the next — equivalent of Spanish *en fin* or *bueno*. |\n| **Next thing I knew** | Jumps to the following action: *I was walking down the street and next thing I knew I was at the beach.* |\n\n**Anyway vs Anyways:**\n- Use **anyway** as a story connector (*Anyway, I went to the beach with my friends*).\n- *Anyways* is very colloquial and mainly used at the end of a sentence meaning *de todas formas* (*you are busy anyways*). Best to stick with *anyway* for everything — it works in both positions."
+      },
+      {
+        "title": "5. Showing Your Feelings",
+        "expanded": false,
+        "content": "Use these to express your emotions or evaluation while telling the story — making it subjective and engaging.\n\n**Expressing honesty / sincerity:**\n\n| Expression | Notes |\n|---|---|\n| **To be honest** | Very common: *To be honest, that affected me a lot.* |\n| **Honestly** | Interchangeable: *Honestly, that affected me a lot.* |\n| **To tell the truth** | Slightly more formal but also natural. |\n\n**Expressing good or bad outcomes:**\n\n| Expression | Notes |\n|---|---|\n| **Luckily** / **Fortunately** | *Luckily, everything was okay.* |\n| **Unfortunately** | *Unfortunately, he was missing a leg.* |\n\n**Pronunciation of *unfortunately*:** Many syllables — stress the second syllable.\n\n> un · **for** · tu · nate · ly → *un-FOR-chu-nit-lee*\n\nPractise in slow motion: **un — for — tu — nate — ly**, then speed up.\n\n**Luck vs lack (pronunciation note):**\n- **luck** (good fortune): brighter, more open vowel\n- **lack** (absence of something): slightly more closed\n- In British English the difference is subtle; in American English it is more distinct (*lack* sounds like *lak*).\n- Context always makes the meaning clear — don't overthink it."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Storytelling Connectors",
+        "key": "natural_20260630_storytelling",
+        "qs": [
+          {
+            "q": "You are telling a story. A man suddenly appeared from nowhere and spoke to you. Which expression best introduces this?",
+            "opts": [
+              "Believe it or not, a man appeared.",
+              "All of a sudden, a man appeared.",
+              "Turns out, a man appeared.",
+              "To be honest, a man appeared."
+            ],
+            "ans": "All of a sudden, a man appeared."
+          },
+          {
+            "q": "You thought he was from China, but he was actually from Kathmandu. Which expression best introduces this contrast?",
+            "opts": [
+              "Anyway, he was from Kathmandu.",
+              "Next thing I knew, he was from Kathmandu.",
+              "Turns out he was from Kathmandu.",
+              "Luckily he was from Kathmandu."
+            ],
+            "ans": "Turns out he was from Kathmandu."
+          },
+          {
+            "q": "How should you use 'turns out' when talking about a past event?",
+            "opts": [
+              "Turned out that he was late.",
+              "It turned out he was late.",
+              "Turns out he was late.",
+              "Turns out that it was late."
+            ],
+            "ans": "Turns out he was late."
+          },
+          {
+            "q": "You have finished explaining one part of your story and want to move on to the next part. Which expression is the natural equivalent of Spanish 'en fin'?",
+            "opts": [
+              "Furthermore",
+              "Anyway",
+              "Believe it or not",
+              "To be honest"
+            ],
+            "ans": "Anyway"
+          },
+          {
+            "q": "You want to describe jumping quickly from one action to the next in a story. Which expression best conveys 'and suddenly I was already there'?",
+            "opts": [
+              "Out of nowhere",
+              "To tell the truth",
+              "Next thing I knew",
+              "Unfortunately"
+            ],
+            "ans": "Next thing I knew"
+          },
+          {
+            "q": "You want to tell your friend how something genuinely affected you emotionally. Which phrase is the most natural way to introduce this?",
+            "opts": [
+              "Subsequently",
+              "Furthermore",
+              "To be honest",
+              "Luckily"
+            ],
+            "ans": "To be honest"
+          },
+          {
+            "q": "Something went wrong in your story. Which word best introduces this?",
+            "opts": [
+              "Luckily",
+              "Fortunately",
+              "Anyway",
+              "Unfortunately"
+            ],
+            "ans": "Unfortunately"
+          },
+          {
+            "q": "Which is the correct form to use as a story connector meaning 'de todas formas / bueno, el caso es que'?",
+            "opts": [
+              "Anyways",
+              "Anyway",
+              "Any way",
+              "Either way"
+            ],
+            "ans": "Anyway"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "kyle_20260623",
     "title": "English with Kyle",
     "date": "2026-06-23",
