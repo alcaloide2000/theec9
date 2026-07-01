@@ -140,9 +140,9 @@ New warm-up questions are picked up automatically — no code change needed, onl
 
 | Content type | `##` branch |
 |---|---|
-| Pronunciation rules, silent letters, phonetics, sound distinctions | `## Pronunciation Tips` |
-| Linking words, connected speech, natural reductions (gonna/wanna, are ya) | `## Pronunciation Tips` |
-| Phrasal verbs (including *take over for*, *get by*, etc.) | `## Phrasal Verbs` |
+| Pronunciation rules, silent letters, phonetics, sound distinctions, J sound | `## Pronunciation Tips` |
+| Linking words, connected speech, natural reductions (gonna/wanna, are ya / are you) | `## Pronunciation Tips` |
+| Phrasal verbs (including *take over for*, *grow out of*, *get by*, etc.) | `## Phrasal Verbs` |
 | Grammar rules, tenses, structures, connectors, verb patterns | `## Grammar Rules` |
 | Prepositions of place | `## Prepositions of Place` |
 | Time prepositions (in/on/at), time expressions | `## Time Expressions` |
@@ -156,6 +156,8 @@ New warm-up questions are picked up automatically — no code change needed, onl
 If a topic doesn't fit any existing branch, flag it to the user rather than guessing.
 
 **Images in class sections:** If a section references an `"image"` field (e.g. `"assets/classes/english_with_kyle/prepositions.png"`), the image file must be committed to git — MP4 files are gitignored but images are not.
+
+**Image placement:** The `image` field always renders *above* the entire `content` block. If the image needs to appear between two content blocks (e.g. grammar rules above the image, practice table below it), split into two sections: one with the first content block and no image, and a second with the `image` field and the remaining content.
 
 ## mindmap_kyle.html architecture
 
