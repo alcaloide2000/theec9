@@ -7142,5 +7142,290 @@
         ]
       }
     ]
+  },
+  {
+    "id": "kyle_20260707",
+    "title": "English with Kyle",
+    "date": "2026-07-07",
+    "topic": "Phrasal Verbs with Put · Unless · What vs. How (Senses)",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "| Spanish | English |\n|---|---|\n| ¿Dónde conseguiste eso? | Where did you get that? |\n| ¿Cómo voy a ayudarte si no me dejas? | How am I going to help you if you don't let me? |\n| Llevo dos años trabajando aquí. | I've been working here for two years. |\n| Tienes que tener cuidado con ellos. | You have to be careful with them. |\n| Mi jefe tiene un acento británico. | My boss has a British accent. |\n| Se te cayó. | You dropped it. |\n| Me encanta mezclar bebidas. | I love to mix drinks. / I love mixing drinks. |\n| ¿Cómo puedes beber tanta cerveza? | How can you drink so much beer? |\n\n**Key notes:**\n\n- **To get** — \"the king of verbs\" (*el rey de los verbos*): extremely versatile. *Where did you get that?*\n- **Llevo + gerund + time → present perfect (continuous) + for:** *Llevo dos años trabajando aquí* → *I've been working here **for** two years.*\n- **Love / like + to-infinitive or -ing are both correct:** *I love to mix drinks* = *I love mixing drinks.* But never a bare infinitive: ❌ ~~I like go to the cinema~~ → ✅ *I like to go to the cinema.*\n- **Accent is countable:** *My boss has **a** British accent* — not just \"has accent\".\n- **Much (uncountable) vs. many (countable):** *How can you drink so **much** beer?* vs. *How can you drink so **many** glasses of beer?*"
+      },
+      {
+        "title": "2. Phrasal Verbs with 'Put'",
+        "expanded": false,
+        "content": "With phrasal verbs, **the secret is in the preposition, not the verb** — the same base verb creates totally different meanings depending on the particle.\n\n| Phrasal verb | Meaning | Example |\n|---|---|---|\n| **put out** | to extinguish (separable) | *He put out the fire. He put it out with a wet cloth.* |\n| **put on** ↔ **take off** | to dress / wear ↔ to remove clothing | *Do you put on your left shoe first?* |\n| **put into** | to insert (always implies movement) | *You put the key into the lock.* |\n| **put up with** | to tolerate (almost always used in the negative) | *I can't put up with my neighbors.* |\n| **put down** / **write down** / **jot down** | to note something on paper | *Put it down on paper if you have a good idea.* |\n| **put away** | to store something in its proper place | *Put your toys away before bed.* |\n| **put back** | to return something to where it was | *Put the books back on the shelf.* |\n| **put off** | to postpone | *I put the class off by 30 minutes.* |\n\n**Notes:**\n\n- Literal *\"put up\"* (e.g. *put the drinks up in the fridge*) isn't technically a phrasal verb by definition — a true phrasal verb creates a *new* meaning, which is exactly what *put up **with*** does.\n- **Grease fire safety:** never put water on a grease fire — it spreads the flames. Use a cloth to put it out instead."
+      },
+      {
+        "title": "3. Interrogative Challenge — What vs. How (The Five Senses)",
+        "expanded": false,
+        "content": "**What + verb + like → asks for a comparison** (needs *like*):\n\n> *What does it **look** like? · What does it **sound** like? · What does it **taste** like? · What does it **smell** like? · What does it **feel** like?*\n\n**How + verb → asks for an opinion / description** (uses adjectives, never *like*):\n\n> *How does it **look**? · How does it **sound**? · How does it **taste**? · How does it **smell**? · How does it **feel**?*\n\n> ❌ ~~How does it look like?~~ — **how** and **like** never go together.\n\n| Answer | Question |\n|---|---|\n| It sounds like a locomotive. | What does it sound like? |\n| It sounds great. | How does it sound? |\n| It tastes like orange juice. | What does it taste like? |\n| It tastes very sweet. | How does it taste? |\n| It looks like a medieval castle. | What does it look like? |\n| It smells like cheap perfume. | What does it smell like? |\n| It feels like rabbit fur. | What does it feel like? |\n\n**General interrogative reminder — auxiliary verbs are always required in questions and negatives, except when the main verb is *to be*:**\n\n| Statement | Question |\n|---|---|\n| I'm talking to Peter. | Who are you talking to? |\n| I went there yesterday. | When did you go there? |\n| I've known him for six years. | How long have you known him? |"
+      },
+      {
+        "title": "4. Grammar: Unless",
+        "expanded": false,
+        "content": "**Unless** = *if...not* / *except if* — it flips an \"only if\" sentence into the negative.\n\n> *I'll do it only if you support me.* → **I won't do it unless you support me.**\n\n| Only if... | Unless... |\n|---|---|\n| He'll pay for it only if there's a proper invoice. | He won't pay for it unless there's a proper invoice. |\n| I'll write the report only if you promise to sign it. | I won't write the report unless you promise to sign it. |\n| I'll call the meeting only if at least 10 managers attend. | I won't call the meeting unless at least 10 managers attend. |\n| I'll fly there only if you pay for my accommodation. | I won't fly there unless you pay for my accommodation. |\n| I'll arrange the party only if you promise to stay sober. | I won't arrange the party unless you promise to stay sober. |\n\n**Position:** *unless* usually sits in the middle of the sentence, but it can also start a sentence — less common, but correct:\n\n> *Unless you come with me, I won't go to the party.*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20260707_warmup",
+        "qs": [
+          {
+            "q": "How do you say '¿Dónde conseguiste eso?'",
+            "opts": [
+              "Where did you got that?",
+              "Where did you get that?",
+              "Where you got that?",
+              "Where got you that?"
+            ],
+            "ans": "Where did you get that?"
+          },
+          {
+            "q": "How do you say 'Llevo dos años trabajando aquí'?",
+            "opts": [
+              "I work here since two years.",
+              "I've been working here for two years.",
+              "I am working here for two years.",
+              "I worked here for two years."
+            ],
+            "ans": "I've been working here for two years."
+          },
+          {
+            "q": "Which sentence is INCORRECT?",
+            "opts": [
+              "I like to go to the cinema.",
+              "I like going to the cinema.",
+              "I like go to the cinema.",
+              "I love mixing drinks."
+            ],
+            "ans": "I like go to the cinema."
+          },
+          {
+            "q": "How do you say 'Mi jefe tiene un acento británico'?",
+            "opts": [
+              "My boss has British accent.",
+              "My boss has a British accent.",
+              "My boss has accent British.",
+              "My boss is a British accent."
+            ],
+            "ans": "My boss has a British accent."
+          },
+          {
+            "q": "How do you say '¿Cómo puedes beber tanta cerveza?' (beer is uncountable)?",
+            "opts": [
+              "How can you drink so many beer?",
+              "How can you drink so much beer?",
+              "How can you drink so much beers?",
+              "How can you drink too much beer?"
+            ],
+            "ans": "How can you drink so much beer?"
+          },
+          {
+            "q": "How do you say 'Se te cayó'?",
+            "opts": [
+              "You fell it.",
+              "You dropped it.",
+              "It fell you.",
+              "You have dropped."
+            ],
+            "ans": "You dropped it."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Phrasal Verbs with 'Put'",
+        "key": "kyle_20260707_put",
+        "qs": [
+          {
+            "q": "\"He put out the fire.\" What does 'put out' mean here?",
+            "opts": [
+              "to start",
+              "to extinguish",
+              "to move",
+              "to ignore"
+            ],
+            "ans": "to extinguish"
+          },
+          {
+            "q": "What's the opposite of 'to put on' (clothing)?",
+            "opts": [
+              "to put up",
+              "to put away",
+              "to take off",
+              "to put back"
+            ],
+            "ans": "to take off"
+          },
+          {
+            "q": "Which sentence uses 'put up with' correctly?",
+            "opts": [
+              "I can't put up with my neighbors.",
+              "I can't put up my neighbors with.",
+              "I can't put with up my neighbors.",
+              "I can't put up my neighbors."
+            ],
+            "ans": "I can't put up with my neighbors."
+          },
+          {
+            "q": "What does 'put off' mean?",
+            "opts": [
+              "to extinguish",
+              "to postpone",
+              "to insert",
+              "to store away"
+            ],
+            "ans": "to postpone"
+          },
+          {
+            "q": "What's the difference between 'put away' and 'put back'?",
+            "opts": [
+              "They mean exactly the same thing.",
+              "'Put away' = store in an organized place; 'put back' = return something to where it originally was.",
+              "'Put back' = store in an organized place; 'put away' = return something to where it originally was.",
+              "'Put away' is only used for clothes."
+            ],
+            "ans": "'Put away' = store in an organized place; 'put back' = return something to where it originally was."
+          },
+          {
+            "q": "Why shouldn't you put water on a grease fire?",
+            "opts": [
+              "It has no effect at all.",
+              "It makes the fire smell bad.",
+              "It spreads the fire — use a cloth instead.",
+              "It's actually recommended."
+            ],
+            "ans": "It spreads the fire — use a cloth instead."
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · What vs. How (The Five Senses)",
+        "key": "kyle_20260707_whathow",
+        "qs": [
+          {
+            "q": "Which question asks for a comparison to something else?",
+            "opts": [
+              "How does it taste?",
+              "What does it taste like?",
+              "How does it look?",
+              "How does it feel?"
+            ],
+            "ans": "What does it taste like?"
+          },
+          {
+            "q": "Which sentence is INCORRECT?",
+            "opts": [
+              "What does it smell like?",
+              "How does it smell?",
+              "How does it smell like?",
+              "It smells like cheap perfume."
+            ],
+            "ans": "How does it smell like?"
+          },
+          {
+            "q": "\"It sounds like a locomotive.\" What was the question?",
+            "opts": [
+              "How does it sound?",
+              "What does it sound like?",
+              "How does it sounds?",
+              "What sound does it?"
+            ],
+            "ans": "What does it sound like?"
+          },
+          {
+            "q": "\"It tastes very sweet.\" What was the question?",
+            "opts": [
+              "What does it taste like?",
+              "How does it taste?",
+              "What does it tastes?",
+              "How does it tastes like?"
+            ],
+            "ans": "How does it taste?"
+          },
+          {
+            "q": "When are auxiliary verbs NOT needed in questions?",
+            "opts": [
+              "Never — auxiliaries are always required.",
+              "When the main verb is 'to be'.",
+              "When the question starts with 'what'.",
+              "When the subject is plural."
+            ],
+            "ans": "When the main verb is 'to be'."
+          },
+          {
+            "q": "\"I've known him for six years.\" What's the question?",
+            "opts": [
+              "How long do you know him?",
+              "How long have you known him?",
+              "Since when you know him?",
+              "How long you have known him?"
+            ],
+            "ans": "How long have you known him?"
+          }
+        ]
+      },
+      {
+        "title": "Test 4 · Grammar: Unless",
+        "key": "kyle_20260707_unless",
+        "qs": [
+          {
+            "q": "\"I'll do it only if you support me.\" How do you say this with 'unless'?",
+            "opts": [
+              "I won't do it unless you support me.",
+              "I'll do it unless you support me.",
+              "I won't do it unless you don't support me.",
+              "Unless you support me, I'll do it."
+            ],
+            "ans": "I won't do it unless you support me."
+          },
+          {
+            "q": "What does 'unless' mean?",
+            "opts": [
+              "if",
+              "although",
+              "if...not / except if",
+              "because"
+            ],
+            "ans": "if...not / except if"
+          },
+          {
+            "q": "\"He'll pay for it only if there's a proper invoice.\" Rewrite with 'unless':",
+            "opts": [
+              "He won't pay for it unless there's a proper invoice.",
+              "He'll pay for it unless there's a proper invoice.",
+              "He won't pay for it unless there isn't a proper invoice.",
+              "Unless there's an invoice, he'll pay."
+            ],
+            "ans": "He won't pay for it unless there's a proper invoice."
+          },
+          {
+            "q": "Can 'unless' start a sentence?",
+            "opts": [
+              "No, never.",
+              "Yes, it's common and preferred.",
+              "Yes, it's possible but less common than putting it mid-sentence.",
+              "Only in questions."
+            ],
+            "ans": "Yes, it's possible but less common than putting it mid-sentence."
+          },
+          {
+            "q": "\"I'll call the meeting only if at least 10 managers attend.\" Rewrite with 'unless':",
+            "opts": [
+              "I won't call the meeting unless at least 10 managers attend.",
+              "I'll call the meeting unless at least 10 managers attend.",
+              "I won't call the meeting unless less than 10 managers attend.",
+              "Unless 10 managers, I'll call the meeting."
+            ],
+            "ans": "I won't call the meeting unless at least 10 managers attend."
+          }
+        ]
+      }
+    ]
   }
 ]
