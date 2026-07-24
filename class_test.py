@@ -171,9 +171,9 @@ def _render_teacher_tab(classes, sel_key):
         st.session_state[sel_key] = 0
 
     st.markdown("### Select a class")
-    cols = st.columns(len(sorted_cls))
-    for i, (col, c) in enumerate(zip(cols, sorted_cls)):
-        with col:
+    cols = st.columns(2)
+    for i, c in enumerate(sorted_cls):
+        with cols[i % 2]:
             is_sel = st.session_state[sel_key] == i
             is_latest = i == 0
             label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
