@@ -7,4 +7,4 @@ progress.json
 history.json
 classes.json
 .streamlit/secrets.toml
-assets/classes/*.mp4
+assets/classes/**/*.mp4
