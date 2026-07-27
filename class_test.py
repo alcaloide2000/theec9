@@ -1,9 +1,11 @@
 import base64
+import io
 import random
 import streamlit as st
 import streamlit.components.v1 as components
 import json
 import pathlib
+from gtts import gTTS
 
 st.set_page_config(page_title="Reviewing The English Collective", layout="wide")
 
@@ -101,8 +103,18 @@ def _load_class_cache():
         return json.load(f)
 
 
-def _render_class(cls):
-    st.subheader(f"CLASS — {cls['title']}")
+def _generate_audio(text):
+    if not text:
+        return None
+    tts = gTTS(text=str(text), lang="en", tld="ca")
+    buf = io.BytesIO()
+    tts.write_to_fp(buf)
+    buf.seek(0)
+    return buf.getvalue()
+
+
+def _render_class(cls, header=None):
+    st.subheader(header or f"CLASS — {cls['title']}")
     st.markdown(f"**{cls['date']}** · {cls['topic']}")
     st.divider()
 
@@ -115,6 +127,48 @@ def _render_class(cls):
                     st.image(str(BASE_PATH / sec["image"]))
             st.markdown(sec["content"])
 
+    _render_tests(cls)
+
+
+def _render_agility_item(item, item_key):
+    audio_cache = st.session_state.setdefault("agility_audio", {})
+    c1, c2 = st.columns([8, 1])
+    with c1:
+        if item.get("secondary"):
+            st.markdown(f"<span style='color:#888'>{item['secondary']}</span>", unsafe_allow_html=True)
+        st.markdown(item["text"])
+    with c2:
+        if st.button("🔊", key=f"{item_key}_btn", help="Listen"):
+            audio_cache.setdefault(item_key, _generate_audio(item["speak"]))
+            st.session_state["agility_last_played"] = item_key
+    if item_key in audio_cache:
+        st.audio(
+            audio_cache[item_key],
+            format="audio/mp3",
+            autoplay=item_key == st.session_state.get("agility_last_played"),
+        )
+    st.markdown("---")
+
+
+def _render_agility_accelerator(cls, header=None):
+    st.subheader(header or cls["title"])
+    st.markdown(f"*{cls['date']} edition* · {cls['topic']}")
+    st.divider()
+
+    for sec in cls.get("sections", []):
+        with st.expander(sec["title"], expanded=sec.get("expanded", False)):
+            if sec.get("intro"):
+                st.markdown(sec["intro"])
+            for group in sec.get("groups", []):
+                if group.get("name"):
+                    st.markdown(f"**{group['name']}**")
+                for i, item in enumerate(group["items"]):
+                    _render_agility_item(item, f"{cls['id']}_{sec['title']}_{group.get('name')}_{i}")
+
+    _render_tests(cls)
+
+
+def _render_tests(cls):
     st.divider()
     st.markdown("### Tests")
 
@@ -395,6 +449,7 @@ if not _cache:
     st.info("No class content available.")
 else:
     kyle_classes = [c for c in _cache if c.get("teacher", "kyle") == "kyle"]
+    agility_accelerator = next((c for c in _cache if c.get("id") == "kyle_agility_accelerator"), None)
     julia_classes = [c for c in _cache if c.get("teacher") == "julia"]
     juls_classes = [c for c in _cache if c.get("teacher") == "juls"]
     natural_classes = [c for c in _cache if c.get("teacher") == "natural"]
@@ -416,13 +471,20 @@ else:
     ])
 
     with tab_kyle:
-        kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo = st.tabs(["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo"])
+        kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo, kyle_tab_agility = st.tabs(
+            ["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator"]
+        )
         with kyle_tab_classes:
             _render_teacher_tab(kyle_classes, "sel_kyle")
         with kyle_tab_mindmap:
             st.link_button("Open full mind map ↗", url="/app/static/mindmap_kyle.html", use_container_width=True)
         with kyle_tab_linguo:
             _render_warmup_linguo(_collect_warmup_questions(kyle_classes))
+        with kyle_tab_agility:
+            if agility_accelerator:
+                _render_agility_accelerator(agility_accelerator, header="📘 Agility Accelerator")
+            else:
+                st.info("Agility Accelerator content not available yet.")
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")

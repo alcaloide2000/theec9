@@ -7682,5 +7682,2118 @@
         ]
       }
     ]
+  },
+  {
+    "id": "kyle_agility_accelerator",
+    "title": "Agility Accelerator",
+    "date": "2026-07-26",
+    "topic": "Irregular Verbs · Present Perfect · Collocations · Comparatives · Interrogatives · Pronouns",
+    "teacher": "kyle_resource",
+    "sections": [
+      {
+        "title": "1. Common Irregular Verb Practice",
+        "expanded": false,
+        "intro": "Tap 🔊 to hear each sentence read aloud, then repeat it yourself to master the most common English irregular verbs in the affirmative/negative simple past contrast pattern (*\"I did X, but I didn't do Y\"*).",
+        "groups": [
+          {
+            "name": null,
+            "items": [
+              {
+                "text": "**Be** — I was happy, but I wasn't satisfied.",
+                "speak": "I was happy, but I wasn't satisfied.",
+                "secondary": "Ser — Fui feliz, pero no estaba satisfecho."
+              },
+              {
+                "text": "**Begin** — They began the project, but they didn't begin the presentation.",
+                "speak": "They began the project, but they didn't begin the presentation.",
+                "secondary": "Comenzar — Ellos comenzaron el proyecto, pero no comenzaron la presentación."
+              },
+              {
+                "text": "**Break** — I broke the glass, but I didn't break the plate.",
+                "speak": "I broke the glass, but I didn't break the plate.",
+                "secondary": "Romper — Rompí el vaso, pero no rompí el plato."
+              },
+              {
+                "text": "**Bring** — He brought his friend, but he didn't bring his sister.",
+                "speak": "He brought his friend, but he didn't bring his sister.",
+                "secondary": "Traer — Él trajo a su amigo, pero no trajo a su hermana."
+              },
+              {
+                "text": "**Build** — We built a house, but we didn't build a garage.",
+                "speak": "We built a house, but we didn't build a garage.",
+                "secondary": "Construir — Construimos una casa, pero no construimos un garaje."
+              },
+              {
+                "text": "**Buy** — She bought a car, but she didn't buy a bike.",
+                "speak": "She bought a car, but she didn't buy a bike.",
+                "secondary": "Comprar — Ella compró un coche, pero no compró una bicicleta."
+              },
+              {
+                "text": "**Catch** — I caught the ball, but I didn't catch the frisbee.",
+                "speak": "I caught the ball, but I didn't catch the frisbee.",
+                "secondary": "Atrapar — Atrapé la pelota, pero no atrapé el frisbee."
+              },
+              {
+                "text": "**Choose** — They chose the red dress, but they didn't choose the blue one.",
+                "speak": "They chose the red dress, but they didn't choose the blue one.",
+                "secondary": "Elegir — Ellos eligieron el vestido rojo, pero no eligieron el azul."
+              },
+              {
+                "text": "**Come** — He came to the party, but he didn't come to the meeting.",
+                "speak": "He came to the party, but he didn't come to the meeting.",
+                "secondary": "Venir — Él vino a la fiesta, pero no vino a la reunión."
+              },
+              {
+                "text": "**Cut** — She cut her hair, but she didn't cut her nails.",
+                "speak": "She cut her hair, but she didn't cut her nails.",
+                "secondary": "Cortar — Ella cortó su cabello, pero no cortó sus uñas."
+              },
+              {
+                "text": "**Do** — I did my homework, but I didn't do my chores.",
+                "speak": "I did my homework, but I didn't do my chores.",
+                "secondary": "Hacer — Hice mi tarea, pero no hice mis quehaceres."
+              },
+              {
+                "text": "**Drink** — They drank the juice, but they didn't drink the milk.",
+                "speak": "They drank the juice, but they didn't drink the milk.",
+                "secondary": "Beber — Ellos bebieron el jugo, pero no bebieron la leche."
+              },
+              {
+                "text": "**Drive** — He drove to work, but he didn't drive to the store.",
+                "speak": "He drove to work, but he didn't drive to the store.",
+                "secondary": "Conducir — Él condujo al trabajo, pero no condujo a la tienda."
+              },
+              {
+                "text": "**Eat** — We ate the pizza, but we didn't eat the salad.",
+                "speak": "We ate the pizza, but we didn't eat the salad.",
+                "secondary": "Comer — Comimos la pizza, pero no comimos la ensalada."
+              },
+              {
+                "text": "**Fall** — She fell on the ice, but she didn't fall on the stairs.",
+                "speak": "She fell on the ice, but she didn't fall on the stairs.",
+                "secondary": "Caer — Ella cayó en el hielo, pero no cayó en las escaleras."
+              },
+              {
+                "text": "**Feel** — I felt the heat, but I didn't feel the cold.",
+                "speak": "I felt the heat, but I didn't feel the cold.",
+                "secondary": "Sentir — Sentí el calor, pero no sentí el frío."
+              },
+              {
+                "text": "**Find** — They found the keys, but they didn't find the wallet.",
+                "speak": "They found the keys, but they didn't find the wallet.",
+                "secondary": "Encontrar — Ellos encontraron las llaves, pero no encontraron la cartera."
+              },
+              {
+                "text": "**Fly** — He flew to Paris, but he didn't fly to Rome.",
+                "speak": "He flew to Paris, but he didn't fly to Rome.",
+                "secondary": "Volar — Él voló a París, pero no voló a Roma."
+              },
+              {
+                "text": "**Forget** — She forgot her purse, but she didn't forget her phone.",
+                "speak": "She forgot her purse, but she didn't forget her phone.",
+                "secondary": "Olvidar — Ella olvidó su bolso, pero no olvidó su teléfono."
+              },
+              {
+                "text": "**Get** — He got the job, but he didn't get the promotion.",
+                "speak": "He got the job, but he didn't get the promotion.",
+                "secondary": "Obtener — Él obtuvo el trabajo, pero no obtuvo el ascenso."
+              },
+              {
+                "text": "**Give** — She gave a speech, but she didn't give a presentation.",
+                "speak": "She gave a speech, but she didn't give a presentation.",
+                "secondary": "Dar — Ella dio un discurso, pero no dio una presentación."
+              },
+              {
+                "text": "**Go** — I went to the park, but I didn't go to the museum.",
+                "speak": "I went to the park, but I didn't go to the museum.",
+                "secondary": "Ir — Fui al parque, pero no fui al museo."
+              },
+              {
+                "text": "**Grow** — They grew tomatoes, but they didn't grow cucumbers.",
+                "speak": "They grew tomatoes, but they didn't grow cucumbers.",
+                "secondary": "Cultivar — Ellos cultivaron tomates, pero no cultivaron pepinos."
+              },
+              {
+                "text": "**Have** — We had a picnic, but we didn't have a barbecue.",
+                "speak": "We had a picnic, but we didn't have a barbecue.",
+                "secondary": "Tener — Tuvimos un picnic, pero no tuvimos una barbacoa."
+              },
+              {
+                "text": "**Hear** — He heard the music, but he didn't hear the conversation.",
+                "speak": "He heard the music, but he didn't hear the conversation.",
+                "secondary": "Oír — Él oyó la música, pero no oyó la conversación."
+              },
+              {
+                "text": "**Hide** — She hid the key, but she didn't hide the money.",
+                "speak": "She hid the key, but she didn't hide the money.",
+                "secondary": "Esconder — Ella escondió la llave, pero no escondió el dinero."
+              },
+              {
+                "text": "**Know** — I knew the answer, but I didn't know the question.",
+                "speak": "I knew the answer, but I didn't know the question.",
+                "secondary": "Saber — Supe la respuesta, pero no supe la pregunta."
+              },
+              {
+                "text": "**Leave** — She left early, but she didn't leave a note.",
+                "speak": "She left early, but she didn't leave a note.",
+                "secondary": "Salir — Ella salió temprano, pero no dejó una nota."
+              },
+              {
+                "text": "**Lose** — He lost his wallet, but he didn't lose his phone.",
+                "speak": "He lost his wallet, but he didn't lose his phone.",
+                "secondary": "Perder — Él perdió su billetera, pero no perdió su teléfono."
+              },
+              {
+                "text": "**Make** — They made a cake, but they didn't make cookies.",
+                "speak": "They made a cake, but they didn't make cookies.",
+                "secondary": "Hacer — Ellos hicieron un pastel, pero no hicieron galletas."
+              },
+              {
+                "text": "**Meet** — I met my friend, but I didn't meet my teacher.",
+                "speak": "I met my friend, but I didn't meet my teacher.",
+                "secondary": "Conocer — Conocí a mi amigo, pero no conocí a mi profesor."
+              },
+              {
+                "text": "**Pay** — He paid the bill, but he didn't pay the tip.",
+                "speak": "He paid the bill, but he didn't pay the tip.",
+                "secondary": "Pagar — Él pagó la cuenta, pero no pagó la propina."
+              },
+              {
+                "text": "**Put** — She put the book on the table, but she didn't put it on the shelf.",
+                "speak": "She put the book on the table, but she didn't put it on the shelf.",
+                "secondary": "Poner — Ella puso el libro en la mesa, pero no lo puso en el estante."
+              },
+              {
+                "text": "**Read** — I read the novel, but I didn't read the article.",
+                "speak": "I read the novel, but I didn't read the article.",
+                "secondary": "Leer — Leí la novela, pero no leí el artículo."
+              },
+              {
+                "text": "**Run** — We ran on the grass, but we didn't run on the beach.",
+                "speak": "We ran on the grass, but we didn't run on the beach.",
+                "secondary": "Correr — Corrimos en el césped, pero no corrimos en la playa."
+              },
+              {
+                "text": "**Say** — They said goodbye, but they didn't say hello.",
+                "speak": "They said goodbye, but they didn't say hello.",
+                "secondary": "Decir — Ellos dijeron adiós, pero no dijeron hola."
+              },
+              {
+                "text": "**See** — He saw the movie, but he didn't see the trailer.",
+                "speak": "He saw the movie, but he didn't see the trailer.",
+                "secondary": "Ver — Él vio la película, pero no vio el tráiler."
+              },
+              {
+                "text": "**Sell** — She sold the car, but she didn't sell the house.",
+                "speak": "She sold the car, but she didn't sell the house.",
+                "secondary": "Vender — Ella vendió el coche, pero no vendió la casa."
+              },
+              {
+                "text": "**Send** — I sent the email, but I didn't send the letter.",
+                "speak": "I sent the email, but I didn't send the letter.",
+                "secondary": "Enviar — Envié el correo electrónico, pero no envié la carta."
+              },
+              {
+                "text": "**Sit** — They sat on the couch, but they didn't sit on the chair.",
+                "speak": "They sat on the couch, but they didn't sit on the chair.",
+                "secondary": "Sentarse — Ellos se sentaron en el sofá, pero no se sentaron en la silla."
+              },
+              {
+                "text": "**Speak** — He spoke English, but he didn't speak French.",
+                "speak": "He spoke English, but he didn't speak French.",
+                "secondary": "Hablar — Él habló inglés, pero no habló francés."
+              },
+              {
+                "text": "**Spend** — She spent her money, but she didn't spend her time.",
+                "speak": "She spent her money, but she didn't spend her time.",
+                "secondary": "Gastar — Ella gastó su dinero, pero no gastó su tiempo."
+              },
+              {
+                "text": "**Stand** — I stood by the door, but I didn't stand by the window.",
+                "speak": "I stood by the door, but I didn't stand by the window.",
+                "secondary": "Estar de pie — Me paré junto a la puerta, pero no me paré junto a la ventana."
+              },
+              {
+                "text": "**Take** — She took the test, but she didn't take the quiz.",
+                "speak": "She took the test, but she didn't take the quiz.",
+                "secondary": "Tomar — Ella tomó el examen, pero no tomó la prueba."
+              },
+              {
+                "text": "**Tell** — I told the truth, but I didn't tell the whole story.",
+                "speak": "I told the truth, but I didn't tell the whole story.",
+                "secondary": "Decir — Dije la verdad, pero no dije toda la historia."
+              },
+              {
+                "text": "**Think** — They thought about it, but they didn't think it through.",
+                "speak": "They thought about it, but they didn't think it through.",
+                "secondary": "Pensar — Ellos lo pensaron, pero no lo pensaron bien."
+              },
+              {
+                "text": "**Understand** — He understood the instructions, but he didn't understand the warning.",
+                "speak": "He understood the instructions, but he didn't understand the warning.",
+                "secondary": "Entender — Él entendió las instrucciones, pero no entendió la advertencia."
+              },
+              {
+                "text": "**Win** — She won the game, but she didn't win the prize.",
+                "speak": "She won the game, but she didn't win the prize.",
+                "secondary": "Ganar — Ella ganó el juego, pero no ganó el premio."
+              },
+              {
+                "text": "**Write** — He wrote a book, but he didn't write an essay.",
+                "speak": "He wrote a book, but he didn't write an essay.",
+                "secondary": "Escribir — Él escribió un libro, pero no escribió un ensayo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Irregular Verbs: Simple Past vs. Present Perfect",
+        "expanded": false,
+        "intro": "**Pattern:** *[time expression] + last year/month/week* → simple past &nbsp;|&nbsp; *so far / yet / this year/month/week* → present perfect. Listen and repeat each sentence.",
+        "groups": [
+          {
+            "name": "List #1",
+            "items": [
+              {
+                "text": "I did it twice last year, but I haven't done it so far this year.",
+                "speak": "I did it twice last year, but I haven't done it so far this year."
+              },
+              {
+                "text": "He went there three times last month, but he hasn't gone there this month.",
+                "speak": "He went there three times last month, but he hasn't gone there this month."
+              },
+              {
+                "text": "We beat them only once last year, but we've beaten them four times so far this year.",
+                "speak": "We beat them only once last year, but we've beaten them four times so far this year."
+              },
+              {
+                "text": "It was quite easy several years ago, but it has become more difficult in recent years.",
+                "speak": "It was quite easy several years ago, but it has become more difficult in recent years."
+              },
+              {
+                "text": "He broke the world record twice last year, but he hasn't broken it yet this year.",
+                "speak": "He broke the world record twice last year, but he hasn't broken it yet this year."
+              },
+              {
+                "text": "She brought me a coffee yesterday, but she hasn't brought me one today yet.",
+                "speak": "She brought me a coffee yesterday, but she hasn't brought me one today yet."
+              },
+              {
+                "text": "We built three sports complexes in the 90s, but we haven't built any so far in this decade.",
+                "speak": "We built three sports complexes in the 90s, but we haven't built any so far in this decade."
+              },
+              {
+                "text": "We bought several new company cars last year, but we haven't bought any so far this year.",
+                "speak": "We bought several new company cars last year, but we haven't bought any so far this year."
+              },
+              {
+                "text": "I caught two colds last year, but I haven't caught any so far this year.",
+                "speak": "I caught two colds last year, but I haven't caught any so far this year."
+              },
+              {
+                "text": "We chose two new board members last year, but we haven't chosen any new ones this year.",
+                "speak": "We chose two new board members last year, but we haven't chosen any new ones this year."
+              },
+              {
+                "text": "He came here twice last week, but he hasn't come here so far this week.",
+                "speak": "He came here twice last week, but he hasn't come here so far this week."
+              },
+              {
+                "text": "I dealt with him a lot last year, but I haven't dealt with him this year.",
+                "speak": "I dealt with him a lot last year, but I haven't dealt with him this year."
+              },
+              {
+                "text": "I drew up several action plans last year, but I haven't drawn up any so far this year.",
+                "speak": "I drew up several action plans last year, but I haven't drawn up any so far this year."
+              },
+              {
+                "text": "I drove a minivan last year, but I haven't driven one this year.",
+                "speak": "I drove a minivan last year, but I haven't driven one this year."
+              },
+              {
+                "text": "I ate a lot of sweets last week, but I haven't eaten any so far this week.",
+                "speak": "I ate a lot of sweets last week, but I haven't eaten any so far this week."
+              },
+              {
+                "text": "I felt dizzy yesterday, but I haven't felt dizzy so far today.",
+                "speak": "I felt dizzy yesterday, but I haven't felt dizzy so far today."
+              },
+              {
+                "text": "I found a lot of free time to do things last year, but I haven't found any free time this year.",
+                "speak": "I found a lot of free time to do things last year, but I haven't found any free time this year."
+              },
+              {
+                "text": "I flew to Paris twice last year, but I haven't flown there this year.",
+                "speak": "I flew to Paris twice last year, but I haven't flown there this year."
+              },
+              {
+                "text": "I forgot to do it yesterday, but I haven't forgotten to do it today.",
+                "speak": "I forgot to do it yesterday, but I haven't forgotten to do it today."
+              },
+              {
+                "text": "I went there twice last week, but I haven't gone there so far this week.",
+                "speak": "I went there twice last week, but I haven't gone there so far this week."
+              },
+              {
+                "text": "My son grew five centimeters last year, but he hasn't grown at all so far this year.",
+                "speak": "My son grew five centimeters last year, but he hasn't grown at all so far this year."
+              },
+              {
+                "text": "I had a headache almost every day last month, but I haven't had any so far this month.",
+                "speak": "I had a headache almost every day last month, but I haven't had any so far this month."
+              },
+              {
+                "text": "I heard several rumors about that last month, but I haven't heard any so far this month.",
+                "speak": "I heard several rumors about that last month, but I haven't heard any so far this month."
+              },
+              {
+                "text": "I left work late almost every day last week, but I haven't left work late this week.",
+                "speak": "I left work late almost every day last week, but I haven't left work late this week."
+              },
+              {
+                "text": "I lent him some money last year, but I haven't lent him any so far this year.",
+                "speak": "I lent him some money last year, but I haven't lent him any so far this year."
+              },
+              {
+                "text": "We lost several important people last year, but we haven't lost any so far this year.",
+                "speak": "We lost several important people last year, but we haven't lost any so far this year."
+              },
+              {
+                "text": "He made a strong effort in class last month, but he hasn't made much effort this month.",
+                "speak": "He made a strong effort in class last month, but he hasn't made much effort this month."
+              },
+              {
+                "text": "They paid us on time every month last year, but they haven't paid us on time yet this year.",
+                "speak": "They paid us on time every month last year, but they haven't paid us on time yet this year."
+              },
+              {
+                "text": "I put a lot of effort into this subject last year, but I haven't put much effort into it so far this year.",
+                "speak": "I put a lot of effort into this subject last year, but I haven't put much effort into it so far this year."
+              },
+              {
+                "text": "I read three reports yesterday, but I haven't read any today.",
+                "speak": "I read three reports yesterday, but I haven't read any today."
+              },
+              {
+                "text": "Prices rose by 3% last year, but they haven't risen this year.",
+                "speak": "Prices rose by 3% last year, but they haven't risen this year."
+              }
+            ]
+          },
+          {
+            "name": "List #2",
+            "items": [
+              {
+                "text": "My car ran well last year, but it hasn't run well this year.",
+                "speak": "My car ran well last year, but it hasn't run well this year."
+              },
+              {
+                "text": "He said something funny yesterday, but he hasn't said anything funny today.",
+                "speak": "He said something funny yesterday, but he hasn't said anything funny today."
+              },
+              {
+                "text": "He sent me three shipments last year, but he hasn't sent me any so far this year.",
+                "speak": "He sent me three shipments last year, but he hasn't sent me any so far this year."
+              },
+              {
+                "text": "He showed me the figures for last month, but he hasn't shown me the figures yet for this month.",
+                "speak": "He showed me the figures for last month, but he hasn't shown me the figures yet for this month."
+              },
+              {
+                "text": "I slept well when I worked for that company, but I haven't slept well since I came to this one.",
+                "speak": "I slept well when I worked for that company, but I haven't slept well since I came to this one."
+              },
+              {
+                "text": "He spoke to me yesterday, but he hasn't spoken to me today.",
+                "speak": "He spoke to me yesterday, but he hasn't spoken to me today."
+              },
+              {
+                "text": "I took him to the airport twice last month, but I haven't taken him to the airport so far this month.",
+                "speak": "I took him to the airport twice last month, but I haven't taken him to the airport so far this month."
+              },
+              {
+                "text": "I taught three classes yesterday, but I haven't taught any so far today.",
+                "speak": "I taught three classes yesterday, but I haven't taught any so far today."
+              },
+              {
+                "text": "I thought about her a lot last month, but I haven't thought about her too much this month.",
+                "speak": "I thought about her a lot last month, but I haven't thought about her too much this month."
+              },
+              {
+                "text": "I threw away a lot of old papers yesterday, but I haven't thrown away any so far today.",
+                "speak": "I threw away a lot of old papers yesterday, but I haven't thrown away any so far today."
+              },
+              {
+                "text": "I wore my pink tie three times last month, but I haven't worn it so far this month.",
+                "speak": "I wore my pink tie three times last month, but I haven't worn it so far this month."
+              },
+              {
+                "text": "We won three games last week, but we haven't won any so far this week.",
+                "speak": "We won three games last week, but we haven't won any so far this week."
+              },
+              {
+                "text": "I wrote to him twice last year, but I haven't written to him so far this year.",
+                "speak": "I wrote to him twice last year, but I haven't written to him so far this year."
+              },
+              {
+                "text": "I saw him yesterday, but I haven't seen him today.",
+                "speak": "I saw him yesterday, but I haven't seen him today."
+              },
+              {
+                "text": "She came home late last night, but she hasn't come yet today.",
+                "speak": "She came home late last night, but she hasn't come yet today."
+              },
+              {
+                "text": "We went shopping twice last week, but we haven't gone this week.",
+                "speak": "We went shopping twice last week, but we haven't gone this week."
+              },
+              {
+                "text": "He drove to work yesterday, but he hasn't driven today.",
+                "speak": "He drove to work yesterday, but he hasn't driven today."
+              },
+              {
+                "text": "They bought new shoes last month, but they haven't bought any this month.",
+                "speak": "They bought new shoes last month, but they haven't bought any this month."
+              },
+              {
+                "text": "I read two books last week, but I haven't read any this week.",
+                "speak": "I read two books last week, but I haven't read any this week."
+              },
+              {
+                "text": "She gave me a gift yesterday, but she hasn't given one today.",
+                "speak": "She gave me a gift yesterday, but she hasn't given one today."
+              },
+              {
+                "text": "We made cakes last weekend, but we haven't made any this weekend.",
+                "speak": "We made cakes last weekend, but we haven't made any this weekend."
+              },
+              {
+                "text": "He told me a secret last night, but he hasn't told anyone today.",
+                "speak": "He told me a secret last night, but he hasn't told anyone today."
+              },
+              {
+                "text": "I lost my phone twice last month, but I haven't lost it this month.",
+                "speak": "I lost my phone twice last month, but I haven't lost it this month."
+              },
+              {
+                "text": "They sold their car last year, but they haven't sold anything this year.",
+                "speak": "They sold their car last year, but they haven't sold anything this year."
+              },
+              {
+                "text": "She felt tired all day yesterday, but she hasn't felt tired today.",
+                "speak": "She felt tired all day yesterday, but she hasn't felt tired today."
+              },
+              {
+                "text": "We kept the dog inside last night, but we haven't kept him inside today.",
+                "speak": "We kept the dog inside last night, but we haven't kept him inside today."
+              },
+              {
+                "text": "He left early yesterday, but he hasn't left early today.",
+                "speak": "He left early yesterday, but he hasn't left early today."
+              },
+              {
+                "text": "I met my cousin last Sunday, but I haven't met him this week.",
+                "speak": "I met my cousin last Sunday, but I haven't met him this week."
+              },
+              {
+                "text": "She paid the bill last week, but she hasn't paid it this week.",
+                "speak": "She paid the bill last week, but she hasn't paid it this week."
+              },
+              {
+                "text": "We ran five kilometers yesterday, but we haven't run today.",
+                "speak": "We ran five kilometers yesterday, but we haven't run today."
+              },
+              {
+                "text": "He sent me an email yesterday, but he hasn't sent one today.",
+                "speak": "He sent me an email yesterday, but he hasn't sent one today."
+              },
+              {
+                "text": "I sat next to her last class, but I haven't sat there today.",
+                "speak": "I sat next to her last class, but I haven't sat there today."
+              },
+              {
+                "text": "They built a snowman last winter, but they haven't built one this winter.",
+                "speak": "They built a snowman last winter, but they haven't built one this winter."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Common Collocations",
+        "expanded": false,
+        "intro": "Listen to each example sentence to internalize the collocation and reduce common mistakes.",
+        "groups": [
+          {
+            "name": null,
+            "items": [
+              {
+                "text": "We made an effort to arrive early, but we didn't make an effort to stay until the end.",
+                "speak": "We made an effort to arrive early, but we didn't make an effort to stay until the end.",
+                "secondary": "<b>Make an effort to</b> <i>+ infinitive</i>"
+              },
+              {
+                "text": "Maria made a decision to study English, but she didn't make a decision about the exam.",
+                "speak": "Maria made a decision to study English, but she didn't make a decision about the exam.",
+                "secondary": "<b>Make a decision to</b> <i>+ infinitive / about + noun</i>"
+              },
+              {
+                "text": "They made progress in pronunciation, but they didn't make progress with irregular verbs.",
+                "speak": "They made progress in pronunciation, but they didn't make progress with irregular verbs.",
+                "secondary": "<b>Make progress in</b> <i>+ noun / with + noun</i>"
+              },
+              {
+                "text": "I made a mistake in the report, but I didn't make a mistake about the meeting time.",
+                "speak": "I made a mistake in the report, but I didn't make a mistake about the meeting time.",
+                "secondary": "<b>Make a mistake in/about</b> <i>+ noun</i>"
+              },
+              {
+                "text": "My brother makes money by selling cars, but he doesn't make money by working online.",
+                "speak": "My brother makes money by selling cars, but he doesn't make money by working online.",
+                "secondary": "<b>Make money by</b> <i>+ -ing</i>"
+              },
+              {
+                "text": "The students did homework on phrasal verbs, but they didn't do homework about pronunciation.",
+                "speak": "The students did homework on phrasal verbs, but they didn't do homework about pronunciation.",
+                "secondary": "<b>Do homework on/about</b> <i>+ topic</i>"
+              },
+              {
+                "text": "We do business with a company in Germany, but we don't do business with local suppliers.",
+                "speak": "We do business with a company in Germany, but we don't do business with local suppliers.",
+                "secondary": "<b>Do business with</b> <i>+ person/company</i>"
+              },
+              {
+                "text": "I do some exercise before work, but I don't do exercise after dinner.",
+                "speak": "I do some exercise before work, but I don't do exercise after dinner.",
+                "secondary": "<b>Do exercise / do some exercise</b>"
+              },
+              {
+                "text": "She took a photo of the beach, but she didn't take a photo of the hotel.",
+                "speak": "She took a photo of the beach, but she didn't take a photo of the hotel.",
+                "secondary": "<b>Take a photo of</b> <i>+ noun</i>"
+              },
+              {
+                "text": "He took responsibility for organizing the event, but he didn't take responsibility for cleaning up.",
+                "speak": "He took responsibility for organizing the event, but he didn't take responsibility for cleaning up.",
+                "secondary": "<b>Take responsibility for</b> <i>+ noun/-ing</i>"
+              },
+              {
+                "text": "We took advantage of the good weather, but we didn't take advantage of staying near the sea.",
+                "speak": "We took advantage of the good weather, but we didn't take advantage of staying near the sea.",
+                "secondary": "<b>Take advantage of</b> <i>+ noun/-ing</i>"
+              },
+              {
+                "text": "They took a break from studying, but they didn't take a break from checking emails.",
+                "speak": "They took a break from studying, but they didn't take a break from checking emails.",
+                "secondary": "<b>Take a break from</b> <i>+ noun/-ing</i>"
+              },
+              {
+                "text": "I took part in the meeting, but I didn't take part in the discussion.",
+                "speak": "I took part in the meeting, but I didn't take part in the discussion.",
+                "secondary": "<b>Take part in</b> <i>+ activity</i>"
+              },
+              {
+                "text": "She has experience in marketing, but she doesn't have experience with large teams.",
+                "speak": "She has experience in marketing, but she doesn't have experience with large teams.",
+                "secondary": "<b>Have experience in</b> <i>+ field / with + noun</i>"
+              },
+              {
+                "text": "We had trouble understanding the instructions, but we didn't have trouble finding the office.",
+                "speak": "We had trouble understanding the instructions, but we didn't have trouble finding the office.",
+                "secondary": "<b>Have trouble</b> <i>+ -ing</i>"
+              },
+              {
+                "text": "They had a good time visiting the city, but they didn't have a good time waiting at the airport.",
+                "speak": "They had a good time visiting the city, but they didn't have a good time waiting at the airport.",
+                "secondary": "<b>Have a good time</b> <i>+ -ing</i>"
+              },
+              {
+                "text": "I had lunch with my manager, but I didn't have lunch with my clients.",
+                "speak": "I had lunch with my manager, but I didn't have lunch with my clients.",
+                "secondary": "<b>Have lunch with</b> <i>+ person</i>"
+              },
+              {
+                "text": "He caught a cold from his son, but he didn't catch a cold from work.",
+                "speak": "He caught a cold from his son, but he didn't catch a cold from work.",
+                "secondary": "<b>Catch a cold from</b> <i>+ source</i>"
+              },
+              {
+                "text": "We keep in touch with our old neighbours, but we don't keep in touch with former classmates.",
+                "speak": "We keep in touch with our old neighbours, but we don't keep in touch with former classmates.",
+                "secondary": "<b>Keep in touch with</b> <i>+ person</i>"
+              },
+              {
+                "text": "Please pay attention to the instructions, but don't pay attention to people talking.",
+                "speak": "Please pay attention to the instructions, but don't pay attention to people talking.",
+                "secondary": "<b>Pay attention to</b> <i>+ noun/-ing</i>"
+              },
+              {
+                "text": "She paid for the tickets, but she didn't pay for the drinks.",
+                "speak": "She paid for the tickets, but she didn't pay for the drinks.",
+                "secondary": "<b>Pay for</b> <i>+ noun</i>"
+              },
+              {
+                "text": "He told the truth about the accident, but he didn't tell the truth about the money.",
+                "speak": "He told the truth about the accident, but he didn't tell the truth about the money.",
+                "secondary": "<b>Tell the truth about</b> <i>+ noun</i>"
+              },
+              {
+                "text": "The teacher gave advice to the students on pronunciation, but she didn't give advice to the parents on homework.",
+                "speak": "The teacher gave advice to the students on pronunciation, but she didn't give advice to the parents on homework.",
+                "secondary": "<b>Give advice to</b> <i>+ person / on + topic</i>"
+              },
+              {
+                "text": "The driver broke the law by speeding, but he didn't break the law by parking there.",
+                "speak": "The driver broke the law by speeding, but he didn't break the law by parking there.",
+                "secondary": "<b>Break the law by</b> <i>+ -ing</i>"
+              },
+              {
+                "text": "We saved time by booking online, but we didn't save time by driving.",
+                "speak": "We saved time by booking online, but we didn't save time by driving.",
+                "secondary": "<b>Save time by</b> <i>+ -ing</i>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Comparatives and Superlatives",
+        "expanded": false,
+        "intro": "Listen to each question and answer. Notice **the** appears before the superlative (*the fastest, the most interesting*) but never before the comparative (*faster, more interesting*), and that longer adjectives take **more/most** instead of **-er/-est**.",
+        "groups": [
+          {
+            "name": null,
+            "items": [
+              {
+                "text": "Is my car faster than the fastest train in Japan?",
+                "speak": "Is my car faster than the fastest train in Japan?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your car isn't faster than the fastest train in Japan.",
+                "speak": "No, your car isn't faster than the fastest train in Japan.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is my house bigger than the biggest mansion in Dubai?",
+                "speak": "Is my house bigger than the biggest mansion in Dubai?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your house isn't bigger than the biggest mansion in Dubai.",
+                "speak": "No, your house isn't bigger than the biggest mansion in Dubai.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is this book more interesting than the most interesting novel in the library?",
+                "speak": "Is this book more interesting than the most interesting novel in the library?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, this book isn't more interesting than the most interesting novel in the library.",
+                "speak": "No, this book isn't more interesting than the most interesting novel in the library.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is my dog smarter than the smartest robot in the world?",
+                "speak": "Is my dog smarter than the smartest robot in the world?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your dog isn't smarter than the smartest robot in the world.",
+                "speak": "No, your dog isn't smarter than the smartest robot in the world.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is this cake sweeter than the sweetest dessert in France?",
+                "speak": "Is this cake sweeter than the sweetest dessert in France?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, this cake isn't sweeter than the sweetest dessert in France.",
+                "speak": "No, this cake isn't sweeter than the sweetest dessert in France.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is my phone newer than the newest model in the store?",
+                "speak": "Is my phone newer than the newest model in the store?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your phone isn't newer than the newest model in the store.",
+                "speak": "No, your phone isn't newer than the newest model in the store.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is this mountain higher than the highest peak in the Himalayas?",
+                "speak": "Is this mountain higher than the highest peak in the Himalayas?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, this mountain isn't higher than the highest peak in the Himalayas.",
+                "speak": "No, this mountain isn't higher than the highest peak in the Himalayas.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is my painting more beautiful than the most beautiful artwork in the museum?",
+                "speak": "Is my painting more beautiful than the most beautiful artwork in the museum?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your painting isn't more beautiful than the most beautiful artwork in the museum.",
+                "speak": "No, your painting isn't more beautiful than the most beautiful artwork in the museum.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is this road longer than the longest highway in Australia?",
+                "speak": "Is this road longer than the longest highway in Australia?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, this road isn't longer than the longest highway in Australia.",
+                "speak": "No, this road isn't longer than the longest highway in Australia.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is my joke funnier than the funniest comedy show on TV?",
+                "speak": "Is my joke funnier than the funniest comedy show on TV?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your joke isn't funnier than the funniest comedy show on TV.",
+                "speak": "No, your joke isn't funnier than the funniest comedy show on TV.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is this shirt cheaper than the cheapest item in the store?",
+                "speak": "Is this shirt cheaper than the cheapest item in the store?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, this shirt isn't cheaper than the cheapest item in the store.",
+                "speak": "No, this shirt isn't cheaper than the cheapest item in the store.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is my computer more powerful than the most powerful supercomputer in China?",
+                "speak": "Is my computer more powerful than the most powerful supercomputer in China?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, your computer isn't more powerful than the most powerful supercomputer in China.",
+                "speak": "No, your computer isn't more powerful than the most powerful supercomputer in China.",
+                "secondary": "A"
+              },
+              {
+                "text": "Is this river deeper than the deepest ocean in the world?",
+                "speak": "Is this river deeper than the deepest ocean in the world?",
+                "secondary": "Q"
+              },
+              {
+                "text": "No, this river isn't deeper than the deepest ocean in the world.",
+                "speak": "No, this river isn't deeper than the deepest ocean in the world.",
+                "secondary": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. Such + Irregular Verbs",
+        "expanded": false,
+        "intro": "Listen and repeat until the structure **such a/an + adjective + noun** feels automatic with the present perfect (*I've never had...*).\n\n> ⚠ Note: the Spanish equivalent here is naturally the pluperfect (*Nunca había tenido...*), even though the English uses the present perfect — don't translate word-for-word.",
+        "groups": [
+          {
+            "name": null,
+            "items": [
+              {
+                "text": "I've never had such a strong headache.",
+                "speak": "I've never had such a strong headache.",
+                "secondary": "Nunca había tenido un dolor de cabeza tan fuerte."
+              },
+              {
+                "text": "I've never attended such a long meeting.",
+                "speak": "I've never attended such a long meeting.",
+                "secondary": "Nunca había asistido a una reunión tan larga."
+              },
+              {
+                "text": "I've never seen such a boring film.",
+                "speak": "I've never seen such a boring film.",
+                "secondary": "Nunca había visto una película tan aburrida."
+              },
+              {
+                "text": "I've never caught such a strong cold.",
+                "speak": "I've never caught such a strong cold.",
+                "secondary": "Nunca había cogido un resfriado tan fuerte."
+              },
+              {
+                "text": "I've never had such a high fever.",
+                "speak": "I've never had such a high fever.",
+                "secondary": "Nunca había tenido una fiebre tan alta."
+              },
+              {
+                "text": "I've never written such a long letter.",
+                "speak": "I've never written such a long letter.",
+                "secondary": "Nunca había escrito una carta tan larga."
+              },
+              {
+                "text": "I've never dealt with such a stubborn person.",
+                "speak": "I've never dealt with such a stubborn person.",
+                "secondary": "Nunca había tratado con una persona tan testaruda."
+              },
+              {
+                "text": "I've never won such a difficult match.",
+                "speak": "I've never won such a difficult match.",
+                "secondary": "Nunca había ganado un partido tan difícil."
+              },
+              {
+                "text": "I've never worn such an expensive jacket.",
+                "speak": "I've never worn such an expensive jacket.",
+                "secondary": "Nunca había llevado una chaqueta tan cara."
+              },
+              {
+                "text": "I've never taught such a difficult class.",
+                "speak": "I've never taught such a difficult class.",
+                "secondary": "Nunca había impartido una clase tan difícil."
+              },
+              {
+                "text": "I've never sat on such a soft chair.",
+                "speak": "I've never sat on such a soft chair.",
+                "secondary": "Nunca me había sentado en una silla tan blanda."
+              },
+              {
+                "text": "I've never slept on such a hard bed.",
+                "speak": "I've never slept on such a hard bed.",
+                "secondary": "Nunca había dormido en una cama tan dura."
+              },
+              {
+                "text": "It's never taken me such a long time.",
+                "speak": "It's never taken me such a long time.",
+                "secondary": "Nunca me había llevado tanto tiempo."
+              },
+              {
+                "text": "I've never sent such an expensive package.",
+                "speak": "I've never sent such an expensive package.",
+                "secondary": "Nunca había enviado un paquete tan caro."
+              },
+              {
+                "text": "I've never said such a thing.",
+                "speak": "I've never said such a thing.",
+                "secondary": "Nunca había dicho algo así."
+              },
+              {
+                "text": "I've never run such a big department.",
+                "speak": "I've never run such a big department.",
+                "secondary": "Nunca había dirigido un departamento tan grande."
+              },
+              {
+                "text": "I've never read such a long book.",
+                "speak": "I've never read such a long book.",
+                "secondary": "Nunca había leído un libro tan largo."
+              },
+              {
+                "text": "I've never met such a crazy man.",
+                "speak": "I've never met such a crazy man.",
+                "secondary": "Nunca había conocido a un hombre tan loco."
+              },
+              {
+                "text": "I've never made such a big mistake.",
+                "speak": "I've never made such a big mistake.",
+                "secondary": "Nunca había cometido un error tan grave."
+              },
+              {
+                "text": "I've never lost such an important document.",
+                "speak": "I've never lost such an important document.",
+                "secondary": "Nunca había perdido un documento tan importante."
+              },
+              {
+                "text": "I've never heard such a funny joke.",
+                "speak": "I've never heard such a funny joke.",
+                "secondary": "Nunca había oído un chiste tan gracioso."
+              },
+              {
+                "text": "I've never eaten such a big steak.",
+                "speak": "I've never eaten such a big steak.",
+                "secondary": "Nunca había comido un filete tan grande."
+              },
+              {
+                "text": "We've never drawn up such an ambitious plan.",
+                "speak": "We've never drawn up such an ambitious plan.",
+                "secondary": "Nunca habíamos elaborado un plan tan ambicioso."
+              },
+              {
+                "text": "We've never done such a silly thing.",
+                "speak": "We've never done such a silly thing.",
+                "secondary": "Nunca habíamos hecho una tontería tan grande."
+              },
+              {
+                "text": "I've never paid such a big amount.",
+                "speak": "I've never paid such a big amount.",
+                "secondary": "Nunca había pagado una cantidad tan grande."
+              },
+              {
+                "text": "There's never been such a strong storm in Madrid.",
+                "speak": "There's never been such a strong storm in Madrid.",
+                "secondary": "Nunca había habido una tormenta tan fuerte en Madrid."
+              },
+              {
+                "text": "You've never written such a boring report.",
+                "speak": "You've never written such a boring report.",
+                "secondary": "Nunca habías escrito un informe tan aburrido."
+              },
+              {
+                "text": "She's never thought about such a strange scenario.",
+                "speak": "She's never thought about such a strange scenario.",
+                "secondary": "Nunca había pensado en un escenario tan extraño."
+              },
+              {
+                "text": "They've never given me such a strange gift.",
+                "speak": "They've never given me such a strange gift.",
+                "secondary": "Nunca me habían hecho un regalo tan extraño."
+              },
+              {
+                "text": "This company has never had such a good year.",
+                "speak": "This company has never had such a good year.",
+                "secondary": "Esta empresa nunca había tenido un año tan bueno."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Mastering the Interrogative",
+        "expanded": false,
+        "intro": "For each statement, listen and try to form the question that asks for the bolded info before listening to the question itself.",
+        "groups": [
+          {
+            "name": "Group 1",
+            "items": [
+              {
+                "text": "The capital of France is **PARIS**.",
+                "speak": "The capital of France is PARIS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the capital of France?",
+                "speak": "What is the capital of France?",
+                "secondary": "Question"
+              },
+              {
+                "text": "Water boils at **100 DEGREES CELSIUS**.",
+                "speak": "Water boils at 100 DEGREES CELSIUS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What temperature does water boil at?",
+                "speak": "What temperature does water boil at?",
+                "secondary": "Question"
+              },
+              {
+                "text": "I ate breakfast at **8 AM**.",
+                "speak": "I ate breakfast at 8 AM.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What time did you eat breakfast?",
+                "speak": "What time did you eat breakfast?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The Eiffel Tower is located in **PARIS**.",
+                "speak": "The Eiffel Tower is located in PARIS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where is the Eiffel Tower located?",
+                "speak": "Where is the Eiffel Tower located?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She went to the store with **HER BROTHER**.",
+                "speak": "She went to the store with HER BROTHER.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who did she go to the store with?",
+                "speak": "Who did she go to the store with?",
+                "secondary": "Question"
+              },
+              {
+                "text": "Albert Einstein developed the **THEORY OF RELATIVITY**.",
+                "speak": "Albert Einstein developed the THEORY OF RELATIVITY.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What did Albert Einstein develop?",
+                "speak": "What did Albert Einstein develop?",
+                "secondary": "Question"
+              },
+              {
+                "text": "We will meet **TOMORROW**.",
+                "speak": "We will meet TOMORROW.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "When will we meet?",
+                "speak": "When will we meet?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The largest planet in our solar system is **JUPITER**.",
+                "speak": "The largest planet in our solar system is JUPITER.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the largest planet in our solar system?",
+                "speak": "What is the largest planet in our solar system?",
+                "secondary": "Question"
+              },
+              {
+                "text": "He called me **BECAUSE HE NEEDED HELP**.",
+                "speak": "He called me BECAUSE HE NEEDED HELP.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Why did he call you?",
+                "speak": "Why did he call you?",
+                "secondary": "Question"
+              },
+              {
+                "text": "I bought the tickets for **THE CONCERT**.",
+                "speak": "I bought the tickets for THE CONCERT.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What did you buy the tickets for?",
+                "speak": "What did you buy the tickets for?",
+                "secondary": "Question"
+              }
+            ]
+          },
+          {
+            "name": "Group 2",
+            "items": [
+              {
+                "text": "**Shakespeare** wrote Romeo and Juliet.",
+                "speak": "Shakespeare wrote Romeo and Juliet.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who wrote Romeo and Juliet?",
+                "speak": "Who wrote Romeo and Juliet?",
+                "secondary": "Question"
+              },
+              {
+                "text": "They arrived **at 8:00**.",
+                "speak": "They arrived at 8:00.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What time did they arrive?",
+                "speak": "What time did they arrive?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The human body has **206** bones.",
+                "speak": "The human body has 206 bones.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How many bones does the human body have?",
+                "speak": "How many bones does the human body have?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She studies **IN THE LIBRARY**.",
+                "speak": "She studies IN THE LIBRARY.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where does she study?",
+                "speak": "Where does she study?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The first man on the moon was **NEIL ARMSTRONG**.",
+                "speak": "The first man on the moon was NEIL ARMSTRONG.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who was the first man on the moon?",
+                "speak": "Who was the first man on the moon?",
+                "secondary": "Question"
+              },
+              {
+                "text": "We traveled by **TRAIN**.",
+                "speak": "We traveled by TRAIN.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How did you travel?",
+                "speak": "How did you travel?",
+                "secondary": "Question"
+              },
+              {
+                "text": "Photosynthesis occurs in **PLANTS**.",
+                "speak": "Photosynthesis occurs in PLANTS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "In what does photosynthesis occur?",
+                "speak": "In what does photosynthesis occur?",
+                "secondary": "Question"
+              },
+              {
+                "text": "He left **EARLY THIS MORNING**.",
+                "speak": "He left EARLY THIS MORNING.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "When did he leave?",
+                "speak": "When did he leave?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The currency of Japan is the **YEN**.",
+                "speak": "The currency of Japan is the YEN.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the currency of Japan?",
+                "speak": "What is the currency of Japan?",
+                "secondary": "Question"
+              },
+              {
+                "text": "I spoke to **HER**.",
+                "speak": "I spoke to HER.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who did you speak to?",
+                "speak": "Who did you speak to?",
+                "secondary": "Question"
+              }
+            ]
+          },
+          {
+            "name": "Group 3",
+            "items": [
+              {
+                "text": "The pyramids were built by the **ANCIENT EGYPTIANS**.",
+                "speak": "The pyramids were built by the ANCIENT EGYPTIANS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who were the pyramids built by?",
+                "speak": "Who were the pyramids built by?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The meeting starts **AT 9 O'CLOCK**.",
+                "speak": "The meeting starts AT 9 O'CLOCK.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "When does the meeting start?",
+                "speak": "When does the meeting start?",
+                "secondary": "Question"
+              },
+              {
+                "text": "Diamonds are made of **CARBON**.",
+                "speak": "Diamonds are made of CARBON.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What are diamonds made of?",
+                "speak": "What are diamonds made of?",
+                "secondary": "Question"
+              },
+              {
+                "text": "They played **SOCCER**.",
+                "speak": "They played SOCCER.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What did they play?",
+                "speak": "What did they play?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The Amazon River is the **LONGEST** river in the world.",
+                "speak": "The Amazon River is the LONGEST river in the world.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the longest river in the world?",
+                "speak": "What is the longest river in the world?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She wore a **RED** dress.",
+                "speak": "She wore a RED dress.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What color dress did she wear?",
+                "speak": "What color dress did she wear?",
+                "secondary": "Question"
+              },
+              {
+                "text": "Electricity was discovered by **BENJAMIN FRANKLIN**.",
+                "speak": "Electricity was discovered by BENJAMIN FRANKLIN.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who was electricity discovered by?",
+                "speak": "Who was electricity discovered by?",
+                "secondary": "Question"
+              },
+              {
+                "text": "We are going **TO THE BEACH**.",
+                "speak": "We are going TO THE BEACH.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where are you going?",
+                "speak": "Where are you going?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The atomic number of hydrogen is **1**.",
+                "speak": "The atomic number of hydrogen is 1.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the atomic number of hydrogen?",
+                "speak": "What is the atomic number of hydrogen?",
+                "secondary": "Question"
+              },
+              {
+                "text": "He runs **EVERY DAY**.",
+                "speak": "He runs EVERY DAY.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How often does he run?",
+                "speak": "How often does he run?",
+                "secondary": "Question"
+              }
+            ]
+          },
+          {
+            "name": "Group 4",
+            "items": [
+              {
+                "text": "Albert Einstein developed **THE THEORY OF RELATIVITY**.",
+                "speak": "Albert Einstein developed THE THEORY OF RELATIVITY.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What did Albert Einstein develop?",
+                "speak": "What did Albert Einstein develop?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She is afraid of **SPIDERS**.",
+                "speak": "She is afraid of SPIDERS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is she afraid of?",
+                "speak": "What is she afraid of?",
+                "secondary": "Question"
+              },
+              {
+                "text": "They went to the cinema with **SARAH** last night.",
+                "speak": "They went to the cinema with SARAH last night.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who did they go to the cinema with last night?",
+                "speak": "Who did they go to the cinema with last night?",
+                "secondary": "Question"
+              },
+              {
+                "text": "My favorite color is **BLUE**.",
+                "speak": "My favorite color is BLUE.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is your favorite color?",
+                "speak": "What is your favorite color?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The capital city of Brazil is **BRASÍLIA**.",
+                "speak": "The capital city of Brazil is BRASÍLIA.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the capital city of Brazil?",
+                "speak": "What is the capital city of Brazil?",
+                "secondary": "Question"
+              },
+              {
+                "text": "He woke up at **SEVEN THIRTY** this morning.",
+                "speak": "He woke up at SEVEN THIRTY this morning.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What time did he wake up this morning?",
+                "speak": "What time did he wake up this morning?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The meeting starts at **THREE O'CLOCK**.",
+                "speak": "The meeting starts at THREE O'CLOCK.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What time does the meeting start?",
+                "speak": "What time does the meeting start?",
+                "secondary": "Question"
+              },
+              {
+                "text": "We bought this car from **MR. THOMPSON**.",
+                "speak": "We bought this car from MR. THOMPSON.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who did you buy this car from?",
+                "speak": "Who did you buy this car from?",
+                "secondary": "Question"
+              },
+              {
+                "text": "**SHAKESPEARE** wrote Romeo and Juliet.",
+                "speak": "SHAKESPEARE wrote Romeo and Juliet.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who wrote Romeo and Juliet?",
+                "speak": "Who wrote Romeo and Juliet?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She's talking to **DAVID** right now.",
+                "speak": "She's talking to DAVID right now.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who is she talking to right now?",
+                "speak": "Who is she talking to right now?",
+                "secondary": "Question"
+              }
+            ]
+          },
+          {
+            "name": "Group 5",
+            "items": [
+              {
+                "text": "The tallest mountain in the world is **MOUNT EVEREST**.",
+                "speak": "The tallest mountain in the world is MOUNT EVEREST.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the tallest mountain in the world?",
+                "speak": "What is the tallest mountain in the world?",
+                "secondary": "Question"
+              },
+              {
+                "text": "I learned English in **LONDON**.",
+                "speak": "I learned English in LONDON.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where did you learn English?",
+                "speak": "Where did you learn English?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The party is on **SATURDAY**.",
+                "speak": "The party is on SATURDAY.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "When is the party?",
+                "speak": "When is the party?",
+                "secondary": "Question"
+              },
+              {
+                "text": "They are moving to **CANADA** next year.",
+                "speak": "They are moving to CANADA next year.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where are they moving next year?",
+                "speak": "Where are they moving next year?",
+                "secondary": "Question"
+              },
+              {
+                "text": "My brother is **TWENTY-FIVE** years old.",
+                "speak": "My brother is TWENTY-FIVE years old.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How old is your brother?",
+                "speak": "How old is your brother?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The homework is due on **FRIDAY**.",
+                "speak": "The homework is due on FRIDAY.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "When is the homework due?",
+                "speak": "When is the homework due?",
+                "secondary": "Question"
+              },
+              {
+                "text": "We paid **$150** for the tickets.",
+                "speak": "We paid $150 for the tickets.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How much did you pay for the tickets?",
+                "speak": "How much did you pay for the tickets?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The president of France is **EMMANUEL MACRON**.",
+                "speak": "The president of France is EMMANUEL MACRON.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who is the president of France?",
+                "speak": "Who is the president of France?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She usually gets home around **SIX P.M.**",
+                "speak": "She usually gets home around SIX P.M.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What time does she usually get home?",
+                "speak": "What time does she usually get home?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The film was directed by **CHRISTOPHER NOLAN**.",
+                "speak": "The film was directed by CHRISTOPHER NOLAN.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who was the film directed by?",
+                "speak": "Who was the film directed by?",
+                "secondary": "Question"
+              }
+            ]
+          },
+          {
+            "name": "Group 6",
+            "items": [
+              {
+                "text": "I lost my keys in **THE PARK** yesterday.",
+                "speak": "I lost my keys in THE PARK yesterday.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where did you lose your keys yesterday?",
+                "speak": "Where did you lose your keys yesterday?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The book costs **TWELVE EUROS**.",
+                "speak": "The book costs TWELVE EUROS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How much does the book cost?",
+                "speak": "How much does the book cost?",
+                "secondary": "Question"
+              },
+              {
+                "text": "They are waiting for **ANNA** downstairs.",
+                "speak": "They are waiting for ANNA downstairs.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Who are they waiting for downstairs?",
+                "speak": "Who are they waiting for downstairs?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The Eiffel Tower is in **PARIS**.",
+                "speak": "The Eiffel Tower is in PARIS.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Where is the Eiffel Tower?",
+                "speak": "Where is the Eiffel Tower?",
+                "secondary": "Question"
+              },
+              {
+                "text": "He plays the guitar **VERY WELL**.",
+                "speak": "He plays the guitar VERY WELL.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "How well does he play the guitar?",
+                "speak": "How well does he play the guitar?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The train arrives at **PLATFORM NINE**.",
+                "speak": "The train arrives at PLATFORM NINE.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "Which platform does the train arrive at?",
+                "speak": "Which platform does the train arrive at?",
+                "secondary": "Question"
+              },
+              {
+                "text": "We met in **2018**.",
+                "speak": "We met in 2018.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "When did you meet?",
+                "speak": "When did you meet?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The answer to the question is **FORTY-TWO**.",
+                "speak": "The answer to the question is FORTY-TWO.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What is the answer to the question?",
+                "speak": "What is the answer to the question?",
+                "secondary": "Question"
+              },
+              {
+                "text": "She's wearing a **RED** dress tonight.",
+                "speak": "She's wearing a RED dress tonight.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "What color dress is she wearing tonight?",
+                "speak": "What color dress is she wearing tonight?",
+                "secondary": "Question"
+              },
+              {
+                "text": "The homework must be finished by **MONDAY MORNING**.",
+                "speak": "The homework must be finished by MONDAY MORNING.",
+                "secondary": "Statement"
+              },
+              {
+                "text": "By when must the homework be finished?",
+                "speak": "By when must the homework be finished?",
+                "secondary": "Question"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. Focused Pronoun Practice",
+        "expanded": false,
+        "intro": "Translate each sentence to build fluency with subject, object and possessive pronouns, then listen to the English audio and repeat.\n\n> ⚠ Two lines from the original PDF had small errors (*\"We are more food than they did\"* and *\"...after he took hers\"* with a **he** subject) — corrected below to *ate* and *his* so the model sentences teach the right grammar.",
+        "groups": [
+          {
+            "name": null,
+            "items": [
+              {
+                "text": "I used yours because mine was broken.",
+                "speak": "I used yours because mine was broken.",
+                "secondary": "Usé el tuyo porque el mío estaba roto."
+              },
+              {
+                "text": "We didn't like the one they gave us.",
+                "speak": "We didn't like the one they gave us.",
+                "secondary": "No nos gustó el que nos dieron."
+              },
+              {
+                "text": "Mine is for me.",
+                "speak": "Mine is for me.",
+                "secondary": "El mío es para mí."
+              },
+              {
+                "text": "Yours is for you.",
+                "speak": "Yours is for you.",
+                "secondary": "El tuyo es para ti."
+              },
+              {
+                "text": "Hers is for her.",
+                "speak": "Hers is for her.",
+                "secondary": "El suyo es para ella."
+              },
+              {
+                "text": "Ours and yours are better than his and hers.",
+                "speak": "Ours and yours are better than his and hers.",
+                "secondary": "El nuestro y el tuyo son mejores que el suyo y el de ella."
+              },
+              {
+                "text": "Theirs was better than ours.",
+                "speak": "Theirs was better than ours.",
+                "secondary": "El suyo era mejor que el nuestro."
+              },
+              {
+                "text": "My bicycle is smaller than his.",
+                "speak": "My bicycle is smaller than his.",
+                "secondary": "Mi bicicleta es más pequeña que la suya."
+              },
+              {
+                "text": "I like ours because it works better than his.",
+                "speak": "I like ours because it works better than his.",
+                "secondary": "Me gusta el nuestro porque funciona mejor que el suyo."
+              },
+              {
+                "text": "He gave his to her.",
+                "speak": "He gave his to her.",
+                "secondary": "Él le dio el suyo a ella."
+              },
+              {
+                "text": "Hers was the one next to mine.",
+                "speak": "Hers was the one next to mine.",
+                "secondary": "El suyo era el que estaba al lado del mío."
+              },
+              {
+                "text": "Their book is thicker than yours.",
+                "speak": "Their book is thicker than yours.",
+                "secondary": "Su libro es más grueso que el tuyo."
+              },
+              {
+                "text": "She used to work with him.",
+                "speak": "She used to work with him.",
+                "secondary": "Ella solía trabajar con él."
+              },
+              {
+                "text": "Her house used to belong to him.",
+                "speak": "Her house used to belong to him.",
+                "secondary": "Su casa solía pertenecerle a él."
+              },
+              {
+                "text": "Ours was chosen but his wasn't.",
+                "speak": "Ours was chosen but his wasn't.",
+                "secondary": "El nuestro fue elegido, pero el suyo no."
+              },
+              {
+                "text": "She likes hers because it helps her.",
+                "speak": "She likes hers because it helps her.",
+                "secondary": "A ella le gusta el suyo porque la ayuda."
+              },
+              {
+                "text": "We had to use her car instead of mine.",
+                "speak": "We had to use her car instead of mine.",
+                "secondary": "Tuvimos que usar su coche en lugar del mío."
+              },
+              {
+                "text": "She took mine after he took his.",
+                "speak": "She took mine after he took his.",
+                "secondary": "Ella tomó el mío después de que él tomara el suyo."
+              },
+              {
+                "text": "We ate more food than they did.",
+                "speak": "We ate more food than they did.",
+                "secondary": "Comimos más comida que ellos."
+              },
+              {
+                "text": "My version was worse than yours.",
+                "speak": "My version was worse than yours.",
+                "secondary": "Mi versión era peor que la tuya."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Common Irregular Verb Practice",
+        "key": "kyle_agility_warmup",
+        "qs": [
+          {
+            "q": "How do you say 'Él trajo a su amigo, pero no trajo a su hermana'?",
+            "opts": [
+              "He brought his friend, but he didn't bring his sister.",
+              "He brings his friend, but he doesn't bring his sister.",
+              "He has brought his friend, but hasn't brought his sister.",
+              "He was bringing his friend, but wasn't bringing his sister."
+            ],
+            "ans": "He brought his friend, but he didn't bring his sister."
+          },
+          {
+            "q": "How do you say 'Ellos eligieron el vestido rojo, pero no eligieron el azul'?",
+            "opts": [
+              "They choose the red dress, but they don't choose the blue one.",
+              "They chose the red dress, but they didn't choose the blue one.",
+              "They have chosen the red dress, but haven't chosen the blue one.",
+              "They were choosing the red dress, but weren't choosing the blue one."
+            ],
+            "ans": "They chose the red dress, but they didn't choose the blue one."
+          },
+          {
+            "q": "How do you say 'Él condujo al trabajo, pero no condujo a la tienda'?",
+            "opts": [
+              "He drives to work, but he doesn't drive to the store.",
+              "He has driven to work, but hasn't driven to the store.",
+              "He drove to work, but he didn't drive to the store.",
+              "He was driving to work, but wasn't driving to the store."
+            ],
+            "ans": "He drove to work, but he didn't drive to the store."
+          },
+          {
+            "q": "How do you say 'Ella escondió la llave, pero no escondió el dinero'?",
+            "opts": [
+              "She hides the key, but she doesn't hide the money.",
+              "She has hidden the key, but hasn't hidden the money.",
+              "She hid the key, but she didn't hide the money.",
+              "She was hiding the key, but wasn't hiding the money."
+            ],
+            "ans": "She hid the key, but she didn't hide the money."
+          },
+          {
+            "q": "How do you say 'Ellos se sentaron en el sofá, pero no se sentaron en la silla'?",
+            "opts": [
+              "They sit on the couch, but they don't sit on the chair.",
+              "They sat on the couch, but they didn't sit on the chair.",
+              "They have sat on the couch, but haven't sat on the chair.",
+              "They were sitting on the couch, but weren't sitting on the chair."
+            ],
+            "ans": "They sat on the couch, but they didn't sit on the chair."
+          },
+          {
+            "q": "How do you say 'Él entendió las instrucciones, pero no entendió la advertencia'?",
+            "opts": [
+              "He understands the instructions, but he doesn't understand the warning.",
+              "He understood the instructions, but he didn't understand the warning.",
+              "He has understood the instructions, but hasn't understood the warning.",
+              "He was understanding the instructions, but wasn't understanding the warning."
+            ],
+            "ans": "He understood the instructions, but he didn't understand the warning."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Simple Past vs. Present Perfect",
+        "key": "kyle_agility_pastperfect",
+        "qs": [
+          {
+            "q": "Which pattern uses the present perfect?",
+            "opts": [
+              "He broke the world record twice last year.",
+              "He hasn't broken it yet this year.",
+              "He broke it yesterday.",
+              "He was breaking it last year."
+            ],
+            "ans": "He hasn't broken it yet this year."
+          },
+          {
+            "q": "Complete: 'I ate a lot of sweets last week, but I ___ any so far this week.'",
+            "opts": [
+              "didn't eat",
+              "haven't eaten",
+              "wasn't eating",
+              "don't eat"
+            ],
+            "ans": "haven't eaten"
+          },
+          {
+            "q": "What's the past participle of 'to choose'?",
+            "opts": [
+              "choosed",
+              "chose",
+              "chosen",
+              "choosen"
+            ],
+            "ans": "chosen"
+          },
+          {
+            "q": "What's the past participle of 'to sell'?",
+            "opts": [
+              "selled",
+              "sold",
+              "sell",
+              "sole"
+            ],
+            "ans": "sold"
+          },
+          {
+            "q": "Which time expression signals present perfect rather than simple past?",
+            "opts": [
+              "last year",
+              "yesterday",
+              "so far this month",
+              "three times last month"
+            ],
+            "ans": "so far this month"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Common Collocations",
+        "key": "kyle_agility_collocations",
+        "qs": [
+          {
+            "q": "Complete: 'They made progress ___ pronunciation.'",
+            "opts": [
+              "in",
+              "for",
+              "at",
+              "on"
+            ],
+            "ans": "in"
+          },
+          {
+            "q": "Complete: 'My brother makes money ___ selling cars.'",
+            "opts": [
+              "for",
+              "by",
+              "with",
+              "to"
+            ],
+            "ans": "by"
+          },
+          {
+            "q": "Complete: 'We do business ___ a company in Germany.'",
+            "opts": [
+              "for",
+              "to",
+              "with",
+              "at"
+            ],
+            "ans": "with"
+          },
+          {
+            "q": "Complete: 'He took responsibility ___ organizing the event.'",
+            "opts": [
+              "of",
+              "for",
+              "to",
+              "with"
+            ],
+            "ans": "for"
+          },
+          {
+            "q": "Complete: 'Please pay attention ___ the instructions.'",
+            "opts": [
+              "at",
+              "for",
+              "to",
+              "on"
+            ],
+            "ans": "to"
+          }
+        ]
+      },
+      {
+        "title": "Test 4 · Comparatives and Superlatives",
+        "key": "kyle_agility_compsup",
+        "qs": [
+          {
+            "q": "Which is correct for a superlative?",
+            "opts": [
+              "your car isn't faster than fastest train",
+              "your car isn't faster than the fastest train",
+              "your car isn't the faster than fastest train",
+              "your car isn't more fast than the fastest train"
+            ],
+            "ans": "your car isn't faster than the fastest train"
+          },
+          {
+            "q": "Which adjective needs 'more/most' instead of '-er/-est'?",
+            "opts": [
+              "fast",
+              "big",
+              "interesting",
+              "cheap"
+            ],
+            "ans": "interesting"
+          },
+          {
+            "q": "Does the comparative form take 'the' before it?",
+            "opts": [
+              "Yes, always",
+              "No, only the superlative does",
+              "Only with short adjectives",
+              "Only in questions"
+            ],
+            "ans": "No, only the superlative does"
+          },
+          {
+            "q": "Which is the correct superlative of 'deep'?",
+            "opts": [
+              "deepest",
+              "the deepest",
+              "more deep",
+              "most deep"
+            ],
+            "ans": "the deepest"
+          }
+        ]
+      },
+      {
+        "title": "Test 5 · Such + Irregular Verbs",
+        "key": "kyle_agility_such",
+        "qs": [
+          {
+            "q": "Which sentence uses 'such' correctly?",
+            "opts": [
+              "I've never had so strong a headache.",
+              "I've never had such a strong headache.",
+              "I've never had such strong headache.",
+              "I've never had a such strong headache."
+            ],
+            "ans": "I've never had such a strong headache."
+          },
+          {
+            "q": "How do you say 'Nunca había ganado un partido tan difícil'?",
+            "opts": [
+              "I've never won such difficult match.",
+              "I've never won such a difficult match.",
+              "I never won so a difficult match.",
+              "I've never won a such difficult match."
+            ],
+            "ans": "I've never won such a difficult match."
+          },
+          {
+            "q": "What tense does English use in 'I've never had such a strong headache'?",
+            "opts": [
+              "Simple past",
+              "Present perfect",
+              "Past perfect",
+              "Present continuous"
+            ],
+            "ans": "Present perfect"
+          },
+          {
+            "q": "How do you say 'Nunca había dormido en una cama tan dura'?",
+            "opts": [
+              "I've never slept on such a hard bed.",
+              "I've never slept in such a hard bed.",
+              "I never sleep on such a hard bed.",
+              "I've never slept on so hard a bed."
+            ],
+            "ans": "I've never slept on such a hard bed."
+          }
+        ]
+      },
+      {
+        "title": "Test 6 · Mastering the Interrogative",
+        "key": "kyle_agility_interrogative",
+        "qs": [
+          {
+            "q": "'The Eiffel Tower is located in PARIS.' — question for the bold info?",
+            "opts": [
+              "What is the Eiffel Tower?",
+              "Where is the Eiffel Tower located?",
+              "When is the Eiffel Tower located?",
+              "Who located the Eiffel Tower?"
+            ],
+            "ans": "Where is the Eiffel Tower located?"
+          },
+          {
+            "q": "'The pyramids were built by the ANCIENT EGYPTIANS.' — question for the bold info?",
+            "opts": [
+              "What were the pyramids built by?",
+              "When were the pyramids built?",
+              "Who were the pyramids built by?",
+              "Where were the pyramids built?"
+            ],
+            "ans": "Who were the pyramids built by?"
+          },
+          {
+            "q": "'He runs EVERY DAY.' — question for the bold info?",
+            "opts": [
+              "How often does he run?",
+              "When does he run?",
+              "Where does he run?",
+              "Why does he run?"
+            ],
+            "ans": "How often does he run?"
+          },
+          {
+            "q": "'The homework must be finished by MONDAY MORNING.' — question for the bold info?",
+            "opts": [
+              "When must the homework be finished?",
+              "By when must the homework be finished?",
+              "What must be finished by Monday morning?",
+              "Who must finish the homework?"
+            ],
+            "ans": "By when must the homework be finished?"
+          },
+          {
+            "q": "'She usually gets home around SIX P.M.' — question for the bold info?",
+            "opts": [
+              "When does she usually get home?",
+              "What time does she usually get home?",
+              "How does she usually get home?",
+              "Where does she usually get home?"
+            ],
+            "ans": "What time does she usually get home?"
+          }
+        ]
+      },
+      {
+        "title": "Test 7 · Focused Pronoun Practice",
+        "key": "kyle_agility_pronouns",
+        "qs": [
+          {
+            "q": "How do you say 'Usé el tuyo porque el mío estaba roto'?",
+            "opts": [
+              "I used mine because yours was broken.",
+              "I used yours because mine was broken.",
+              "I use yours because mine is broken.",
+              "I used your one because my one was broken."
+            ],
+            "ans": "I used yours because mine was broken."
+          },
+          {
+            "q": "How do you say 'El nuestro y el tuyo son mejores que el suyo y el de ella'?",
+            "opts": [
+              "Our and your are better than his and her.",
+              "Ours and yours are better than his and hers.",
+              "Ours and yours are better than him and her.",
+              "The ours and the yours are better than his and hers."
+            ],
+            "ans": "Ours and yours are better than his and hers."
+          },
+          {
+            "q": "How do you say 'El nuestro fue elegido, pero el suyo no'?",
+            "opts": [
+              "The ours was chosen but the his wasn't.",
+              "Ours was chosen but his wasn't.",
+              "Our was chosen but his wasn't.",
+              "Ours was chosen but he wasn't."
+            ],
+            "ans": "Ours was chosen but his wasn't."
+          },
+          {
+            "q": "How do you say 'Tuvimos que usar su coche en lugar del mío'?",
+            "opts": [
+              "We had to use her car instead of my one.",
+              "We had to use her car instead of mine.",
+              "We had to use hers car instead of mine.",
+              "We had to use her car in place of my."
+            ],
+            "ans": "We had to use her car instead of mine."
+          },
+          {
+            "q": "How do you say 'Mi bicicleta es más pequeña que la suya' (his)?",
+            "opts": [
+              "My bicycle is smaller than his.",
+              "My bicycle is smaller than him.",
+              "My bicycle is smaller than his one.",
+              "My bicycle is more small than his."
+            ],
+            "ans": "My bicycle is smaller than his."
+          }
+        ]
+      }
+    ]
   }
 ]
