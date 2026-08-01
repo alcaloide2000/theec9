@@ -103,6 +103,7 @@ def _load_class_cache():
         return json.load(f)
 
 
+@st.cache_data
 def _generate_audio(text):
     if not text:
         return None
