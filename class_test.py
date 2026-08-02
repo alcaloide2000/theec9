@@ -1,11 +1,9 @@
 import base64
-import io
 import random
 import streamlit as st
 import streamlit.components.v1 as components
 import json
 import pathlib
-from gtts import gTTS
 
 st.set_page_config(page_title="Reviewing The English Collective", layout="wide")
 
@@ -103,17 +101,6 @@ def _load_class_cache():
         return json.load(f)
 
 
-@st.cache_data
-def _generate_audio(text):
-    if not text:
-        return None
-    tts = gTTS(text=str(text), lang="en", tld="ca")
-    buf = io.BytesIO()
-    tts.write_to_fp(buf)
-    buf.seek(0)
-    return buf.getvalue()
-
-
 def _render_class(cls, header=None):
     st.subheader(header or f"CLASS — {cls['title']}")
     st.markdown(f"**{cls['date']}** · {cls['topic']}")
@@ -131,23 +118,10 @@ def _render_class(cls, header=None):
     _render_tests(cls)
 
 
-def _render_agility_item(item, item_key):
-    audio_cache = st.session_state.setdefault("agility_audio", {})
-    c1, c2 = st.columns([8, 1])
-    with c1:
-        if item.get("secondary"):
-            st.markdown(f"<span style='color:#888'>{item['secondary']}</span>", unsafe_allow_html=True)
-        st.markdown(item["text"])
-    with c2:
-        if st.button("🔊", key=f"{item_key}_btn", help="Listen"):
-            audio_cache.setdefault(item_key, _generate_audio(item["speak"]))
-            st.session_state["agility_last_played"] = item_key
-    if item_key in audio_cache:
-        st.audio(
-            audio_cache[item_key],
-            format="audio/mp3",
-            autoplay=item_key == st.session_state.get("agility_last_played"),
-        )
+def _render_agility_item(item):
+    if item.get("secondary"):
+        st.markdown(f"<span style='color:#888'>{item['secondary']}</span>", unsafe_allow_html=True)
+    st.markdown(item["text"])
     st.markdown("---")
 
 
@@ -163,8 +137,8 @@ def _render_agility_accelerator(cls, header=None):
             for group in sec.get("groups", []):
                 if group.get("name"):
                     st.markdown(f"**{group['name']}**")
-                for i, item in enumerate(group["items"]):
-                    _render_agility_item(item, f"{cls['id']}_{sec['title']}_{group.get('name')}_{i}")
+                for item in group["items"]:
+                    _render_agility_item(item)
 
     _render_tests(cls)
 
