@@ -1,5 +1,7 @@
 import base64
+import html
 import random
+import re
 import streamlit as st
 import streamlit.components.v1 as components
 import json
@@ -127,6 +129,67 @@ def _render_agility_item(item):
     st.markdown(content, unsafe_allow_html=True)
 
 
+def _render_agility_section_synced(sec):
+    with open(BASE_PATH / sec["audio"], "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+
+    timings = sec["timings"]
+    rows_html = []
+    idx = 0
+    for group in sec.get("groups", []):
+        if group.get("name"):
+            rows_html.append(f'<div class="group-name">{html.escape(group["name"])}</div>')
+        for item in group["items"]:
+            start, end = timings[idx]
+            idx += 1
+            secondary_html = f'<span class="secondary">{item["secondary"]}</span>' if item.get("secondary") else ""
+            text_html = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", html.escape(item["text"]))
+            rows_html.append(
+                f'<div class="sentence" data-start="{start}" data-end="{end}">'
+                f'{secondary_html}{text_html}</div>'
+            )
+
+    component_html = f"""<style>
+body{{font-family:"Source Sans Pro",sans-serif;margin:0;padding:0;}}
+.group-name{{font-weight:700;margin:14px 0 6px 0;}}
+.sentence{{padding:6px 8px;border-bottom:1px solid rgba(128,128,128,0.25);margin-bottom:2px;border-radius:6px;transition:background .15s;}}
+.sentence.active{{background:rgba(255,205,0,0.32);}}
+.secondary{{color:#888;font-size:0.85em;display:block;margin-bottom:2px;}}
+#sentences{{max-height:440px;overflow-y:auto;margin-top:10px;}}
+audio{{width:100%;}}
+</style>
+<p>🔊 <b>Click play to hear this section read aloud</b> — the current sentence highlights as it plays.</p>
+<audio id="aud" controls>
+  <source src="data:audio/mpeg;base64,{b64}" type="audio/mpeg">
+</audio>
+<div id="sentences">{"".join(rows_html)}</div>
+<script>
+var aud = document.getElementById('aud');
+var els = Array.prototype.slice.call(document.querySelectorAll('.sentence'));
+var active = null;
+aud.addEventListener('timeupdate', function() {{
+  var t = aud.currentTime;
+  var found = null;
+  for (var i = 0; i < els.length; i++) {{
+    var s = parseFloat(els[i].dataset.start), e = parseFloat(els[i].dataset.end);
+    if (t >= s && t < e) {{ found = els[i]; break; }}
+  }}
+  if (found !== active) {{
+    if (active) active.classList.remove('active');
+    if (found) {{
+      found.classList.add('active');
+      found.scrollIntoView({{block: 'nearest', behavior: 'smooth'}});
+    }}
+    active = found;
+  }}
+}});
+aud.addEventListener('ended', function() {{
+  if (active) {{ active.classList.remove('active'); active = null; }}
+}});
+</script>"""
+    components.html(component_html, height=580, scrolling=False)
+
+
 def _render_agility_accelerator(cls, header=None):
     st.subheader(header or cls["title"])
     st.markdown(f"*{cls['date']} edition* · {cls['topic']}")
@@ -136,14 +199,17 @@ def _render_agility_accelerator(cls, header=None):
         with st.expander(sec["title"], expanded=sec.get("expanded", False)):
             if sec.get("intro"):
                 st.markdown(sec["intro"])
-            if sec.get("audio"):
-                st.markdown("🔊 **Click play to hear this section read aloud**")
-                st.audio(str(BASE_PATH / sec["audio"]))
-            for group in sec.get("groups", []):
-                if group.get("name"):
-                    st.markdown(f"**{group['name']}**")
-                for item in group["items"]:
-                    _render_agility_item(item)
+            if sec.get("timings"):
+                _render_agility_section_synced(sec)
+            else:
+                if sec.get("audio"):
+                    st.markdown("🔊 **Click play to hear this section read aloud**")
+                    st.audio(str(BASE_PATH / sec["audio"]))
+                for group in sec.get("groups", []):
+                    if group.get("name"):
+                        st.markdown(f"**{group['name']}**")
+                    for item in group["items"]:
+                        _render_agility_item(item)
 
     _render_tests(cls)
 
