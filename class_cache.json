@@ -7693,7 +7693,7 @@
       {
         "title": "1. Common Irregular Verb Practice",
         "expanded": false,
-        "intro": "Tap 🔊 to hear each sentence read aloud, then repeat it yourself to master the most common English irregular verbs in the affirmative/negative simple past contrast pattern (*\"I did X, but I didn't do Y\"*).",
+        "intro": "Practice repeating each sentence yourself to master the most common English irregular verbs in the affirmative/negative simple past contrast pattern (*\"I did X, but I didn't do Y\"*).",
         "groups": [
           {
             "name": null,
@@ -7945,7 +7945,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/1. Common Irregular Verb Practice.mp3"
       },
       {
         "title": "2. Irregular Verbs: Simple Past vs. Present Perfect",
@@ -8218,7 +8219,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/2. Irregular Verbs - Simple Past vs. Present Perfect.mp3"
       },
       {
         "title": "3. Common Collocations",
@@ -8355,7 +8357,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/3. Common Collocations.mp3"
       },
       {
         "title": "4. Comparatives and Superlatives",
@@ -8497,7 +8500,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/4. Comparatives and Superlatives.mp3"
       },
       {
         "title": "5. Such + Irregular Verbs",
@@ -8659,7 +8663,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/5. Such + Irregular Verbs.mp3"
       },
       {
         "title": "6. Mastering the Interrogative",
@@ -9296,7 +9301,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/6. Mastering the Interrogative.mp3"
       },
       {
         "title": "7. Focused Pronoun Practice",
@@ -9408,7 +9414,8 @@
               }
             ]
           }
-        ]
+        ],
+        "audio": "assets/classes/english_with_kyle/Agility_accelarator/7. Focused Pronoun Practice.mp3"
       }
     ],
     "tests": [

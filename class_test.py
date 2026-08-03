@@ -119,10 +119,12 @@ def _render_class(cls, header=None):
 
 
 def _render_agility_item(item):
+    content = ""
     if item.get("secondary"):
-        st.markdown(f"<span style='color:#888'>{item['secondary']}</span>", unsafe_allow_html=True)
-    st.markdown(item["text"])
-    st.markdown("---")
+        content += f"<span style='color:#888'>{item['secondary']}</span>  \n"
+    content += item["text"]
+    content += "\n<hr style='margin:4px 0 10px 0;border:none;border-top:1px solid rgba(128,128,128,0.25);'>"
+    st.markdown(content, unsafe_allow_html=True)
 
 
 def _render_agility_accelerator(cls, header=None):
@@ -134,6 +136,9 @@ def _render_agility_accelerator(cls, header=None):
         with st.expander(sec["title"], expanded=sec.get("expanded", False)):
             if sec.get("intro"):
                 st.markdown(sec["intro"])
+            if sec.get("audio"):
+                st.markdown("🔊 **Click play to hear this section read aloud**")
+                st.audio(str(BASE_PATH / sec["audio"]))
             for group in sec.get("groups", []):
                 if group.get("name"):
                     st.markdown(f"**{group['name']}**")
