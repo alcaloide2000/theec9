@@ -271,20 +271,23 @@ def _render_teacher_tab(classes, sel_key):
         st.session_state[sel_key] = 0
 
     st.markdown("### Select a class")
-    cols = st.columns(2)
-    for i, c in enumerate(sorted_cls):
-        with cols[i % 2]:
-            is_sel = st.session_state[sel_key] == i
-            is_latest = i == 0
-            label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
-            if st.button(
-                label,
-                key=f"{sel_key}_btn_{i}",
-                use_container_width=True,
-                type="primary" if is_sel else "secondary",
-            ):
-                st.session_state[sel_key] = i
-                st.rerun()
+    for row_start in range(0, len(sorted_cls), 2):
+        row = sorted_cls[row_start:row_start + 2]
+        cols = st.columns(2)
+        for j, c in enumerate(row):
+            i = row_start + j
+            with cols[j]:
+                is_sel = st.session_state[sel_key] == i
+                is_latest = i == 0
+                label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
+                if st.button(
+                    label,
+                    key=f"{sel_key}_btn_{i}",
+                    use_container_width=True,
+                    type="primary" if is_sel else "secondary",
+                ):
+                    st.session_state[sel_key] = i
+                    st.rerun()
 
     st.divider()
     _render_class(sorted_cls[st.session_state[sel_key]])
