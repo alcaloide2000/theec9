@@ -311,6 +311,66 @@ def _collect_warmup_questions(kyle_classes):
     return qs
 
 
+def _collect_interrogative_pairs(kyle_classes):
+    header_re = re.compile(r"^\|\s*(Statement|Answer)\s*\|\s*Question\s*\|\s*$", re.IGNORECASE)
+    sep_re = re.compile(r"^\|[\s:|-]+\|$")
+    pairs = []
+    for cls in kyle_classes:
+        for sec in cls.get("sections", []):
+            content = sec.get("content", "")
+            if not content:
+                continue
+            lines = content.split("\n")
+            i = 0
+            while i < len(lines):
+                m = header_re.match(lines[i].strip())
+                if m and i + 1 < len(lines) and sep_re.match(lines[i + 1].strip()):
+                    left_label = m.group(1)
+                    j = i + 2
+                    while j < len(lines) and lines[j].strip().startswith("|"):
+                        cols = [c.strip() for c in lines[j].strip().strip("|").split("|")]
+                        if len(cols) == 2 and cols[0] and cols[1]:
+                            pairs.append({
+                                "left_label": left_label,
+                                "left": cols[0],
+                                "question": cols[1],
+                                "from_date": cls["date"],
+                                "from_topic": cls["topic"],
+                                "from_section": sec["title"],
+                            })
+                        j += 1
+                    i = j
+                else:
+                    i += 1
+    return pairs
+
+
+def _render_interrogative_challenge(pairs):
+    st.markdown("## ❓ The Interrogative Challenge")
+    if not pairs:
+        st.info("No interrogative statement/question pairs found yet.")
+        return
+
+    st.markdown(f"**{len(pairs)} statement → question pairs** collected from all Kyle classes.")
+    st.divider()
+
+    grouped = {}
+    for p in pairs:
+        grouped.setdefault((p["from_date"], p["from_topic"]), []).append(p)
+
+    for (date, topic), items in sorted(grouped.items(), key=lambda kv: kv[0][0], reverse=True):
+        with st.expander(f"{date} — {topic}", expanded=False):
+            by_section = {}
+            for p in items:
+                by_section.setdefault(p["from_section"], []).append(p)
+            for section_title, sec_items in by_section.items():
+                st.markdown(f"**{section_title}**")
+                header_label = sec_items[0]["left_label"]
+                rows = "\n".join(f"| {p['left']} | {p['question']} |" for p in sec_items)
+                st.markdown(f"| {header_label} | Question |\n|---|---|\n{rows}")
+                st.markdown("")
+
+
 def _linguo_option_html(label, state):
     cfg = {
         "correct":    ("#45a100", "#d7f5b1", "#2d7a00", "600", "✓ "),
@@ -520,8 +580,8 @@ else:
     ])
 
     with tab_kyle:
-        kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo, kyle_tab_agility = st.tabs(
-            ["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator"]
+        kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo, kyle_tab_agility, kyle_tab_interrogative = st.tabs(
+            ["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator", "❓ The Interrogative Challenge"]
         )
         with kyle_tab_classes:
             _render_teacher_tab(kyle_classes, "sel_kyle")
@@ -534,6 +594,8 @@ else:
                 _render_agility_accelerator(agility_accelerator, header="📘 Agility Accelerator")
             else:
                 st.info("Agility Accelerator content not available yet.")
+        with kyle_tab_interrogative:
+            _render_interrogative_challenge(_collect_interrogative_pairs(kyle_classes))
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")
