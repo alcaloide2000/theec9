@@ -102,7 +102,7 @@ New warm-up questions are picked up automatically — no code change needed, onl
 | 1. Common Irregular Verb Practice | 450ms | 500ms |
 | 2. Irregular Verbs: Simple Past vs. Present Perfect | 900ms | 900ms |
 | 3. Common Collocations | 900ms | 900ms |
-| 4. Comparatives and Superlatives | none (see exception) | 900ms |
+| 4. Comparatives and Superlatives | none (see exception) | 1000ms |
 | 5. Such + Irregular Verbs | 450ms | 500ms |
 | 6. Mastering the Interrogative | none (no commas in content) | see exception |
 | 7. Focused Pronoun Practice | 450ms | 500ms |
