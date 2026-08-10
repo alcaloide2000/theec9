@@ -102,14 +102,14 @@ New warm-up questions are picked up automatically — no code change needed, onl
 | 1. Common Irregular Verb Practice | 450ms | 500ms |
 | 2. Irregular Verbs: Simple Past vs. Present Perfect | 900ms | 900ms |
 | 3. Common Collocations | 900ms | 900ms |
-| 4. Comparatives and Superlatives | none (see exception) | 1000ms |
+| 4. Comparatives and Superlatives | none (see exception) | 2500ms |
 | 5. Such + Irregular Verbs | 450ms | 500ms |
 | 6. Mastering the Interrogative | none (no commas in content) | see exception |
 | 7. Focused Pronoun Practice | 450ms | 500ms |
 
 **Section 4 exception:** `"4. Comparatives and Superlatives"` does **not** get the comma-split pause, even though about half its items contain a comma (the `"No, ..."` answer sentences) — every item is synthesized as a single uninterrupted clip regardless of commas. It still gets the flat between-item gap from the table above. If this section's content changes, regenerate it without the comma-split step; don't reuse the general per-section script as-is.
 
-**Section 6 exception:** `"6. Mastering the Interrogative"` items strictly alternate `secondary: "Statement"` / `secondary: "Question"` pairs (a fact stated aloud, then the question that elicits it — no commas in any item). The gap **after a Statement item** (before its paired Question plays) is **5000ms**, giving the learner time to formulate the question themselves before hearing it. The gap after a Question item (before the next Statement) is **500ms**. If this section's content changes, regenerate preserving this alternation-aware gap, keyed off each item's `secondary` field.
+**Section 6 exception:** `"6. Mastering the Interrogative"` items strictly alternate `secondary: "Statement"` / `secondary: "Question"` pairs (a fact stated aloud, then the question that elicits it — no commas in any item). The gap **after a Statement item** (before its paired Question plays) is **5000ms**, giving the learner time to formulate the question themselves before hearing it. The gap after a Question item (before the next Statement) is **2500ms**. If this section's content changes, regenerate preserving this alternation-aware gap, keyed off each item's `secondary` field.
 
 If a section's content or delay values are changed again, regenerate both the mp3 and `timings` together — they must stay in lockstep, since `timings` indexes are positional (flattened group→item order) with no id to re-match against.
 
