@@ -1728,7 +1728,74 @@
       {
         "title": "5. Mastering the Interrogative",
         "expanded": false,
-        "content": "Form the question that matches the underlined answer:\n\n| Statement | Question |\n|---|---|\n| We had to wait **30 minutes**. | **How long** did we have to wait? |\n| It was **Morgan's** fault. | **Whose** fault was it? |\n| This monastery was built **in the 12th century**. | **When** was this monastery built? |\n| The company was founded **in 1967**. | **When** was the company founded? |\n| She will be operated on **next month**. | **When** will she be operated on? |\n| You can trust him **for anything**. | **What** can you trust him for? |\n| He did it **last week**. | **When** did he do it? |\n| The report is **24 pages** long. | **How long** is the report? |\n\n### Notes\n- Passive sentences keep the question word; the auxiliary stays passive: *When **was** this monastery built?*\n- Keep the preposition at the end: *When will she be operated **on**?* · *What can you trust him **for**?*"
+        "content": "Form the question that matches the underlined answer:\n\n| Statement | Question |\n|---|---|\n| We had to wait **30 minutes**. | **How long** did we have to wait? |\n| It was **Morgan's** fault. | **Whose** fault was it? |\n| This monastery was built **in the 12th century**. | **When** was this monastery built? |\n| The company was founded **in 1967**. | **When** was the company founded? |\n| She will be operated on **next month**. | **When** will she be operated on? |\n| You can trust him **for anything**. | **What** can you trust him for? |\n| He did it **last week**. | **When** did he do it? |\n| The report is **24 pages** long. | **How long** is the report? |\n\n### Notes\n- Passive sentences keep the question word; the auxiliary stays passive: *When **was** this monastery built?*\n- Keep the preposition at the end: *When will she be operated **on**?* · *What can you trust him **for**?*",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/5. Mastering the Interrogative.mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            2.496
+          ],
+          [
+            7.496,
+            10.088
+          ],
+          [
+            12.588,
+            14.868
+          ],
+          [
+            19.868,
+            21.836
+          ],
+          [
+            24.336,
+            27.792
+          ],
+          [
+            32.792,
+            35.408
+          ],
+          [
+            37.908,
+            41.46
+          ],
+          [
+            46.46,
+            48.86
+          ],
+          [
+            51.36,
+            54.216
+          ],
+          [
+            59.216,
+            61.832
+          ],
+          [
+            64.332,
+            66.66
+          ],
+          [
+            71.66,
+            73.988
+          ],
+          [
+            76.488,
+            78.576
+          ],
+          [
+            83.576,
+            85.52
+          ],
+          [
+            88.02,
+            91.068
+          ],
+          [
+            96.068,
+            98.396
+          ]
+        ]
       }
     ],
     "tests": [
@@ -3906,7 +3973,138 @@
       {
         "title": "4. Mastering the Interrogative",
         "expanded": false,
-        "content": "Practice: given the **answer**, form the correct **question**.\n\n| Answer | Question |\n|---|---|\n| The new law went into effect **last month**. | **When** did the new law go into effect? |\n| The new rule has been in force **for a year and a half**. | **How long** has the new rule been in force? |\n| You can stay here **as long as you want**. | **How long** can I stay here? |\n| He broke it **last night**. | **When** did he break it? |\n| They're expecting us **at 10 o'clock**. | **When** are they expecting us? |\n| He's going to resign **later this year**. | **When** is he going to resign? |\n| **This** book is mine. | **Whose** book is this? |\n| **That** idea was Jennifer's. | **Whose** idea was that? |\n| It depends **on you**. | **Who** does it depend on? |\n| I used **the elevator on the left**. | **Which** elevator did you use? |\n| The tank was emptied **by means of a pump**. | **How** was the tank emptied? |\n| I got this shirt **in a small neighbourhood shop**. | **Where** did you get that shirt? |\n| The bill was paid **on the 17th**. | **When** was the bill paid? |\n| Nobody spoke to him because he was ill. | **Why** didn't anyone speak to him? |\n| It stopped raining **shortly after lunch**. | **When** did it stop raining? |\n| I used **a fire extinguisher** to put out the fire. | **What** did you use to put out the fire? |\n\n---\n\n**Grammar notes:**\n\n**Whose — the noun always follows directly:**\n- ✅ *Whose **book** is this?*\n- ❌ *Whose is this book?* — wrong order.\n\n**Nobody → Why didn't anyone…?**\nWhen the statement uses *nobody / no one*, the question is more natural with a negative:\n- ✅ *Why didn't **anyone** speak to him?*\n- ⚠️ *Why did **no one** speak to him?* — grammatically possible but less common.\n\n**Put out** = apagar (phrasal verb; the *out* signals extinction):\n- *put out* the fire\n- *blow out* the candles\n- *smother out* a flame\n\n**In effect / in force** — used interchangeably for laws and rules:\n- *The law has been **in effect** / **in force** for two years.*"
+        "content": "Practice: given the **answer**, form the correct **question**.\n\n| Answer | Question |\n|---|---|\n| The new law went into effect **last month**. | **When** did the new law go into effect? |\n| The new rule has been in force **for a year and a half**. | **How long** has the new rule been in force? |\n| You can stay here **as long as you want**. | **How long** can I stay here? |\n| He broke it **last night**. | **When** did he break it? |\n| They're expecting us **at 10 o'clock**. | **When** are they expecting us? |\n| He's going to resign **later this year**. | **When** is he going to resign? |\n| **This** book is mine. | **Whose** book is this? |\n| **That** idea was Jennifer's. | **Whose** idea was that? |\n| It depends **on you**. | **Who** does it depend on? |\n| I used **the elevator on the left**. | **Which** elevator did you use? |\n| The tank was emptied **by means of a pump**. | **How** was the tank emptied? |\n| I got this shirt **in a small neighbourhood shop**. | **Where** did you get that shirt? |\n| The bill was paid **on the 17th**. | **When** was the bill paid? |\n| Nobody spoke to him because he was ill. | **Why** didn't anyone speak to him? |\n| It stopped raining **shortly after lunch**. | **When** did it stop raining? |\n| I used **a fire extinguisher** to put out the fire. | **What** did you use to put out the fire? |\n\n---\n\n**Grammar notes:**\n\n**Whose — the noun always follows directly:**\n- ✅ *Whose **book** is this?*\n- ❌ *Whose is this book?* — wrong order.\n\n**Nobody → Why didn't anyone…?**\nWhen the statement uses *nobody / no one*, the question is more natural with a negative:\n- ✅ *Why didn't **anyone** speak to him?*\n- ⚠️ *Why did **no one** speak to him?* — grammatically possible but less common.\n\n**Put out** = apagar (phrasal verb; the *out* signals extinction):\n- *put out* the fire\n- *blow out* the candles\n- *smother out* a flame\n\n**In effect / in force** — used interchangeably for laws and rules:\n- *The law has been **in effect** / **in force** for two years.*",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/4. Mastering the Interrogative.mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            3.144
+          ],
+          [
+            8.144,
+            11.024
+          ],
+          [
+            13.524,
+            17.172
+          ],
+          [
+            22.172,
+            25.508
+          ],
+          [
+            28.008,
+            30.912
+          ],
+          [
+            35.912,
+            38.552
+          ],
+          [
+            41.052,
+            43.308
+          ],
+          [
+            48.308,
+            50.252
+          ],
+          [
+            52.752,
+            55.368
+          ],
+          [
+            60.368,
+            62.624
+          ],
+          [
+            65.124,
+            67.956
+          ],
+          [
+            72.956,
+            75.26
+          ],
+          [
+            77.76,
+            79.8
+          ],
+          [
+            84.8,
+            86.84
+          ],
+          [
+            89.34,
+            91.884
+          ],
+          [
+            96.884,
+            99.188
+          ],
+          [
+            101.688,
+            103.776
+          ],
+          [
+            108.776,
+            110.936
+          ],
+          [
+            113.436,
+            116.124
+          ],
+          [
+            121.124,
+            123.62
+          ],
+          [
+            126.12,
+            129.12
+          ],
+          [
+            134.12,
+            136.424
+          ],
+          [
+            138.924,
+            142.116
+          ],
+          [
+            147.116,
+            149.276
+          ],
+          [
+            151.776,
+            155.232
+          ],
+          [
+            160.232,
+            162.416
+          ],
+          [
+            164.916,
+            167.868
+          ],
+          [
+            172.868,
+            175.532
+          ],
+          [
+            178.032,
+            181.176
+          ],
+          [
+            186.176,
+            188.432
+          ],
+          [
+            190.932,
+            194.508
+          ],
+          [
+            199.508,
+            202.196
+          ]
+        ]
       }
     ],
     "tests": [
@@ -5370,7 +5568,114 @@
       {
         "title": "3. Mastering the Interrogative  ★ Main topic",
         "expanded": true,
-        "content": "Form a question by identifying the **question word**, then: **question word + auxiliary + subject + verb?**\n\n> Give the statement → identify what information is being asked → build the question.\n\n---\n\n### Coca-Cola facts → questions\n\n| Statement | Question |\n|---|---|\n| Coca-Cola was invented **in 1886**. | **When** was Coca-Cola invented? |\n| The inventor was **John Pemberton**. | **Who** was the inventor of Coca-Cola? |\n| The headquarters is **in Atlanta**. | **Where** is the headquarters of Coca-Cola? |\n| The main ingredient is **carbonated water**. | **What** is the main ingredient in Coca-Cola? |\n| The logo is **red and white**. | **What color** is the famous Coca-Cola logo? |\n| Coca-Cola was first sold **at a pharmacy**. | **Where** was Coca-Cola first sold? |\n| The company was founded by **Asa Candler**. | **Who** was the Coca-Cola company founded by? |\n| Coca-Cola sponsors **the Olympic Games**. | **What** does Coca-Cola sponsor? |\n| Coca-Cola owns the brand **Fanta**. | **What brand** does Coca-Cola own? |\n| Coke had a giant failure with **New Coke**. | **What** did Coca-Cola have a giant failure with? |\n| They introduced the contoured bottle **in 1915**. | **When** did they introduce the contoured bottle? |\n| New Coke was introduced **in 1985**. | **When** did Coca-Cola introduce New Coke? |\n| Coca-Cola Orange was introduced **in 2007**. | **When** did Coca-Cola introduce Coca-Cola Orange? |"
+        "content": "Form a question by identifying the **question word**, then: **question word + auxiliary + subject + verb?**\n\n> Give the statement → identify what information is being asked → build the question.\n\n---\n\n### Coca-Cola facts → questions\n\n| Statement | Question |\n|---|---|\n| Coca-Cola was invented **in 1886**. | **When** was Coca-Cola invented? |\n| The inventor was **John Pemberton**. | **Who** was the inventor of Coca-Cola? |\n| The headquarters is **in Atlanta**. | **Where** is the headquarters of Coca-Cola? |\n| The main ingredient is **carbonated water**. | **What** is the main ingredient in Coca-Cola? |\n| The logo is **red and white**. | **What color** is the famous Coca-Cola logo? |\n| Coca-Cola was first sold **at a pharmacy**. | **Where** was Coca-Cola first sold? |\n| The company was founded by **Asa Candler**. | **Who** was the Coca-Cola company founded by? |\n| Coca-Cola sponsors **the Olympic Games**. | **What** does Coca-Cola sponsor? |\n| Coca-Cola owns the brand **Fanta**. | **What brand** does Coca-Cola own? |\n| Coke had a giant failure with **New Coke**. | **What** did Coca-Cola have a giant failure with? |\n| They introduced the contoured bottle **in 1915**. | **When** did they introduce the contoured bottle? |\n| New Coke was introduced **in 1985**. | **When** did Coca-Cola introduce New Coke? |\n| Coca-Cola Orange was introduced **in 2007**. | **When** did Coca-Cola introduce Coca-Cola Orange? |",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/3. Mastering the Interrogative  ★ Main topic.mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            3.696
+          ],
+          [
+            8.696,
+            11.384
+          ],
+          [
+            13.884,
+            16.572
+          ],
+          [
+            21.572,
+            24.26
+          ],
+          [
+            26.76,
+            29.328
+          ],
+          [
+            34.328,
+            37.232
+          ],
+          [
+            39.732,
+            42.876
+          ],
+          [
+            47.876,
+            51.02
+          ],
+          [
+            53.52,
+            56.136
+          ],
+          [
+            61.136,
+            64.448
+          ],
+          [
+            66.948,
+            70.26
+          ],
+          [
+            75.26,
+            78.068
+          ],
+          [
+            80.568,
+            83.784
+          ],
+          [
+            88.784,
+            92.048
+          ],
+          [
+            94.548,
+            97.788
+          ],
+          [
+            102.788,
+            105.38
+          ],
+          [
+            107.88,
+            110.856
+          ],
+          [
+            115.856,
+            118.712
+          ],
+          [
+            121.212,
+            124.284
+          ],
+          [
+            129.284,
+            132.668
+          ],
+          [
+            135.168,
+            139.056
+          ],
+          [
+            144.056,
+            147.128
+          ],
+          [
+            149.628,
+            153.3
+          ],
+          [
+            158.3,
+            161.54
+          ],
+          [
+            164.04,
+            168.168
+          ],
+          [
+            173.168,
+            176.984
+          ]
+        ]
       },
       {
         "title": "4. Coca-Cola History & Vocabulary",
@@ -7163,7 +7468,90 @@
       {
         "title": "3. Interrogative Challenge — What vs. How (The Five Senses)",
         "expanded": false,
-        "content": "**What + verb + like → asks for a comparison** (needs *like*):\n\n> *What does it **look** like? · What does it **sound** like? · What does it **taste** like? · What does it **smell** like? · What does it **feel** like?*\n\n**How + verb → asks for an opinion / description** (uses adjectives, never *like*):\n\n> *How does it **look**? · How does it **sound**? · How does it **taste**? · How does it **smell**? · How does it **feel**?*\n\n> ❌ ~~How does it look like?~~ — **how** and **like** never go together.\n\n| Answer | Question |\n|---|---|\n| It sounds like a locomotive. | What does it sound like? |\n| It sounds great. | How does it sound? |\n| It tastes like orange juice. | What does it taste like? |\n| It tastes very sweet. | How does it taste? |\n| It looks like a medieval castle. | What does it look like? |\n| It smells like cheap perfume. | What does it smell like? |\n| It feels like rabbit fur. | What does it feel like? |\n\n**General interrogative reminder — auxiliary verbs are always required in questions and negatives, except when the main verb is *to be*:**\n\n| Statement | Question |\n|---|---|\n| I'm talking to Peter. | Who are you talking to? |\n| I went there yesterday. | When did you go there? |\n| I've known him for six years. | How long have you known him? |"
+        "content": "**What + verb + like → asks for a comparison** (needs *like*):\n\n> *What does it **look** like? · What does it **sound** like? · What does it **taste** like? · What does it **smell** like? · What does it **feel** like?*\n\n**How + verb → asks for an opinion / description** (uses adjectives, never *like*):\n\n> *How does it **look**? · How does it **sound**? · How does it **taste**? · How does it **smell**? · How does it **feel**?*\n\n> ❌ ~~How does it look like?~~ — **how** and **like** never go together.\n\n| Answer | Question |\n|---|---|\n| It sounds like a locomotive. | What does it sound like? |\n| It sounds great. | How does it sound? |\n| It tastes like orange juice. | What does it taste like? |\n| It tastes very sweet. | How does it taste? |\n| It looks like a medieval castle. | What does it look like? |\n| It smells like cheap perfume. | What does it smell like? |\n| It feels like rabbit fur. | What does it feel like? |\n\n**General interrogative reminder — auxiliary verbs are always required in questions and negatives, except when the main verb is *to be*:**\n\n| Statement | Question |\n|---|---|\n| I'm talking to Peter. | Who are you talking to? |\n| I went there yesterday. | When did you go there? |\n| I've known him for six years. | How long have you known him? |",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/3. Interrogative Challenge — What vs. How (The Five Senses).mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            2.472
+          ],
+          [
+            7.472,
+            9.608
+          ],
+          [
+            12.108,
+            14.076
+          ],
+          [
+            19.076,
+            21.02
+          ],
+          [
+            23.52,
+            26.208
+          ],
+          [
+            31.208,
+            33.32
+          ],
+          [
+            35.82,
+            38.148
+          ],
+          [
+            43.148,
+            45.092
+          ],
+          [
+            47.592,
+            50.208
+          ],
+          [
+            55.208,
+            57.248
+          ],
+          [
+            59.748,
+            62.364
+          ],
+          [
+            67.364,
+            69.572
+          ],
+          [
+            72.072,
+            74.568
+          ],
+          [
+            79.568,
+            81.656
+          ],
+          [
+            84.156,
+            86.244
+          ],
+          [
+            91.244,
+            93.284
+          ],
+          [
+            95.784,
+            97.872
+          ],
+          [
+            102.872,
+            104.816
+          ],
+          [
+            107.316,
+            109.884
+          ],
+          [
+            114.884,
+            117.356
+          ]
+        ]
       },
       {
         "title": "4. Grammar: Unless",
@@ -11178,7 +11566,90 @@
       {
         "title": "4. Interrogative Drills: How Often vs. How Many Times",
         "expanded": false,
-        "content": "**Drill: I give you the answer, you ask the question.**\n\n| Answer | Question |\n|---|---|\n| I feel like staying at home. | What do you feel like doing? |\n| I feel afraid when I enter a hospital. | How do you feel when you enter a hospital? |\n| I found it in the kitchen. | Where did you find it? |\n| He finds his customers through advertising. | How does he find his customers? |\n| You can find bargains in the Rastro. | Where can I find bargains? |\n| The boy was found near the supermarket. | Where was the boy found? |\n| The battle was fought nine miles east of Paris. | Where was the battle fought? |\n| He flies to Paris twice a month. | How often does he fly to Paris? |\n| I've flown to London twice this month. | How many times have you flown there this month? |\n| I've forgotten it three times this month. | How many times have you forgotten it this month? |\n\n**Grammar notes:**\n\n- **How often?** asks for a *frequency* (con qué frecuencia). **How many times?** asks for a *count* of occasions (número de veces) — it doesn't have to be a habit.\n- **find, found, found** (encontrar) vs. **found, founded, founded** (fundar): *Where was the boy **found**?* but *When was the company **founded**?*\n- With an auxiliary verb (*does/did*), the main verb stays in the **infinitive**: *How often **does** he **fly**...?*, not ~~flies~~."
+        "content": "**Drill: I give you the answer, you ask the question.**\n\n| Answer | Question |\n|---|---|\n| I feel like staying at home. | What do you feel like doing? |\n| I feel afraid when I enter a hospital. | How do you feel when you enter a hospital? |\n| I found it in the kitchen. | Where did you find it? |\n| He finds his customers through advertising. | How does he find his customers? |\n| You can find bargains in the Rastro. | Where can I find bargains? |\n| The boy was found near the supermarket. | Where was the boy found? |\n| The battle was fought nine miles east of Paris. | Where was the battle fought? |\n| He flies to Paris twice a month. | How often does he fly to Paris? |\n| I've flown to London twice this month. | How many times have you flown there this month? |\n| I've forgotten it three times this month. | How many times have you forgotten it this month? |\n\n**Grammar notes:**\n\n- **How often?** asks for a *frequency* (con qué frecuencia). **How many times?** asks for a *count* of occasions (número de veces) — it doesn't have to be a habit.\n- **find, found, found** (encontrar) vs. **found, founded, founded** (fundar): *Where was the boy **found**?* but *When was the company **founded**?*\n- With an auxiliary verb (*does/did*), the main verb stays in the **infinitive**: *How often **does** he **fly**...?*, not ~~flies~~.",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/4. Interrogative Drills - How Often vs. How Many Times.mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            2.448
+          ],
+          [
+            7.448,
+            9.728
+          ],
+          [
+            12.228,
+            15.18
+          ],
+          [
+            20.18,
+            23.132
+          ],
+          [
+            25.632,
+            27.816
+          ],
+          [
+            32.816,
+            34.808
+          ],
+          [
+            37.308,
+            40.596
+          ],
+          [
+            45.596,
+            48.188
+          ],
+          [
+            50.688,
+            53.592
+          ],
+          [
+            58.592,
+            61.016
+          ],
+          [
+            63.516,
+            66.612
+          ],
+          [
+            71.612,
+            73.916
+          ],
+          [
+            76.416,
+            80.016
+          ],
+          [
+            85.016,
+            87.224
+          ],
+          [
+            89.724,
+            92.484
+          ],
+          [
+            97.484,
+            100.364
+          ],
+          [
+            102.864,
+            105.84
+          ],
+          [
+            110.84,
+            113.96
+          ],
+          [
+            116.46,
+            119.46
+          ],
+          [
+            124.46,
+            127.676
+          ]
+        ]
       }
     ],
     "tests": [
@@ -12312,7 +12783,74 @@
       {
         "title": "3. Interrogative Challenge: Passive & Time Questions",
         "expanded": false,
-        "content": "**Passive and time-based question drills** — I give you the answer, you ask the question:\n\n| Answer | Question |\n|---|---|\n| My kids are playing with my brother's son. | Who are your kids playing with? |\n| They weren't ready because they overslept. | Why weren't they ready? |\n| He will be promoted next month. | When will he be promoted? |\n| The meeting will be held in the boardroom. | Where will the meeting be held? |\n| You should go by taxi. | How should I go? |\n| You can go whenever you want. | When can I go? |\n| The train left the station at 2:00. | What time did the train leave the station? |\n| This pen is John's. | Whose pen is this? |\n\n**Grammar notes:**\n\n- **to oversleep** (accidental, a mistake — the alarm didn't go off) vs. **to sleep in** (staying in bed longer than usual, can be intentional, e.g. on a Saturday).\n- **to hold a meeting / the meeting will be held** = tener lugar (passive voice + question word).\n- **Whose + noun** stays together, immediately: *Whose pen is this?* — never ~~whose is this pen~~."
+        "content": "**Passive and time-based question drills** — I give you the answer, you ask the question:\n\n| Answer | Question |\n|---|---|\n| My kids are playing with my brother's son. | Who are your kids playing with? |\n| They weren't ready because they overslept. | Why weren't they ready? |\n| He will be promoted next month. | When will he be promoted? |\n| The meeting will be held in the boardroom. | Where will the meeting be held? |\n| You should go by taxi. | How should I go? |\n| You can go whenever you want. | When can I go? |\n| The train left the station at 2:00. | What time did the train leave the station? |\n| This pen is John's. | Whose pen is this? |\n\n**Grammar notes:**\n\n- **to oversleep** (accidental, a mistake — the alarm didn't go off) vs. **to sleep in** (staying in bed longer than usual, can be intentional, e.g. on a Saturday).\n- **to hold a meeting / the meeting will be held** = tener lugar (passive voice + question word).\n- **Whose + noun** stays together, immediately: *Whose pen is this?* — never ~~whose is this pen~~.",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/3. Interrogative Challenge - Passive & Time Questions.mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            2.976
+          ],
+          [
+            7.976,
+            10.4
+          ],
+          [
+            12.9,
+            15.756
+          ],
+          [
+            20.756,
+            22.82
+          ],
+          [
+            25.32,
+            27.84
+          ],
+          [
+            32.84,
+            34.952
+          ],
+          [
+            37.452,
+            40.26
+          ],
+          [
+            45.26,
+            47.612
+          ],
+          [
+            50.112,
+            52.392
+          ],
+          [
+            57.392,
+            59.24
+          ],
+          [
+            61.74,
+            64.044
+          ],
+          [
+            69.044,
+            70.916
+          ],
+          [
+            73.416,
+            76.488
+          ],
+          [
+            81.488,
+            84.464
+          ],
+          [
+            86.964,
+            89.22
+          ],
+          [
+            94.22,
+            96.332
+          ]
+        ]
       }
     ],
     "tests": [
@@ -12551,7 +13089,58 @@
       {
         "title": "6. Mastering the Interrogative",
         "expanded": false,
-        "content": "| Statement | Question |\n|---|---|\n| The capital of France is Paris. | What's the capital of France? |\n| Water boils at 100 degrees Celsius. | What temperature does water boil at? |\n| I ate breakfast at 8:00 a.m. | What time did you eat breakfast? |\n| The Eiffel Tower is located in Paris. | Where is the Eiffel Tower located? |\n| Albert Einstein developed the theory of relativity. | What did Albert Einstein develop? |\n| We will meet tomorrow. | When will we meet? |\n\nIt's easy to understand these question structures on paper, but mastering them when speaking out loud takes real practice — that's the whole point of drilling them."
+        "content": "| Statement | Question |\n|---|---|\n| The capital of France is Paris. | What's the capital of France? |\n| Water boils at 100 degrees Celsius. | What temperature does water boil at? |\n| I ate breakfast at 8:00 a.m. | What time did you eat breakfast? |\n| The Eiffel Tower is located in Paris. | Where is the Eiffel Tower located? |\n| Albert Einstein developed the theory of relativity. | What did Albert Einstein develop? |\n| We will meet tomorrow. | When will we meet? |\n\nIt's easy to understand these question structures on paper, but mastering them when speaking out loud takes real practice — that's the whole point of drilling them.",
+        "interrogative_audio": "assets/classes/english_with_kyle/Interrogative_challenge/6. Mastering the Interrogative.mp3",
+        "interrogative_timings": [
+          [
+            0.0,
+            2.664
+          ],
+          [
+            7.664,
+            10.088
+          ],
+          [
+            12.588,
+            16.164
+          ],
+          [
+            21.164,
+            23.948
+          ],
+          [
+            26.448,
+            29.232
+          ],
+          [
+            34.232,
+            36.896
+          ],
+          [
+            39.396,
+            42.612
+          ],
+          [
+            47.612,
+            50.42
+          ],
+          [
+            52.92,
+            56.592
+          ],
+          [
+            61.592,
+            64.424
+          ],
+          [
+            66.924,
+            68.988
+          ],
+          [
+            73.988,
+            75.836
+          ]
+        ]
       },
       {
         "title": "7. Focused Pronoun Practice",

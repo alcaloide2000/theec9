@@ -315,6 +315,7 @@ def _collect_interrogative_pairs(kyle_classes):
     header_re = re.compile(r"^\|\s*(Statement|Answer)\s*\|\s*Question\s*\|\s*$", re.IGNORECASE)
     sep_re = re.compile(r"^\|[\s:|-]+\|$")
     pairs = []
+    section_audio = {}
     for cls in kyle_classes:
         for sec in cls.get("sections", []):
             content = sec.get("content", "")
@@ -342,10 +343,15 @@ def _collect_interrogative_pairs(kyle_classes):
                     i = j
                 else:
                     i += 1
-    return pairs
+            if sec.get("interrogative_audio"):
+                section_audio[(cls["date"], cls["topic"], sec["title"])] = {
+                    "audio": sec["interrogative_audio"],
+                    "timings": sec["interrogative_timings"],
+                }
+    return pairs, section_audio
 
 
-def _render_interrogative_challenge(pairs):
+def _render_interrogative_challenge(pairs, section_audio):
     st.markdown("## ❓ The Interrogative Challenge")
     if not pairs:
         st.info("No interrogative statement/question pairs found yet.")
@@ -365,9 +371,22 @@ def _render_interrogative_challenge(pairs):
                 by_section.setdefault(p["from_section"], []).append(p)
             for section_title, sec_items in by_section.items():
                 st.markdown(f"**{section_title}**")
-                header_label = sec_items[0]["left_label"]
-                rows = "\n".join(f"| {p['left']} | {p['question']} |" for p in sec_items)
-                st.markdown(f"| {header_label} | Question |\n|---|---|\n{rows}")
+                meta = section_audio.get((date, topic, section_title))
+                if meta:
+                    synth_items = []
+                    for p in sec_items:
+                        synth_items.append({"text": p["left"], "secondary": p["left_label"]})
+                        synth_items.append({"text": p["question"], "secondary": "Question"})
+                    synth_sec = {
+                        "audio": meta["audio"],
+                        "timings": meta["timings"],
+                        "groups": [{"items": synth_items}],
+                    }
+                    _render_agility_section_synced(synth_sec)
+                else:
+                    header_label = sec_items[0]["left_label"]
+                    rows = "\n".join(f"| {p['left']} | {p['question']} |" for p in sec_items)
+                    st.markdown(f"| {header_label} | Question |\n|---|---|\n{rows}")
                 st.markdown("")
 
 
@@ -595,7 +614,7 @@ else:
             else:
                 st.info("Agility Accelerator content not available yet.")
         with kyle_tab_interrogative:
-            _render_interrogative_challenge(_collect_interrogative_pairs(kyle_classes))
+            _render_interrogative_challenge(*_collect_interrogative_pairs(kyle_classes))
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")
