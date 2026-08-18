@@ -111,7 +111,7 @@ Unlike Warm-Up Linguo, new tables are **not** picked up with synced audio automa
 | 4. Comparatives and Superlatives | none (see exception) | 2500ms |
 | 5. Such + Irregular Verbs | 450ms | 500ms |
 | 6. Mastering the Interrogative | none (no commas in content) | see exception |
-| 7. Focused Pronoun Practice | 450ms | 500ms |
+| 7. Focused Pronoun Practice | 450ms | 900ms |
 
 **Section 4 exception:** `"4. Comparatives and Superlatives"` does **not** get the comma-split pause, even though about half its items contain a comma (the `"No, ..."` answer sentences) — every item is synthesized as a single uninterrupted clip regardless of commas. It still gets the flat between-item gap from the table above. If this section's content changes, regenerate it without the comma-split step; don't reuse the general per-section script as-is.
 
