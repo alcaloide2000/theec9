@@ -3547,7 +3547,63 @@
       {
         "title": "4. Fewer · Less / Not As Many · As",
         "expanded": false,
-        "content": "Two ways to make a negative comparison in English.\n\n| Structure | Use with | Example |\n|---|---|---|\n| **fewer** + noun | countable nouns | There are fewer cars in Palencia than in Valencia. |\n| **less** + noun | uncountable nouns | There is less rain in Valladolid than in Santiago. |\n| **not as many** + noun + **as** | countable nouns | There are not as many cars in Palencia as there are in Valencia. |\n| **not as much** + noun + **as** | uncountable nouns | There is not as much rain in Valladolid as there is in Santiago. |\n\n> *Not as many / not as much* is more common in everyday speech than *fewer / less*.\n\n---\n\n### Pattern\n\n**Countable:** *There are not as many [noun] in X as there are in Y.*\n\n**Uncountable:** *There is not as much [noun] in X as there is in Y.*\n\nWhen using *as*, use it **twice** — once before the noun and once before the comparison.\n\n---\n\n### Examples from Class\n\n- There are not as many orange trees in Catalonia as there are in Valencia.\n- There are not as many traffic lights in my hometown as there are in Madrid.\n- There is not as much oil in Spain as in Saudi Arabia.\n- I don't earn as much money as Paul McCartney.\n- There are not as many dialects in North America as there are in Africa.\n- There is not as much rain in Valladolid as there is in Santiago."
+        "content": "Two ways to make a negative comparison in English.\n\n| Structure | Use with | Example |\n|---|---|---|\n| **fewer** + noun | countable nouns | There are fewer cars in Palencia than in Valencia. |\n| **less** + noun | uncountable nouns | There is less rain in Valladolid than in Santiago. |\n| **not as many** + noun + **as** | countable nouns | There are not as many cars in Palencia as there are in Valencia. |\n| **not as much** + noun + **as** | uncountable nouns | There is not as much rain in Valladolid as there is in Santiago. |\n\n> *Not as many / not as much* is more common in everyday speech than *fewer / less*.\n\n---\n\n### Pattern\n\n**Countable:** *There are not as many [noun] in X as there are in Y.*\n\n**Uncountable:** *There is not as much [noun] in X as there is in Y.*\n\nWhen using *as*, use it **twice** — once before the noun and once before the comparison.\n\n---\n\n### Examples from Class",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260602/examples_from_class.mp3",
+            "timings": [
+              [
+                0.0,
+                4.864
+              ],
+              [
+                5.764,
+                10.273
+              ],
+              [
+                11.173,
+                15.429
+              ],
+              [
+                16.329,
+                19.775
+              ],
+              [
+                20.675,
+                25.285
+              ],
+              [
+                26.185,
+                30.771
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "There are **not as many** orange trees in Catalonia as there are in Valencia."
+                  },
+                  {
+                    "text": "There are **not as many** traffic lights in my hometown as there are in Madrid."
+                  },
+                  {
+                    "text": "There is **not as much** oil in Spain as in Saudi Arabia."
+                  },
+                  {
+                    "text": "I don't earn **as much** money as Paul McCartney."
+                  },
+                  {
+                    "text": "There are **not as many** dialects in North America as there are in Africa."
+                  },
+                  {
+                    "text": "There is **not as much** rain in Valladolid as there is in Santiago."
+                  }
+                ]
+              }
+            ],
+            "content_after": ""
+          }
+        ]
       },
       {
         "title": "5. Irregular Verbs — Simple Past",
@@ -6669,7 +6725,61 @@
       {
         "title": "3. Negative Comparisons: not as many / not as much",
         "expanded": false,
-        "content": "Convert **fewer / less** sentences into **not as many / not as much**.\n\n| Type | Direct comparison | Negative comparison |\n|---|---|---|\n| Countable | There are **fewer** horses in Portugal than in Spain. | There are **not as many** horses in Portugal **as** in Spain. |\n| Uncountable | There is **less** water in Jordan than in Canada. | There is **not as much** water in Jordan **as** in Canada. |\n| Countable | There are **fewer** languages spoken in Finland than in Africa. | There are **not as many** languages spoken in Finland **as** in Africa. |\n| Uncountable | There is **less** sand in Andorra than in Egypt. | There is **not as much** sand in Andorra **as** in Egypt. |\n| Countable | There are **fewer** olive trees in Galicia than in Andalusia. | There are **not as many** olive trees in Galicia **as** in Andalusia. |\n\n> The negative form (*there isn't as much / there aren't as many*) is very common in natural speech — more so than the positive *there is as much*. Worth mastering.\n\n**Key:** *as many* = countable (fewer ↔ not as many) · *as much* = uncountable (less ↔ not as much)"
+        "content": "Convert **fewer / less** sentences into **not as many / not as much**.\n\n---\n\n### Not As Many / Not As Much",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260505/not_as_many_much.mp3",
+            "timings": [
+              [
+                0.0,
+                3.876
+              ],
+              [
+                4.776,
+                8.5
+              ],
+              [
+                9.4,
+                13.808
+              ],
+              [
+                14.708,
+                18.711
+              ],
+              [
+                19.611,
+                24.171
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "There are **not as many** horses in Portugal **as** in Spain",
+                    "secondary": "countable"
+                  },
+                  {
+                    "text": "There is **not as much** water in Jordan **as** in Canada",
+                    "secondary": "uncountable"
+                  },
+                  {
+                    "text": "There are **not as many** languages spoken in Finland **as** in Africa",
+                    "secondary": "countable"
+                  },
+                  {
+                    "text": "There is **not as much** sand in Andorra **as** in Egypt",
+                    "secondary": "uncountable"
+                  },
+                  {
+                    "text": "There are **not as many** olive trees in Galicia **as** in Andalusia",
+                    "secondary": "countable"
+                  }
+                ]
+              }
+            ],
+            "content_after": "> The negative form (*there isn't as much / there aren't as many*) is very common in natural speech — more so than the positive *there is as much*. Worth mastering.\n\n**Key:** *as many* = countable (fewer ↔ not as many) · *as much* = uncountable (less ↔ not as much)"
+          }
+        ]
       },
       {
         "title": "4. Grammar Notes",
@@ -12728,7 +12838,129 @@
       {
         "title": "3. Grammar: Not As Much / Not As Many (Fewer & Less)",
         "expanded": false,
-        "content": "**Structure:** **fewer** ↔ **not as many** (plural countable) · **less** ↔ **not as much** (uncountable)\n\n| Fewer / Less | Not as many / Not as much |\n|---|---|\n| There are fewer people in Madrid than there are in Tokyo. | There are not as many people in Madrid as there are in Tokyo. |\n| There's less sunlight in Norway than there is in Spain. | There's not as much sunlight in Norway as there is in Spain. |\n| There are fewer factories in Bulgaria than there are in England. | There are not as many factories in Bulgaria as there are in England. |\n| There are fewer camels in Spain than there are in Egypt. | There are not as many camels in Spain as there are in Egypt. |\n| There's less sand in Luxembourg than there is in Egypt. | There's not as much sand in Luxembourg as there is in Egypt. |\n\n### Student examples from class\n\n- *There are fewer languages spoken in North America than there are in Africa.* / *There are not as many languages spoken in North America as there are in Africa.*\n- *Is there as much pollution in Palma as there is in Beijing?* → *There isn't as much pollution in Palma as there is in Beijing.*\n- *Are there as many cars in London as there are in New York?* → *There aren't as many cars in London as there are in New York.*\n- *There aren't as many taxis in my town as there are in Barcelona.*\n- *There are fewer fish in the Mediterranean than in the Cantabrian Sea.*\n\n### From the Agility Accelerator (superlative comparisons)\n\n- *I'm not as rich as the richest person in China.*\n- *I'm not as tall as the tallest man in Belgium.*\n- *My phone isn't more expensive than the most expensive phone in Japan.*\n- *I'm not as athletic as the most athletic person in Spain. · I'm not as fast as the fastest runner in Ethiopia.*\n- *There aren't as many robots in Spanish public buildings as there are in Japan.*\n- *Young people today read fewer books than when I was young.*\n- *It rains quite a lot in Germany, but not as much as it does in the UK.*"
+        "content": "**Structure:** **fewer** ↔ **not as many** (plural countable) · **less** ↔ **not as much** (uncountable)\n\n---\n\n### Not As Many / Not As Much Examples",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260716/not_as_many_much.mp3",
+            "timings": [
+              [
+                0.0,
+                3.952
+              ],
+              [
+                4.852,
+                9.007
+              ],
+              [
+                9.907,
+                14.441
+              ],
+              [
+                15.341,
+                19.395
+              ],
+              [
+                20.295,
+                24.449
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "There are **not as many** people in Madrid **as** there are in Tokyo",
+                    "secondary": "countable"
+                  },
+                  {
+                    "text": "There's **not as much** sunlight in Norway **as** there is in Spain",
+                    "secondary": "uncountable"
+                  },
+                  {
+                    "text": "There are **not as many** factories in Bulgaria **as** there are in England",
+                    "secondary": "countable"
+                  },
+                  {
+                    "text": "There are **not as many** camels in Spain **as** there are in Egypt",
+                    "secondary": "countable"
+                  },
+                  {
+                    "text": "There's **not as much** sand in Luxembourg **as** there is in Egypt",
+                    "secondary": "uncountable"
+                  }
+                ]
+              }
+            ],
+            "content_after": "### Student examples from class\n\n- *There are fewer languages spoken in North America than there are in Africa.* / *There are not as many languages spoken in North America as there are in Africa.*\n- *Is there as much pollution in Palma as there is in Beijing?* → *There isn't as much pollution in Palma as there is in Beijing.*\n- *Are there as many cars in London as there are in New York?* → *There aren't as many cars in London as there are in New York.*\n- *There aren't as many taxis in my town as there are in Barcelona.*\n- *There are fewer fish in the Mediterranean than in the Cantabrian Sea.*\n\n### From the Agility Accelerator (superlative comparisons)"
+          },
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260716/superlative_comparisons.mp3",
+            "timings": [
+              [
+                0.0,
+                3.445
+              ],
+              [
+                4.345,
+                7.791
+              ],
+              [
+                8.691,
+                13.327
+              ],
+              [
+                14.227,
+                18.381
+              ],
+              [
+                19.281,
+                23.284
+              ],
+              [
+                24.184,
+                29.225
+              ],
+              [
+                30.125,
+                34.128
+              ],
+              [
+                35.028,
+                40.069
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "I'm **not as rich** as the richest person in China"
+                  },
+                  {
+                    "text": "I'm **not as tall** as the tallest man in Belgium"
+                  },
+                  {
+                    "text": "My phone isn't **more expensive** than the most expensive phone in Japan"
+                  },
+                  {
+                    "text": "I'm **not as athletic** as the most athletic person in Spain"
+                  },
+                  {
+                    "text": "I'm **not as fast** as the fastest runner in Ethiopia"
+                  },
+                  {
+                    "text": "There aren't **as many** robots in Spanish public buildings as there are in Japan"
+                  },
+                  {
+                    "text": "Young people today read **fewer** books than when I was young"
+                  },
+                  {
+                    "text": "It rains quite a lot in Germany, but **not as much** as it does in the UK"
+                  }
+                ]
+              }
+            ],
+            "content_after": ""
+          }
+        ]
       },
       {
         "title": "4. Vocabulary: Quantifiers — A Few / Quite A Few / Only A Few",
