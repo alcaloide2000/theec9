@@ -4432,7 +4432,157 @@
       {
         "title": "2. \"Way\" as Amplifier  ★ Main topic",
         "expanded": true,
-        "content": "Use **way** before a comparative adjective/adverb or before *more/fewer/less* to mean *much more / by far*. It sounds natural and very native.\n\n---\n\n### Way + comparative adjective\n\n| Example | Meaning |\n|---|---|\n| Nadal is **way better** at tennis than I am | much better |\n| Madrid is **way bigger** than Salamanca | much bigger |\n| This week is **way hotter** than last week | much hotter |\n| He's **way smarter** than me | much smarter |\n| Spain is **way better** at football than the US | much better |\n\n---\n\n### Way + more / fewer / less\n\n| Example | Note |\n|---|---|\n| There are **way more** people in Madrid than in Soria | countable |\n| I drank **way more** coffee today than yesterday | uncountable |\n| Canada has **way more** space than Spain | uncountable |\n| There are **way more** cars here than in Trujillo | countable |\n\n> ⚠️ We say *way more*, never ~~way many~~.\n\n---\n\n### Way too + adjective/adverb\n\n| Example | Meaning |\n|---|---|\n| It's **way too far** to walk | mucho demasiado lejos |\n| It would take **way too long** | mucho demasiado tiempo |\n| It's **way too hot** | hace un calor excesivo |\n| He's **way too intelligent** to be in that class | demasiado inteligente |\n| I'm **way too tired** | estoy agotadísimo |\n\n---\n\n### How to use it\n\n- ✓ *That was way better than I expected.*\n- ✓ *You'll sound way more native if you use this.*\n- ✓ *I drank way more coffee than I should have.*\n- ✗ ~~way many~~ — always use *way more* even with countables"
+        "content": "Use **way** before a comparative adjective/adverb or before *more/fewer/less* to mean *much more / by far*. It sounds natural and very native.\n\n---\n\n### Way + comparative adjective",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260526/way_comparative_adjective.mp3",
+            "timings": [
+              [
+                0.0,
+                3.395
+              ],
+              [
+                4.295,
+                7.487
+              ],
+              [
+                8.387,
+                11.579
+              ],
+              [
+                12.479,
+                14.911
+              ],
+              [
+                15.811,
+                19.535
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "Nadal is **way better** at tennis than I am",
+                    "secondary": "much better"
+                  },
+                  {
+                    "text": "Madrid is **way bigger** than Salamanca",
+                    "secondary": "much bigger"
+                  },
+                  {
+                    "text": "This week is **way hotter** than last week",
+                    "secondary": "much hotter"
+                  },
+                  {
+                    "text": "He's **way smarter** than me",
+                    "secondary": "much smarter"
+                  },
+                  {
+                    "text": "Spain is **way better** at football than the US",
+                    "secondary": "much better"
+                  }
+                ]
+              }
+            ],
+            "content_after": "---\n\n### Way + more / fewer / less"
+          },
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260526/way_more_fewer_less.mp3",
+            "timings": [
+              [
+                0.0,
+                3.572
+              ],
+              [
+                4.472,
+                7.943
+              ],
+              [
+                8.843,
+                12.288
+              ],
+              [
+                13.188,
+                16.583
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "There are **way more** people in Madrid than in Soria",
+                    "secondary": "countable"
+                  },
+                  {
+                    "text": "I drank **way more** coffee today than yesterday",
+                    "secondary": "uncountable"
+                  },
+                  {
+                    "text": "Canada has **way more** space than Spain",
+                    "secondary": "uncountable"
+                  },
+                  {
+                    "text": "There are **way more** cars here than in Trujillo",
+                    "secondary": "countable"
+                  }
+                ]
+              }
+            ],
+            "content_after": "> ⚠️ We say *way more*, never ~~way many~~.\n\n---\n\n### Way too + adjective/adverb"
+          },
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260526/way_too_adjective_adverb.mp3",
+            "timings": [
+              [
+                0.0,
+                2.685
+              ],
+              [
+                3.585,
+                6.195
+              ],
+              [
+                7.095,
+                9.349
+              ],
+              [
+                10.249,
+                13.821
+              ],
+              [
+                14.721,
+                17.052
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "It's **way too far** to walk",
+                    "secondary": "mucho demasiado lejos"
+                  },
+                  {
+                    "text": "It would take **way too long**",
+                    "secondary": "mucho demasiado tiempo"
+                  },
+                  {
+                    "text": "It's **way too hot**",
+                    "secondary": "hace un calor excesivo"
+                  },
+                  {
+                    "text": "He's **way too intelligent** to be in that class",
+                    "secondary": "demasiado inteligente"
+                  },
+                  {
+                    "text": "I'm **way too tired**",
+                    "secondary": "estoy agotadísimo"
+                  }
+                ]
+              }
+            ],
+            "content_after": "---\n\n### How to use it\n\n- ✓ *That was way better than I expected.*\n- ✓ *You'll sound way more native if you use this.*\n- ✓ *I drank way more coffee than I should have.*\n- ✗ ~~way many~~ — always use *way more* even with countables"
+          }
+        ]
       },
       {
         "title": "3. \"Way\" — Direction & Manner",
