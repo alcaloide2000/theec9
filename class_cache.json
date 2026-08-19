@@ -13643,7 +13643,77 @@
       {
         "title": "4. Agility Accelerator Walkthrough: Comparatives & Superlatives",
         "expanded": false,
-        "content": "A drill from the Agility Accelerator: form a question with a comparative + superlative, then answer it in the negative.\n\n> *Is my car faster than the fastest train in Japan?* → **No, your car isn't faster than the fastest train in Japan.**\n> *Is my house bigger than the biggest mansion in Dubai?* → **No, your house isn't bigger than the biggest mansion in Dubai.**\n> *Is this book more interesting than the most interesting novel in the library?* → **No, this book isn't more interesting than the most interesting novel in the library.**\n\n- **Short adjective** (si el adjetivo es corto) → **-er / -est**: *faster, the fastest*\n- **Long adjective** (si el adjetivo es largo) → **more / most**: *more interesting, the most interesting*\n- **The definite article \"the\" goes with the superlative, not the comparative:** ❌ ~~his is the faster~~ → ✅ *his is the fastest*\n- *Madrid is bigger than Bilbao, but London is the biggest city in Europe* — a city can be bigger than one specific city while still not being the biggest overall"
+        "content": "A drill from the Agility Accelerator: form a question with a comparative + superlative, then answer it in the negative.\n\n---\n\n### Comparative + Superlative Drill",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260709/comparative_superlative_drill.mp3",
+            "timings": [
+              [
+                0.0,
+                3.744
+              ],
+              [
+                8.744,
+                13.136
+              ],
+              [
+                15.636,
+                19.212
+              ],
+              [
+                24.212,
+                28.436
+              ],
+              [
+                30.936,
+                35.376
+              ],
+              [
+                40.376,
+                45.32
+              ],
+              [
+                47.82,
+                52.38
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "Is my car **faster** than the **fastest** train in Japan?",
+                    "secondary": "Question"
+                  },
+                  {
+                    "text": "No, your car isn't **faster** than the **fastest** train in Japan.",
+                    "secondary": "Answer"
+                  },
+                  {
+                    "text": "Is my house **bigger** than the **biggest** mansion in Dubai?",
+                    "secondary": "Question"
+                  },
+                  {
+                    "text": "No, your house isn't **bigger** than the **biggest** mansion in Dubai.",
+                    "secondary": "Answer"
+                  },
+                  {
+                    "text": "Is this book **more interesting** than the **most interesting** novel in the library?",
+                    "secondary": "Question"
+                  },
+                  {
+                    "text": "No, this book isn't **more interesting** than the **most interesting** novel in the library.",
+                    "secondary": "Answer"
+                  },
+                  {
+                    "text": "Madrid is **bigger** than Bilbao, but London is the **biggest** city in Europe.",
+                    "secondary": "Example"
+                  }
+                ]
+              }
+            ],
+            "content_after": "\n\n- **Short adjective** (si el adjetivo es corto) → **-er / -est**: *faster, the fastest*\n- **Long adjective** (si el adjetivo es largo) → **more / most**: *more interesting, the most interesting*\n- **The definite article \"the\" goes with the superlative, not the comparative:** ❌ ~~his is the faster~~ → ✅ *his is the fastest*"
+          }
+        ]
       },
       {
         "title": "5. Agility Accelerator Walkthrough: The \"Such\" Structure",
