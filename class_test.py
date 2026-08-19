@@ -103,19 +103,54 @@ def _load_class_cache():
         return json.load(f)
 
 
+def _scroll_to_anchor(text):
+    script = f"""<script>
+(function() {{
+  var target = {json.dumps(text)};
+  function tryScroll(attempts) {{
+    var doc = window.parent.document;
+    var headings = doc.querySelectorAll('h1,h2,h3,h4,h5,h6');
+    for (var i = 0; i < headings.length; i++) {{
+      if (headings[i].textContent.indexOf(target) !== -1) {{
+        headings[i].scrollIntoView({{behavior: 'smooth', block: 'center'}});
+        headings[i].style.transition = 'background-color 0.3s';
+        headings[i].style.backgroundColor = 'rgba(255,205,0,0.55)';
+        setTimeout(function() {{ headings[i].style.backgroundColor = 'transparent'; }}, 2200);
+        return;
+      }}
+    }}
+    if (attempts > 0) setTimeout(function() {{ tryScroll(attempts - 1); }}, 200);
+  }}
+  tryScroll(20);
+}})();
+</script>"""
+    components.html(script, height=0)
+
+
 def _render_class(cls, header=None):
     st.subheader(header or f"CLASS — {cls['title']}")
     st.markdown(f"**{cls['date']}** · {cls['topic']}")
     st.divider()
 
-    for sec in cls.get("sections", []):
-        with st.expander(sec["title"], expanded=sec.get("expanded", False)):
+    deep_link = st.session_state.pop("_deep_link", None)
+    if deep_link and deep_link.get("class") != cls.get("id"):
+        deep_link = None
+
+    for i, sec in enumerate(cls.get("sections", [])):
+        force_open = deep_link is not None and deep_link.get("section") == i
+        with st.expander(sec["title"], expanded=(force_open or sec.get("expanded", False))):
             if "image" in sec:
                 if "image_hotspots" in sec:
                     _render_hotspot_image(BASE_PATH / sec["image"], sec["image_hotspots"])
                 else:
                     st.image(str(BASE_PATH / sec["image"]))
             st.markdown(sec["content"])
+            for block in sec.get("audio_blocks", []):
+                _render_agility_section_synced(block)
+                if block.get("content_after"):
+                    st.markdown(block["content_after"])
+            if force_open and deep_link.get("anchor"):
+                _scroll_to_anchor(deep_link["anchor"])
 
     _render_tests(cls)
 
@@ -158,7 +193,7 @@ body{{font-family:"Source Sans Pro",sans-serif;margin:0;padding:0;}}
 #sentences{{max-height:440px;overflow-y:auto;margin-top:10px;}}
 audio{{width:100%;}}
 </style>
-<p>🔊 <b>Click play to hear this section read aloud</b> — the current sentence highlights as it plays.</p>
+<p>🔊 <b>Agility Accelerator.</b> Click Play</p>
 <audio id="aud" controls>
   <source src="data:audio/mpeg;base64,{b64}" type="audio/mpeg">
 </audio>
@@ -561,6 +596,9 @@ for _cls in _cache:
             st.rerun()
 
 # Deep-link: /?class=kyle_XXXXXXXX jumps straight to that class in the Kyle tab.
+# Optional &section=N (0-based index into that class's sections list) also force-opens
+# that section's expander; optional &anchor=text additionally scrolls to and briefly
+# highlights the first heading inside it containing that text.
 _qp_class = st.query_params.get("class")
 if _qp_class:
     _kyle_sorted = sorted(
@@ -571,6 +609,16 @@ if _qp_class:
         if _c["id"] == _qp_class:
             st.session_state["sel_kyle"] = _i
             break
+    _qp_section = st.query_params.get("section")
+    if _qp_section is not None:
+        try:
+            st.session_state["_deep_link"] = {
+                "class": _qp_class,
+                "section": int(_qp_section),
+                "anchor": st.query_params.get("anchor"),
+            }
+        except ValueError:
+            pass
     st.query_params.clear()
 
 if not _cache:

@@ -6726,7 +6726,189 @@
       {
         "title": "4. Comparatives with as…as  ★ Main topic",
         "expanded": true,
-        "content": "### Basic structure: **as … as** / **not as … as**\n\n*tan … como / no tan … como*\n\n- Valencia is **not as big as** Madrid\n- I'm **not as tall as** my brother\n- English is **not as difficult as** Chinese\n\n---\n\n### 1. Not quite as … as — *small gap, close comparison*\n\n> Implies the two things are **almost the same** but one falls slightly short.\n\n- It's **not quite as** salty **as** last time *(casi igual de salado)*\n- The museum wasn't **quite as** interesting as we hoped\n- The exam wasn't **quite as** difficult as I thought it would be\n- Barcelona isn't **quite as** big as Madrid\n- My house isn't **quite as** big as my brother's\n- The film is **not quite as** good as the book\n- His second book is **not quite as** interesting as the first\n- Málaga's beaches aren't **quite as** long as Cádiz's\n\n---\n\n### 2. Not nearly as … as — *large gap, big difference*\n\n> Implies there is a **significant** difference — one thing is much less than the other.\n\n- I'm **not nearly as** fast as Usain Bolt *(con mucha diferencia)*\n- Trujillo isn't **nearly as** big as Madrid\n- This cover isn't **nearly as** good as the Beatles original\n- His desk isn't **nearly as** untidy as hers\n- The film isn't **nearly as** good as the book\n- My hometown is **not nearly as** crowded as Madrid\n- It doesn't have **nearly as much** traffic as Madrid *(countable/uncountable applies: as much / as many)*\n\n---\n\n### Quick comparison\n\n| Expression | Spanish equivalent | Gap |\n|---|---|---|\n| not quite as … as | no tan … como *(casi)* | Small — almost equal |\n| not nearly as … as | ni con mucho tan … como | Large — clearly less |\n\n---\n\n### 3. Just about as … as — *almost equal, barely reaches*\n\n> Like saying *casi* — it's right there, very close.\n\n- I'm **just about as** good as him at tennis *(casi tan bueno como él)*\n- My brother is taller but I'm **just about as** tall\n- My mother's cooking is **just about** the best in the world\n- My grandmother was **just about** the most cheerful person I've ever known\n- It's **just about** the best burger in town\n\n---\n\n### 4. Just about to — *on the verge of doing something*\n\n> Means *a punto de hacer algo* — you were very close to doing it but didn't.\n\n- I was **just about to** call you *(a punto de llamarte)*\n- He was **just about to** open the window when it started pouring\n- That's what I was **just about to** say\n- I was **just about to** go out when you called me\n- I was just about to warn you when the ceiling fell\n\n> **Note:** this is different from *just about + adjective* above — same words, different meaning depending on context."
+        "content": "### Basic structure: **as … as** / **not as … as**\n\n*tan … como / no tan … como*\n\n- Valencia is **not as big as** Madrid\n- I'm **not as tall as** my brother\n- English is **not as difficult as** Chinese\n\n---\n\n### 1. Not quite as … as — *small gap, close comparison*\n\n> Implies the two things are **almost the same** but one falls slightly short.",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260428/not_quite_as_as.mp3",
+            "timings": [
+              [
+                0.0,
+                3.168
+              ],
+              [
+                4.068,
+                7.572
+              ],
+              [
+                8.472,
+                12.264
+              ],
+              [
+                13.164,
+                16.452
+              ],
+              [
+                17.352,
+                20.568
+              ],
+              [
+                21.468,
+                24.564
+              ],
+              [
+                25.464,
+                29.28
+              ],
+              [
+                30.18,
+                33.828
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "It's **not quite as** salty **as** last time",
+                    "secondary": "casi igual de salado"
+                  },
+                  {
+                    "text": "The museum wasn't **quite as** interesting as we hoped"
+                  },
+                  {
+                    "text": "The exam wasn't **quite as** difficult as I thought it would be"
+                  },
+                  {
+                    "text": "Barcelona isn't **quite as** big as Madrid"
+                  },
+                  {
+                    "text": "My house isn't **quite as** big as my brother's"
+                  },
+                  {
+                    "text": "The film is **not quite as** good as the book"
+                  },
+                  {
+                    "text": "His second book is **not quite as** interesting as the first"
+                  },
+                  {
+                    "text": "Málaga's beaches aren't **quite as** long as Cádiz's"
+                  }
+                ]
+              }
+            ],
+            "content_after": "---\n\n### 2. Not nearly as … as — *large gap, big difference*\n\n> Implies there is a **significant** difference — one thing is much less than the other."
+          },
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260428/not_nearly_as_as.mp3",
+            "timings": [
+              [
+                0.0,
+                3.288
+              ],
+              [
+                4.188,
+                7.476
+              ],
+              [
+                8.376,
+                12.072
+              ],
+              [
+                12.972,
+                16.428
+              ],
+              [
+                17.328,
+                20.4
+              ],
+              [
+                21.3,
+                24.852
+              ],
+              [
+                25.752,
+                29.16
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "I'm **not nearly as** fast as Usain Bolt",
+                    "secondary": "con mucha diferencia"
+                  },
+                  {
+                    "text": "Trujillo isn't **nearly as** big as Madrid"
+                  },
+                  {
+                    "text": "This cover isn't **nearly as** good as the Beatles original"
+                  },
+                  {
+                    "text": "His desk isn't **nearly as** untidy as hers"
+                  },
+                  {
+                    "text": "The film isn't **nearly as** good as the book"
+                  },
+                  {
+                    "text": "My hometown is **not nearly as** crowded as Madrid"
+                  },
+                  {
+                    "text": "It doesn't have **nearly as much** traffic as Madrid",
+                    "secondary": "countable/uncountable applies: as much / as many"
+                  }
+                ]
+              }
+            ],
+            "content_after": "---\n\n### Quick comparison\n\n| Expression | Spanish equivalent | Gap |\n|---|---|---|\n| not quite as … as | no tan … como *(casi)* | Small — almost equal |\n| not nearly as … as | ni con mucho tan … como | Large — clearly less |\n\n---\n\n### 3. Just about as … as — *almost equal, barely reaches*\n\n> Like saying *casi* — it's right there, very close."
+          },
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260428/just_about_as_as.mp3",
+            "timings": [
+              [
+                0.0,
+                2.784
+              ],
+              [
+                3.684,
+                6.972
+              ],
+              [
+                7.872,
+                11.28
+              ],
+              [
+                12.18,
+                16.404
+              ],
+              [
+                17.304,
+                20.304
+              ]
+            ],
+            "groups": [
+              {
+                "items": [
+                  {
+                    "text": "I'm **just about as** good as him at tennis",
+                    "secondary": "casi tan bueno como él"
+                  },
+                  {
+                    "text": "My brother is taller but I'm **just about as** tall"
+                  },
+                  {
+                    "text": "My mother's cooking is **just about** the best in the world"
+                  },
+                  {
+                    "text": "My grandmother was **just about** the most cheerful person I've ever known"
+                  },
+                  {
+                    "text": "It's **just about** the best burger in town"
+                  }
+                ]
+              }
+            ],
+            "content_after": "---\n\n### 4. Just about to — *on the verge of doing something*\n\n> Means *a punto de hacer algo* — you were very close to doing it but didn't.\n\n- I was **just about to** call you *(a punto de llamarte)*\n- He was **just about to** open the window when it started pouring\n- That's what I was **just about to** say\n- I was **just about to** go out when you called me\n- I was just about to warn you when the ceiling fell\n\n> **Note:** this is different from *just about + adjective* above — same words, different meaning depending on context."
+          }
+        ]
       },
       {
         "title": "5. Weather Vocabulary",
