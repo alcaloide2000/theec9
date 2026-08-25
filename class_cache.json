@@ -3542,7 +3542,27 @@
       {
         "title": "3. I Don't Think I Can",
         "expanded": false,
-        "content": "In Spanish **creo que no** → in English the negative moves to *think*.\n\n| ❌ Common mistake | ✅ Correct |\n|---|---|\n| I think I can't go. | **I don't think I can go.** |\n| I think they won't be there. | **I don't think they'll be there.** |\n| I think they didn't hear it. | **I don't think they heard it.** |\n\n**Rule:** Move the negative to the verb *think* — don't negate the second verb.\n\nMore examples:\n- *Creo que no estarán allí.* → **I don't think they'll be there.**\n- *Creo que no lo oyeron.* → **I don't think they heard it.**\n- *Creía que no importaba.* → **I didn't think it mattered.**"
+        "content": "In Spanish **creo que no** → in English the negative moves to *think*.\n\n| ❌ Common mistake | ✅ Correct |\n|---|---|\n| I think I can't go. | **I don't think I can go.** |\n| I think they won't be there. | **I don't think they'll be there.** |\n| I think they didn't hear it. | **I don't think they heard it.** |\n\n**Rule:** Move the negative to the verb *think* — don't negate the second verb.\n\n### More Examples",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260602/negative_shift_more_examples.mp3",
+            "timings": [
+              [0.0, 2.184],
+              [3.084, 5.196],
+              [6.096, 8.256]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "**I don't think** they'll be there." },
+                  { "text": "**I don't think** they heard it." },
+                  { "text": "**I didn't think** it mattered." }
+                ]
+              }
+            ],
+            "content_after": ""
+          }
+        ]
       },
       {
         "title": "4. Fewer · Less / Not As Many · As",
@@ -4918,7 +4938,53 @@
       {
         "title": "2. \"I don't think I will\" — Negative Shift  ★ Main topic",
         "expanded": true,
-        "content": "In English, when *creo que no…* expresses negative belief, we make **the verb think negative**, not the subordinate clause.\n\n> ✗ I think they didn't hear → ✓ **I don't think** they heard\n\nThis is called **negative raising** — the negative moves up to *think*.\n\n---\n\n### Examples\n\n| Spanish | ✗ Direct | ✓ Natural English |\n|---|---|---|\n| Creo que no lo oyeron | I think they didn't hear | **I don't think** they heard |\n| Creo que no importa | I think it doesn't matter | **I don't think** it mattered |\n| Creo que él no lo quería decir | I think he didn't mean it | **I don't think** he meant it |\n| Creo que no iré | I think I won't go | **I don't think** I'll go |\n| Creo que no puedo ir a la fiesta | I think I can't go | **I don't think** I can go |\n| Creo que no deberías hacer eso | I think you shouldn't do that | **I don't think** you should do that |\n| Creo que no estarán allí | I think they won't be there | **I don't think** they'll be there |\n\n---\n\n### To make it — poder asistir / llegar a tiempo\n\n*Make it* is a useful idiom for *poder ir / llegar a tiempo*:\n\n| Example | Spanish |\n|---|---|\n| I don't think I'll **make it** to the party | Creo que no podré ir a la fiesta |\n| I don't think I can **make it** | Creo que no puedo asistir |\n| We're not going to **make it** | No vamos a llegar (a tiempo) |"
+        "content": "In English, when *creo que no…* expresses negative belief, we make **the verb think negative**, not the subordinate clause.\n\n> ✗ I think they didn't hear → ✓ **I don't think** they heard\n\nThis is called **negative raising** — the negative moves up to *think*.\n\n---\n\n### Examples",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260521/negative_shift_examples.mp3",
+            "timings": [
+              [0.0, 2.04],
+              [2.94, 5.028],
+              [5.928, 7.992],
+              [8.892, 10.908],
+              [11.808, 13.992],
+              [14.892, 17.124],
+              [18.024, 20.208]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "**I don't think** they heard." },
+                  { "text": "**I don't think** it mattered." },
+                  { "text": "**I don't think** he meant it." },
+                  { "text": "**I don't think** I'll go." },
+                  { "text": "**I don't think** I can go." },
+                  { "text": "**I don't think** you should do that." },
+                  { "text": "**I don't think** they'll be there." }
+                ]
+              }
+            ],
+            "content_after": "\n\n---\n\n### To make it — poder asistir / llegar a tiempo\n\n*Make it* is a useful idiom for *poder ir / llegar a tiempo*."
+          },
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260521/to_make_it.mp3",
+            "timings": [
+              [0.0, 2.616],
+              [3.516, 5.724],
+              [6.624, 8.76]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "I don't think I'll **make it** to the party." },
+                  { "text": "I don't think I can **make it**." },
+                  { "text": "We're not going to **make it**." }
+                ]
+              }
+            ],
+            "content_after": ""
+          }
+        ]
       },
       {
         "title": "3. Let vs. Allow",
@@ -6976,7 +7042,45 @@
       {
         "title": "2. Question Tags",
         "expanded": false,
-        "content": "Take the **auxiliary verb**, flip it (affirmative → negative or negative → affirmative), then repeat the subject pronoun.\n\n| Sentence | Tag |\n|---|---|\n| It is important… | …isn't it? |\n| You like coffee… | …don't you? |\n| He likes fish… | …doesn't he? |\n| He was here yesterday… | …wasn't he? |\n| They can't fix it… | …can they? |\n| But they saw this… | …didn't they? |\n\n> With the verb **to be**, it acts as its own auxiliary — no extra verb needed.\n>\n> In Canadian English, people informally say **\"eh?\"** instead of a proper tag (not standard, but common)."
+        "content": "Take the **auxiliary verb**, flip it (affirmative → negative or negative → affirmative), then repeat the subject pronoun.\n\n### Question Tags Drill",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260428/question_tags_drill.mp3",
+            "timings": [
+              [0.0, 1.92],
+              [6.92, 8.696],
+              [11.196, 13.116],
+              [18.116, 19.892],
+              [22.392, 24.312],
+              [29.312, 31.088],
+              [33.588, 35.748],
+              [40.748, 42.524],
+              [45.024, 46.92],
+              [51.92, 53.696],
+              [56.196, 58.14],
+              [63.14, 64.916]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "It is important…", "secondary": "Sentence" },
+                  { "text": "…isn't it?", "secondary": "Tag" },
+                  { "text": "You like coffee…", "secondary": "Sentence" },
+                  { "text": "…don't you?", "secondary": "Tag" },
+                  { "text": "He likes fish…", "secondary": "Sentence" },
+                  { "text": "…doesn't he?", "secondary": "Tag" },
+                  { "text": "He was here yesterday…", "secondary": "Sentence" },
+                  { "text": "…wasn't he?", "secondary": "Tag" },
+                  { "text": "They can't fix it…", "secondary": "Sentence" },
+                  { "text": "…can they?", "secondary": "Tag" },
+                  { "text": "But they saw this…", "secondary": "Sentence" },
+                  { "text": "…didn't they?", "secondary": "Tag" }
+                ]
+              }
+            ],
+            "content_after": "\n\n> With the verb **to be**, it acts as its own auxiliary — no extra verb needed.\n>\n> In Canadian English, people informally say **\"eh?\"** instead of a proper tag (not standard, but common)."
+          }
+        ]
       },
       {
         "title": "3. Picture Vocabulary",
