@@ -6329,7 +6329,27 @@
       {
         "title": "1. Warm-Up: Past Continuous",
         "expanded": false,
-        "content": "Used for actions **in progress** when something else happened (interruption) or for **simultaneous** past actions.\n\nStructure: **was/were + verb-ing**\n\n| Spanish | English |\n|---|---|\n| ¿Qué pasó cuando venías aquí? | What happened when you were coming here? |\n| Le vi cuando iba a clase | I saw him when he was going to class |\n| ¿Qué hacías cuando les viste? | What were you doing when you saw them? |\n| ¿A dónde ibas cuando tuviste el accidente? | Where were you going when you had the accident? |\n| Bajaba de su coche cuando la bomba estalló | He was getting out of his car when the bomb went off |\n| Pensaba en ti cuando me llamaste | I was thinking about you when you called me |\n| Cuando me di cuenta del error, ya se iba | When I realized my mistake, he was already leaving |\n\n> **“What did it happen?”** ✗ — When asking for the **subject**, no auxiliary is needed: **“What happened?”** ✓\n\n---\n\n### By the time\n\n*Para cuando* — one thing finished before the other was complete.\n\n- **By the time** I realized my mistake, he was already leaving.\n- **By the time** the bus came, we were already late.\n- **By the time** our flight arrived, the taxis had already gone."
+        "content": "Used for actions **in progress** when something else happened (interruption) or for **simultaneous** past actions.\n\nStructure: **was/were + verb-ing**\n\n| Spanish | English |\n|---|---|\n| ¿Qué pasó cuando venías aquí? | What happened when you were coming here? |\n| Le vi cuando iba a clase | I saw him when he was going to class |\n| ¿Qué hacías cuando les viste? | What were you doing when you saw them? |\n| ¿A dónde ibas cuando tuviste el accidente? | Where were you going when you had the accident? |\n| Bajaba de su coche cuando la bomba estalló | He was getting out of his car when the bomb went off |\n| Pensaba en ti cuando me llamaste | I was thinking about you when you called me |\n| Cuando me di cuenta del error, ya se iba | When I realized my mistake, he was already leaving |\n\n> **“What did it happen?”** ✗ — When asking for the **subject**, no auxiliary is needed: **“What happened?”** ✓\n\n---\n\n### By the time\n\n*Para cuando* — one thing finished before the other was complete.",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260512/By the time.mp3",
+            "timings": [
+              [0.0, 4.32],
+              [5.22, 8.772],
+              [9.672, 13.8]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "**By the time** I realized my mistake, he was already leaving." },
+                  { "text": "**By the time** the bus came, we were already late." },
+                  { "text": "**By the time** our flight arrived, the taxis had already gone." }
+                ]
+              }
+            ],
+            "content_after": ""
+          }
+        ]
       },
       {
         "title": "2. Phrasal Verbs: Get & Blow",
