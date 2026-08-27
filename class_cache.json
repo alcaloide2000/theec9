@@ -4989,7 +4989,25 @@
       {
         "title": "3. Let vs. Allow",
         "expanded": false,
-        "content": "Both mean *dejar / permitir*, but the grammar differs:\n\n| Verb | Structure | Example |\n|---|---|---|\n| **let** | let + person + **bare infinitive** (no *to*) | *My mother didn't let me drink beer.* |\n| **allow** | allow + person + **to** + infinitive | *My mother didn't allow me to smoke.* |\n\n> *Let me explain* ✓ — *Let me to explain* ✗\n\n- *When I was young, my mother didn't **let** me drink beer.*\n- *When I was young, my mother didn't **allow** me to smoke cigarettes.*\n\n> **Allow** is slightly more formal. **Let** is more common in everyday speech."
+        "content": "Both mean *dejar / permitir*, but the grammar differs:\n\n| Verb | Structure | Example |\n|---|---|---|\n| **let** | let + person + **bare infinitive** (no *to*) | *My mother didn't let me drink beer.* |\n| **allow** | allow + person + **to** + infinitive | *My mother didn't allow me to smoke.* |\n\n> *Let me explain* ✓ — *Let me to explain* ✗\n\n### Let vs. Allow Examples",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260521/let_vs_allow_examples.mp3",
+            "timings": [
+              [0.0, 3.6],
+              [4.5, 8.676]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "When I was young, my mother didn't **let** me drink beer." },
+                  { "text": "When I was young, my mother didn't **allow** me to smoke cigarettes." }
+                ]
+              }
+            ],
+            "content_after": "\n\n> **Allow** is slightly more formal. **Let** is more common in everyday speech."
+          }
+        ]
       },
       {
         "title": "4. Used to / Be used to / Get used to",
