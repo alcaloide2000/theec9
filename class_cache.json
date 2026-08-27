@@ -4678,7 +4678,27 @@
       {
         "title": "6. Get Used To / Be Used To (recap)",
         "expanded": false,
-        "content": "These came up in the warm-up (*no me costumbro*).\n\n| Structure | Meaning | Example |\n|---|---|---|\n| **get used to** + noun/gerund | Acostumbrarse (proceso) | *I can't get used to the heat.* |\n| **be used to** + noun/gerund | Estar acostumbrado | *I'm used to the cold.* |\n| **used to** + infinitive | Pasado habitual (distinto) | *I used to live in Canada.* |\n\n> *I can't get used to it* — no me costumbro (proceso de adaptación, aún no logrado)\n> Before you can **be used to** something, you have to **get used to** it first."
+        "content": "These came up in the warm-up (*no me costumbro*).\n\n---\n\n### Recap Examples",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260526/get_used_to_recap.mp3",
+            "timings": [
+              [0.0, 2.28],
+              [3.18, 5.244],
+              [6.144, 8.472]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "I can't **get used to** the heat.", "secondary": "get used to — acostumbrarse (proceso)" },
+                  { "text": "I'm **used to** the cold.", "secondary": "be used to — estar acostumbrado" },
+                  { "text": "I **used to** live in Canada.", "secondary": "used to — pasado habitual (distinto)" }
+                ]
+              }
+            ],
+            "content_after": "\n\n> *I can't get used to it* — no me costumbro (proceso de adaptación, aún no logrado)\n> Before you can **be used to** something, you have to **get used to** it first."
+          }
+        ]
       },
       {
         "title": "7. Vocabulary Notes",
@@ -5012,7 +5032,29 @@
       {
         "title": "4. Used to / Be used to / Get used to",
         "expanded": false,
-        "content": "Three different structures — easy to confuse:\n\n| Structure | Meaning | What follows | Example |\n|---|---|---|---|\n| **used to** + infinitive | Solía (past habit, no longer true) | bare infinitive | *I used to drive a diesel car.* |\n| **be used to** + noun/gerund | Estar acostumbrado a | noun or -ing | *I am used to the weather. / I'm used to living here.* |\n| **get used to** + noun/gerund | Acostumbrarse (in progress) | noun or -ing | *I'm getting used to it.* |\n\n---\n\n**Examples of each:**\n\n- *I used to play football every weekend.* *(ya no juego)*\n- *I'm used to rainy days.* *(already accustomed)*\n- *I'm used to experiencing a lot of rain.* *(gerund after be used to)*\n- *I'm getting used to the weather here.* *(still adjusting)*\n\n> **Get** here follows its pattern of *becoming*: get dirty, get wet, get strong → *get used to*."
+        "content": "Three different structures — easy to confuse:\n\n| Structure | Meaning | What follows | Example |\n|---|---|---|---|\n| **used to** + infinitive | Solía (past habit, no longer true) | bare infinitive | *I used to drive a diesel car.* |\n| **be used to** + noun/gerund | Estar acostumbrado a | noun or -ing | *I am used to the weather. / I'm used to living here.* |\n| **get used to** + noun/gerund | Acostumbrarse (in progress) | noun or -ing | *I'm getting used to it.* |\n\n---\n\n### Examples of Each",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260521/used_to_examples.mp3",
+            "timings": [
+              [0.0, 3.096],
+              [3.996, 6.396],
+              [7.296, 10.392],
+              [11.292, 13.836]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "I **used to** play football every weekend.", "secondary": "ya no juego" },
+                  { "text": "I'm **used to** rainy days.", "secondary": "already accustomed" },
+                  { "text": "I'm **used to** experiencing a lot of rain.", "secondary": "gerund after be used to" },
+                  { "text": "I'm **getting used to** the weather here.", "secondary": "still adjusting" }
+                ]
+              }
+            ],
+            "content_after": "\n\n> **Get** here follows its pattern of *becoming*: get dirty, get wet, get strong → *get used to*."
+          }
+        ]
       },
       {
         "title": "5. Noun-based Adjectives (-y suffix)  ★ Second main topic",
@@ -13112,7 +13154,49 @@
       {
         "title": "5. Grammar: Used To / Get Used To / Be Used To",
         "expanded": false,
-        "content": "**Three structures, three meanings:**\n\n- **used to** + infinitive → past habit, no longer true: *I used to live in a small town.*\n- **to be used to** + -ing/noun → estar acostumbrado a (already accustomed): *Peter is used to living well.*\n- **to get used to** + -ing/noun → becoming accustomed, a transition: *It took me a long time to get used to Spanish food.*\n\n**Accustomed to** is a more formal synonym for *(be) used to* — same meaning, higher register: *Peter is accustomed to living well* = *Peter is used to living well.*\n\n**\"To get\" here means llegar a ser (to become)** — same pattern as *to get tired* (cansarse), *to get wet* (mojarse), *to get better* (mejorarse), *to get sick*, *to get dark*.\n\n### Drills (accustomed to → used to)\n\n- *Peter is accustomed to living well.* → **Peter is used to living well.**\n- *Ronnie is accustomed to asking his father for money.* → **Ronnie is used to asking his father for money.**\n- *It took me a long time to get accustomed to Spanish food.* → **It took me a long time to get used to Spanish food.**\n- *Aki is getting accustomed to working in Louisiana.* → **Aki is getting used to working in Louisiana.**\n- *Nancy is accustomed to dealing with a lot of different people.* → **Nancy is used to dealing with a lot of different people.**\n- *I can't get accustomed to the heat.* → **I can't get used to the heat.**\n- *You'll understand me better once you get accustomed to my accent.* → **...once you get used to my accent.**"
+        "content": "**Three structures, three meanings:**\n\n- **used to** + infinitive → past habit, no longer true: *I used to live in a small town.*\n- **to be used to** + -ing/noun → estar acostumbrado a (already accustomed): *Peter is used to living well.*\n- **to get used to** + -ing/noun → becoming accustomed, a transition: *It took me a long time to get used to Spanish food.*\n\n**Accustomed to** is a more formal synonym for *(be) used to* — same meaning, higher register: *Peter is accustomed to living well* = *Peter is used to living well.*\n\n**\"To get\" here means llegar a ser (to become)** — same pattern as *to get tired* (cansarse), *to get wet* (mojarse), *to get better* (mejorarse), *to get sick*, *to get dark*.\n\n### Drills (accustomed to → used to)",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260716/accustomed_to_used_to_drills.mp3",
+            "timings": [
+              [0.0, 2.76],
+              [7.76, 10.304],
+              [12.804, 16.308],
+              [21.308, 24.62],
+              [27.12, 30.888],
+              [35.888, 39.464],
+              [41.964, 45.612],
+              [50.612, 53.996],
+              [56.496, 60.36],
+              [65.36, 69.008],
+              [71.508, 74.052],
+              [79.052, 81.332],
+              [83.832, 87.816],
+              [92.816, 96.608]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "Peter is **accustomed to** living well.", "secondary": "Cue" },
+                  { "text": "Peter is **used to** living well.", "secondary": "Answer" },
+                  { "text": "Ronnie is **accustomed to** asking his father for money.", "secondary": "Cue" },
+                  { "text": "Ronnie is **used to** asking his father for money.", "secondary": "Answer" },
+                  { "text": "It took me a long time to **get accustomed to** Spanish food.", "secondary": "Cue" },
+                  { "text": "It took me a long time to **get used to** Spanish food.", "secondary": "Answer" },
+                  { "text": "Aki is getting **accustomed to** working in Louisiana.", "secondary": "Cue" },
+                  { "text": "Aki is **getting used to** working in Louisiana.", "secondary": "Answer" },
+                  { "text": "Nancy is **accustomed to** dealing with a lot of different people.", "secondary": "Cue" },
+                  { "text": "Nancy is **used to** dealing with a lot of different people.", "secondary": "Answer" },
+                  { "text": "I can't **get accustomed to** the heat.", "secondary": "Cue" },
+                  { "text": "I can't **get used to** the heat.", "secondary": "Answer" },
+                  { "text": "You'll understand me better once you **get accustomed to** my accent.", "secondary": "Cue" },
+                  { "text": "You'll understand me better once you **get used to** my accent.", "secondary": "Answer" }
+                ]
+              }
+            ],
+            "content_after": ""
+          }
+        ]
       },
       {
         "title": "6. Interrogative Challenge: Which vs. Where & Whose",
