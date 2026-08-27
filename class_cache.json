@@ -6930,7 +6930,33 @@
       {
         "title": "4. Grammar Notes",
         "expanded": false,
-        "content": "### Noun vs. adjective: pessimist / pessimistic\n\n| Form | Example | Note |\n|---|---|---|\n| Noun | I'm **a pessimist** | Needs the article |\n| Adjective | I'm **pessimistic** | No article |\n| Adjective + noun | I'm **a pessimistic person** | Article goes with the noun |\n\n---\n\n### Raise vs. Rise\n\n| Verb | Type | Forms | Example |\n|---|---|---|---|\n| **Raise** | Transitive (needs object) | raise / raised / raised | I am **raising** my hand. The government **raises** taxes. |\n| **Rise** | Intransitive (no object) | rise / **rose** / **risen** | My hand is **rising**. Taxes **rise**. |\n\n> *I raise the phone → the phone rises.* Same event, two verbs depending on whether there is a subject performing the action."
+        "content": "### Noun vs. adjective: pessimist / pessimistic\n\n| Form | Example | Note |\n|---|---|---|\n| Noun | I'm **a pessimist** | Needs the article |\n| Adjective | I'm **pessimistic** | No article |\n| Adjective + noun | I'm **a pessimistic person** | Article goes with the noun |\n\n---\n\n### Raise vs. Rise\n\n| Verb | Type | Forms |\n|---|---|---|\n| **Raise** | Transitive (needs object) | raise / raised / raised |\n| **Rise** | Intransitive (no object) | rise / **rose** / **risen** |\n\n### Raise vs. Rise Examples",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260505/raise_vs_rise_examples.mp3",
+            "timings": [
+              [0.0, 2.4],
+              [3.3, 5.844],
+              [6.744, 8.928],
+              [9.828, 11.844],
+              [12.744, 14.808],
+              [15.708, 17.724]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "I am **raising** my hand.", "secondary": "Raise — transitive" },
+                  { "text": "The government **raises** taxes.", "secondary": "Raise — transitive" },
+                  { "text": "My hand is **rising**.", "secondary": "Rise — intransitive" },
+                  { "text": "Taxes **rise**.", "secondary": "Rise — intransitive" },
+                  { "text": "I **raise** the phone.", "secondary": "Raise — transitive" },
+                  { "text": "The phone **rises**.", "secondary": "Rise — intransitive" }
+                ]
+              }
+            ],
+            "content_after": "\n\n> *I raise the phone → the phone rises.* Same event, two verbs depending on whether there is a subject performing the action."
+          }
+        ]
       }
     ],
     "tests": [
