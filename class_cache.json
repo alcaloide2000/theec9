@@ -14508,5 +14508,376 @@
         ]
       }
     ]
+  },
+  {
+    "id": "kyle_20260901",
+    "title": "English with Kyle",
+    "date": "2026-09-01",
+    "topic": "Countable/Uncountable with Any/Some · The More...The Less · It Depends On · Phrasal Verbs with Put · To Have Trouble + -ing",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "| Spanish | English |\n|---|---|\n| Hay tigres en Rusia. | Are there any tigers in Russia? |\n| Hay correo para mí. | Is there any mail for me? |\n| No ha habido incendios forestales este verano. | There haven't been any forest fires this summer. |\n| No me des agua. | Don't give me any water. |\n| Necesito sal. | I need some salt. |\n| Por muy sincero que seas, él no te creerá. | No matter how sincere you are, he won't believe you. |\n| Cuanto menos vayas allí, mejor para todos. | The less you go there, the better for everyone. |\n| Cuanto más trabajo, menos eficaz soy. | The more I work, the less effective I am. |\n| Cuanto más escuches, más aprendes. | The more you listen, the more you'll learn. |\n\n**Key notes:**\n\n- **any** goes in questions and negatives (to ask about or deny existence): *Are there **any** tigers in Russia? Don't give me **any** water.* **some** goes in affirmative statements: *I need **some** salt.*\n- Avoiding the double negative: you can't say ~~there isn't no~~ — say *there isn't **any** water.*\n- **No matter how + adjective + subject + verb** = *por muy + adjetivo + que + subjuntivo*: *No matter how sincere you are, he won't believe you.*\n- **The + comparative…, the + comparative…** (double comparative): *The less you go there, the better. The more I work, the less effective I am. The more you listen, the more you'll learn.*\n- **less** (uncountable — an amount, e.g. of time) vs. **fewer** (countable — a number of occasions): *the less you go there* refers to the amount of time spent, so *less* is correct here rather than *fewer*."
+      },
+      {
+        "title": "2. It Depends On",
+        "expanded": false,
+        "content": "**Structure:** *it depends on* — always with the **-s** (never ~~it depend~~), always followed by **on** (never ~~depends of~~ or ~~it's depend~~), and treated como si fuera una sola palabra — a fixed chunk you can drop into almost any sentence.\n\n> *Depende del tiempo.* → **It depends on** the weather.\n\n### It Depends On — Drill",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260901/it_depends_on_drill.mp3",
+            "timings": [
+              [0.0, 2.088],
+              [2.988, 5.076],
+              [5.976, 8.184],
+              [9.084, 11.604],
+              [12.504, 14.808],
+              [15.708, 18.444],
+              [19.344, 21.792],
+              [22.692, 24.948]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "It depends on you.", "speak": "It depends on you.", "secondary": "Depende de ti." },
+                  { "text": "It depends on me.", "speak": "It depends on me.", "secondary": "Depende de mí." },
+                  { "text": "It depends on the weather.", "speak": "It depends on the weather.", "secondary": "Depende del tiempo." },
+                  { "text": "It depends on who you ask.", "speak": "It depends on who you ask.", "secondary": "Depende de a quién le preguntes." },
+                  { "text": "It depends on my mother.", "speak": "It depends on my mother.", "secondary": "Depende de mi madre." },
+                  { "text": "It depends on a lot of factors.", "speak": "It depends on a lot of factors.", "secondary": "Depende de muchos factores." },
+                  { "text": "It depends on how you go.", "speak": "It depends on how you go.", "secondary": "Depende de cómo vayas." },
+                  { "text": "It depends on the budget.", "speak": "It depends on the budget.", "secondary": "Depende del presupuesto." }
+                ]
+              }
+            ],
+            "content_after": "\n\n**Notes:**\n\n- Connected speech: *it* + *depends* links — the final **t** of *it* connects into the **d** of *depends* (\"i-de-pends\").\n- Short form: *Well, that depends* — *Bueno, eso depende* — the -s still never drops, it just omits the *on + noun*."
+          }
+        ]
+      },
+      {
+        "title": "3. Phrasal Verbs with 'Put' (Review)",
+        "expanded": false,
+        "content": "Kyle revisited this set of phrasal verbs built on **to put** — same base verb, different meaning depending on the particle (first covered in the [Jul 7 class](/?class=kyle_20260707)).\n\n| Phrasal verb | Meaning |\n|---|---|\n| **put out** | to extinguish (a fire or flame) |\n| **put on** | to dress yourself / wear a specific item |\n| **put in / put into** | to insert |\n| **put up** | to place something where it's normally kept, or somewhere elevated |\n| **put away** | to store something in its place |\n| **put off** | to postpone / procrastinate |\n| **put up with** | to tolerate — *aguantar, soportar* (almost always negative) |\n| **put back** | to return something to its original place |\n\n### Put — Drill",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260901/put_phrasal_verbs_drill.mp3",
+            "timings": [
+              [0.0, 2.832],
+              [3.732, 6.876],
+              [7.776, 10.056],
+              [10.956, 13.644],
+              [14.544, 18.432],
+              [19.332, 22.14],
+              [23.04, 25.464],
+              [26.364, 28.98]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "I put out the candle with my fingers.", "speak": "I put out the candle with my fingers.", "secondary": "put out" },
+                  { "text": "You put on a sweater before you go outside.", "speak": "You put on a sweater before you go outside.", "secondary": "put on" },
+                  { "text": "Put the coin in the slot.", "speak": "Put the coin in the slot.", "secondary": "put in / put into" },
+                  { "text": "They put up the flag every morning.", "speak": "They put up the flag every morning.", "secondary": "put up" },
+                  { "text": "I put away my gardening tools because it was going to rain.", "speak": "I put away my gardening tools because it was going to rain.", "secondary": "put away" },
+                  { "text": "The match was put off due to the rain.", "speak": "The match was put off due to the rain.", "secondary": "put off" },
+                  { "text": "I can't put up with the noise.", "speak": "I can't put up with the noise.", "secondary": "put up with" },
+                  { "text": "Please put it back where you found it.", "speak": "Please put it back where you found it.", "secondary": "put back" }
+                ]
+              }
+            ],
+            "content_after": "\n\n**Related:** *can't stand* is another way to say *can't put up with*, and — like *put up with* — is almost always used in the negative: *I can't stand that noise.*\n\n**Bonus idiom:** *something is **growing on** me* = you're starting to like it more over time (not a \"put\" phrasal verb, but came up in the same conversation): *Tomatoes are starting to grow on me.*"
+          }
+        ]
+      },
+      {
+        "title": "4. To Have Trouble + -ing",
+        "expanded": false,
+        "content": "**Structure:** *have trouble* + **-ing** = *costar trabajo / tener dificultad para*\n\n> *Me cuesta trabajo entenderte.* → I have trouble understanding you.\n\n### To Have Trouble — Drill",
+        "audio_blocks": [
+          {
+            "audio": "assets/classes/english_with_kyle/kyle_20260901/have_trouble_drill.mp3",
+            "timings": [
+              [0.0, 2.592],
+              [3.492, 6.228],
+              [7.128, 10.296],
+              [11.196, 14.556],
+              [15.456, 18.072],
+              [18.972, 22.356]
+            ],
+            "groups": [
+              {
+                "items": [
+                  { "text": "I have trouble understanding you.", "speak": "I have trouble understanding you.", "secondary": "Me cuesta trabajo entenderte." },
+                  { "text": "Do you have trouble getting up in the morning?", "speak": "Do you have trouble getting up in the morning?", "secondary": "¿Te cuesta trabajo levantarte por la mañana?" },
+                  { "text": "Did you have trouble getting used to Spanish food?", "speak": "Did you have trouble getting used to Spanish food?", "secondary": "¿Te costó trabajo acostumbrarte a la comida española?" },
+                  { "text": "I have trouble remembering all my passwords.", "speak": "I have trouble remembering all my passwords.", "secondary": "Tengo problemas para recordar todas mis contraseñas." },
+                  { "text": "I have trouble sleeping at night.", "speak": "I have trouble sleeping at night.", "secondary": "Tengo problemas para dormir por la noche." },
+                  { "text": "Does your boss have trouble communicating with his team?", "speak": "Does your boss have trouble communicating with his team?", "secondary": "¿Tu jefe tiene problemas para comunicarse con su equipo?" }
+                ]
+              }
+            ],
+            "content_after": "\n\n**Notes:**\n\n- Always **have trouble + gerund**, never the infinitive: *I have trouble **understanding** you*, not ~~to understand~~.\n- **Much** doesn't sit comfortably in the affirmative — *a lot of* is the safer default across countable, uncountable, affirmative, negative and interrogative: ~~Yes, I had much trouble~~ → *Yes, I had **a lot of** trouble.* *Much* still works fine in questions and negatives: *Did you have **much** trouble...? I didn't have **much** trouble...*\n- Don't contract **have** when it's the main verb meaning *tener* (possession): *I **have** a stapler*, not ~~I've a stapler~~. Only contract *have* when it's the auxiliary of the present perfect: *I've been to Rome.*"
+          }
+        ]
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20260901_warmup",
+        "qs": [
+          {
+            "q": "How do you say 'Hay tigres en Rusia'?",
+            "opts": [
+              "Are there any tigers in Russia?",
+              "Are there some tigers in Russia?",
+              "Is there any tigers in Russia?",
+              "There are any tigers in Russia?"
+            ],
+            "ans": "Are there any tigers in Russia?"
+          },
+          {
+            "q": "How do you say 'No me des agua'?",
+            "opts": [
+              "Don't give me some water.",
+              "Don't give me any water.",
+              "Don't give me no water.",
+              "Give me not any water."
+            ],
+            "ans": "Don't give me any water."
+          },
+          {
+            "q": "How do you say 'Necesito sal'?",
+            "opts": [
+              "I need any salt.",
+              "I need some salt.",
+              "I need a salt.",
+              "I need the salt."
+            ],
+            "ans": "I need some salt."
+          },
+          {
+            "q": "How do you say 'Por muy sincero que seas, él no te creerá'?",
+            "opts": [
+              "No matter how sincere you are, he won't believe you.",
+              "No matter how sincere are you, he won't believe you.",
+              "However sincere you be, he won't believe you.",
+              "By much sincere you are, he won't believe you."
+            ],
+            "ans": "No matter how sincere you are, he won't believe you."
+          },
+          {
+            "q": "How do you say 'Cuanto más trabajo, menos eficaz soy'?",
+            "opts": [
+              "The more I work, the less effective I am.",
+              "More I work, less effective I am.",
+              "The more work I do, less effective I am.",
+              "The most I work, the least effective I am."
+            ],
+            "ans": "The more I work, the less effective I am."
+          },
+          {
+            "q": "How do you say 'Cuanto más escuches, más aprendes'?",
+            "opts": [
+              "The more you listen, the more you'll learn.",
+              "The much you listen, the much you learn.",
+              "More you listen, more you learn.",
+              "The more you listen, more you'll learn."
+            ],
+            "ans": "The more you listen, the more you'll learn."
+          },
+          {
+            "q": "Why does 'Are there any tigers in Russia?' use 'any' instead of 'some'?",
+            "opts": [
+              "Because it's a question",
+              "Because tigers are uncountable",
+              "Because it's more polite",
+              "Because 'some' is only for liquids"
+            ],
+            "ans": "Because it's a question"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · It Depends On",
+        "key": "kyle_20260901_dependson",
+        "qs": [
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "It depend on you.",
+              "It depends on you.",
+              "It's depend on you.",
+              "It depends of you."
+            ],
+            "ans": "It depends on you."
+          },
+          {
+            "q": "How do you say 'Depende del tiempo' (the weather)?",
+            "opts": [
+              "It depends the weather.",
+              "It depends of weather.",
+              "It depends on the weather.",
+              "It's depending on weather."
+            ],
+            "ans": "It depends on the weather."
+          },
+          {
+            "q": "What's the short form of 'it depends on...' when you don't name the noun?",
+            "opts": [
+              "That depend.",
+              "That's depends.",
+              "That depends.",
+              "It's depends."
+            ],
+            "ans": "That depends."
+          },
+          {
+            "q": "Which sentence is grammatically correct?",
+            "opts": [
+              "It depends on who you ask.",
+              "It depend on who you ask.",
+              "It's depend on who you ask.",
+              "It depends of who you ask."
+            ],
+            "ans": "It depends on who you ask."
+          },
+          {
+            "q": "Which mistake should you avoid with this structure?",
+            "opts": [
+              "Using 'depends' without the -s",
+              "Dropping the -s, or using 'of' instead of 'on'",
+              "Using 'on' after depends",
+              "Using it with people as the subject"
+            ],
+            "ans": "Dropping the -s, or using 'of' instead of 'on'"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Phrasal Verbs with Put",
+        "key": "kyle_20260901_put",
+        "qs": [
+          {
+            "q": "'I put out the candle.' What does 'put out' mean here?",
+            "opts": [
+              "To light",
+              "To extinguish",
+              "To place",
+              "To postpone"
+            ],
+            "ans": "To extinguish"
+          },
+          {
+            "q": "'Put a coin in the slot.' Which phrasal verb is this?",
+            "opts": [
+              "put on",
+              "put in / put into",
+              "put up",
+              "put back"
+            ],
+            "ans": "put in / put into"
+          },
+          {
+            "q": "'The match was put off due to the rain.' What does 'put off' mean?",
+            "opts": [
+              "Cancelled",
+              "Postponed",
+              "Extinguished",
+              "Started early"
+            ],
+            "ans": "Postponed"
+          },
+          {
+            "q": "'I can't put up with the noise.' What does 'put up with' mean?",
+            "opts": [
+              "To tolerate",
+              "To install",
+              "To increase",
+              "To postpone"
+            ],
+            "ans": "To tolerate"
+          },
+          {
+            "q": "Which phrasal verb means to store something back in its usual place?",
+            "opts": [
+              "put on",
+              "put away",
+              "put out",
+              "put up"
+            ],
+            "ans": "put away"
+          },
+          {
+            "q": "'Tomatoes are starting to grow on me.' What does this idiom mean?",
+            "opts": [
+              "I'm starting to dislike them",
+              "I'm starting to like them more",
+              "They're getting bigger",
+              "I'm allergic to them"
+            ],
+            "ans": "I'm starting to like them more"
+          }
+        ]
+      },
+      {
+        "title": "Test 4 · To Have Trouble + -ing",
+        "key": "kyle_20260901_trouble",
+        "qs": [
+          {
+            "q": "Complete: 'I have trouble ___ you.'",
+            "opts": [
+              "to understand",
+              "understand",
+              "understanding",
+              "understood"
+            ],
+            "ans": "understanding"
+          },
+          {
+            "q": "How do you say 'Me cuesta trabajo entenderte'?",
+            "opts": [
+              "I have trouble to understand you.",
+              "I have trouble understanding you.",
+              "I have trouble understand you.",
+              "I trouble have understanding you."
+            ],
+            "ans": "I have trouble understanding you."
+          },
+          {
+            "q": "Which is correct in the affirmative?",
+            "opts": [
+              "Yes, I had much trouble.",
+              "Yes, I had a lot of trouble.",
+              "Yes, I had many trouble.",
+              "Yes, I had trouble much."
+            ],
+            "ans": "Yes, I had a lot of trouble."
+          },
+          {
+            "q": "When can you contract 'have' before a noun like 'a stapler'?",
+            "opts": [
+              "Always",
+              "Never — only contract 'have' as the present perfect auxiliary",
+              "Only in questions",
+              "Only with plural nouns"
+            ],
+            "ans": "Never — only contract 'have' as the present perfect auxiliary"
+          },
+          {
+            "q": "How do you say '¿Te costó trabajo acostumbrarte a la comida española?'",
+            "opts": [
+              "Did you have trouble getting used to Spanish food?",
+              "Do you have trouble to get used Spanish food?",
+              "Did you had trouble getting used to Spanish food?",
+              "Have you trouble getting used to Spanish food?"
+            ],
+            "ans": "Did you have trouble getting used to Spanish food?"
+          }
+        ]
+      }
+    ]
   }
 ]
