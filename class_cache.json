@@ -14879,5 +14879,290 @@
         ]
       }
     ]
+  },
+  {
+    "id": "kyle_20260908",
+    "title": "English with Kyle",
+    "date": "2026-09-08",
+    "topic": "Mixed Translations · Talk Into/Out Of & Make Out vs. Catch · To Be Worth · Mastering the Interrogative",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "| Spanish | English |\n|---|---|\n| ¿A quién estás esperando? | Who are you waiting for? |\n| Estábamos esperándolos hasta las tres. | We were waiting for them until three o'clock. |\n| Nos quedamos levantados hasta las tantas. | We stayed up late. / We stayed up into the wee hours. |\n| Nos quedamos por ahí hasta las tantas. | We stayed out late. |\n| ¿Cómo puedo transmitirles la importancia de esto? | How can I convey to them how important this is? / How can I get the importance of this across to them? |\n| Ella me habló hasta convencerme. | She talked me into it. |\n\n**Key notes:**\n\n- **Preposition stranding:** *who are you waiting **for**?* — never *for who are you waiting?* nor *who are you waiting?* on its own. The preposition goes at the end.\n- **Word order with pronouns:** *we were waiting **for them***, not *we were waiting them for* — same pattern as *I did **it for you***, not *I did for you it*.\n- **the wee hours** (*wee* = small, from Scottish English) = *la madrugada*, the very early hours of the morning (1, 2, 3 a.m.).\n- **to stay up** (*mantenerte despierto*) vs. **to stay out** (*quedarte fuera de casa*) — two different phrasal verbs built on *stay*, both used for *nos quedamos... hasta las tantas* depending on whether you stayed home or went out.\n- **to convey** = *transmitir* (information/ideas) — reserve **to transmit** for signals/broadcasts (*a radio transmitter, to transmit a frequency*), not for conveying importance or ideas."
+      },
+      {
+        "title": "2. Phrasal Verbs: Talk Into/Out Of & Make Out vs. Catch",
+        "expanded": false,
+        "content": "**to talk someone into something** = to convince someone *to* do something (*convencer a alguien de hacer algo*):\n\n- She talked me into it. I didn't want to do it, but she talked me into it.\n- I talked her into it.\n- We talked them into it. They weren't going to buy the new computer, but we talked them into it.\n- I wasn't going to stay so late, but they talked me into it.\n\n**to talk someone out of something** = to convince someone *not* to do something:\n\n- He was going to quit the company until we talked him out of it. We convinced him not to do it.\n\n---\n\n**make out** vs. **catch** — both mean *to manage to perceive/understand something with difficulty*, but they split by sense:\n\n| Verb | Sense | Example |\n|---|---|---|\n| **make out** | visual — reading/seeing something | I can see the words, but I can't make it out. |\n| **catch** | audio — understanding speech | I can't catch what they're saying. |\n\nDon't mix them up: you *catch* what someone says, but you *make out* what's written or barely visible."
+      },
+      {
+        "title": "3. To Be Worth",
+        "expanded": false,
+        "content": "**Structure:** *to be worth* must be followed by a **noun**, a **pronoun**, or a **gerund** (verb+ing) — never by *to + infinitive*.\n\n- ❌ ~~Is it worth to invest in jewels?~~ ✅ **Is it worth investing in jewels?**\n- ❌ ~~I don't think Polish is worth to learn.~~ ✅ **I don't think Polish is worth learning.**\n- Don't forget the verb **to be**: *A Tesla **is** worth more than a Renault* (not *a Tesla worth more...*).\n\n**Basic uses:**\n\n- *It's worth it. / It isn't worth it.* — I don't think taking a Polish course is worth it.\n- *It's worth more / it's worth less* (comparisons of value): My phone is worth more than my pen. Knowing English is worth more than knowing Icelandic.\n- *It's worth the price/effort*, *it's worth doing/knowing/having*: A good flashlight is worth having. A university degree is worth having.\n\n**Avoid repeating the object:** once the noun is the subject, don't repeat it as a pronoun after the preposition.\n\n- ❌ ~~Parking spaces aren't worth investing in them.~~ ✅ **Parking spaces aren't worth investing in.**\n- This also works as a question: *Are parking spaces worth investing in?*\n\n**Vocabulary — the trades** (*los oficios*): electrician, plumber, construction worker. Kyle's example: learning a trade is worth it because these jobs will never be replaced by AI — you finish a relatively short course, start working (and earning) young, and can eventually hire people and run your own business, instead of spending years at university before earning money.\n\n**Examples from the chat:**\n\n- I think investment in gold is worth it because its value never drops.\n- It's worth living day by day because you don't know what might happen tomorrow.\n- Being able to express myself in Polish would have been useful, given that I had gone to Krakow to work on projects, but the English I knew was worth it, as it saved me time.\n- The barbecue I bought last year is really worth it on weekends for any kind of cookout."
+      },
+      {
+        "title": "4. Mastering the Interrogative",
+        "expanded": false,
+        "content": "| Statement | Question |\n|---|---|\n| The plane took off at 10:30. | What time did the plane take off? |\n| It took off 10 minutes late. | How late did the plane take off? |\n| He brought me a glass of water. | What did he bring you? |\n| I went to the police station to report a crime. | Why did you go to the police station? |\n| I was angry because the food was bad. | Why were you angry? |\n| I was driving to work when I heard the news. | What were you doing when you heard the news? |\n| They were at home when it happened. | Where were they when it happened? |\n| I was away for a month. | How long were you away? |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20260908_warmup",
+        "qs": [
+          {
+            "q": "How do you say '¿A quién estás esperando?'?",
+            "opts": [
+              "Who you are waiting for?",
+              "Who are you waiting for?",
+              "For who are you waiting?",
+              "Who are you waiting?"
+            ],
+            "ans": "Who are you waiting for?"
+          },
+          {
+            "q": "How do you say 'Estábamos esperándolos hasta las tres'?",
+            "opts": [
+              "We were waiting them for until three o'clock.",
+              "We were waiting for them until three o'clock.",
+              "We waited for they until three o'clock.",
+              "We were waiting for it until three o'clock."
+            ],
+            "ans": "We were waiting for them until three o'clock."
+          },
+          {
+            "q": "How do you say 'Nos quedamos levantados hasta las tantas'?",
+            "opts": [
+              "We stayed out late.",
+              "We stayed up late.",
+              "We stood up late.",
+              "We were up lately."
+            ],
+            "ans": "We stayed up late."
+          },
+          {
+            "q": "How do you say 'Nos quedamos por ahí hasta las tantas'?",
+            "opts": [
+              "We stayed up late.",
+              "We stayed there until.",
+              "We stayed out late.",
+              "We were out there late."
+            ],
+            "ans": "We stayed out late."
+          },
+          {
+            "q": "How do you say '¿Cómo puedo transmitirles la importancia de esto?'?",
+            "opts": [
+              "How can I transmit them the importance of this?",
+              "How can I get the importance of this across to them?",
+              "How can I convey them this importance?",
+              "How I can transmit the importance of this to they?"
+            ],
+            "ans": "How can I get the importance of this across to them?"
+          },
+          {
+            "q": "How do you say 'Ella me habló hasta convencerme'?",
+            "opts": [
+              "She talked me out of it.",
+              "She talked to me until convince.",
+              "She talked me into it.",
+              "She spoke me until convincing."
+            ],
+            "ans": "She talked me into it."
+          },
+          {
+            "q": "What does 'the wee hours' refer to?",
+            "opts": [
+              "Lunchtime",
+              "The very early hours of the morning",
+              "The evening",
+              "A short break"
+            ],
+            "ans": "The very early hours of the morning"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Talk Into/Out Of & Make Out vs. Catch",
+        "key": "kyle_20260908_phrasalverbs",
+        "qs": [
+          {
+            "q": "'She talked me into it.' What does this mean?",
+            "opts": [
+              "She convinced me to do it",
+              "She convinced me not to do it",
+              "She told me about it",
+              "She refused to do it"
+            ],
+            "ans": "She convinced me to do it"
+          },
+          {
+            "q": "'We talked him out of it.' What does this mean?",
+            "opts": [
+              "We convinced him to do it",
+              "We convinced him not to do it",
+              "We told him a secret",
+              "We argued with him"
+            ],
+            "ans": "We convinced him not to do it"
+          },
+          {
+            "q": "'I can see the words, but I can't ___ it.' (visual difficulty understanding)",
+            "opts": [
+              "catch",
+              "make out",
+              "talk into",
+              "get through"
+            ],
+            "ans": "make out"
+          },
+          {
+            "q": "'I can't ___ what they're saying.' (audio difficulty understanding)",
+            "opts": [
+              "make out",
+              "catch",
+              "put out",
+              "talk out of"
+            ],
+            "ans": "catch"
+          },
+          {
+            "q": "He was going to quit the company, but we ___.",
+            "opts": [
+              "talked him into it",
+              "talked him out of it",
+              "made him out",
+              "caught him"
+            ],
+            "ans": "talked him out of it"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · To Be Worth",
+        "key": "kyle_20260908_worth",
+        "qs": [
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "Is it worth to invest in jewels?",
+              "Is it worth investing in jewels?",
+              "Is worth investing in jewels?",
+              "Is it worth invest in jewels?"
+            ],
+            "ans": "Is it worth investing in jewels?"
+          },
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "Polish is worth to learn.",
+              "Polish worth learning.",
+              "Polish is worth learning.",
+              "Polish is worth learn."
+            ],
+            "ans": "Polish is worth learning."
+          },
+          {
+            "q": "Which sentence correctly avoids repeating the object?",
+            "opts": [
+              "Parking spaces aren't worth investing in them.",
+              "Parking spaces aren't worth investing in.",
+              "Parking spaces aren't worth to invest in it.",
+              "Parking spaces isn't worth investing in it."
+            ],
+            "ans": "Parking spaces aren't worth investing in."
+          },
+          {
+            "q": "'A Tesla ___ worth more than a Renault.' Fill in the blank.",
+            "opts": [
+              "is",
+              "has",
+              "does",
+              "(nothing needed)"
+            ],
+            "ans": "is"
+          },
+          {
+            "q": "What must follow 'worth'?",
+            "opts": [
+              "An infinitive (to + verb)",
+              "A noun, pronoun, or gerund",
+              "A subject pronoun only",
+              "Nothing, it stands alone"
+            ],
+            "ans": "A noun, pronoun, or gerund"
+          },
+          {
+            "q": "According to Kyle, why is learning a trade (electrician, plumber) 'worth it'?",
+            "opts": [
+              "Because it pays more than any office job",
+              "Because these jobs will never be replaced by AI",
+              "Because it requires a university degree",
+              "Because it's easier than other jobs"
+            ],
+            "ans": "Because these jobs will never be replaced by AI"
+          }
+        ]
+      },
+      {
+        "title": "Test 4 · Mastering the Interrogative",
+        "key": "kyle_20260908_interrogative",
+        "qs": [
+          {
+            "q": "Statement: 'The plane took off at 10:30.' What's the question?",
+            "opts": [
+              "When the plane took off?",
+              "What time did the plane take off?",
+              "What time the plane took off?",
+              "At what time takes off the plane?"
+            ],
+            "ans": "What time did the plane take off?"
+          },
+          {
+            "q": "Statement: 'He brought me a glass of water.' What's the question?",
+            "opts": [
+              "What brought he you?",
+              "What did he bring you?",
+              "What he brought you?",
+              "What did he brought you?"
+            ],
+            "ans": "What did he bring you?"
+          },
+          {
+            "q": "Statement: 'I went to the police station to report a crime.' What's the question?",
+            "opts": [
+              "Why you went to the police station?",
+              "Why did you go to the police station?",
+              "Why did you went to the police station?",
+              "For what you went to the police station?"
+            ],
+            "ans": "Why did you go to the police station?"
+          },
+          {
+            "q": "Statement: 'I was driving to work when I heard the news.' What's the question?",
+            "opts": [
+              "What you were doing when you heard the news?",
+              "What were you doing when you heard the news?",
+              "What did you do when you heard the news?",
+              "What was you doing when heard the news?"
+            ],
+            "ans": "What were you doing when you heard the news?"
+          },
+          {
+            "q": "Statement: 'I was away for a month.' What's the question?",
+            "opts": [
+              "How much were you away?",
+              "How long were you away?",
+              "How many time you were away?",
+              "How long you were away?"
+            ],
+            "ans": "How long were you away?"
+          }
+        ]
+      }
+    ]
   }
 ]
