@@ -181,6 +181,15 @@ First used for the "Not quite as … as" and "Not nearly as … as" drills insid
 
 **Adding a new class:** transcribe the MP4 with faster-whisper using `WhisperModel('medium', device='cpu', compute_type='int8')` and `model.transcribe(mp4, language='en', beam_size=5)`. Write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump` — put it in the Claude Code scratchpad directory (not the project root) so no cleanup is needed. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
+**Checking for a new class to add (do this at the start of a session when asked to check for new content):**
+
+1. Navigate to `https://theenglishcollective.com/program/english-with-kyle/` (the "English With Kyle" resource list, newest first, `RESOURCE 1 OF <n>` at the top).
+2. Compare the top resource's title/date against the newest `kyle_2*` entry already in `class_cache.json` (sort by `date`) — if the site's top entry is newer, it hasn't been added yet.
+3. Click that resource's link to open its page (`get_page_text`/`read_page` list every resource's title as plain text on every one of these pages — that's normal, it's a sidebar; the actual resource is named in the breadcrumb/`RESOURCE 1 OF <n>` line). If a plain click doesn't navigate, read the link's `href` via `read_page`/`find` and `navigate` to it directly.
+4. The resource page embeds the class video but does **not** expose a usable Vimeo URL to scripts (`javascript_tool` reads of the iframe `src` or of anchor `href`s get blocked as "Cookie/query string data" — don't fight this, it's an intentional safety block). Instead: click/hover the video to load the player, then **right-click** on it — the context menu has a **"View on Vimeo"** entry. Click it; it opens `vimeo.com/<id>` in a new tab (get the tab's real URL from `tabs_context_mcp`, since `tabs_create_mcp`'s own title can lag).
+5. From the Vimeo tab, follow the transcript download procedure below.
+6. After adding the class entry, do the mindmap update (see "After adding a Kyle class" below) — Warm-Up Linguo and The Interrogative Challenge in `class_test.py` pick up new content automatically from `class_cache.json`, no extra step needed for those. `audio_blocks` synced-audio drills are optional/manual and not required for a new class to work.
+
 **Transcribing from a Vimeo link (preferred method — Vimeo's own auto-generated transcript):** every Kyle class video already has an auto-generated transcript built into Vimeo, downloadable directly as a `.vtt` — no yt-dlp or faster-whisper needed. Use the `claude-in-chrome` browser tools:
 
 1. Navigate to the Vimeo video URL in a browser tab.
