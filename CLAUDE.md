@@ -181,7 +181,17 @@ First used for the "Not quite as … as" and "Not nearly as … as" drills insid
 
 **Adding a new class:** transcribe the MP4 with faster-whisper using `WhisperModel('medium', device='cpu', compute_type='int8')` and `model.transcribe(mp4, language='en', beam_size=5)`. Write a one-off Python script to build the entry dict and `json.load` → `cache.append` → `json.dump` — put it in the Claude Code scratchpad directory (not the project root) so no cleanup is needed. Do not commit MP4 files (`assets/classes/**/*.mp4` is gitignored).
 
-**Transcribing from a Vimeo link:** if no local MP4 exists, download audio only with `yt-dlp -f bestaudio -o scratchpad/filename.%(ext)s <url>` — this produces a single `.m4a` file. (Avoid downloading video: Vimeo streams may not merge without ffmpeg, and audio alone is sufficient for transcription.) Delete the `.m4a` after transcription.
+**Transcribing from a Vimeo link (preferred method — Vimeo's own auto-generated transcript):** every Kyle class video already has an auto-generated transcript built into Vimeo, downloadable directly as a `.vtt` — no yt-dlp or faster-whisper needed. Use the `claude-in-chrome` browser tools:
+
+1. Navigate to the Vimeo video URL in a browser tab.
+2. Below the video title there's a row of icons (share, like, collections, watch later, download, report). Click the **download icon** (a down-arrow) — find it via `read_page`/`find` if it's not visually obvious, it's labeled `"Download button"` in the accessibility tree.
+3. In the **Download** modal that opens, switch from the default **Video** tab to the **Transcript** tab.
+4. Click the download icon next to **English (auto-generated)** — this saves a `.vtt` file to the OS default Downloads folder (not the repo).
+5. Copy/rename it into `assets/classes/english_with_kyle/` as `auto_generated_captions YYYYMMDD.vtt` (class date), then `Read` it directly to build the section/test content — skip transcription entirely.
+
+Notes: the video may only be viewable/downloadable while logged into the Vimeo account that has access — if the page shows "Log in / Join", reload once; Chrome may auto-authenticate via an existing Google session (a "Thanks for joining Vimeo! Time to create a password" banner can appear from this — harmless, ignore it, never actually set a password). The video's owner account (e.g. "Kyle Millar") is a different account than any auto-created viewer account, so owner-only pages like `vimeo.com/manage/...` won't work — the public Download → Transcript panel doesn't require ownership, only view access.
+
+**Fallback (no transcript available on Vimeo):** if the Download panel has no Transcript tab or the video isn't on Vimeo, download audio only with `yt-dlp -f bestaudio -o scratchpad/filename.%(ext)s <url>` — this produces a single `.m4a` file. (Avoid downloading video: Vimeo streams may not merge without ffmpeg, and audio alone is sufficient for transcription.) Then transcribe with faster-whisper as described above. Delete the `.m4a` after transcription.
 
 **Tests:** Kyle class entries must include a dedicated **"Test 1 · Warm-Up Translations"** test (covering the vocabulary and grammar from that class's warm-up sentences) as the **first** entry in `tests`, plus tests for each major topic covered in the class. Non-Kyle teachers (julia, juls, natural, brain_buffet) do **not** have a warm-up section — omit that test entirely for them. Do not label any section "Warm-Up" for non-Kyle classes; use "Discussion" or another descriptive title instead.
 
