@@ -164,7 +164,9 @@ def _render_agility_item(item):
     st.markdown(content, unsafe_allow_html=True)
 
 
-def _render_agility_section_synced(sec):
+def _render_agility_section_synced(sec, title="Agility Accelerator", blur_labels=()):
+    """Karaoke-sync player. Items whose `secondary` is in `blur_labels` stay blurred
+    until they start playing or are clicked (used by Reported Speech practice mode)."""
     with open(BASE_PATH / sec["audio"], "rb") as f:
         b64 = base64.b64encode(f.read()).decode()
 
@@ -179,6 +181,8 @@ def _render_agility_section_synced(sec):
             idx += 1
             secondary_html = f'<span class="secondary">{item["secondary"]}</span>' if item.get("secondary") else ""
             text_html = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", html.escape(item["text"]))
+            if item.get("secondary") in blur_labels:
+                text_html = f'<span class="blur">{text_html}</span>'
             rows_html.append(
                 f'<div class="sentence" data-start="{start}" data-end="{end}">'
                 f'{secondary_html}{text_html}</div>'
@@ -192,8 +196,10 @@ body{{font-family:"Source Sans Pro",sans-serif;margin:0;padding:0;}}
 .secondary{{color:#888;font-size:0.85em;display:block;margin-bottom:2px;}}
 #sentences{{max-height:440px;overflow-y:auto;margin-top:10px;}}
 audio{{width:100%;}}
+.blur{{filter:blur(6px);cursor:pointer;transition:filter .3s;user-select:none;}}
+.blur.shown{{filter:none;user-select:auto;}}
 </style>
-<p>🔊 <b>Agility Accelerator.</b> Click Play</p>
+<p>🔊 <b>{html.escape(title)}.</b> Click Play</p>
 <audio id="aud" controls>
   <source src="data:audio/mpeg;base64,{b64}" type="audio/mpeg">
 </audio>
@@ -213,10 +219,15 @@ aud.addEventListener('timeupdate', function() {{
     if (active) active.classList.remove('active');
     if (found) {{
       found.classList.add('active');
+      var b = found.querySelector('.blur');
+      if (b) b.classList.add('shown');
       found.scrollIntoView({{block: 'nearest', behavior: 'smooth'}});
     }}
     active = found;
   }}
+}});
+document.querySelectorAll('.blur').forEach(function(b) {{
+  b.addEventListener('click', function() {{ b.classList.toggle('shown'); }});
 }});
 aud.addEventListener('ended', function() {{
   if (active) {{ active.classList.remove('active'); active = null; }}
@@ -305,24 +316,25 @@ def _render_teacher_tab(classes, sel_key):
     if sel_key not in st.session_state:
         st.session_state[sel_key] = 0
 
-    st.markdown("### Select a class")
-    for row_start in range(0, len(sorted_cls), 2):
-        row = sorted_cls[row_start:row_start + 2]
-        cols = st.columns(2)
-        for j, c in enumerate(row):
-            i = row_start + j
-            with cols[j]:
-                is_sel = st.session_state[sel_key] == i
-                is_latest = i == 0
-                label = f"{'🆕 ' if is_latest else ''}**{c['date']}**\n\n{c['topic']}"
-                if st.button(
-                    label,
-                    key=f"{sel_key}_btn_{i}",
-                    use_container_width=True,
-                    type="primary" if is_sel else "secondary",
-                ):
-                    st.session_state[sel_key] = i
-                    st.rerun()
+    if st.session_state[sel_key] >= len(sorted_cls):
+        st.session_state[sel_key] = 0
+
+    # Keep the selectbox's own widget state in sync with sel_key, which the
+    # ?class= deep link can set before this widget renders.
+    widget_key = f"{sel_key}_select"
+    if st.session_state.get(widget_key) != st.session_state[sel_key]:
+        st.session_state[widget_key] = st.session_state[sel_key]
+
+    def _on_select():
+        st.session_state[sel_key] = st.session_state[widget_key]
+
+    st.selectbox(
+        "Select a class",
+        options=range(len(sorted_cls)),
+        format_func=lambda i: f"{'🆕 ' if i == 0 else ''}{sorted_cls[i]['date']} · {sorted_cls[i]['topic']}",
+        key=widget_key,
+        on_change=_on_select,
+    )
 
     st.divider()
     _render_class(sorted_cls[st.session_state[sel_key]])
@@ -384,6 +396,133 @@ def _collect_interrogative_pairs(kyle_classes):
                     "timings": sec["interrogative_timings"],
                 }
     return pairs, section_audio
+
+
+def _collect_reported_speech(kyle_classes):
+    """Collect every `| Direct speech | Reported speech |` table row from dated Kyle classes.
+
+    Rows whose direct cell starts with a bold speaker tag (`**Name:**`) are dialogue lines;
+    the rest (tense backshift, time & place words) are grammar-rule rows.
+    """
+    header_re = re.compile(r"^\|\s*Direct speech\s*\|\s*Reported speech\s*\|\s*$", re.IGNORECASE)
+    sep_re = re.compile(r"^\|[\s:|-]+\|$")
+    speaker_re = re.compile(r"^\*\*([^*]+?):\*\*\s*(.*)$")
+    lines_out, rules, dialogue_audio = [], [], {}
+    for cls in kyle_classes:
+        for sec in cls.get("sections", []):
+            for entry in sec.get("reported_audio", []):
+                dialogue_audio[(cls["date"], entry["dialogue"])] = entry
+            content = sec.get("content", "")
+            lines = content.split("\n")
+            heading = None
+            i = 0
+            while i < len(lines):
+                stripped = lines[i].strip()
+                if stripped.startswith("#"):
+                    heading = stripped.lstrip("#").strip()
+                if header_re.match(stripped) and i + 1 < len(lines) and sep_re.match(lines[i + 1].strip()):
+                    j = i + 2
+                    while j < len(lines) and lines[j].strip().startswith("|"):
+                        cols = [c.strip() for c in lines[j].strip().strip("|").split("|")]
+                        if len(cols) == 2 and cols[0] and cols[1]:
+                            m = speaker_re.match(cols[0])
+                            if m:
+                                lines_out.append({
+                                    "speaker": m.group(1),
+                                    "direct": m.group(2),
+                                    "reported": cols[1],
+                                    "dialogue": heading or sec["title"],
+                                    "from_date": cls["date"],
+                                    "from_topic": cls["topic"],
+                                    "from_section": sec["title"],
+                                })
+                            else:
+                                rules.append({"direct": cols[0], "reported": cols[1], "group": heading or sec["title"]})
+                        j += 1
+                    i = j
+                else:
+                    i += 1
+    return lines_out, rules, dialogue_audio
+
+
+def _render_reported_speech(lines, rules, dialogue_audio):
+    st.markdown("## 📰 Reported Speech")
+    if not lines and not rules:
+        st.info("No reported speech content found yet.")
+        return
+
+    if rules:
+        with st.expander("📏 The rules — tense backshift & time/place words", expanded=False):
+            by_group, seen = {}, set()
+            for r in rules:
+                key = (r["direct"], r["reported"])
+                if key in seen:
+                    continue
+                seen.add(key)
+                by_group.setdefault(r["group"], []).append(r)
+            for group, rows in by_group.items():
+                st.markdown(f"**{group}**")
+                body = "\n".join(f"| {r['direct']} | {r['reported']} |" for r in rows)
+                st.markdown(f"| Direct speech | Reported speech |\n|---|---|\n{body}")
+
+    if not lines:
+        return
+
+    n_dialogues = len({(l["from_date"], l["dialogue"]) for l in lines})
+    st.markdown(f"**{len(lines)} lines** from **{n_dialogues} dialogues** collected from all Kyle classes.")
+    practice = st.toggle(
+        "Practice mode — hide the reported version until it plays or I click it",
+        value=True,
+        key="reported_practice",
+    )
+    st.divider()
+
+    grouped = {}
+    for l in lines:
+        grouped.setdefault((l["from_date"], l["from_topic"]), []).append(l)
+
+    for (date, topic), items in sorted(grouped.items(), key=lambda kv: kv[0][0], reverse=True):
+        with st.expander(f"{date} — {topic}", expanded=False):
+            by_dialogue = {}
+            for l in items:
+                by_dialogue.setdefault(l["dialogue"], []).append(l)
+            for dialogue, d_items in by_dialogue.items():
+                st.markdown(f"#### {dialogue}")
+                audio = dialogue_audio.get((date, dialogue))
+                if audio and len(audio["timings"]) == 2 * len(d_items):
+                    synth_items = []
+                    for l in d_items:
+                        synth_items.append({"text": l["direct"], "secondary": l["speaker"]})
+                        synth_items.append({"text": l["reported"], "secondary": "Reported speech"})
+                    _render_agility_section_synced(
+                        {"audio": audio["audio"], "timings": audio["timings"],
+                         "groups": [{"items": synth_items}]},
+                        title="Listen and report it yourself before the answer plays",
+                        blur_labels={"Reported speech"} if practice else (),
+                    )
+                elif practice:
+                    parts = []
+                    for l in d_items:
+                        parts.append(
+                            f"<div style='margin:0.6rem 0'>"
+                            f"<div><b>{l['speaker']}:</b> {_md_bold_to_html(l['direct'])}</div>"
+                            f"<details style='margin-left:1rem;color:#555'>"
+                            f"<summary style='cursor:pointer;font-size:0.9em'>Show reported speech</summary>"
+                            f"<div style='color:#1a7f37;font-weight:600;margin-top:0.2rem'>{_md_bold_to_html(l['reported'])}</div>"
+                            f"</details></div>"
+                        )
+                    st.markdown("".join(parts), unsafe_allow_html=True)
+                else:
+                    body = "\n".join(
+                        f"| **{l['speaker']}:** {l['direct']} | {l['reported']} |" for l in d_items
+                    )
+                    st.markdown(f"| Direct speech | Reported speech |\n|---|---|\n{body}")
+
+
+def _md_bold_to_html(text):
+    text = html.escape(text, quote=False)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    return re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
 
 
 def _render_interrogative_challenge(pairs, section_audio):
@@ -647,8 +786,10 @@ else:
     ])
 
     with tab_kyle:
-        kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo, kyle_tab_agility, kyle_tab_interrogative = st.tabs(
-            ["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator", "❓ The Interrogative Challenge"]
+        (kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo, kyle_tab_agility,
+         kyle_tab_interrogative, kyle_tab_reported) = st.tabs(
+            ["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator",
+             "❓ The Interrogative Challenge", "📰 Reported Speech"]
         )
         with kyle_tab_classes:
             _render_teacher_tab(kyle_classes, "sel_kyle")
@@ -663,6 +804,8 @@ else:
                 st.info("Agility Accelerator content not available yet.")
         with kyle_tab_interrogative:
             _render_interrogative_challenge(*_collect_interrogative_pairs(kyle_classes))
+        with kyle_tab_reported:
+            _render_reported_speech(*_collect_reported_speech(kyle_classes))
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")
