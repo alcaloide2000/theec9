@@ -3,7 +3,6 @@ import html
 import random
 import re
 import streamlit as st
-import streamlit.components.v1 as components
 import json
 import pathlib
 
@@ -60,7 +59,7 @@ function build(){{
 }}
 img.complete?build():img.onload=build;
 </script>"""
-    components.html(html, height=500, scrolling=False)
+    st.iframe(html, height="content")
 
 
 def _inject_tab_avatars(pic_paths):
@@ -124,7 +123,7 @@ def _scroll_to_anchor(text):
   tryScroll(20);
 }})();
 </script>"""
-    components.html(script, height=0)
+    st.html(script, unsafe_allow_javascript=True)
 
 
 def _render_class(cls, header=None):
@@ -233,7 +232,7 @@ aud.addEventListener('ended', function() {{
   if (active) {{ active.classList.remove('active'); active = null; }}
 }});
 </script>"""
-    components.html(component_html, height=580, scrolling=False)
+    st.iframe(component_html, height=580)
 
 
 def _render_agility_accelerator(cls, header=None):
