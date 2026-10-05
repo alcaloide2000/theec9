@@ -141,6 +141,38 @@
     "particle": "into",
     "concepts": [
       {
+        "concept": "Entering",
+        "es": "entrar",
+        "icon": "🚶‍♂️➡️🏠",
+        "note": "<b>into</b> = entering <b>with motion</b> · opposite: <b>out of</b>",
+        "verbs": [
+          {
+            "verb": "walk into",
+            "meaning": "enter walking",
+            "example": "I walked into the supermarket this morning at about 10:00.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "run into",
+            "meaning": "enter running (also: meet by chance)",
+            "example": "He ran into the shop.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "get into",
+            "meaning": "manage to enter; get into a vehicle",
+            "example": "She got into the taxi and gave the driver her address.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "break into",
+            "meaning": "enter by force / to steal",
+            "example": "Has your house ever been broken into?",
+            "cls": "kyle_20260922"
+          }
+        ]
+      },
+      {
         "concept": "Meeting by chance / hitting",
         "es": "toparse con · chocar contra",
         "icon": "💥",
