@@ -12,6 +12,7 @@ st.title("Reviewing The English Collective")
 
 BASE_PATH = pathlib.Path(__file__).parent
 CACHE_PATH = BASE_PATH / "class_cache.json"
+WALL_PATH = BASE_PATH / "wall_phrasal_verbs.json"
 
 
 def _render_hotspot_image(img_path, hotspots):
@@ -524,6 +525,88 @@ def _md_bold_to_html(text):
     return re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
 
 
+def _load_phrasal_wall():
+    if not WALL_PATH.exists():
+        return []
+    with open(WALL_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+_WALL_COLORS = {"in": "#2e86de", "into": "#8e44ad", "out": "#e67e22"}
+
+
+def _render_phrasal_wall(wall):
+    """Particle → concept bricks → verbs. Each verb is a <details> that reveals
+    its meaning, an example and a link to the class it came from."""
+    if not wall:
+        st.info("Wall of Phrasal Verbs content not available yet.")
+        return
+
+    st.markdown(
+        "Learn phrasal verbs by **particle + concept**, not one by one: one concept unlocks "
+        "many verbs. Click a verb to see its meaning and an example."
+    )
+    particles = [p["particle"] for p in wall]
+    col_p, col_q = st.columns([3, 2])
+    choice = col_p.radio("Particle", ["All"] + particles, horizontal=True, key="wall_particle")
+    query = col_q.text_input("Search a verb", key="wall_search").strip().lower()
+
+    css = """<style>
+.pw-row{margin:0 0 22px 0;}
+.pw-particle{display:inline-block;font-size:1.5em;font-weight:800;color:#fff;padding:2px 18px;
+  border-radius:8px;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px;}
+.pw-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;}
+.pw-brick{border:2px solid var(--pw-c);border-radius:10px;padding:10px 12px;
+  background:color-mix(in srgb,var(--pw-c) 8%,transparent);}
+.pw-icon{font-size:1.8em;text-align:center;}
+.pw-eq{text-align:center;font-size:1.15em;margin:4px 0 2px 0;}
+.pw-eq b{color:var(--pw-c);}
+.pw-concept{text-align:center;color:#888;font-size:.85em;}
+.pw-note{text-align:center;font-size:.8em;color:#888;margin:4px 0 6px 0;}
+.pw-brick details{border-top:1px solid rgba(128,128,128,.25);padding:4px 2px;}
+.pw-brick summary{cursor:pointer;font-weight:600;}
+.pw-brick details p{margin:4px 0 2px 14px;font-size:.9em;}
+.pw-ex{font-style:italic;}
+.pw-brick a{font-size:.8em;}
+</style>"""
+    rows = []
+    for p in wall:
+        if choice != "All" and p["particle"] != choice:
+            continue
+        color = _WALL_COLORS.get(p["particle"], "#16a085")
+        bricks = []
+        for c in p["concepts"]:
+            verbs = [v for v in c["verbs"] if query in v["verb"].lower()]
+            if not verbs:
+                continue
+            verb_html = []
+            for v in verbs:
+                link = (f'<br><a href="/?class={v["cls"]}" target="_blank">→ Go to class</a>'
+                        if v.get("cls") else "")
+                verb_html.append(
+                    f'<details><summary>{html.escape(v["verb"])}</summary>'
+                    f'<p>{html.escape(v["meaning"])}<br>'
+                    f'<span class="pw-ex">“{html.escape(v["example"])}”</span>{link}</p></details>'
+                )
+            note = f'<div class="pw-note">{c["note"]}</div>' if c.get("note") else ""
+            bricks.append(
+                f'<div class="pw-brick" style="--pw-c:{color}">'
+                f'<div class="pw-icon">{c.get("icon", "")}</div>'
+                f'<div class="pw-eq"><b>{html.escape(p["particle"])}</b> = {html.escape(c["es"])}</div>'
+                f'<div class="pw-concept">{html.escape(c["concept"])}</div>'
+                f'{note}{"".join(verb_html)}</div>'
+            )
+        if bricks:
+            rows.append(
+                f'<div class="pw-row"><span class="pw-particle" style="background:{color}">'
+                f'{html.escape(p["particle"])}</span><div class="pw-grid">{"".join(bricks)}</div></div>'
+            )
+    if not rows:
+        st.info("No phrasal verb matches your search.")
+        return
+    st.html(css + "".join(rows))
+
+
 def _render_interrogative_challenge(pairs, section_audio):
     st.markdown("## ❓ The Interrogative Challenge")
     if not pairs:
@@ -786,9 +869,9 @@ else:
 
     with tab_kyle:
         (kyle_tab_classes, kyle_tab_mindmap, kyle_tab_linguo, kyle_tab_agility,
-         kyle_tab_interrogative, kyle_tab_reported) = st.tabs(
+         kyle_tab_interrogative, kyle_tab_reported, kyle_tab_wall) = st.tabs(
             ["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator",
-             "❓ The Interrogative Challenge", "📰 Reported Speech"]
+             "❓ The Interrogative Challenge", "📰 Reported Speech", "🧱 Wall of Phrasal Verbs"]
         )
         with kyle_tab_classes:
             _render_teacher_tab(kyle_classes, "sel_kyle")
@@ -805,6 +888,8 @@ else:
             _render_interrogative_challenge(*_collect_interrogative_pairs(kyle_classes))
         with kyle_tab_reported:
             _render_reported_speech(*_collect_reported_speech(kyle_classes))
+        with kyle_tab_wall:
+            _render_phrasal_wall(_load_phrasal_wall())
 
     with tab_julia:
         _render_teacher_tab(julia_classes, "sel_julia")

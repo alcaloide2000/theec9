@@ -1,0 +1,369 @@
+[
+  {
+    "particle": "in",
+    "concepts": [
+      {
+        "concept": "Entering",
+        "es": "entrar",
+        "icon": "🚶‍♂️➡️🏠",
+        "note": "<b>into</b> always has motion · <b>in</b> is the position once you're there",
+        "verbs": [
+          {
+            "verb": "come in",
+            "meaning": "enter (towards the speaker)",
+            "example": "He came in without knocking.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "go in",
+            "meaning": "enter (away from the speaker)",
+            "example": "If I were you, I wouldn't go in there.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "walk in",
+            "meaning": "enter walking",
+            "example": "I walked into the supermarket this morning at about 10:00.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "run in",
+            "meaning": "enter running",
+            "example": "He ran into the shop.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "get in",
+            "meaning": "manage to enter; get into a vehicle; arrive",
+            "example": "She got into the taxi and gave the driver her address.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "break in",
+            "meaning": "enter by force / to steal",
+            "example": "Has your house ever been broken into?",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "breathe in",
+            "meaning": "take air into your lungs (opposite: breathe out)",
+            "example": "Breathe in slowly through your nose."
+          },
+          {
+            "verb": "stuff in",
+            "meaning": "meter con fuerza — force something in",
+            "example": "How are we going to stuff all that food in the fridge?",
+            "cls": "kyle_20260924"
+          },
+          {
+            "verb": "plug in",
+            "meaning": "enchufar",
+            "example": "Plug in the power bar first.",
+            "cls": "kyle_20260924"
+          },
+          {
+            "verb": "phase in",
+            "meaning": "introduce in stages",
+            "example": "The project will be phased in so that everyone can get used to it.",
+            "cls": "kyle_20260922"
+          }
+        ]
+      },
+      {
+        "concept": "Assimilating",
+        "es": "asimilar",
+        "icon": "💡➡️🧠",
+        "note": "a concept goes <b>into</b> your mind",
+        "verbs": [
+          {
+            "verb": "take in",
+            "meaning": "absorb / understand information (separable)",
+            "example": "That's a lot of information to take in.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "sink in",
+            "meaning": "be fully understood (the information is the subject)",
+            "example": "Let that sink in.",
+            "cls": "kyle_20260922"
+          }
+        ]
+      },
+      {
+        "concept": "Substituting",
+        "es": "sustituir",
+        "icon": "🔄",
+        "note": "someone steps <b>in</b> to take your place",
+        "verbs": [
+          {
+            "verb": "fill in for",
+            "meaning": "substitute someone temporarily",
+            "example": "Can you fill in for me while I'm away?",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "stand in for",
+            "meaning": "substitute someone temporarily",
+            "example": "I had to stand in for him when he didn't show up.",
+            "cls": "kyle_20260922"
+          }
+        ]
+      },
+      {
+        "concept": "Delivering",
+        "es": "entregar",
+        "icon": "📥",
+        "note": "towards a central point · opposite: <b>out</b> = distributing",
+        "verbs": [
+          {
+            "verb": "hand in",
+            "meaning": "deliver by hand, yourself",
+            "example": "When do we have to hand in the final project?",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "send in",
+            "meaning": "deliver by post / email",
+            "example": "Send in your application.",
+            "cls": "kyle_20260922"
+          },
+          {
+            "verb": "turn in",
+            "meaning": "hand over (often to the authorities)",
+            "example": "If you turn in your guns at the police station today, you won't get a fine.",
+            "cls": "kyle_20260922"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "particle": "into",
+    "concepts": [
+      {
+        "concept": "Meeting by chance / hitting",
+        "es": "toparse con · chocar contra",
+        "icon": "💥",
+        "verbs": [
+          {
+            "verb": "run into",
+            "meaning": "meet someone by chance; crash into something",
+            "example": "I was in Marbella, and I ran into David on the beach.",
+            "cls": "kyle_20260924"
+          },
+          {
+            "verb": "bump into",
+            "meaning": "meet someone by chance; hit something",
+            "example": "Guess who I bumped into the other day?",
+            "cls": "kyle_20260924"
+          }
+        ]
+      },
+      {
+        "concept": "Transforming",
+        "es": "convertirse en",
+        "icon": "🐛➡️🦋",
+        "note": "≠ <b>turn out (to be)</b> = resultar",
+        "verbs": [
+          {
+            "verb": "turn into",
+            "meaning": "become something different",
+            "example": "Clark Kent can turn into Superman.",
+            "cls": "kyle_20260924"
+          }
+        ]
+      },
+      {
+        "concept": "Investigating",
+        "es": "investigar",
+        "icon": "🔍",
+        "verbs": [
+          {
+            "verb": "look into",
+            "meaning": "examine — usually a light investigation",
+            "example": "Someone stole the money. We're looking into it.",
+            "cls": "kyle_20260924"
+          }
+        ]
+      },
+      {
+        "concept": "Convincing",
+        "es": "convencer de",
+        "icon": "🗣️",
+        "note": "opposite: <b>talk someone out of</b> something",
+        "verbs": [
+          {
+            "verb": "talk into",
+            "meaning": "convince someone to do something",
+            "example": "I wasn't going to stay so late, but they talked me into it.",
+            "cls": "kyle_20260908"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "particle": "out",
+    "concepts": [
+      {
+        "concept": "Distributing",
+        "es": "distribuir",
+        "icon": "📤",
+        "note": "from a central point outwards · opposite of <b>hand in / send in</b>",
+        "verbs": [
+          {
+            "verb": "hand out",
+            "meaning": "distribute",
+            "example": "The teacher handed out the exams.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "give out",
+            "meaning": "distribute",
+            "example": "They were giving out free samples.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "pass out",
+            "meaning": "distribute (also: to faint)",
+            "example": "The teacher passed out the exams.",
+            "cls": "kyle_20261001"
+          },
+          {
+            "verb": "send out",
+            "meaning": "send to many people",
+            "example": "We sent out 1,000 emails, and they sent in their responses.",
+            "cls": "kyle_20260922"
+          }
+        ]
+      },
+      {
+        "concept": "Exiting",
+        "es": "salir",
+        "icon": "🏠➡️🚶‍♂️",
+        "note": "opposite of <b>into</b> is <b>out of</b> (never <s>out to</s>)",
+        "verbs": [
+          {
+            "verb": "come out",
+            "meaning": "leave (towards the speaker)",
+            "example": "I saw him come out of the bathroom five minutes ago.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "go out",
+            "meaning": "leave (away / at night)",
+            "example": "Are you going out tonight?",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "get out",
+            "meaning": "manage to leave",
+            "example": "Get out of the car.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "walk out",
+            "meaning": "leave walking",
+            "example": "He walked out of the meeting.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "run out",
+            "meaning": "leave running",
+            "example": "The kids ran out of the classroom.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "breathe out",
+            "meaning": "let air out of your lungs (opposite: breathe in)",
+            "example": "Breathe out slowly through your mouth."
+          }
+        ]
+      },
+      {
+        "concept": "Extinguishing",
+        "es": "apagar",
+        "icon": "🧯",
+        "note": "someone <b>puts it out</b> → it <b>goes out</b>",
+        "verbs": [
+          {
+            "verb": "put out",
+            "meaning": "extinguish (separable)",
+            "example": "The firefighters put out the fire.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "blow out",
+            "meaning": "apagar soplando (separable)",
+            "example": "I blew out the candles on my birthday.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "go out",
+            "meaning": "apagarse by itself (no object)",
+            "example": "A fire needs oxygen, otherwise it goes out.",
+            "cls": "kyle_20260929"
+          }
+        ]
+      },
+      {
+        "concept": "Launching",
+        "es": "lanzar · sacar a la venta",
+        "icon": "🚀",
+        "note": "they <b>bring it out</b> → it <b>comes out</b>",
+        "verbs": [
+          {
+            "verb": "bring out",
+            "meaning": "launch a product",
+            "example": "They brought out a new version.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "put out",
+            "meaning": "launch / publish",
+            "example": "Coca-Cola puts out new products every year.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "come out",
+            "meaning": "be released (no object)",
+            "example": "A lot of new movies came out.",
+            "cls": "kyle_20260929"
+          }
+        ]
+      },
+      {
+        "concept": "Withdrawing",
+        "es": "retirarse · echarse atrás",
+        "icon": "🏳️",
+        "note": "a habit? → <b>give up</b>",
+        "verbs": [
+          {
+            "verb": "back out (of)",
+            "meaning": "echarse atrás of a commitment",
+            "example": "They were going to buy the company, but they backed out.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "drop out (of)",
+            "meaning": "leave a school, course or club",
+            "example": "He dropped out of university.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "pull out (of)",
+            "meaning": "withdraw",
+            "example": "They pulled out of the agreement.",
+            "cls": "kyle_20260929"
+          },
+          {
+            "verb": "talk out of",
+            "meaning": "convince someone not to do something",
+            "example": "He was going to quit the company until we talked him out of it.",
+            "cls": "kyle_20260908"
+          }
+        ]
+      }
+    ]
+  }
+]
