@@ -195,9 +195,9 @@
     ]
   },
   {
-    "id": "natural_20260630",
+    "id": "natural_20260619",
     "title": "Natural English",
-    "date": "2026-06-30",
+    "date": "2026-06-19",
     "topic": "Storytelling: Connectors & Expressions for Natural Speech",
     "teacher": "natural",
     "sections": [
@@ -230,7 +230,7 @@
     "tests": [
       {
         "title": "Test · Storytelling Connectors",
-        "key": "natural_20260630_storytelling",
+        "key": "natural_20260619_storytelling",
         "qs": [
           {
             "q": "You are telling a story. A man suddenly appeared from nowhere and spoke to you. Which expression best introduces this?",
@@ -18507,6 +18507,1313 @@
               "Exhausted needs 'the'"
             ],
             "ans": "Exhausted is already extreme, so it has no degrees"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260626",
+    "title": "Natural English",
+    "date": "2026-06-26",
+    "topic": "To Be Worth + -ing / To Make It",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Two Natural Upgrades",
+        "expanded": false,
+        "content": "Two structures that **replace** things we already know with a more natural, native option. Neither version is wrong — these just **elevate** your English:\n\n- *The film is good.* → *The film **is worth watching**.*\n- *We arrived.* → *We **made it**.*"
+      },
+      {
+        "title": "2. To Be Worth + -ing",
+        "expanded": false,
+        "content": "**Formula:** subject + **be** + **worth** + **verb-ing** (the action you do with that thing) = *merece la pena + verbo*.\n\nA film is *watched*, a book is *read*, a museum is *visited* — pick the verb that matches the thing.\n\n| Standard | Natural |\n|---|---|\n| It is good to try that restaurant. | That restaurant **is worth trying**. |\n| I really recommend reading that book. | That book **is worth reading**. |\n| It is a good idea to visit the new museum. | The new museum **is worth visiting**. |\n| I highly recommend that you download this app. | This app **is worth downloading**. |\n| It is a good idea to watch that series. | That series **is worth watching**. |\n| I recommend that you check out that coffee shop. | That coffee shop **is worth checking out**. |\n| It is a good idea to take this course. | This course **is worth taking**. |\n| I recommend that you buy a plasma TV. | A plasma TV **is worth buying**. |\n\n### With *it* (the subject is understood from context)\n\n| Question | Answer |\n|---|---|\n| Is it worth going? | Yes, **it's worth going**. |\n| Is it worth paying extra? | Yes, **it's worth paying extra**. |\n| Is it worth studying abroad? | Yes, **it's worth studying abroad**. |\n| Are they worth investing your time? | Yes, **they are worth investing** your time. |\n\n### With a noun\n- *Rome is **a city worth visiting**.*\n- *Hamlet is **a book worth reading**.*\n- *Exercise is **a habit worth developing**.*\n- *My boss **isn't worth worrying about**.*"
+      },
+      {
+        "title": "3. To Make It = To Arrive / Get There",
+        "expanded": false,
+        "content": "Besides **arrive** and **get**, natives constantly use **make it** (*llegar, conseguir llegar*). It's a **pack** — always *make + it* together. Add **to** before the destination (like *get to*).\n\n| Standard | Natural |\n|---|---|\n| The traffic was terrible, but we arrived. | The traffic was terrible, but we **made it**. |\n| I'm sorry, I can't arrive. | I'm sorry, I **can't make it**. |\n| Do you think you will arrive on time? | Do you think you'll **make it** on time? |\n| We got to London in the end. | We **made it to** London in the end. |\n| Did you get to the meeting? | Did you **make it to** the meeting? |\n| We arrived at the airport. | We **made it to** the airport. |\n| I got home. | I **made it home**. |\n\n**Q&A:** *Did you make it to your flight?* — *Yes, I made it.* · *Can you make it to my party?* — *No, I can't make it.* · *Did they make it to the finish line?* — *Yes, they made it.*\n\n💡 *home* takes no *to*: *I made it **home***."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Worth + -ing & Make It",
+        "key": "natural_20260626_worth",
+        "qs": [
+          {
+            "q": "'I really recommend reading that book.' → Natural version:",
+            "opts": [
+              "That book is worth to read.",
+              "That book is worth reading.",
+              "That book worths reading.",
+              "That book is worth read."
+            ],
+            "ans": "That book is worth reading."
+          },
+          {
+            "q": "'It is a good idea to visit the new museum.' → Natural version:",
+            "opts": [
+              "The new museum is worth visiting.",
+              "The new museum is worth to visit.",
+              "It worth visiting the new museum.",
+              "The new museum is worthy visit."
+            ],
+            "ans": "The new museum is worth visiting."
+          },
+          {
+            "q": "'Is it worth paying extra?' — positive answer:",
+            "opts": [
+              "Yes, it's worth to pay extra.",
+              "Yes, it's worth paying extra.",
+              "Yes, it worth paying extra.",
+              "Yes, it's worthing paying extra."
+            ],
+            "ans": "Yes, it's worth paying extra."
+          },
+          {
+            "q": "What form does the verb take after 'worth'?",
+            "opts": [
+              "Infinitive with 'to'",
+              "-ing form",
+              "Past participle",
+              "Base form"
+            ],
+            "ans": "-ing form"
+          },
+          {
+            "q": "'I'm sorry, I can't arrive.' → Natural version:",
+            "opts": [
+              "I'm sorry, I can't make it.",
+              "I'm sorry, I can't do it.",
+              "I'm sorry, I can't make.",
+              "I'm sorry, I can't make there."
+            ],
+            "ans": "I'm sorry, I can't make it."
+          },
+          {
+            "q": "'We got to London in the end.' → Natural version:",
+            "opts": [
+              "We made it London in the end.",
+              "We made it to London in the end.",
+              "We made to London in the end.",
+              "We made London in the end."
+            ],
+            "ans": "We made it to London in the end."
+          },
+          {
+            "q": "'I got home.' → Natural version:",
+            "opts": [
+              "I made it to home.",
+              "I made it home.",
+              "I made home.",
+              "I made it at home."
+            ],
+            "ans": "I made it home."
+          },
+          {
+            "q": "'My boss isn't ___ about.'",
+            "opts": [
+              "worth worry",
+              "worth worrying",
+              "worth to worry",
+              "worthy worrying"
+            ],
+            "ans": "worth worrying"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260703",
+    "title": "Natural English",
+    "date": "2026-07-03",
+    "topic": "Keeping the Flow in a Conversation",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Why Follow-Up Questions Matter",
+        "expanded": false,
+        "content": "Without the right resources, a conversation becomes *question, answer, question, answer* — robotic and artificial. **Follow-up questions** ask for more details about whatever the other person just said, and they work in **any** conversation.\n\n💡 Avoid answering with a bare question word (*Why? How?*). A fuller follow-up shows you're listening and connects you with the speaker."
+      },
+      {
+        "title": "2. How Come…? (¿Cómo es que…?)",
+        "expanded": false,
+        "content": "**How come** + the sentence exactly as it is — **no question inversion**, any tense, positive or negative.\n\n| They say… | You ask… |\n|---|---|\n| I'm not working at the moment. | **How come** you're not working at the moment? |\n| I've changed jobs. | **How come** you've changed jobs? |\n| My mom's learning Italian. | **How come** your mom's learning Italian? |\n| I moved last month. | **How come** you moved last month? |\n| My boss was angry at me. | **How come** your boss was angry at you? |\n\n⚠️ *cambiar de trabajo* = **change jobs** (plural, no *of*).\n\n💡 Don't confuse it with **How about…?**, which makes a suggestion: *How about Friday?*"
+      },
+      {
+        "title": "3. How Was It? / What Was It Like?",
+        "expanded": false,
+        "content": "To ask for someone's **opinion or experience** (*¿Y cómo fue?*) — not *what happened*, but *what was it like for you*.\n\n| They say… | You ask… |\n|---|---|\n| I travelled to Italy last year. | And **how was it**? / And **what was it like**? |\n| The performance was at 8. | And how was it? / And what was it like? |\n| My boss asked me to make a speech. | And how was it? / And what was it like? |\n\n💡 Use **it** — *And how was the speech?* repeats the noun and sounds redundant."
+      },
+      {
+        "title": "4. And Then What? / How Did You End Up…?",
+        "expanded": false,
+        "content": "**And then what?** (*¿Y luego qué?*) — to make the story continue: *I found a ring in the street.* — *And then what?*\n\n**How did you end up + -ing / place?** (*¿Cómo acabaste…?*) — when they tell you the **end** of the story and you want the rest. Use **end up**, not *finish*.\n\n| They say… | You ask… |\n|---|---|\n| I moved to the other side of the world. | And how did you **end up moving** to the other side of the world? |\n| In the end, I was alone in the middle of the road. | And how did you **end up** alone in the middle of the road? |\n| She went to a different doctor. | And how did she **end up going** to a different doctor? |\n| I was by myself on the plane. | And how did you **end up** by yourself on the plane? |\n\n🎭 Tone matters: an excited *And then what?* shows curiosity; a flat *Yeah… and then what?* sounds sceptical."
+      },
+      {
+        "title": "5. How So? / In What Way?",
+        "expanded": false,
+        "content": "To ask for **more elaboration** (*¿De qué manera?*). **How so?** is used **alone** — *so* replaces everything they said.\n\n| They say… | You ask… |\n|---|---|\n| It was one of the hardest jobs I've ever done. | **How so?** / **In what way?** |\n| I absolutely loved living in that country. | How so? / In what way? |\n| I offered to help him. | How so? / In what way? |\n\n📝 **Practice:** imagine conversations and react out loud — *And how come you didn't call me? · And how come the window is broken?*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Follow-Up Questions",
+        "key": "natural_20260703_followup",
+        "qs": [
+          {
+            "q": "'I've changed jobs.' → Natural follow-up:",
+            "opts": [
+              "How come did you change jobs?",
+              "How come you've changed jobs?",
+              "How about you changed jobs?",
+              "How come have you changed jobs?"
+            ],
+            "ans": "How come you've changed jobs?"
+          },
+          {
+            "q": "Which statement about 'how come' is true?",
+            "opts": [
+              "It needs an auxiliary and inversion",
+              "The sentence keeps normal word order",
+              "It only works in the present",
+              "It's used for suggestions"
+            ],
+            "ans": "The sentence keeps normal word order"
+          },
+          {
+            "q": "'I travelled to Italy last year.' → Ask for their experience:",
+            "opts": [
+              "And what happened?",
+              "And what was it like?",
+              "And how come?",
+              "And then what?"
+            ],
+            "ans": "And what was it like?"
+          },
+          {
+            "q": "'My boss asked me to make a speech.' Which follow-up sounds most natural?",
+            "opts": [
+              "And how was the speech?",
+              "And how was it?",
+              "And how was the speech it?",
+              "Why?"
+            ],
+            "ans": "And how was it?"
+          },
+          {
+            "q": "'I found a ring in the street.' → Make the story continue:",
+            "opts": [
+              "And then what?",
+              "And how so?",
+              "And how come?",
+              "What was it like?"
+            ],
+            "ans": "And then what?"
+          },
+          {
+            "q": "'I moved to the other side of the world.' → Ask how that happened:",
+            "opts": [
+              "How did you finish moving there?",
+              "How did you end up moving to the other side of the world?",
+              "How did you end moving to the other side of the world?",
+              "How did you end up to move there?"
+            ],
+            "ans": "How did you end up moving to the other side of the world?"
+          },
+          {
+            "q": "'It was one of the hardest jobs I've ever done.' → Ask for more elaboration:",
+            "opts": [
+              "How so?",
+              "How come?",
+              "How about?",
+              "So how?"
+            ],
+            "ans": "How so?"
+          },
+          {
+            "q": "What is 'cambiar de trabajo' in English?",
+            "opts": [
+              "change of job",
+              "change jobs",
+              "change of jobs",
+              "change the job"
+            ],
+            "ans": "change jobs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260710",
+    "title": "Natural English",
+    "date": "2026-07-10",
+    "topic": "Saying More with Fewer Words",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Be Efficient",
+        "expanded": false,
+        "content": "In Spanish, long sentences and complex structures can sound impressive. In **spoken English** it's the opposite: good speakers say things with **as few words as possible**. Going too far sounds artificial."
+      },
+      {
+        "title": "2. Dropping the Subject",
+        "expanded": false,
+        "content": "Books say English always needs a subject (there are no verb endings to tell you who it is). But in conversation, when you talk about **yourself**, you can drop the **subject + auxiliary** pack.\n\n| Full sentence | Natural |\n|---|---|\n| I'm not sure. | **Not sure.** |\n| It's nice to meet you. | **Nice to meet you.** |\n| I'm glad you came. | **Glad you came.** |\n| I'm happy to be here. | **Happy to be here.** |\n| I've never been here. | **Never been here.** |\n| I'm sorry I'm late. | **Sorry I'm late.** |\n| It's nice to see you. | **Nice to see you.** |\n| I'm happy to help. | **Happy to help.** |\n| I've never tried it. | **Never tried it.** |\n| I'm looking forward to it. | **Looking forward to it.** |\n\n💡 Very common with feelings and opinions (*glad, happy, sorry*) — it's obvious you mean yourself."
+      },
+      {
+        "title": "3. No + Noun",
+        "expanded": false,
+        "content": "Replace a long negative sentence with **no + noun**. Always **no**, never *not*.\n\n| Long version | Short version | Español |\n|---|---|---|\n| I don't have any idea. | **No idea.** | No tengo ni idea |\n| It isn't a problem. | **No problem.** | No hay problema |\n| Don't worry about it. | **No worries.** (plural!) | No pasa nada |\n| There isn't a chance. | **No chance.** | Ni hablar / imposible |\n| There isn't a way. | **No way.** | De ninguna manera |\n| I don't wonder why. | **No wonder.** | No me extraña |\n| We don't need to rush. | **No rush.** | No hay prisa |\n| There isn't a doubt. | **No doubt.** | Sin duda |\n| There isn't a point. | **No point.** | No merece la pena |\n\n### Extend them with more information\n- *I don't know what to say.* → ***No idea** what to say.*\n- *I don't wonder why he's sad.* → ***No wonder** he's sad.*\n- *It's impossible that he's the new boss.* → ***No chance** he's the new boss.*\n- *Take your time doing this.* → ***No rush** doing this.*\n- *There isn't a way that this is correct.* → ***No way** this is correct.*"
+      },
+      {
+        "title": "4. Short Natural Shortcuts",
+        "expanded": false,
+        "content": "| Meaning | Shortcut | Español |\n|---|---|---|\n| That's okay with me. | **Works for me.** | Me vale |\n| I understand your point. | **Fair enough.** | Pues sí, lo veo |\n| It was my mistake. | **My bad.** | Culpa mía |\n| You can make the decision. | **Up to you.** / **Your call.** | Tú verás / cosa tuya |\n| That was a smart decision. | **Good call.** | Bien hecho, buena decisión |\n\n💡 *I see* only shows you're listening; **fair enough** shows you actually accept their point."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Fewer Words",
+        "key": "natural_20260710_fewer",
+        "qs": [
+          {
+            "q": "'I've never been here.' → Shorter, natural version:",
+            "opts": [
+              "Never been here.",
+              "Not been here.",
+              "No been here.",
+              "Never here."
+            ],
+            "ans": "Never been here."
+          },
+          {
+            "q": "When can you drop the subject in conversation?",
+            "opts": [
+              "Always",
+              "When talking about yourself",
+              "Only in questions",
+              "Only in the past"
+            ],
+            "ans": "When talking about yourself"
+          },
+          {
+            "q": "'Don't worry about it.' → Short version:",
+            "opts": [
+              "No worry.",
+              "No worries.",
+              "Not worries.",
+              "Not worry."
+            ],
+            "ans": "No worries."
+          },
+          {
+            "q": "'Take your time.' → Short version:",
+            "opts": [
+              "No rush.",
+              "No point.",
+              "No chance.",
+              "No wonder."
+            ],
+            "ans": "No rush."
+          },
+          {
+            "q": "'It's useless.' → Short version:",
+            "opts": [
+              "No doubt.",
+              "No point.",
+              "No problem.",
+              "No idea."
+            ],
+            "ans": "No point."
+          },
+          {
+            "q": "'I don't wonder why he's sad.' → Short version:",
+            "opts": [
+              "No wonder he's sad.",
+              "Not wonder he's sad.",
+              "No why he's sad.",
+              "No doubt he's sad."
+            ],
+            "ans": "No wonder he's sad."
+          },
+          {
+            "q": "How do you say 'Me vale' (that's okay with me)?",
+            "opts": [
+              "Fair enough.",
+              "Works for me.",
+              "Good call.",
+              "Up to you."
+            ],
+            "ans": "Works for me."
+          },
+          {
+            "q": "How do you say 'Culpa mía'?",
+            "opts": [
+              "My bad.",
+              "My wrong.",
+              "My fault it.",
+              "Bad me."
+            ],
+            "ans": "My bad."
+          },
+          {
+            "q": "Which two shortcuts mean 'you can make the decision'?",
+            "opts": [
+              "Good call / Fair enough",
+              "Up to you / Your call",
+              "Works for me / My bad",
+              "No way / No chance"
+            ],
+            "ans": "Up to you / Your call"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260717",
+    "title": "Natural English",
+    "date": "2026-07-17",
+    "topic": "Avoiding Speaking in Absolutes",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Why Avoid Absolutes?",
+        "expanded": false,
+        "content": "Absolute words — **always, never, everyone, no one, impossible, perfect** — are the top level of each message. In English, very definite statements sound **intense** or **blunt**. Natives prefer to be more **nuanced** (*matizado*): the message is the same, but it sounds softer and more appropriate.\n\n> It's basically *hablar sin mojarse*."
+      },
+      {
+        "title": "2. Softer Alternatives",
+        "expanded": false,
+        "content": "| Absolute | Softer | Example |\n|---|---|---|\n| impossible | **unlikely** (*poco probable*) | *It's **unlikely** that you're ready at eight.* |\n| everybody / everyone | **most people** / **lots of people** | ***Most people** do that.* |\n| nobody / no one | **few people** / **very few people** | ***Very few people** like war.* |\n| never | **rarely** (best) / **hardly ever** | *I **rarely** make good decisions.* |\n| always | **often** / almost always | *She **often** calls me in the morning.* |\n| He's rude. | **seem + a bit** | *He **seems a bit** rude.* |\n\n⚠️ *casi nunca* = **hardly ever**, not ~~*almost never*~~ or ~~*rarely ever*~~.\n\n💡 **seem** = it's my impression (maybe not the full truth) · **a bit** softens the adjective."
+      },
+      {
+        "title": "3. Not Exactly / Not Necessarily",
+        "expanded": false,
+        "content": "Put **exactly** or **necessarily** in the middle to soften a negative (*no es exactamente / necesariamente…*).\n\n🗣️ **exactly** — drop the *t*: *exac-ly* · **necessarily** — *NE-ce-sa-ri-ly*\n\n| Blunt | Softer |\n|---|---|\n| It isn't cheap. | It isn't **exactly** / **necessarily** cheap. |\n| You're not right. | You're not **exactly** right. |\n| That wasn't true. | That wasn't **necessarily** true. |\n| Knowing grammar doesn't mean that you can speak English. | Knowing grammar doesn't **necessarily** mean that you can speak English. |\n| Working long hours won't help your career. | Working long hours won't **exactly** help your career. |"
+      },
+      {
+        "title": "4. Practice — Take the Intensity Out",
+        "expanded": false,
+        "content": "| Absolute | Softer |\n|---|---|\n| Everybody thinks I'm crazy. | **Most people** think I'm crazy. |\n| My boss never tells me off. | My boss **rarely** tells me off. |\n| Nobody's going to help me. | **Very few people** are going to help me. |\n| It's impossible that she's your cousin. | It's **unlikely** that she's your cousin. |\n| The new manager is unpleasant. | The new manager **seems a bit** unpleasant. |\n| My friends are always there when I need them. | My friends are **often** there when I need them. |\n| Liking music doesn't mean that you can dance. | Liking music doesn't **necessarily** mean that you can dance. |\n| Your dog is scary. | Your dog **seems a bit** scary. |\n\n📖 **tell someone off** = *regañar, echar la bronca* · **fearful** = *miedoso* (always scared) vs. **scared** = *asustado* (right now) · **scary** = *que da miedo*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Avoiding Absolutes",
+        "key": "natural_20260717_absolutes",
+        "qs": [
+          {
+            "q": "Softer alternative to 'impossible':",
+            "opts": [
+              "unlikely",
+              "unable",
+              "unpossible",
+              "never"
+            ],
+            "ans": "unlikely"
+          },
+          {
+            "q": "'Everybody does that.' → Softer:",
+            "opts": [
+              "All of them do that.",
+              "Most people do that.",
+              "Old people do that.",
+              "Everyone does that."
+            ],
+            "ans": "Most people do that."
+          },
+          {
+            "q": "'Nobody likes war.' → Softer:",
+            "opts": [
+              "Very few people like war.",
+              "Few of people like war.",
+              "Hardly people like war.",
+              "Not people like war."
+            ],
+            "ans": "Very few people like war."
+          },
+          {
+            "q": "How do you say 'casi nunca'?",
+            "opts": [
+              "almost never",
+              "rarely ever",
+              "hardly ever",
+              "nearly not"
+            ],
+            "ans": "hardly ever"
+          },
+          {
+            "q": "'He's rude.' → Softer:",
+            "opts": [
+              "He seems a bit rude.",
+              "He is seem rude.",
+              "He seems rudely.",
+              "He looks a bit rudely."
+            ],
+            "ans": "He seems a bit rude."
+          },
+          {
+            "q": "'She always calls me in the morning.' → Softer:",
+            "opts": [
+              "She often calls me in the morning.",
+              "She rarely calls me in the morning.",
+              "She hardly calls me in the morning.",
+              "She never calls me in the morning."
+            ],
+            "ans": "She often calls me in the morning."
+          },
+          {
+            "q": "'Knowing grammar doesn't mean you can speak English.' → Softer:",
+            "opts": [
+              "Knowing grammar doesn't necessarily mean you can speak English.",
+              "Knowing grammar necessarily doesn't mean you can speak English.",
+              "Knowing grammar doesn't mean necessary you can speak English.",
+              "Knowing grammar doesn't exact mean you can speak English."
+            ],
+            "ans": "Knowing grammar doesn't necessarily mean you can speak English."
+          },
+          {
+            "q": "What does 'to tell someone off' mean?",
+            "opts": [
+              "To count on someone",
+              "To scold someone",
+              "To say goodbye",
+              "To fire someone"
+            ],
+            "ans": "To scold someone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260724",
+    "title": "Natural English",
+    "date": "2026-07-24",
+    "topic": "Self-Correcting",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Mistakes Are Human",
+        "expanded": false,
+        "content": "We all say the wrong thing sometimes — *I saw him on Wednesday… no, Thursday*. Instead of trying to be perfect, learn **how to manage mistakes** naturally. People who correct themselves smoothly sound **more** natural than people who never slip.\n\n🎭 Use natural intonation, like in Spanish: *Fui a Italia el año pasado… espera, no, fue el anterior.*"
+      },
+      {
+        "title": "2. Correcting Facts",
+        "expanded": false,
+        "content": "| Connector | Example |\n|---|---|\n| **Actually** / **Actually, no** | *I started learning English when I was 12. **Actually**, I was 11.* |\n|  | *I've worked in this company for six years. **Actually, no**, seven.* |\n| **No, wait** (*No, espera*) | *We stayed at the hotel for five days. **No, wait**, it was six.* |\n|  | *She lives in Manchester. **No, wait**, Liverpool.* |\n| **Hang on** (*Espérate un segundo*) | *She has a Ford. **Hang on**, no, it's an Opel.* |\n|  | *I have seven meetings this week. **Hang on**, eight.* |\n| **Sorry, I mean…** (*quiero decir*) | *Summer is my favourite season. **Sorry, I mean** spring.* |\n|  | *He sold his car three weeks ago. **Sorry, I mean** three years ago.* |\n\n⚠️ **No, wait** (*no, espera*) ≠ **No way** (*ni de broma*).\n\n💡 Keep the correction fast and simple — you can give just the right fact (*No, wait, six*) or a short sentence (*No, wait, it was six*)."
+      },
+      {
+        "title": "3. Correcting Opinions",
+        "expanded": false,
+        "content": "Correcting an opinion is more abstract, so we make the correction more **elaborate** — always say the full corrected sentence.\n\n### Maybe *X* isn't the right word\n- *Peter is a weird person. **Maybe weird isn't the right word.** He's peculiar.*\n- *My boss is lazy. **Maybe lazy isn't the right word.** He's not very organised.*\n- *The meeting was boring. **Maybe boring isn't the right word.** It was just too long.*\n- *The new employee is arrogant. **Maybe arrogant isn't the right word.** He's too confident.*\n\n### Let me put it another way (*dicho de otra forma*)\n- *The hotel was dirty. **Let me put it another way.** It was messy.*\n- *The contest was stupid. **Let me put it another way.** It was disappointing.*\n- *He was a bad player. **Let me put it another way.** He wasn't in shape.*"
+      },
+      {
+        "title": "4. When You Forget the Word",
+        "expanded": false,
+        "content": "| Expression | Example |\n|---|---|\n| **What's the word?** / What's the word I'm looking for? | *I was looking for the… **what's the word?** Handle.* |\n| **I can't think of the word.** | *The city was very… **I can't think of the word**… lively.* |\n| **How can I put this?** (more natural than *How can I say this?*) | *The party was fun, but it was a little… **how can I put this?** Overwhelming.* |\n\n📖 **handle** = *manillar* · **lively** = *animada* · **overwhelming** = *abrumadora*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Self-Correcting",
+        "key": "natural_20260724_selfcorrect",
+        "qs": [
+          {
+            "q": "'I saw my brother on Friday. ___, it was Thursday.'",
+            "opts": [
+              "Actually, no",
+              "No way",
+              "How come",
+              "Fair enough"
+            ],
+            "ans": "Actually, no"
+          },
+          {
+            "q": "What's the difference between 'No, wait' and 'No way'?",
+            "opts": [
+              "They mean the same",
+              "'No, wait' = no, espera; 'No way' = ni de broma",
+              "'No way' is for correcting facts",
+              "'No, wait' is rude"
+            ],
+            "ans": "'No, wait' = no, espera; 'No way' = ni de broma"
+          },
+          {
+            "q": "'She has a Ford. ___, it's an Opel.'",
+            "opts": [
+              "Hang on",
+              "Hang up",
+              "Hold up on",
+              "Hang out"
+            ],
+            "ans": "Hang on"
+          },
+          {
+            "q": "Which phrase means 'quiero decir'?",
+            "opts": [
+              "Sorry, I mean…",
+              "Sorry, I say…",
+              "Sorry, I want say…",
+              "Sorry, I meaning…"
+            ],
+            "ans": "Sorry, I mean…"
+          },
+          {
+            "q": "'The meeting was boring. ___ It was just too long.'",
+            "opts": [
+              "Maybe boring isn't the right word.",
+              "Maybe boring isn't the right way.",
+              "Boring is no word.",
+              "What's the word?"
+            ],
+            "ans": "Maybe boring isn't the right word."
+          },
+          {
+            "q": "How do you say 'dicho de otra forma'?",
+            "opts": [
+              "Let me say other way.",
+              "Let me put it another way.",
+              "Let me put another form.",
+              "Let me tell it other way."
+            ],
+            "ans": "Let me put it another way."
+          },
+          {
+            "q": "Which is the most natural way to say '¿cómo lo digo?'",
+            "opts": [
+              "How can I put this?",
+              "How can I tell this?",
+              "How I say this?",
+              "How do I put?"
+            ],
+            "ans": "How can I put this?"
+          },
+          {
+            "q": "What does 'overwhelming' mean?",
+            "opts": [
+              "Abrumador",
+              "Aburrido",
+              "Animado",
+              "Desordenado"
+            ],
+            "ans": "Abrumador"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260731",
+    "title": "Natural English",
+    "date": "2026-07-31",
+    "topic": "Changing Meaning with Intonation",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Intonation Changes Meaning",
+        "expanded": false,
+        "content": "Intonation doesn't just make you sound natural — it can **change the meaning** of the exact same sentence. We do this in Spanish too (*Yo **no** dije que él robó el dinero*), so use the same instinct in English.\n\n**How to stress a word:**\n- Say it with **more intensity** and a change of **tone**.\n- Add a short **pause** before or after it."
+      },
+      {
+        "title": "2. \"I didn't say he stole the money.\"",
+        "expanded": false,
+        "content": "| Stress | Implied meaning |\n|---|---|\n| *I **didn't** say he stole the money.* | It's simply **not true** — I never said it. |\n| *I didn't **say** he stole the money.* | I didn't *say* it… but maybe I **implied** or wrote it. |\n| *I didn't say **he** stole the money.* | Someone stole it — but it was **someone else**. |\n| *I didn't say he **stole** the money.* | He did something else — maybe he **borrowed** it. |\n| *I didn't say he stole the **money**.* | He stole **something else**. |"
+      },
+      {
+        "title": "3. \"She didn't ask how to do it.\"",
+        "expanded": false,
+        "content": "| You want to say… | Stress |\n|---|---|\n| It wasn't her — it was another person. | ***She** didn't ask how to do it.* |\n| It wasn't a question — she demanded it. | *She didn't **ask** how to do it.* |\n| She asked how to do something else, not this. | *She didn't ask how to do **it**.* |\n| It never happened. | *She **didn't** ask how to do it.* |\n| She asked *why*, not *how*. | *She didn't ask **how** to do it.* |"
+      },
+      {
+        "title": "4. \"I really liked the film.\"",
+        "expanded": false,
+        "content": "| You want to say… | Stress |\n|---|---|\n| The film was good, but everything else was a disaster. | *I really liked the **film**.* |\n| **I** liked it — my friends, not so much. | ***I** really liked the film.* |\n| Enthusiasm — it was amazing! | *I **really** liked the film.* |\n| I liked it, but that's all — I didn't watch it to the end. | *I really **liked** the film.* |\n\n💡 It feels like acting at first — that's normal. Play with stress when you talk to yourself and it will start to feel natural."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Intonation & Meaning",
+        "key": "natural_20260731_intonation",
+        "qs": [
+          {
+            "q": "You want to make clear it's completely false. Which word do you stress in 'I didn't say he stole the money'?",
+            "opts": [
+              "didn't",
+              "say",
+              "he",
+              "money"
+            ],
+            "ans": "didn't"
+          },
+          {
+            "q": "'I didn't SAY he stole the money.' What does it imply?",
+            "opts": [
+              "Someone else stole it",
+              "I implied it, but didn't say it",
+              "He stole something else",
+              "He borrowed it"
+            ],
+            "ans": "I implied it, but didn't say it"
+          },
+          {
+            "q": "'I didn't say HE stole the money.' What does it imply?",
+            "opts": [
+              "It was someone else",
+              "He borrowed it",
+              "It never happened",
+              "He stole something else"
+            ],
+            "ans": "It was someone else"
+          },
+          {
+            "q": "'I didn't say he STOLE the money.' What does it imply?",
+            "opts": [
+              "He did something else with it, like borrowing it",
+              "Someone else stole it",
+              "I wrote it down",
+              "It was a different object"
+            ],
+            "ans": "He did something else with it, like borrowing it"
+          },
+          {
+            "q": "She asked WHY, not how. Which word do you stress in 'She didn't ask how to do it'?",
+            "opts": [
+              "She",
+              "ask",
+              "how",
+              "it"
+            ],
+            "ans": "how"
+          },
+          {
+            "q": "You want to sound enthusiastic. Which word do you stress in 'I really liked the film'?",
+            "opts": [
+              "I",
+              "really",
+              "liked",
+              "film"
+            ],
+            "ans": "really"
+          },
+          {
+            "q": "'I really liked the FILM.' What does it imply?",
+            "opts": [
+              "I loved it",
+              "Other people didn't like it",
+              "The film was good, but other things weren't",
+              "I didn't finish it"
+            ],
+            "ans": "The film was good, but other things weren't"
+          },
+          {
+            "q": "Besides a change of tone, what usually goes with the stressed word?",
+            "opts": [
+              "A short pause before or after it",
+              "A question tag",
+              "Spelling it out",
+              "Repeating it twice"
+            ],
+            "ans": "A short pause before or after it"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260904",
+    "title": "Natural English",
+    "date": "2026-09-04",
+    "topic": "Natural Idioms and How to Use Them",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Learning Idioms the Right Way",
+        "expanded": false,
+        "content": "Textbook idioms are often learned **in isolation** — so we never remember them in a real conversation — and many are **not the most natural** ones (some are rare or old-fashioned). Learn **a few**, practise them **in context** and **orally**, then add more.\n\n🇬🇧 Several of these are especially **British**; *fingers crossed*, *touch wood* and *not my cup of tea* are understood everywhere."
+      },
+      {
+        "title": "2. Gutted & Chuffed",
+        "expanded": false,
+        "content": "| Adjective | Meaning | Example |\n|---|---|---|\n| **gutted** | very disappointed / sad (from *gut* = *tripas*) | *I'm **gutted** she didn't tell me the truth.* |\n| **chuffed** | very pleased / proud | *I'm **chuffed** with my new boss.* |\n\nExaggerate even more with **absolutely**: *I'm **absolutely gutted** / **absolutely chuffed**.*\n\n⚠️ They describe **your feelings**, not your opinion of a thing — a dress can be *right up your street*, but it can't make you *chuffed* by itself."
+      },
+      {
+        "title": "3. Fingers Crossed & Touch Wood",
+        "expanded": false,
+        "content": "| Español | English | Example |\n|---|---|---|\n| Crucemos los dedos | **Fingers crossed** (not *let's cross our fingers*) | ***Fingers crossed** I win the prize.* |\n| Toquemos madera | **Touch wood** (no *let's*) | *We're healthy now, **touch wood**.* |\n\n💡 Fixed expressions keep their order: *fingers crossed* — the adjective goes **after** the noun. And you don't need *I have my fingers crossed* — just ***fingers crossed***."
+      },
+      {
+        "title": "4. Right Up My Street & Not My Cup of Tea",
+        "expanded": false,
+        "content": "| Expression | Meaning | Example |\n|---|---|---|\n| **It's right up my street** (🇺🇸 *right up my alley*) | I really like it — it's exactly my kind of thing | *A painting of a lake? **It's right up my street.*** |\n| **It's not my cup of tea** | I don't like it (a classic!) | *The opera? Sorry, **it's not my cup of tea**.* |"
+      },
+      {
+        "title": "5. Practice",
+        "expanded": false,
+        "content": "### Rephrase with an idiom\n\n| Standard | With the idiom |\n|---|---|\n| I want to be sure we don't have any problems. | **Touch wood** we don't have any problems. |\n| I don't want to go to the beach. I don't really like it. | I don't want to go to the beach. **It's not my cup of tea.** |\n| Let's hope they don't fire him. | **Fingers crossed** they don't fire him. |\n| I'm so disappointed she didn't tell me the truth. | I'm so **gutted** she didn't tell me the truth. |\n| I'd love to go to a Chinese restaurant. I really like it. | I'd love to go to a Chinese restaurant. **It's right up my street.** |\n| I'm so pleased we're finally getting married. | I'm so **chuffed** we're finally getting married. |\n\n### Translate\n\n| Español | English |\n|---|---|\n| Crucemos los dedos de que el niño no esté perdido. | **Fingers crossed** the child isn't lost. |\n| Gracias por el vestido, es mi rollo total. | Thank you for the dress, **it's right up my street**. |\n| Estoy encantada con mi nuevo jefe. | I'm **chuffed** with my new boss. |\n| Tenemos todo lo necesario, toquemos madera. | We have everything we need, **touch wood**. |\n| Estoy decepcionadísima con el resultado. | I'm **gutted** with the result. |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Natural Idioms",
+        "key": "natural_20260904_idioms",
+        "qs": [
+          {
+            "q": "You lost something with a lot of sentimental value. How do you feel?",
+            "opts": [
+              "Chuffed",
+              "Gutted",
+              "Right up my street",
+              "Touch wood"
+            ],
+            "ans": "Gutted"
+          },
+          {
+            "q": "You finally got the job you wanted for years. How do you feel?",
+            "opts": [
+              "Gutted",
+              "Chuffed",
+              "Not my cup of tea",
+              "Fingers crossed"
+            ],
+            "ans": "Chuffed"
+          },
+          {
+            "q": "How do you say 'Crucemos los dedos'?",
+            "opts": [
+              "Let's cross our fingers",
+              "Fingers crossed",
+              "Crossed fingers",
+              "Let's fingers crossed"
+            ],
+            "ans": "Fingers crossed"
+          },
+          {
+            "q": "How do you say 'Toquemos madera'?",
+            "opts": [
+              "Let's touch wood",
+              "Touch wood",
+              "Touch the wood",
+              "Knock the wood"
+            ],
+            "ans": "Touch wood"
+          },
+          {
+            "q": "A friend invites you to the opera, but you hate opera. What do you say?",
+            "opts": [
+              "It's right up my street.",
+              "It's not my cup of tea.",
+              "I'm chuffed.",
+              "Touch wood."
+            ],
+            "ans": "It's not my cup of tea."
+          },
+          {
+            "q": "Someone shows you a painting of a lake, and you love lakes:",
+            "opts": [
+              "It's right up my street.",
+              "I'm gutted.",
+              "It's my cup of coffee.",
+              "It's up my road."
+            ],
+            "ans": "It's right up my street."
+          },
+          {
+            "q": "'Thank you for the dress, ___'",
+            "opts": [
+              "I'm chuffed with it",
+              "it's right up my street",
+              "fingers crossed",
+              "I'm gutted"
+            ],
+            "ans": "it's right up my street"
+          },
+          {
+            "q": "Which is the American version of 'right up my street'?",
+            "opts": [
+              "right up my road",
+              "right up my alley",
+              "right down my street",
+              "right on my way"
+            ],
+            "ans": "right up my alley"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260911",
+    "title": "Natural English",
+    "date": "2026-09-11",
+    "topic": "Asking Questions Naturally",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Alternatives to *Why*",
+        "expanded": false,
+        "content": "*Why* is fine, but using it all the time sounds like an interrogation. Two natural alternatives:\n\n### What made you + verb? (*¿Qué te hizo…?*) — for past decisions\n\n| With why | Natural |\n|---|---|\n| Why did you do that? | **What made you do** that? |\n| Why did you move to London? | **What made you move** to London? |\n| Why did you choose that university? | **What made you choose** that university? |\n| Why did you change your mind? | **What made you change** your mind? |\n\n⚠️ *made* is past, and the next verb is the **bare** form — not ~~*to change*~~.\n\n### How come…? (*¿Cómo es que…?*) — any tense, softer and more conversational\n\n**No auxiliary, no inversion** — just the sentence:\n\n| With why | Natural |\n|---|---|\n| Why did you move to London? | **How come** you moved to London? |\n| Why did you leave so early? | **How come** you left so early? |\n| Why didn't you eat meat? | **How come** you didn't eat meat? |\n| Why are you coming? | **How come** you're coming? |\n| Why will you sell the house? | **How come** you'll sell the house? |\n| Why does she practise padel? | **How come** she practises padel? |"
+      },
+      {
+        "title": "2. Short Follow-Up Questions",
+        "expanded": false,
+        "content": "Start with a full question, then keep the conversation rolling with **short** ones — like in Spanish. They're not bad grammar; they only work in conversation.\n\n| Full question | Short version |\n|---|---|\n| What did you think about the ending? | **And the ending?** |\n| Who did you go with? | **Who with?** (you'll also hear *With who?*) |\n| When did you go? | **When?** |\n| How much did it cost? | **How much?** |\n| What happened afterwards? | **And then what?** |"
+      },
+      {
+        "title": "3. Whereabouts?",
+        "expanded": false,
+        "content": "To ask for the **exact location** (*¿dónde exactamente?*) use **whereabouts** — one word, with an *s*. Very common in British English.\n\n- *I'm from Italy.* — *Oh, amazing. **Whereabouts?***\n- *I'm going to Portugal next month.* — ***Whereabouts in Portugal?***\n- *The party is in an amazing place.* — ***Whereabouts is the party?***"
+      },
+      {
+        "title": "4. Conversation, Not Interview",
+        "expanded": false,
+        "content": "Firing basic questions one after another (*Where do you live? Are you married? Do you have children?*) sounds like an **interview**. React and connect instead:\n\n> **A:** I'm from Scotland.\n> **B:** Oh, really? **Whereabouts** in Scotland?\n> **A:** Edinburgh.\n> **B:** That's nice. So when did you move?\n> **A:** Five years ago.\n> **B:** Interesting — **what made you move?** / **How come you moved?**\n\n### Practice\n- *I started a new job last month.* — *Oh, that's great. **How's it going?***\n- *I needed to leave my company.* — ***How come** you left your company?*\n- *I've decided to move abroad.* — ***Whereabouts?*** … ***What made you** want to move abroad?*\n- *We're going to the party tonight.* — ***Who with?*** … ***How come** you decided to go?*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Asking Questions Naturally",
+        "key": "natural_20260911_questions",
+        "qs": [
+          {
+            "q": "'Why did you move to London?' → with 'make':",
+            "opts": [
+              "What made you move to London?",
+              "What made you to move to London?",
+              "What did make you move to London?",
+              "What makes you moved to London?"
+            ],
+            "ans": "What made you move to London?"
+          },
+          {
+            "q": "'Why did you leave so early?' → with 'how come':",
+            "opts": [
+              "How come did you leave so early?",
+              "How come you left so early?",
+              "How come you did leave so early?",
+              "How come leaving so early?"
+            ],
+            "ans": "How come you left so early?"
+          },
+          {
+            "q": "'Why does she practise padel?' → with 'how come':",
+            "opts": [
+              "How come she practises padel?",
+              "How come does she practise padel?",
+              "How come she practise padel?",
+              "How come she practised padel?"
+            ],
+            "ans": "How come she practises padel?"
+          },
+          {
+            "q": "Which alternative to 'why' works in ANY tense?",
+            "opts": [
+              "What made you…",
+              "How come…",
+              "Whereabouts…",
+              "Who with…"
+            ],
+            "ans": "How come…"
+          },
+          {
+            "q": "'I went to a concert last night.' You want to know their companion:",
+            "opts": [
+              "Who with?",
+              "Whereabouts?",
+              "How much?",
+              "And then what?"
+            ],
+            "ans": "Who with?"
+          },
+          {
+            "q": "'I'm going to Portugal next month.' You want the exact place:",
+            "opts": [
+              "Where about?",
+              "Whereabouts?",
+              "Where exactly about?",
+              "Whereabout?"
+            ],
+            "ans": "Whereabouts?"
+          },
+          {
+            "q": "'I bought a jacket yesterday.' You want to know the price:",
+            "opts": [
+              "How much?",
+              "How many?",
+              "What price?",
+              "How cost?"
+            ],
+            "ans": "How much?"
+          },
+          {
+            "q": "Why use short follow-up questions?",
+            "opts": [
+              "They're more formal",
+              "Full questions are incorrect",
+              "They keep the conversation natural, not like an interview",
+              "They're used in written English"
+            ],
+            "ans": "They keep the conversation natural, not like an interview"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260918",
+    "title": "Natural English",
+    "date": "2026-09-18",
+    "topic": "Combining Adverbs + Adjectives",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Beyond *Very* and *Really*",
+        "expanded": false,
+        "content": "*Very*, *really* and *extremely* work with almost everything, so learners overuse them. Natives choose the adverb that **matches the adjective** — technically correct isn't always natural."
+      },
+      {
+        "title": "2. Extreme Adjectives → *Absolutely*",
+        "expanded": false,
+        "content": "Some adjectives are already the **exaggerated** version. Don't use *very* with them — the adverb has to match the intensity: use **absolutely** (or **completely**).\n\n| Neutral | Extreme | Natural combo |\n|---|---|---|\n| cold | **freezing** | It's **absolutely freezing**. |\n| tired | **exhausted** | I'm **absolutely exhausted**. |\n| scared | **terrified** | I'm **absolutely terrified**. |\n| glad / happy | **delighted** | I'm **absolutely delighted**. |\n| silly | **ridiculous** | This is **absolutely ridiculous**. |\n\n🗣️ Stress the **A**: ***AB**-so-lute-ly*.\n\n⚠️ **terrific** sounds scary but means **great**: *The movie was terrific!*"
+      },
+      {
+        "title": "3. Emotional Adjectives → *Deeply*",
+        "expanded": false,
+        "content": "Emotions are felt *inside*, so the natural intensifier is **deeply**, for positive and negative feelings alike.\n\n- I'm **deeply disappointed**.\n- I'm **deeply offended**.\n- I'm **deeply grateful**.\n- I'm **deeply concerned**.\n- I'm **deeply unhappy**.\n\n💡 *Bitterly* and *painfully* also exist, but they're more specific (negative only). *Deeply* is the universal one."
+      },
+      {
+        "title": "4. Judgements & Recommendations → *Highly*",
+        "expanded": false,
+        "content": "When there's a **subjective judgement**, qualification or recommendation, use **highly**.\n\n- It's **highly recommended**.\n- It's **highly successful**.\n- It's **highly controversial**.\n- It's **highly unlikely**.\n- It's **highly effective**.\n- It's **highly competitive**."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Adverb + Adjective Combos",
+        "key": "natural_20260918_adverbs",
+        "qs": [
+          {
+            "q": "What's the extreme version of 'cold'?",
+            "opts": [
+              "frozen",
+              "freezing",
+              "coldy",
+              "chilly"
+            ],
+            "ans": "freezing"
+          },
+          {
+            "q": "Most natural: 'It's ___ freezing.'",
+            "opts": [
+              "very",
+              "absolutely",
+              "deeply",
+              "highly"
+            ],
+            "ans": "absolutely"
+          },
+          {
+            "q": "Most natural: 'I'm ___ delighted.'",
+            "opts": [
+              "very",
+              "absolutely",
+              "highly",
+              "slightly"
+            ],
+            "ans": "absolutely"
+          },
+          {
+            "q": "What's the extreme version of 'silly'?",
+            "opts": [
+              "dumb",
+              "ridiculous",
+              "foolish",
+              "cheerful"
+            ],
+            "ans": "ridiculous"
+          },
+          {
+            "q": "Most natural: 'I'm ___ disappointed.'",
+            "opts": [
+              "absolutely",
+              "deeply",
+              "highly",
+              "freezing"
+            ],
+            "ans": "deeply"
+          },
+          {
+            "q": "Most natural: 'I'm ___ grateful.'",
+            "opts": [
+              "highly",
+              "deeply",
+              "absolutely",
+              "terribly"
+            ],
+            "ans": "deeply"
+          },
+          {
+            "q": "Most natural: 'It's ___ recommended.'",
+            "opts": [
+              "deeply",
+              "absolutely",
+              "highly",
+              "very much"
+            ],
+            "ans": "highly"
+          },
+          {
+            "q": "Most natural: 'It's ___ unlikely.'",
+            "opts": [
+              "deeply",
+              "highly",
+              "absolutely",
+              "terrifically"
+            ],
+            "ans": "highly"
+          },
+          {
+            "q": "'The movie was terrific!' What does it mean?",
+            "opts": [
+              "It was scary",
+              "It was great",
+              "It was terrible",
+              "It was boring"
+            ],
+            "ans": "It was great"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20260925",
+    "title": "Natural English",
+    "date": "2026-09-25",
+    "topic": "Modifying Meaning with Adverbs",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. One Adjective, Different Messages",
+        "expanded": false,
+        "content": "Continuing from Sep 18: with the **same adjective**, changing the adverb changes the **intention** of the message — a creative alternative to always using *very* and *really*."
+      },
+      {
+        "title": "2. Surprised",
+        "expanded": false,
+        "content": "🗣️ **surprised** — the first syllable almost disappears; the stress is on ***-prised***.\n\n| Adverb | Meaning | Example |\n|---|---|---|\n| **genuinely** | the surprise is real, authentic (*truly* also works) | *I was **genuinely surprised** when she called.* |\n| **pleasantly** | a positive surprise | *I was **pleasantly surprised** by the hotel.* |\n| **slightly** | only a little — you half expected it | *I was **slightly surprised** because he didn't come.* |\n| **completely** | no expectations at all | *We were **completely surprised** by the announcement.* |\n\n🗣️ **genuinely** — the *n* sounds almost like a Spanish *ñ*: *GEN-yu-in-ly* · **pleasantly** — *PLEZ-ant-ly*, not *please*.\n\n⚠️ **hardly** = *apenas* (barely), **not** *a little*: *I was hardly surprised* = I was barely surprised."
+      },
+      {
+        "title": "3. Concerned",
+        "expanded": false,
+        "content": "**Concerned** = worried (*preocupado*) — it already has a slightly negative touch.\n\n| Adverb | Meaning | Example |\n|---|---|---|\n| **slightly** | a small concern | *I'm **slightly concerned**.* |\n| **genuinely** | an honest, authentic concern | *I'm **genuinely concerned**.* |\n| **deeply** | a strong emotional concern (emotions → *deeply*) | *I'm **deeply concerned**.* |\n| **seriously** | it's not a joke — important, even grave | *I'm **seriously concerned**.* |"
+      },
+      {
+        "title": "4. Practice — Pick the Combo",
+        "expanded": false,
+        "content": "| Context | Combo |\n|---|---|\n| You expected the restaurant to be terrible, but it was good. | **pleasantly surprised** |\n| You weren't pretending — you really didn't expect it. | **genuinely surprised** |\n| You had absolutely no idea. | **completely surprised** |\n| You expected it a little, but it still surprised you. | **slightly surprised** |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Modifying Meaning with Adverbs",
+        "key": "natural_20260925_adverbs",
+        "qs": [
+          {
+            "q": "You weren't pretending — the surprise was real:",
+            "opts": [
+              "slightly surprised",
+              "genuinely surprised",
+              "pleasantly surprised",
+              "hardly surprised"
+            ],
+            "ans": "genuinely surprised"
+          },
+          {
+            "q": "You expected the restaurant to be terrible, but it was good:",
+            "opts": [
+              "pleasantly surprised",
+              "seriously surprised",
+              "deeply surprised",
+              "slightly surprised"
+            ],
+            "ans": "pleasantly surprised"
+          },
+          {
+            "q": "You half expected it, but it still surprised you a little:",
+            "opts": [
+              "completely surprised",
+              "slightly surprised",
+              "genuinely surprised",
+              "seriously surprised"
+            ],
+            "ans": "slightly surprised"
+          },
+          {
+            "q": "You had absolutely no idea:",
+            "opts": [
+              "slightly surprised",
+              "completely surprised",
+              "pleasantly surprised",
+              "hardly surprised"
+            ],
+            "ans": "completely surprised"
+          },
+          {
+            "q": "What does 'I was hardly surprised' mean?",
+            "opts": [
+              "I was very surprised",
+              "I was barely surprised",
+              "I was surprised in a hard way",
+              "I was pleasantly surprised"
+            ],
+            "ans": "I was barely surprised"
+          },
+          {
+            "q": "Your concern is strong and emotional:",
+            "opts": [
+              "deeply concerned",
+              "slightly concerned",
+              "pleasantly concerned",
+              "hardly concerned"
+            ],
+            "ans": "deeply concerned"
+          },
+          {
+            "q": "Your concern is not a joke — it's important:",
+            "opts": [
+              "seriously concerned",
+              "slightly concerned",
+              "pleasantly concerned",
+              "freezing concerned"
+            ],
+            "ans": "seriously concerned"
+          },
+          {
+            "q": "What does 'concerned' mean?",
+            "opts": [
+              "Worried",
+              "Confused",
+              "Interested",
+              "Relaxed"
+            ],
+            "ans": "Worried"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20261002",
+    "title": "Natural English",
+    "date": "2026-10-02",
+    "topic": "Quite and Not Quite / I Wouldn't Say…",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Quite (*bastante*)",
+        "expanded": false,
+        "content": "**Quite** (also *pretty*, *fairly*) works with the adjective — its meaning depends on how **intense** the adjective is:\n\n| Adjective type | Meaning of *quite* | Examples |\n|---|---|---|\n| **Neutral / mild** (good, bad, tricky) | **A** — a decent amount, enough but not excessive (could also take *very*) | *The film was **quite good**.* · *The exam was **quite tricky**.* · *The show was **quite bad**.* |\n| **Extreme / absolute** (impossible, sure, exhausted) | **B** — completely, totally (*very* would sound wrong) | *That's **quite impossible**.* · *I'm **quite sure** that's what happened.* · *I'm **quite exhausted**.* |\n\n💡 Some adjectives depend on context — *She's **quite upset*** can be mild or strong. It's a question of nuance, not a grammar mistake."
+      },
+      {
+        "title": "2. Not Quite (*no del todo*)",
+        "expanded": false,
+        "content": "A very natural answer when something is **almost, but not exactly** true — then add a clarification. Softer than a direct *no*.\n\n| Question | Answer |\n|---|---|\n| So are you angry with him? | **Not quite.** I'm disappointed. |\n| Is it finished? | **Not quite.** I have a couple more things to do. |\n| So it's basically the same thing? | **Not quite.** There are a few differences. |\n| Are you ready? | **Not quite.** I have to do a couple of things. |\n| So you don't like your job? | **Not quite.** I like it, but I find it stressful. |\n| So you're saying we shouldn't go? | **Not quite.** I think we should go, but a little later. |\n| So the problem is the price? | **Not quite.** I don't like the quality. |\n| So you felt sad at the wedding? | **Not quite.** I felt more nostalgic than sad. |\n\n💡 *Not exactly* is similar, but *not quite* often fits better (*Are you ready? — Not quite.*). *Not yet* only works for actions that haven't happened — *So you're angry? — Not yet* means you **will** be!"
+      },
+      {
+        "title": "3. I Wouldn't Say…, I'd Say…",
+        "expanded": false,
+        "content": "Deny gently with the **conditional** — *Yo no diría que…, diría que…* — instead of a blunt *No, I don't*.\n\n| Question | Answer |\n|---|---|\n| So you hate your job? | **I wouldn't say** I hate my job, **I'd say** I'm bored of it. |\n| So you're very sociable? | **I wouldn't say** I'm sociable, **I'd say** I have a lot of social skills. |\n| So you're a very organised person? | **I wouldn't say** I'm an organised person, **I'd say** I'm good at planning things. |\n| So you don't like cooking? | **I wouldn't say** I don't like cooking, **I'd say** I don't cook very often. |\n\n### With *just* (*simplemente*)\n\n| Español | English |\n|---|---|\n| No diría que no me gustan los gatos, diría que prefiero los perros. | I wouldn't say I don't like cats, **I'd say** I prefer dogs. |\n| No diría que no me gusta el dulce, simplemente prefiero lo salado. | I wouldn't say I don't like sweet things, **I just** prefer **savoury** things. |\n\n📖 *salado* (food) = **savoury**, not *salty*."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Quite, Not Quite & I Wouldn't Say",
+        "key": "natural_20261002_quite",
+        "qs": [
+          {
+            "q": "'The film was quite good.' What does 'quite' mean here?",
+            "opts": [
+              "Completely",
+              "A decent amount — fairly",
+              "Not at all",
+              "Extremely"
+            ],
+            "ans": "A decent amount — fairly"
+          },
+          {
+            "q": "'That's quite impossible.' What does 'quite' mean here?",
+            "opts": [
+              "Fairly",
+              "A little",
+              "Completely",
+              "Almost"
+            ],
+            "ans": "Completely"
+          },
+          {
+            "q": "Which synonym can replace 'quite' in 'quite good'?",
+            "opts": [
+              "pretty",
+              "enough",
+              "very much",
+              "absolutely"
+            ],
+            "ans": "pretty"
+          },
+          {
+            "q": "'Is it finished?' — It's almost done:",
+            "opts": [
+              "Not quite. I have a couple more things to do.",
+              "Quite not. I have a couple more things to do.",
+              "Not quite finished it.",
+              "No quite."
+            ],
+            "ans": "Not quite. I have a couple more things to do."
+          },
+          {
+            "q": "'So you felt sad at the wedding?' — You felt nostalgic:",
+            "opts": [
+              "Not quite. I felt more nostalgic than sad.",
+              "Not yet. I felt nostalgic.",
+              "Quite. I felt nostalgic.",
+              "No, I wasn't sad at all."
+            ],
+            "ans": "Not quite. I felt more nostalgic than sad."
+          },
+          {
+            "q": "'So you hate your job?' — You're just bored of it:",
+            "opts": [
+              "I wouldn't say I hate my job, I'd say I'm bored of it.",
+              "I won't say I hate my job, I say I'm bored of it.",
+              "I wouldn't said I hate my job.",
+              "I don't would say I hate my job."
+            ],
+            "ans": "I wouldn't say I hate my job, I'd say I'm bored of it."
+          },
+          {
+            "q": "'Simplemente prefiero lo salado.'",
+            "opts": [
+              "I just prefer salty things.",
+              "I just prefer savoury things.",
+              "I simply prefer salted.",
+              "I only prefer salt things."
+            ],
+            "ans": "I just prefer savoury things."
+          },
+          {
+            "q": "Why answer with 'I wouldn't say…' instead of 'No'?",
+            "opts": [
+              "It's more formal",
+              "It sounds gentler and more natural",
+              "It's the only correct grammar",
+              "It's American English"
+            ],
+            "ans": "It sounds gentler and more natural"
           }
         ]
       }
