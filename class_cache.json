@@ -19818,5 +19818,2028 @@
         ]
       }
     ]
+  },
+  {
+    "id": "juls_20260622",
+    "title": "English Time with Juls",
+    "date": "2026-06-22",
+    "topic": "Adjectives to Describe Food / Make vs Do",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Adjectives to Describe Food & Drinks",
+        "expanded": false,
+        "content": "A set of adjectives to describe food and drinks, practised as an *Ask me* exercise (you ask the question, then answer it).\n\n| Adjective | Spanish | Notes |\n|---|---|---|\n| **drinkable** | potable | *drink* → *drinkable* — simple logic |\n| **edible** | comestible | ⚠ Not *eatable* — the logical form doesn't exist; we say **edible** |\n| **tasty** | sabroso, rico | Very common, used a lot in restaurants |\n| **mouthwatering** | que se te hace la boca agua | One word, no hyphen — another way to say *very tasty* |\n| **delicious** | delicioso | Pronounce /dɪˈlɪʃəs/ — closed *de-*, not a Spanish *deli-* |\n| **savory** (US) / **savoury** (UK) | salado (as a category) | The opposite of *sweet* |\n| **tender** | tierno, blandito | Meat, vegetables… |\n\n### Savory vs. salty\n- **savory** = salty food as a **general category** — the opposite of sweet: *Do you prefer sweet or savory food?*\n- **salty** = something that really has **added salt** (salted nuts, popcorn…)\n\n### Pronunciation: -ous endings\nWords ending in **-ous** are pronounced with a weak /əs/: *delicious* /dɪˈlɪʃəs/. Pay attention to the start of the word too: closed **de-**, not an open Spanish *deli-*.\n\n### Practice (Ask me…)\n- Is the water drinkable? → Yes, the water is drinkable.\n- Are you sure that product was edible? → No, I'm not sure that product was edible.\n- Did you bring something tasty for a snack? → Yes, I brought something tasty for a snack.\n- Was everything at the table mouthwatering? → Yes, everything at the table was mouthwatering.\n- Was the food at the wedding delicious? → Yes, the food at the wedding was delicious.\n- Do you prefer sweet or savory food?\n- Was your lunch tender? → Yes, my lunch was tender."
+      },
+      {
+        "title": "2. Make vs. Do",
+        "expanded": false,
+        "content": "Don't memorise long lists — learn a few rules and incorporate examples little by little.\n\n### DO — activities in general\nAnything you put into practice, any general action:\n- **do** homework, exercise, a course, business, well, a favor\n\n### MAKE — three useful rules\n\n| Rule | Examples |\n|---|---|\n| **Create / build** something | make a cake, make coffee, make dinner, make friends *(you create a friendship)*, make a reservation |\n| **Plans** | make a plan, make a choice, make an arrangement |\n| **Anything that involves speaking** | make a speech, make a complaint, make a wish, make a comment, make a confession, make a promise |\n\n> **Tip:** think of *create*, not just *build* — you don't build friends or a reservation, but you **create** them.\n\nCombinations that don't fit any rule: just remember the collocation and repeat it many times.\n\n### Practice\n- Harry **is doing** an online course at the moment.\n- Bob **did** a favor for me last night. *(a general action)*\n- My boss **will make** a speech tomorrow. *(speaking)*\n- My sister **makes** a wish every birthday. *(speaking, even if it's said quietly)*\n- The employees **did** business at the conference last week. *(a general action: you negotiate, take notes, write reports…)*\n\n### Pronunciation note: *often*\nBoth /ˈɒfən/ (silent T) and /ˈɒftən/ are correct — it depends on the accent."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Food Adjectives",
+        "key": "juls_jun22_t1",
+        "qs": [
+          {
+            "q": "What does 'edible' mean?",
+            "opts": [
+              "Potable — safe to drink",
+              "Comestible — safe to eat",
+              "Sabroso — tasty"
+            ],
+            "ans": "Comestible — safe to eat"
+          },
+          {
+            "q": "Which word is correct?",
+            "opts": [
+              "eatable",
+              "edible",
+              "eatible"
+            ],
+            "ans": "edible"
+          },
+          {
+            "q": "'The water is drinkable' means the water is…",
+            "opts": [
+              "potable (safe to drink)",
+              "cold",
+              "delicious"
+            ],
+            "ans": "potable (safe to drink)"
+          },
+          {
+            "q": "What does 'mouthwatering' mean?",
+            "opts": [
+              "So tasty it makes your mouth water",
+              "Very wet",
+              "Too salty to eat"
+            ],
+            "ans": "So tasty it makes your mouth water"
+          },
+          {
+            "q": "Which word describes salty food as a general category (the opposite of sweet)?",
+            "opts": [
+              "salty",
+              "savory",
+              "tender"
+            ],
+            "ans": "savory"
+          },
+          {
+            "q": "'My lunch was tender' means the food was…",
+            "opts": [
+              "tierno / blandito",
+              "picante",
+              "quemado"
+            ],
+            "ans": "tierno / blandito"
+          },
+          {
+            "q": "How do you pronounce 'delicious'?",
+            "opts": [
+              "/ˈdeliθjoʊs/ — like Spanish 'delicioso'",
+              "/dɪˈlɪʃəs/ — closed 'de-' and a weak '-ous'",
+              "/ˈdiːlɪʃuːs/"
+            ],
+            "ans": "/dɪˈlɪʃəs/ — closed 'de-' and a weak '-ous'"
+          }
+        ]
+      },
+      {
+        "title": "Test · Make vs. Do",
+        "key": "juls_jun22_t2",
+        "qs": [
+          {
+            "q": "Harry ___ an online course at the moment.",
+            "opts": [
+              "is making",
+              "is doing",
+              "makes"
+            ],
+            "ans": "is doing"
+          },
+          {
+            "q": "Bob ___ a favor for me last night.",
+            "opts": [
+              "did",
+              "made",
+              "has made"
+            ],
+            "ans": "did"
+          },
+          {
+            "q": "My boss will ___ a speech tomorrow.",
+            "opts": [
+              "do",
+              "make",
+              "give to"
+            ],
+            "ans": "make"
+          },
+          {
+            "q": "My sister ___ a wish every birthday.",
+            "opts": [
+              "does",
+              "makes",
+              "do"
+            ],
+            "ans": "makes"
+          },
+          {
+            "q": "The employees ___ business at the conference last week.",
+            "opts": [
+              "made",
+              "did",
+              "make"
+            ],
+            "ans": "did"
+          },
+          {
+            "q": "Why do we say 'make a complaint' and 'make a promise'?",
+            "opts": [
+              "Because they are general activities",
+              "Because they involve speaking",
+              "Because they are in the past"
+            ],
+            "ans": "Because they involve speaking"
+          },
+          {
+            "q": "Why do we say 'make friends'?",
+            "opts": [
+              "Because you create a friendship",
+              "Because it is a general activity",
+              "Because it involves a plan"
+            ],
+            "ans": "Because you create a friendship"
+          },
+          {
+            "q": "Which one is correct?",
+            "opts": [
+              "do a plan",
+              "make a plan",
+              "do a choice"
+            ],
+            "ans": "make a plan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260629",
+    "title": "English Time with Juls",
+    "date": "2026-06-29",
+    "topic": "To Give Up On / Silent B",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: Bungee Jumping & Taking Risks",
+        "expanded": false,
+        "content": "Juls tells the story of her first bungee jump (from a bridge near Buitrago de Lozoya) and how it compares with skydiving.\n\n### Useful vocabulary from the conversation\n\n| Word / expression | Spanish |\n|---|---|\n| **a bruise** | un moratón |\n| **a harness** | un arnés |\n| **to be attached (at the waist)** | estar sujeto/a (por la cintura) |\n| **to hang** / **hanging** | colgar / colgando |\n| **fearful** | miedoso/a |\n| **clumsy** | torpe |\n| **overprotective** | sobreprotector/a |\n| **reckless** | imprudente, temerario/a |\n| **thoroughly** | a fondo, minuciosamente |\n| **to ramble** | enrollarse, divagar |\n| **the anticipation is always worse** | la espera siempre es peor |\n\n### Expressions\n- *I have never driven **whilst** being drunk.*\n- *The older we get, the more fearful we become.* — the **the + comparative, the + comparative** structure.\n- *Your fears become a condition for your children.*"
+      },
+      {
+        "title": "2. Phrasal Verb: To Give Up On",
+        "expanded": false,
+        "content": "**To give up on someone / something** = to **lose hope** in someone or something — *perder la esperanza en, rendirse (emocionalmente) con*.\n\n| Verb | Type | Example |\n|---|---|---|\n| **give up** | Intransitive — no object | *I give up.* (Me rindo.) |\n| **give up on** + object | Transitive — needs an object | *I gave up on politicians.* / *Don't give up on me.* |\n\n> It's very emotional: use it for a person who disappoints you, a dream that isn't coming true, a goal you no longer have… Some phrasal verbs have **two particles** (*give* + *up* + *on*), and you need both.\n\n⚠ Not *give up with*, *give in* or *despair* (*despair* = desesperación, a noun).\n\n### Practice\n- She **gave up on** the project yesterday. → Why did she give up on the project yesterday?\n- The boss **will give up on** the team soon. → Why will the boss give up on the team soon?\n- I **am about to give up on** you. → Why am I about to give up on you? *(about to = estar a punto de)*\n- They **have already given up on** Susan. → Why have they already given up on Susan?\n- The technician **is giving up on** the problem as we speak. → Why is the technician giving up on the problem as we speak?\n- She **never gives up on** her friends. → Why **doesn't** she **ever** give up on her friends?\n- The candidate **gave up on** the interview this morning. → Why did the candidate give up on the interview this morning?\n\n### *Never* in questions → negative auxiliary + *ever*\nEnglish avoids double negatives, so in a question *never* becomes **negative auxiliary + ever**:\n- *¿Por qué nunca vienes conmigo?* → **Why don't you ever** come with me?\n- **Why doesn't she ever** tell me the truth?"
+      },
+      {
+        "title": "3. Silent B Pronunciation",
+        "expanded": false,
+        "content": "In many words ending in **-mb** (and a few others) the **B is silent**. It's easier to learn the word by ear before you see the spelling.\n\n| Word | Pronunciation | Spanish |\n|---|---|---|\n| **plumber** | /ˈplʌmə/ | fontanero |\n| **climbing** | /ˈklaɪmɪŋ/ | escalar, escalada |\n| **numb** | /nʌm/ | adormecido, entumecido |\n| **bomb** | /bɒm/ | bomba |\n| **lamb** | /læm/ | cordero |\n\n*Numb* is already an adjective, so no *-ed*: *My hands get numb.* (Remember Linkin Park's *Numb*: \"I've become so numb…\")\n\n### Practice (Ask me…)\n- How much does a plumber cost?\n- Do you fancy going climbing this weekend?\n- Do your hands get numb when you are cold?\n- What would you do if you found a bomb?\n- Did you have a baby lamb in your garden?"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · To Give Up On",
+        "key": "juls_jun29_t1",
+        "qs": [
+          {
+            "q": "What does 'to give up on someone' mean?",
+            "opts": [
+              "To lose hope in someone",
+              "To give someone a present",
+              "To stop talking to someone for a day"
+            ],
+            "ans": "To lose hope in someone"
+          },
+          {
+            "q": "What is the difference between 'give up' and 'give up on'?",
+            "opts": [
+              "'Give up' has no object; 'give up on' needs an object",
+              "'Give up on' is only for the past",
+              "There is no difference"
+            ],
+            "ans": "'Give up' has no object; 'give up on' needs an object"
+          },
+          {
+            "q": "They / Susan / already →",
+            "opts": [
+              "They have already given up on Susan.",
+              "They already gave up with Susan.",
+              "They have already give up on Susan."
+            ],
+            "ans": "They have already given up on Susan."
+          },
+          {
+            "q": "I / about to / you →",
+            "opts": [
+              "I am about to give up on you.",
+              "I am about giving up you.",
+              "I about to give up on you."
+            ],
+            "ans": "I am about to give up on you."
+          },
+          {
+            "q": "The technician / the problem / as we speak →",
+            "opts": [
+              "The technician gives up on the problem as we speak.",
+              "The technician is giving up on the problem as we speak.",
+              "The technician gave up the problem as we speak."
+            ],
+            "ans": "The technician is giving up on the problem as we speak."
+          },
+          {
+            "q": "'She never gives up on her friends.' Ask why:",
+            "opts": [
+              "Why does she never gives up on her friends?",
+              "Why doesn't she ever give up on her friends?",
+              "Why doesn't she never give up on her friends?"
+            ],
+            "ans": "Why doesn't she ever give up on her friends?"
+          },
+          {
+            "q": "Which is a correct example?",
+            "opts": [
+              "I gave up with politicians.",
+              "I gave in on politicians.",
+              "I gave up on politicians."
+            ],
+            "ans": "I gave up on politicians."
+          }
+        ]
+      },
+      {
+        "title": "Test · Silent B",
+        "key": "juls_jun29_t2",
+        "qs": [
+          {
+            "q": "Which word has a silent B?",
+            "opts": [
+              "number",
+              "plumber",
+              "rubber"
+            ],
+            "ans": "plumber"
+          },
+          {
+            "q": "How do you pronounce 'climbing'?",
+            "opts": [
+              "/ˈklaɪmbɪŋ/",
+              "/ˈklaɪmɪŋ/",
+              "/ˈklɪmbɪŋ/"
+            ],
+            "ans": "/ˈklaɪmɪŋ/"
+          },
+          {
+            "q": "What does 'numb' mean?",
+            "opts": [
+              "Adormecido / entumecido (without feeling)",
+              "Stupid",
+              "Very cold water"
+            ],
+            "ans": "Adormecido / entumecido (without feeling)"
+          },
+          {
+            "q": "'My hands get ___ when I am cold.'",
+            "opts": [
+              "numbed",
+              "numb",
+              "numbing"
+            ],
+            "ans": "numb"
+          },
+          {
+            "q": "What is a 'lamb'?",
+            "opts": [
+              "A piece of land",
+              "A baby sheep (un cordero)",
+              "A lamp"
+            ],
+            "ans": "A baby sheep (un cordero)"
+          },
+          {
+            "q": "What is a 'plumber'?",
+            "opts": [
+              "Un fontanero",
+              "Un electricista",
+              "Un albañil"
+            ],
+            "ans": "Un fontanero"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260706",
+    "title": "English Time with Juls",
+    "date": "2026-07-06",
+    "topic": "To Give Off / Next Few & Last Few",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Phrasal Verb: To Give Off",
+        "expanded": false,
+        "content": "**To give off** = *emitir, desprender, dar, liberar*. It has two uses:\n\n| Use | Meaning | Examples |\n|---|---|---|\n| **Literal** | Emit something physical: heat, a smell, a gas, radiation | *A light bulb gives off heat.* |\n| **Figurative** | Transmit a feeling or energy you can't measure | *My boss gives off an air of superiority.* |\n\n### Don't confuse with other *give* phrasal verbs\n- **give out** = *repartir, distribuir* (intentional)\n- **give in** = *ceder, sucumbir*\n- **give off** = something more automatic, not necessarily done on purpose\n\n> **Phrasal verb vs. Latin synonym:** *emit* exists, but like most Latin-based verbs it sounds formal and is mostly used in writing. In everyday speech, prefer **give off**.\n\n### Practice (Ask me…)\n- Does a **light bulb** *(bombilla)* give off heat? → Yes, a light bulb gives off heat.\n- Do flowers give off a **fragrant** smell? → Yes, flowers give off a fragrant smell.\n- Do you think pregnant women give off a **glow** *(un brillo, un resplandor)*? → Yes, I think pregnant women give off a glow.\n- Does your boss give off an air of superiority? → No, my boss doesn't give off an air of superiority.\n- Does a black hole give off radiation? → Yes, a black hole gives off radiation.\n- Do you dress to give off a good impression?\n\n### Translations\n- *Las flores son bonitas, pero desprenden un mal olor.* → The flowers are beautiful, but they **give off** a bad smell.\n- *No sé lo que es, pero (ella) desprende una mala vibración.* → I don't know what it is, but she **gives off** a bad vibration / a bad **vibe**.\n- *No puedo estar cerca de ti, desprendes mucho calor.* → I can't be close to you, you **give off** too much heat."
+      },
+      {
+        "title": "2. The Next Few / The Last Few",
+        "expanded": false,
+        "content": "In Spanish we say *en los próximos días* / *en los últimos días*. In English *the next days* / *the last days* is not quite right: you need **few**.\n\n| ❌ | ✅ |\n|---|---|\n| in the next days | **for the next few days** |\n| in the last weeks | **for the last few weeks** |\n\n> When you express the **duration** of an action, use the preposition **for**: *for the next few days* (= durante los próximos días).\n\n### Practice\n- I'll be in Milan **for the next few days**. → Why will you be in Milan for the next few days?\n- He has been working with John **for the last few weeks**.\n- They will have / will be having a meeting **for the next few hours**. → Why will they be having a meeting for the next few hours?\n- We will practice this **for the next few minutes**. → Why will we practice this for the next few minutes?\n- It has been very difficult **for the last few months**. → Why has it been very difficult for the last few months?\n\nWith *the last few…* use the **present perfect** when the period hasn't finished. With *the next few…* use the future simple or the future continuous (more sense of continuity)."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · To Give Off",
+        "key": "juls_jul06_t1",
+        "qs": [
+          {
+            "q": "What does 'to give off' mean?",
+            "opts": [
+              "To emit / desprender (heat, a smell, a feeling)",
+              "To distribute / repartir",
+              "To surrender / ceder"
+            ],
+            "ans": "To emit / desprender (heat, a smell, a feeling)"
+          },
+          {
+            "q": "Which sentence uses 'give off' in a figurative way?",
+            "opts": [
+              "A light bulb gives off heat.",
+              "My boss gives off an air of superiority.",
+              "A black hole gives off radiation."
+            ],
+            "ans": "My boss gives off an air of superiority."
+          },
+          {
+            "q": "What is a 'light bulb'?",
+            "opts": [
+              "Una bombilla",
+              "Una linterna",
+              "Un enchufe"
+            ],
+            "ans": "Una bombilla"
+          },
+          {
+            "q": "'Las flores son bonitas, pero desprenden un mal olor.' →",
+            "opts": [
+              "The flowers are beautiful, but they give out a bad smell.",
+              "The flowers are beautiful, but they give off a bad smell.",
+              "The flowers are beautiful, but they give in a bad smell."
+            ],
+            "ans": "The flowers are beautiful, but they give off a bad smell."
+          },
+          {
+            "q": "What does 'give out' mean?",
+            "opts": [
+              "Repartir / distribuir",
+              "Desprender",
+              "Ceder"
+            ],
+            "ans": "Repartir / distribuir"
+          },
+          {
+            "q": "Why is 'give off' usually better than 'emit' in conversation?",
+            "opts": [
+              "'Emit' is incorrect English",
+              "'Emit' comes from Latin and sounds formal, mostly for written text",
+              "'Give off' is more formal"
+            ],
+            "ans": "'Emit' comes from Latin and sounds formal, mostly for written text"
+          },
+          {
+            "q": "Pregnant women are said to give off a ___ (un brillo, un resplandor).",
+            "opts": [
+              "glow",
+              "glove",
+              "flow"
+            ],
+            "ans": "glow"
+          }
+        ]
+      },
+      {
+        "title": "Test · The Next Few / The Last Few",
+        "key": "juls_jul06_t2",
+        "qs": [
+          {
+            "q": "'Estaré en Milán los próximos días.' →",
+            "opts": [
+              "I'll be in Milan the next days.",
+              "I'll be in Milan for the next few days.",
+              "I'll be in Milan in the next days."
+            ],
+            "ans": "I'll be in Milan for the next few days."
+          },
+          {
+            "q": "Which word must you add before 'days/weeks/months' in these expressions?",
+            "opts": [
+              "some",
+              "few",
+              "many"
+            ],
+            "ans": "few"
+          },
+          {
+            "q": "Which preposition expresses the duration of the action?",
+            "opts": [
+              "in",
+              "for",
+              "during the"
+            ],
+            "ans": "for"
+          },
+          {
+            "q": "It / be very difficult / months / last →",
+            "opts": [
+              "It has been very difficult for the last few months.",
+              "It is very difficult the last months.",
+              "It was very difficult in the last months."
+            ],
+            "ans": "It has been very difficult for the last few months."
+          },
+          {
+            "q": "He / work with John / weeks / last →",
+            "opts": [
+              "He works with John the last weeks.",
+              "He has been working with John for the last few weeks.",
+              "He is working with John for the last weeks."
+            ],
+            "ans": "He has been working with John for the last few weeks."
+          },
+          {
+            "q": "They / have a meeting / hours / next →",
+            "opts": [
+              "They will be having a meeting for the next few hours.",
+              "They have a meeting the next hours.",
+              "They will have a meeting in next hours."
+            ],
+            "ans": "They will be having a meeting for the next few hours."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260713",
+    "title": "English Time with Juls",
+    "date": "2026-07-13",
+    "topic": "Motivation for New Students",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. How Juls Learned English",
+        "expanded": false,
+        "content": "A special class: instead of a grammar point, Juls answers a student's question, *\"Would you mind explaining your process of learning English?\"*\n\n### No special situation\nPeople assume she has English family, lived abroad or studied in England. **None of that is true**: 100% Spanish family, always lived in her hometown, never been to England (only a weekend in Ireland).\n\n### What she did (from about age 12)\n- School + a traditional English academy: useful, but **not the secret**.\n- **The secret:** surrounding herself with English in her free time, mainly **YouTube**, always choosing the English version, with no subtitles or dubbing back then.\n- At first she understood only ~40% (despite good marks at school). Instead of **giving up**, she kept listening, and understood more and more each time. We repeat the same words, expressions and structures all the time, so the brain builds **associations**.\n- **Shadowing** (imitation): repeating out loud what she heard, e.g. *\"Oh, I'm so excited!\"* (*¡Qué ilusión!*), speaking to herself, for fun.\n\n> It doesn't happen **overnight**: the brain needs time to build **solid** associations and make the language **automatic**, **second nature**. Progress isn't even, but it *is* progress, and seeing it keeps you motivated."
+      },
+      {
+        "title": "2. Practical Tips",
+        "expanded": false,
+        "content": "### What to listen to\n- Content with **one, two or three people max**: monologues, interviews, one- or two-person podcasts, someone speaking to the camera, radio shows.\n- Avoid starting with **films**: strong accents, complex plots, lots of names… they can **destroy your motivation**.\n- Find speakers who **enunciate**, have a clear accent, pause and don't speak too fast (*speaking fast is overrated*). When you find someone you understand, **stay with them**, then move on progressively.\n\n### English is a tool, not the goal\nEnglish is the **door** to content, people and knowledge. Don't obsess over every word; focus on understanding *what the person is saying* about a topic you love.\n- Example from a student: learning to draw with a drawing book **in English**.\n\n### The only homework: speak\nTake what you practised in class and **use it out loud** all day, talking about real things:\n> *The other day I **bought** some bananas, and they weren't very good. Then I **bought** some apples, and those were better…*\n\nDon't fill pages of written exercises: speaking is what's most effective.\n\n### Juls's one-line summary\n**Have fun when you learn English. Use it as a tool, not the objective. Learn about things you enjoy, in English. Speak to yourself.**"
+      },
+      {
+        "title": "3. Learning Philosophy & Vocabulary",
+        "expanded": false,
+        "content": "- **If it's not enjoyable, it's not effective.** Children love learning until school makes it strict and serious. When you enjoy the process, your brain is *high on dopamine* and absorbs much more.\n- The rigid system of classes by age and exams to move on grew out of the **Industrial Revolution**, which needed efficient workers. Juls wishes for a balance between training and the joy of learning.\n- A teacher should be a **guide** and a **catalyst** (*catalizador*), not a source of dogma.\n- Be **gentle and compassionate** with yourself, and **don't be too hard on yourself**.\n\n### Useful vocabulary\n\n| Expression | Spanish |\n|---|---|\n| **second nature** | algo que te sale de forma natural/automática |\n| **it doesn't happen overnight** | no ocurre de la noche a la mañana |\n| **shadowing** | imitar en voz alta lo que escuchas |\n| **to enunciate** | articular/vocalizar bien |\n| **overwhelming** | abrumador |\n| **a chore** | una tarea pesada, una obligación |\n| **to ramble** | enrollarse, divagar |\n| **to be keen on (doing) something** | tener muchas ganas de / gustarle mucho algo |\n| **don't be too hard on yourself** | no seas tan duro/a contigo mismo/a |\n| **a catalyst** | un catalizador |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Learning English",
+        "key": "juls_jul13_t1",
+        "qs": [
+          {
+            "q": "According to Juls, what was the real secret behind her English?",
+            "opts": [
+              "Living in England as a teenager",
+              "Surrounding herself with English in her free time (YouTube) and repeating out loud",
+              "Memorising long lists of vocabulary"
+            ],
+            "ans": "Surrounding herself with English in her free time (YouTube) and repeating out loud"
+          },
+          {
+            "q": "What is 'shadowing'?",
+            "opts": [
+              "Reading texts silently",
+              "Imitating and repeating out loud what you hear",
+              "Writing summaries of videos"
+            ],
+            "ans": "Imitating and repeating out loud what you hear"
+          },
+          {
+            "q": "What kind of content does Juls recommend to start with?",
+            "opts": [
+              "Complex films with many characters",
+              "Content with one to three people: interviews, monologues, podcasts",
+              "The news in fast English"
+            ],
+            "ans": "Content with one to three people: interviews, monologues, podcasts"
+          },
+          {
+            "q": "'It doesn't happen overnight' means…",
+            "opts": [
+              "It only happens at night",
+              "It takes time; it isn't immediate",
+              "It never happens"
+            ],
+            "ans": "It takes time; it isn't immediate"
+          },
+          {
+            "q": "When something becomes automatic and natural for you, it becomes…",
+            "opts": [
+              "second nature",
+              "second hand",
+              "a chore"
+            ],
+            "ans": "second nature"
+          },
+          {
+            "q": "What is 'a chore'?",
+            "opts": [
+              "A tedious task or obligation",
+              "A choir",
+              "A fun hobby"
+            ],
+            "ans": "A tedious task or obligation"
+          },
+          {
+            "q": "According to Juls, English should be…",
+            "opts": [
+              "The final objective",
+              "A tool, a door to content you enjoy",
+              "Something to study only for exams"
+            ],
+            "ans": "A tool, a door to content you enjoy"
+          },
+          {
+            "q": "'I'm keen on learning drawing' means…",
+            "opts": [
+              "I'm very interested in learning to draw",
+              "I hate drawing",
+              "I'm a professional artist"
+            ],
+            "ans": "I'm very interested in learning to draw"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260720",
+    "title": "English Time with Juls",
+    "date": "2026-07-20",
+    "topic": "I Wish",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: World Cup Champions",
+        "expanded": false,
+        "content": "The day after Spain won the World Cup final against Argentina, Juls talks about the match, the nerves, and her one swimming competition as a child.\n\n### Useful vocabulary\n\n| Word / expression | Spanish |\n|---|---|\n| **a snippet** | un trocito, un fragmento (of a video, film or match) |\n| **an own goal** | un gol en propia puerta |\n| **to be biased** | estar sesgado/a |\n| **the cherry on top** | la guinda del pastel (often ironic) |\n| **to shake like a leaf** | temblar como una hoja |\n| **it's not worth it** | no merece la pena |\n| **class and elegance** | clase y elegancia |\n| **despicable** | despreciable |\n| **a ginger / a redhead** | un pelirrojo / una pelirroja |\n| **a crush** | un enamoramiento, un amor platónico |\n\n### *Like* vs. *fancy*\n- **I like someone** = *me cae bien*.\n- **I fancy someone** = *me gusta* (I find them attractive). *The one that I fancied in 2010 was Xabi Alonso.*\n\n### Summer schedule (July 2026)\nMonday and Wednesday classes move to **4:30** for the rest of July; Friday stays at 2:00 PM. Plus a **summer intensive week** at the start of August."
+      },
+      {
+        "title": "2. I Wish (Ojalá)",
+        "expanded": false,
+        "content": "**Ojalá** (a word from Arabic) has no direct translation, but its English equivalent is **I wish** (you wish, he wishes…).\n\nEnglish has no subjunctive (*tuviera/tuviese*), so it uses the **past simple** to talk about a **hypothetical** present:\n\n| Spanish | English |\n|---|---|\n| Ojalá **tuviera** más dinero. | I wish I **had** more money. |\n| Ojalá **fuera** rico. | I wish I **were** rich. |\n| Ojalá **pudiera** venir. | I wish they **could** come. |\n\n### *Were* for every subject\nIn hypothetical sentences, *to be* is **were** for all subjects: *I wish I **were** rich.* Many natives say *was*, and it may end up accepted, but the rule is **were**.\n\n### ⚠ Not *would*\n*Would* is the conditional (*ojalá se comportarían* ❌). Use the past simple:\n- ❌ *I wish her children would be better behaved.*\n- ✅ *I wish her children **weren't** so badly behaved.*\n\n### Wishes about the past → past perfect\nIf the situation is already in the past, go one step back: **past perfect**.\n- *It's too bad she couldn't attend the conference.* → I wish she **had been able to** attend the conference. / I wish she **could have attended** the conference.\n- *Can* has no participle, so use **be able to**.\n\n### Practice (It's a pity… → I wish…)\n- It's a pity he doesn't speak English. → I wish he **spoke** / **could speak** English.\n- It's a pity they can't come to the party. → I wish they **could** come to the party.\n- It's a shame I'm not rich. → I wish I **were** rich.\n- It's a pity her children are so badly behaved. → I wish her children **weren't** so badly behaved.\n- It's too bad she couldn't attend the conference. → I wish she **had been able to** attend the conference.\n- It's a pity he loses his wallet so often. → I wish he **didn't lose** his wallet so often.\n- It's a pity that she doesn't have a nice boyfriend. → I wish she **had** a nice boyfriend."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · I Wish",
+        "key": "juls_jul20_t1",
+        "qs": [
+          {
+            "q": "What is the English equivalent of 'ojalá'?",
+            "opts": [
+              "I hope so",
+              "I wish",
+              "Maybe"
+            ],
+            "ans": "I wish"
+          },
+          {
+            "q": "'Ojalá tuviera más tiempo.' →",
+            "opts": [
+              "I wish I have more time.",
+              "I wish I had more time.",
+              "I wish I would have more time."
+            ],
+            "ans": "I wish I had more time."
+          },
+          {
+            "q": "According to the rule, which is correct?",
+            "opts": [
+              "I wish I was rich.",
+              "I wish I were rich.",
+              "I wish I am rich."
+            ],
+            "ans": "I wish I were rich."
+          },
+          {
+            "q": "'It's a pity they can't come to the party.' →",
+            "opts": [
+              "I wish they could come to the party.",
+              "I wish they can come to the party.",
+              "I wish they would can come to the party."
+            ],
+            "ans": "I wish they could come to the party."
+          },
+          {
+            "q": "'It's a pity her children are so badly behaved.' →",
+            "opts": [
+              "I wish her children wouldn't be so badly behaved.",
+              "I wish her children weren't so badly behaved.",
+              "I wish her children aren't so badly behaved."
+            ],
+            "ans": "I wish her children weren't so badly behaved."
+          },
+          {
+            "q": "'It's too bad she couldn't attend the conference.' →",
+            "opts": [
+              "I wish she could attend the conference.",
+              "I wish she had been able to attend the conference.",
+              "I wish she can attend the conference."
+            ],
+            "ans": "I wish she had been able to attend the conference."
+          },
+          {
+            "q": "Why do we say 'had been able to' instead of 'had could'?",
+            "opts": [
+              "Because 'can' has no past participle",
+              "Because 'could' is informal",
+              "Because 'able' is the past of 'can'"
+            ],
+            "ans": "Because 'can' has no past participle"
+          },
+          {
+            "q": "'It's a pity he loses his wallet so often.' →",
+            "opts": [
+              "I wish he didn't lose his wallet so often.",
+              "I wish he doesn't lose his wallet so often.",
+              "I wish he wouldn't lost his wallet so often."
+            ],
+            "ans": "I wish he didn't lose his wallet so often."
+          }
+        ]
+      },
+      {
+        "title": "Test · World Cup Vocabulary",
+        "key": "juls_jul20_t2",
+        "qs": [
+          {
+            "q": "What is a 'snippet' of a video or a match?",
+            "opts": [
+              "A short fragment / trocito",
+              "The full replay",
+              "A summary article"
+            ],
+            "ans": "A short fragment / trocito"
+          },
+          {
+            "q": "'I fancy him' means…",
+            "opts": [
+              "Me cae bien",
+              "Me gusta / me atrae",
+              "Le tengo manía"
+            ],
+            "ans": "Me gusta / me atrae"
+          },
+          {
+            "q": "'My legs were shaking like a ___' (temblaba como una hoja).",
+            "opts": [
+              "leaf",
+              "tree",
+              "flower"
+            ],
+            "ans": "leaf"
+          },
+          {
+            "q": "'To be biased' means…",
+            "opts": [
+              "Estar sesgado/a",
+              "Estar aburrido/a",
+              "Estar ocupado/a"
+            ],
+            "ans": "Estar sesgado/a"
+          },
+          {
+            "q": "A goal that a player accidentally scores against their own team is…",
+            "opts": [
+              "a self goal",
+              "an own goal",
+              "a back goal"
+            ],
+            "ans": "an own goal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260727",
+    "title": "English Time with Juls",
+    "date": "2026-07-27",
+    "topic": "To Run Out Of",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: The News & Taking a Break",
+        "expanded": false,
+        "content": "After a weekend of wildfires in Spain, Juls explains why she hardly ever watches the news, and why a summer break from English is fine.\n\n### Useful vocabulary\n\n| Expression | Spanish |\n|---|---|\n| **How are you doing?** | ¿Qué tal estás? *(= How are you? — not \"what are you doing?\")* |\n| **ashes** | cenizas |\n| **air quality** | calidad del aire |\n| **I'd rather be uninformed than…** | prefiero estar desinformada que… |\n| **polarized** | polarizado/a |\n| **enough is enough** | ya basta |\n| **to cross the line** | pasarse de la raya |\n| **a blank canvas** / **a clean slate** | un lienzo en blanco / borrón y cuenta nueva *(⚠ not \"white canvas\")* |\n| **engraved in your subconscious** | grabado en tu subconsciente |\n| **to resume (a routine)** | retomar (una rutina) |\n\n> **Taking a break won't make you forget your English.** When you come back, you often discover how much has become automatic, and that's great motivation."
+      },
+      {
+        "title": "2. To Run Out Of",
+        "expanded": false,
+        "content": "**To run out of something** = *quedarse sin algo*. You need **both** particles: **out** + **of**.\n\n*To be left without* isn't wrong, but **run out of** is much more natural.\n\n### Pronunciation: make it one \"pack\"\nConnect the words so they sound like one long word: **run-out-of** → /rʌnaʊtəv/. It's about **connection**, not speed. You can say it slowly with no gaps.\n- Present **run** /rʌn/ vs. past **ran** /ræn/: *We **ran** out of petrol last week.*\n- Third person: *My boss usually **runs out of** ideas.* The S links nicely to the vowel in *out*.\n\n### Where to pause\n- Before **extra information** (time, place): *We ran out of petrol | last week.*\n- Between **two clauses**: *I run out of patience | when I can't understand something.*\n\n### Practice (answer in the positive)\n- Have you run out of milk today? → Yes, I've run out of milk today.\n- Are we running out of time? → Yes, we are running out of time.\n- Did you run out of petrol last week? → Yes, we ran out of petrol last week.\n- Do you run out of patience when you can't understand something? → Yes, I run out of patience when I can't understand something.\n- Will you run out of **breath** if you jump up and down? → Yes, I will run out of breath if I jump up and down.\n- Does your boss usually run out of ideas? → Yes, my boss usually runs out of ideas.\n- Has your car ever run out of battery? → Yes, my car has run out of battery **before**.\n- Will you run out of energy if you go to bed at 2:00 a.m.? → Yes, I will run out of energy if I go to bed at 2:00 a.m.\n\n### Translations\n- *Él no se lava el pelo cuando se queda sin champú.* → He doesn't wash **his** hair when he runs out of shampoo.\n- *No puedo ofrecerte desayuno porque nos hemos quedado sin pan.* → I can't offer you breakfast because we ran out of bread.\n- *No puedo imprimir el documento. ¿Nos hemos quedado sin tinta?* → I can't print the document. Have we run out of ink?\n- *Los niños siempre se quedan sin excusas.* → (The) children always run out of excuses.\n- *Nos quedaremos sin gasolina si no vamos a una gasolinera pronto.* → We'll run out of petrol if we don't go to a petrol station soon."
+      },
+      {
+        "title": "3. Grammar Notes from the Practice",
+        "expanded": false,
+        "content": "### Answering *Have you ever…?*\n- Negative: **never** → *My car has **never** run out of battery.*\n- Positive: ⚠ not *ever*. Answer plainly, or add **before** at the end (= *alguna vez*): *My car has run out of battery **before**.* / *Yes, I've been to China before.*\n- The present perfect can't take an exact time. With an exact time, use the past simple: *My car ran out of battery **last week**.*\n\n### Match the tense of the question\nAsked in the present perfect → answer in the present perfect. Asked with *will* → answer with *will*. Other tenses aren't horrible, but they break the connection between question and answer.\n\n### breathe vs. breath\n- **breathe** /briːð/ = verb (*respirar*)\n- **breath** /breθ/ = noun (*respiración, aliento*) → *run out of breath*\n\n### Possessives with body parts\nEnglish always uses a possessive: *He washes **his** hair* (not *the hair*).\n\n### Kids vs. children\nSynonyms. **Kids** is a bit more American and colloquial. Both mean *niños* **and** *hijos*: *My kids are 50.*\n\n### Children vs. the children\n- *Children always run out of excuses* = children in general.\n- *The children…* = a specific group."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · To Run Out Of",
+        "key": "juls_jul27_t1",
+        "qs": [
+          {
+            "q": "What does 'to run out of something' mean?",
+            "opts": [
+              "Quedarse sin algo",
+              "Salir corriendo de algo",
+              "Llenarse de algo"
+            ],
+            "ans": "Quedarse sin algo"
+          },
+          {
+            "q": "'¿Nos hemos quedado sin tinta?' →",
+            "opts": [
+              "Have we run out ink?",
+              "Have we run out of ink?",
+              "Have we ran out of ink?"
+            ],
+            "ans": "Have we run out of ink?"
+          },
+          {
+            "q": "Did you run out of petrol last week? → Yes, …",
+            "opts": [
+              "we run out of petrol last week.",
+              "we ran out of petrol last week.",
+              "we have run out of petrol last week."
+            ],
+            "ans": "we ran out of petrol last week."
+          },
+          {
+            "q": "Does your boss usually run out of ideas? → Yes, …",
+            "opts": [
+              "my boss usually run out of ideas.",
+              "my boss usually runs out of ideas.",
+              "my boss usually running out of ideas."
+            ],
+            "ans": "my boss usually runs out of ideas."
+          },
+          {
+            "q": "Best positive answer to 'Has your car ever run out of battery?'",
+            "opts": [
+              "My car has ever run out of battery.",
+              "My car has run out of battery before.",
+              "My car ran out of battery ever."
+            ],
+            "ans": "My car has run out of battery before."
+          },
+          {
+            "q": "Where is the most natural pause in 'We ran out of petrol last week'?",
+            "opts": [
+              "We ran | out of petrol last week",
+              "We ran out of petrol | last week",
+              "We | ran out of petrol last week"
+            ],
+            "ans": "We ran out of petrol | last week"
+          },
+          {
+            "q": "'Quedarse sin respiración' →",
+            "opts": [
+              "run out of breathe",
+              "run out of breath",
+              "run out of breathing"
+            ],
+            "ans": "run out of breath"
+          },
+          {
+            "q": "'Él no se lava el pelo cuando se queda sin champú.' →",
+            "opts": [
+              "He doesn't wash the hair when he runs out of shampoo.",
+              "He doesn't wash his hair when he runs out of shampoo.",
+              "He doesn't wash his hair when he run out shampoo."
+            ],
+            "ans": "He doesn't wash his hair when he runs out of shampoo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260803",
+    "title": "English Time with Juls",
+    "date": "2026-08-03",
+    "topic": "If Only / 3 Acronyms",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. If Only",
+        "expanded": false,
+        "content": "First class of the **summer intensive week** (Mon–Thu 4:30, Fri 2:00 PM).\n\n**If only…** = *si tan solo…, ojalá…*, a variation of **I wish** (see Jul 20).\n\n| | Structure | Example |\n|---|---|---|\n| Hypothetical **present** | if only + subject + **past simple** | *If only I **had** more money.* |\n| Hypothetical **past** | if only + subject + **past perfect** (*had* + participle) | *If only I **had known** the truth.* |\n\n⚠ The word order is **if only I…**, not *if I only…* or *I only…*\n\n### *If only* vs. *I wish*\n*I wish* needs two subjects and sounds personal (*I wish Pepito had a bigger house*). *If only* needs just **one subject**, so it's a more general wish: *If only he had a bigger house.*\n\n### Don't include *want*\nYou're not wishing to *want* something; you want the action itself to happen:\n- ❌ *If only I wanted to stop saying…*\n- ✅ *If only I **stopped** saying inappropriate things in front of my parents-in-law.*\n\n### Practice: present\n- He wants to speak English. → If only he **spoke** / **could speak** English.\n- They want to be able to come to the wedding. → If only they **were able to** come to the wedding.\n- You want to stop saying inappropriate things in front of your parents-in-law. → If only I **didn't say** / **stopped saying** inappropriate things in front of my parents-in-law.\n- You want to know what your boss knows. → If only I **knew** what my boss knows.\n- Your mother doesn't want to run out of coffee every week. → If only my mother **didn't run out** of coffee every week.\n\n### Practice: past\n- You wanted to say the right thing. → If only I **had said** the right thing.\n- He wanted to sell his car before the crisis. → If only he **had sold** his car before the crisis.\n- The children wanted to make a bigger effort for the exam. → If only the children **had made** a bigger effort for the exam.\n- You didn't want to go back to university. → If only I **hadn't gone** back to university.\n\n### Practice: regrets (*arrepentirse*)\n- She regrets not spending more time with her children. → If only she **spent** more time with her children.\n- Peter regrets not buying a house when they were cheap. → If only Peter **had bought** a house when they were cheap.\n- Your boss regrets not dedicating more time to sales now. → If only my boss **dedicated** more time to sales now.\n- My family regrets not moving to China three years ago. → If only my family **had moved** to China three years ago.\n- The teacher regrets failing all her students last year. → If only the teacher **hadn't failed** all her students last year."
+      },
+      {
+        "title": "2. Three Common Acronyms",
+        "expanded": false,
+        "content": "Pronounce each **letter** separately.\n\n| Acronym | Stands for | Spanish | Example |\n|---|---|---|---|\n| **DIY** /ˌdiː aɪ ˈwaɪ/ | do it yourself | manualidades, bricolaje | *Are you good at DIYs?* |\n| **AI** /ˌeɪ ˈaɪ/ | artificial intelligence | IA | *Are you scared of AI?* |\n| **AKA** /ˌeɪ keɪ ˈeɪ/ | also known as | también conocido como | *Julia, AKA Jules* |\n\n> ⚠ **AI**, not *IA*: the English order puts the **A first**. Repeat it many times until the order feels natural.\n\n### Practice (Ask me…)\n- Are you good at DIYs, and do you do them often? → Yes, I'm good at DIYs, but I don't do them often.\n- Are you scared of AI? → For now, no, I'm not scared of AI.\n- Is your name Julia, AKA Jules?"
+      },
+      {
+        "title": "3. False Friend: Advice vs. Warning",
+        "expanded": false,
+        "content": "- **advice** = *consejo* (uncountable: *a piece of advice*)\n- **a warning** = *un aviso, una advertencia*\n\n❌ *I got an advice saying four attempts left.*\n✅ *I got a **warning** saying I had four attempts left.*\n\nFalse friends appear when two languages evolve the same word in different directions. They're annoying, but you hear them so often that you end up remembering them."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · If Only",
+        "key": "juls_aug03_t1",
+        "qs": [
+          {
+            "q": "Which word order is correct?",
+            "opts": [
+              "If I only had more money.",
+              "If only I had more money.",
+              "Only if I had more money."
+            ],
+            "ans": "If only I had more money."
+          },
+          {
+            "q": "He wants to speak English. →",
+            "opts": [
+              "If only he speaks English.",
+              "If only he spoke English.",
+              "If only he would spoke English."
+            ],
+            "ans": "If only he spoke English."
+          },
+          {
+            "q": "You want to know what your boss knows. →",
+            "opts": [
+              "If only I wanted to know what my boss knows.",
+              "If only I knew what my boss knows.",
+              "If only I know what my boss knows."
+            ],
+            "ans": "If only I knew what my boss knows."
+          },
+          {
+            "q": "Your mother doesn't want to run out of coffee every week. →",
+            "opts": [
+              "If only my mother didn't run out of coffee every week.",
+              "If only my mother doesn't run out of coffee every week.",
+              "If only my mother ran out of coffee every week."
+            ],
+            "ans": "If only my mother didn't run out of coffee every week."
+          },
+          {
+            "q": "He wanted to sell his car before the crisis. →",
+            "opts": [
+              "If only he sold his car before the crisis.",
+              "If only he had sold his car before the crisis.",
+              "If only he has sold his car before the crisis."
+            ],
+            "ans": "If only he had sold his car before the crisis."
+          },
+          {
+            "q": "The teacher regrets failing all her students last year. →",
+            "opts": [
+              "If only the teacher hadn't failed all her students last year.",
+              "If only the teacher didn't fail all her students last year.",
+              "If only the teacher had failed all her students last year."
+            ],
+            "ans": "If only the teacher hadn't failed all her students last year."
+          },
+          {
+            "q": "What is the main difference between 'If only' and 'I wish'?",
+            "opts": [
+              "'If only' is only for the past",
+              "'If only' needs just one subject, so it sounds more general",
+              "'I wish' uses the conditional 'would'"
+            ],
+            "ans": "'If only' needs just one subject, so it sounds more general"
+          }
+        ]
+      },
+      {
+        "title": "Test · Acronyms & False Friends",
+        "key": "juls_aug03_t2",
+        "qs": [
+          {
+            "q": "What does DIY stand for?",
+            "opts": [
+              "Do it yourself",
+              "Did I yell",
+              "Design in you"
+            ],
+            "ans": "Do it yourself"
+          },
+          {
+            "q": "How do you say 'IA' (inteligencia artificial) in English?",
+            "opts": [
+              "IA",
+              "AI",
+              "AY"
+            ],
+            "ans": "AI"
+          },
+          {
+            "q": "What does AKA mean?",
+            "opts": [
+              "As known already",
+              "Also known as",
+              "Always keep active"
+            ],
+            "ans": "Also known as"
+          },
+          {
+            "q": "'Me salió un aviso diciendo que me quedaban cuatro intentos.' →",
+            "opts": [
+              "I got an advice saying I had four attempts left.",
+              "I got a warning saying I had four attempts left.",
+              "I got a notice of advice with four attempts."
+            ],
+            "ans": "I got a warning saying I had four attempts left."
+          },
+          {
+            "q": "What does 'advice' mean?",
+            "opts": [
+              "Aviso",
+              "Consejo",
+              "Anuncio"
+            ],
+            "ans": "Consejo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260804",
+    "title": "English Time with Juls",
+    "date": "2026-08-04",
+    "topic": "To Settle Down / Sports Equipment",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: English as a Tool",
+        "expanded": false,
+        "content": "A student asks: *Is it a good idea to set your phone to English?*\n\n- It helps you stay **in touch with the language** through repetition, but it won't make a massive difference, because you're only reading.\n- **Speak before you read.** Learning the spelling first creates bad pronunciation habits (*famous* pronounced as it's written).\n- Better: **look up things you love in English.** Juls's example is caring for her plants: watching videos and googling in English, you learn *soil* (tierra), *to repot*, *leaves*… by **using** the words, not memorising them.\n- Language is a **means** (*el medio*), not the objective, like walking: what matters is where you can go.\n- Texting in English is useful because the phone **suggests words** you can start using.\n\n### Vocabulary\n| Word | Spanish |\n|---|---|\n| **soil** | tierra (de las plantas) |\n| **to repot** | trasplantar a otra maceta |\n| **to look after** | cuidar |\n| **nothing is off limits** | no hay temas prohibidos |"
+      },
+      {
+        "title": "2. Phrasal Verb: To Settle Down",
+        "expanded": false,
+        "content": "**To settle down** has several related meanings:\n\n| Meaning | Spanish | Example |\n|---|---|---|\n| Settle somewhere, establish yourself | establecerse, asentarse | *Is it easy to settle down and start a family?* |\n| Lead a calmer, stable life | **sentar la cabeza** | *Do you think it's time for him to settle down?* |\n| Calm down, stay still | calmarse, acomodarse | *We should wait for the audience to settle down.* |\n\n⚠ **set up** is different: *montar algo*.\n\n> **Formar una familia** → **start a family** (not *build/form a family*).\n\n### Practice (Ask me…)\n- Should we wait for the audience to settle down? → Yes, we should wait for the audience to settle down.\n- Do you think it's time for him to settle down? → I think it's time for him to settle down.\n- Is it easy to settle down and start a family?\n- Did Susan settle down after she got married? → Yes, Susan settled down after she got married.\n- Will they call the police if he doesn't settle down? → Yes, they will call the police if he doesn't settle down.\n\n### Pronunciation: the *-ttle* sound (settle, little)\n- **American option** (easier): the T becomes a soft flap, like a soft Spanish R: *se-rl*, *li-rl*.\n- **British option**:\n  1. The English **T has much more air** than the dry Spanish T.\n  2. The English **L is rounder**: raise the back of the tongue, as if swallowing.\n  3. The tongue **stays in the same position** from T to L: just release a puff of air for the T.\n  4. To make it easier, slip a tiny, quick *e* between them: *set-e-l*.\n- **Glottal stop** (*se'le*, *li'le*): very colloquial, used in some areas of England. Received Pronunciation (southern England) avoids it.\n- **Exaggerate first**, then repeat a million times to build **muscle memory**."
+      },
+      {
+        "title": "3. Sports Equipment",
+        "expanded": false,
+        "content": "**Equipment** /ɪˈkwɪpmənt/ = *equipamiento, equipación* (pronounce the U: *e-KWIP-ment*).\n\n| English | Spanish | Example |\n|---|---|---|\n| **a helmet** | un casco | *You have to wear a helmet if you ride a horse.* |\n| **shin pads** | espinilleras | *Football players wear shin pads for safety.* (*shin* = espinilla, *pad* = almohadilla) |\n| **a hockey stick** | un palo de hockey | *You can get hurt if they hit you with a hockey stick.* |\n| **golf clubs** | palos de golf | ⚠ *clubs*, not *sticks*: *Golf clubs are heavy to carry.* |\n| **a mouth guard** | un protector bucal | Silent U in *guard* /ɡɑːd/: *Boxers wear a mouth guard to protect their teeth.* |\n| **a baseball bat** | un bate de béisbol | *bat* also means *murciélago*: *Baseball bats are usually made of wood.* |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · To Settle Down",
+        "key": "juls_aug04_t1",
+        "qs": [
+          {
+            "q": "What does 'to settle down' mean in 'It's time for him to settle down'?",
+            "opts": [
+              "Sentar la cabeza / lead a stable life",
+              "Sentarse en una silla",
+              "Montar un negocio"
+            ],
+            "ans": "Sentar la cabeza / lead a stable life"
+          },
+          {
+            "q": "'Formar una familia' in English is…",
+            "opts": [
+              "build a family",
+              "start a family",
+              "make a family"
+            ],
+            "ans": "start a family"
+          },
+          {
+            "q": "'We should wait for the audience to settle down' means the audience should…",
+            "opts": [
+              "leave the theatre",
+              "calm down and get comfortable",
+              "buy their tickets"
+            ],
+            "ans": "calm down and get comfortable"
+          },
+          {
+            "q": "Did Susan settle down after she got married? → Yes, …",
+            "opts": [
+              "Susan settle down after she got married.",
+              "Susan settled down after she got married.",
+              "Susan has settled after she got married down."
+            ],
+            "ans": "Susan settled down after she got married."
+          },
+          {
+            "q": "What does 'to set up' mean?",
+            "opts": [
+              "Sentar la cabeza",
+              "Montar algo (a business, an event…)",
+              "Calmarse"
+            ],
+            "ans": "Montar algo (a business, an event…)"
+          },
+          {
+            "q": "For the British 'settle', what happens to the tongue between T and L?",
+            "opts": [
+              "It moves from the teeth to the back of the mouth",
+              "It stays in the same position; you just release air for the T",
+              "It touches the lips"
+            ],
+            "ans": "It stays in the same position; you just release air for the T"
+          }
+        ]
+      },
+      {
+        "title": "Test · Sports Equipment",
+        "key": "juls_aug04_t2",
+        "qs": [
+          {
+            "q": "What is a 'helmet'?",
+            "opts": [
+              "Un casco",
+              "Un guante",
+              "Una red"
+            ],
+            "ans": "Un casco"
+          },
+          {
+            "q": "Football players wear ___ to protect their legs (espinilleras).",
+            "opts": [
+              "knee pads",
+              "shin pads",
+              "leg guards"
+            ],
+            "ans": "shin pads"
+          },
+          {
+            "q": "'Palos de golf' in English are…",
+            "opts": [
+              "golf sticks",
+              "golf clubs",
+              "golf bats"
+            ],
+            "ans": "golf clubs"
+          },
+          {
+            "q": "Boxers wear a ___ to protect their teeth.",
+            "opts": [
+              "mouth guard",
+              "teeth helmet",
+              "mouth pad"
+            ],
+            "ans": "mouth guard"
+          },
+          {
+            "q": "'Bat' has two meanings. Which?",
+            "opts": [
+              "Bate and murciélago",
+              "Bate and pelota",
+              "Palo and red"
+            ],
+            "ans": "Bate and murciélago"
+          },
+          {
+            "q": "How do you pronounce 'equipment'?",
+            "opts": [
+              "/ɪˈkɪpmənt/ — silent U",
+              "/ɪˈkwɪpmənt/ — the U is pronounced",
+              "/ˈekɪpmənt/"
+            ],
+            "ans": "/ɪˈkwɪpmənt/ — the U is pronounced"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260805",
+    "title": "English Time with Juls",
+    "date": "2026-08-05",
+    "topic": "Medical Vocabulary",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Students' Questions: Feet First & Outdoor Activities",
+        "expanded": false,
+        "content": "### *Estoy nadando con los pies por delante para no darme con las rocas*\n→ **I'm swimming feet first so as not to hit the rocks.**\n- **[body part] + first**: *feet first, head first* (*diving head first*), *hands first*.\n- **so as not to / in order not to** = *para no*.\n- Keep it simple: English is very practical.\n\n> **Tip:** when you're at the beach or swimming, describe what you see and do **in English**. Even if you don't know the perfect way to say it, finding *a* way is great mental exercise.\n\n### Outdoor & water activities\n\n| English | Spanish |\n|---|---|\n| **to keep your balance** | mantener el equilibrio |\n| **canyoning** | barranquismo |\n| **canoeing** | piragüismo |\n| **rafting** | rafting |\n| **rappelling** | rápel |\n| **paddleboarding** | paddle surf |\n| **crowded** | abarrotado, lleno de gente |\n\n- *Are you able to keep your balance on a surfboard?* → Yes, for a few seconds, and then I fall.\n- ⚠ For places, use **its**, not *his/her*: *Cádiz is known for **its** big waves.*"
+      },
+      {
+        "title": "2. At the Doctor's: Blood Tests",
+        "expanded": false,
+        "content": "English has no reflexive *hacerse*: if someone else does it to you, use **get**.\n\n| Spanish | English |\n|---|---|\n| hacerse un análisis de sangre | **to get a blood test** |\n| sacarse sangre | **to get your blood drawn** *(draw/drew/drawn = also extraer, sacar)* |\n| ir al médico | **to go to the doctor's** |\n| el centro de salud | **the healthcare center** |\n\n### Practice (Ask me…)\n- Did you get a blood test this morning?\n- Did you get your blood drawn this morning? → Yes, I got my blood drawn this morning.\n- When was the last time you got a blood test?\n\n### Other vocabulary from the conversation\n- **needles** = agujas\n- **faulty** = defectuoso: *Human beings are a little bit faulty.*\n- **alive and kicking** = vivito y coleando\n- **touch wood** = toco madera"
+      },
+      {
+        "title": "3. Talking About Pain",
+        "expanded": false,
+        "content": "| English | Spanish |\n|---|---|\n| **a high / low pain threshold** /ˈθreʃhəʊld/ | un umbral del dolor alto / bajo |\n| **piercing pain** | dolor punzante *(to pierce = punzar, atravesar)* |\n| **cavities** | caries |\n| **teeth** | dientes *and* muelas (no distinction) |\n| **wisdom teeth** (sing. *wisdom tooth*) | muelas del juicio |\n| **kidney stones** | piedras en el riñón |\n| **renal colic** | cólico nefrítico |\n| **migraine** | migraña |\n| **to give birth** | dar a luz |\n| **an epidural** | la epidural |\n| **pinky finger / pinky toe** | dedo meñique (mano / pie) |\n| **to pass out** | desmayarse |\n\n### Practice\n- Do you have a high pain threshold? → I have a high pain threshold, I think.\n- Did you have a piercing pain in your ear?\n- Did you have a piercing pain in your back?\n- What's the worst pain you've ever felt?\n\n> Juls's worst pain was a sudden back pain at 15, so intense she *thought she was going to pass out*. Her mother says kidney stones hurt more than giving birth."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Medical Vocabulary",
+        "key": "juls_aug05_t1",
+        "qs": [
+          {
+            "q": "'Me hice un análisis de sangre esta mañana.' →",
+            "opts": [
+              "I made a blood test this morning.",
+              "I got a blood test this morning.",
+              "I did myself a blood test this morning."
+            ],
+            "ans": "I got a blood test this morning."
+          },
+          {
+            "q": "Another way to say 'sacarse sangre' is…",
+            "opts": [
+              "to get your blood drawn",
+              "to get your blood drew",
+              "to draw yourself blood"
+            ],
+            "ans": "to get your blood drawn"
+          },
+          {
+            "q": "'Tengo un umbral del dolor alto.' →",
+            "opts": [
+              "I have a high pain threshold.",
+              "I have a high pain door.",
+              "I have a tall pain limit."
+            ],
+            "ans": "I have a high pain threshold."
+          },
+          {
+            "q": "What does 'piercing pain' mean?",
+            "opts": [
+              "Dolor punzante",
+              "Dolor leve",
+              "Dolor de oídos"
+            ],
+            "ans": "Dolor punzante"
+          },
+          {
+            "q": "'Caries' in English are…",
+            "opts": [
+              "caries",
+              "cavities",
+              "holes"
+            ],
+            "ans": "cavities"
+          },
+          {
+            "q": "'Muelas del juicio' in English are…",
+            "opts": [
+              "wise teeth",
+              "judgement teeth",
+              "wisdom teeth"
+            ],
+            "ans": "wisdom teeth"
+          },
+          {
+            "q": "'Piedras en el riñón' →",
+            "opts": [
+              "kidney stones",
+              "kidney rocks",
+              "liver stones"
+            ],
+            "ans": "kidney stones"
+          },
+          {
+            "q": "'Estoy nadando con los pies por delante para no darme con las rocas.' →",
+            "opts": [
+              "I'm swimming feet first so as not to hit the rocks.",
+              "I'm swimming with feet before for no hit the rocks.",
+              "I'm swimming first feet to not hitting the rocks."
+            ],
+            "ans": "I'm swimming feet first so as not to hit the rocks."
+          },
+          {
+            "q": "'Mantener el equilibrio' →",
+            "opts": [
+              "keep your balance",
+              "hold your equilibrium",
+              "maintain the balance yourself"
+            ],
+            "ans": "keep your balance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260806",
+    "title": "English Time with Juls",
+    "date": "2026-08-06",
+    "topic": "A 7-Day Trip (Compound Adjectives) / Get To Do",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Number + Unit Adjectives: A Three-Week Holiday",
+        "expanded": false,
+        "content": "*Unas vacaciones de tres semanas* is **not** *a holiday of three weeks*, but **a three-week holiday**.\n\n### Why?\n1. Join the **number + unit** with a **hyphen** (*dash*) → one word: *three-week*.\n2. It becomes an **adjective**, so it goes **before the noun**.\n3. Adjectives in English are **always singular** → *three-**week***, never *three-weeks*.\n\n⚠ Classic mistake: ~~*a five stars hotel*~~ → **a five-star hotel**.\n\n### Irregular plurals → use the singular form\n- *people* → **person**: *a seven-**person** team*\n- *children* → **child**: *a 20-**child** class*\n- Watch the pronunciation: *pages* /ˈpeɪdʒɪz/ → *page* /peɪdʒ/: *a 500-page book*\n\n### Practice\n- Are you taking a three-week holiday? → Yes, I'm taking a **three-week holiday**.\n- My boss is doing a course of seven months. → My boss is doing a **seven-month course**.\n- I used to live in a house with four bedrooms. → I used to live in a **four-bedroom house**.\n- She would like to stay in a hotel with five stars. → She would like to stay in a **five-star hotel**.\n- My partner had a meeting of three hours today. → My partner had a **three-hour meeting** today.\n- My boss is in charge of a team with seven people. → My boss is in charge of a **seven-person team**.\n- There is a corridor with three meters in my office. → There is a **three-meter corridor** in my office.\n- She teaches a class with 20 children on Fridays. → She teaches a **20-child class** on Fridays.\n- I've never read a book with 500 pages before. → I've never read a **500-page book** before.\n- We are excited to work in this program of two years. → We are excited to work in this **two-year program**.\n\n> The long versions aren't technically wrong, but they sound unnatural. Start with durations (days, weeks, years) and build from there.\n\n*program* (US) / *programme* (UK): both spellings are accepted, like *color/colour*."
+      },
+      {
+        "title": "2. Get To + Verb (Tener la oportunidad de)",
+        "expanded": false,
+        "content": "**get to + verb** = *tener la oportunidad / la ocasión de hacer algo* (sometimes *conseguir*).\n\n| | Meaning |\n|---|---|\n| **get to** + place | *llegar a*: *I get to the office at 9.* |\n| **get to** + verb | *tener la oportunidad de*: *I **get to work** in something that I love.* |\n\nIt's a simpler, more natural alternative to *have the chance/opportunity to*.\n\n> *Conseguir* sometimes works (*I got to finish my homework in time*), but not always: *consigo conocer a gente interesante en mi trabajo* sounds odd. The general meaning is **having the opportunity**.\n\n### Practice (Ask me…)\n- Did you get to enjoy your childhood without phones? → Yes, I got to enjoy my childhood without phones.\n- Did your sister get to make friends in a summer camp? → Yes, my sister got to **make** friends in a summer camp. *(make friends, not \"do friends\")*\n- Did you get to see your friends before they moved? → Yes, I got to see my friends before they moved.\n- Do you get to meet great people at your job? → Yes, I get to meet great people at my job.\n- Do actors get to watch the movie before it comes out?\n- Do you usually get to say goodbye to everyone before you leave a party? → Not always.\n\n### Bonus: an Irish exit\n*Hacer bomba de humo / despedirse a la francesa* = **to do an Irish exit** (also a **French exit**): leaving a party quietly without saying goodbye.\n- *I did an Irish exit because I didn't want to say goodbye to everyone.*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Number + Unit Adjectives",
+        "key": "juls_aug06_t1",
+        "qs": [
+          {
+            "q": "'Unas vacaciones de tres semanas' →",
+            "opts": [
+              "a three weeks holiday",
+              "a three-week holiday",
+              "a holiday of three-weeks"
+            ],
+            "ans": "a three-week holiday"
+          },
+          {
+            "q": "Why is it 'three-week' and not 'three-weeks'?",
+            "opts": [
+              "Because it works as an adjective, and adjectives are always singular",
+              "Because 'week' is uncountable",
+              "Because it's British English"
+            ],
+            "ans": "Because it works as an adjective, and adjectives are always singular"
+          },
+          {
+            "q": "She would like to stay in a hotel with five stars. →",
+            "opts": [
+              "She would like to stay in a five stars hotel.",
+              "She would like to stay in a five-star hotel.",
+              "She would like to stay in a hotel five-star."
+            ],
+            "ans": "She would like to stay in a five-star hotel."
+          },
+          {
+            "q": "My boss is in charge of a team with seven people. →",
+            "opts": [
+              "a seven-people team",
+              "a seven-person team",
+              "a seven-persons team"
+            ],
+            "ans": "a seven-person team"
+          },
+          {
+            "q": "She teaches a class with 20 children. →",
+            "opts": [
+              "a 20-children class",
+              "a 20-child class",
+              "a 20-childs class"
+            ],
+            "ans": "a 20-child class"
+          },
+          {
+            "q": "I've never read a book with 500 pages. →",
+            "opts": [
+              "I've never read a 500-page book.",
+              "I've never read a 500-pages book.",
+              "I've never read a book 500-page."
+            ],
+            "ans": "I've never read a 500-page book."
+          },
+          {
+            "q": "My partner had a meeting of three hours today. →",
+            "opts": [
+              "My partner had a three-hour meeting today.",
+              "My partner had a three-hours meeting today.",
+              "My partner had a meeting three-hour today."
+            ],
+            "ans": "My partner had a three-hour meeting today."
+          }
+        ]
+      },
+      {
+        "title": "Test · Get To + Verb",
+        "key": "juls_aug06_t2",
+        "qs": [
+          {
+            "q": "What does 'I get to work in something that I love' mean?",
+            "opts": [
+              "I arrive at work…",
+              "I have the opportunity to work in something that I love",
+              "I have to work in something that I love"
+            ],
+            "ans": "I have the opportunity to work in something that I love"
+          },
+          {
+            "q": "'¿Tuviste la oportunidad de ver a tus amigos antes de que se mudaran?' →",
+            "opts": [
+              "Did you get to see your friends before they moved?",
+              "Did you get see your friends before they moved?",
+              "Did you got to see your friends before they moved?"
+            ],
+            "ans": "Did you get to see your friends before they moved?"
+          },
+          {
+            "q": "'Hacer amigos' →",
+            "opts": [
+              "do friends",
+              "make friends",
+              "get friends"
+            ],
+            "ans": "make friends"
+          },
+          {
+            "q": "Leaving a party without saying goodbye is called…",
+            "opts": [
+              "an Irish exit",
+              "a Spanish exit",
+              "a smoke exit"
+            ],
+            "ans": "an Irish exit"
+          },
+          {
+            "q": "Do you get to meet great people at your job? → Yes, …",
+            "opts": [
+              "I get to meet great people at my job.",
+              "I get meet great people at my job.",
+              "I am getting meet great people at my job."
+            ],
+            "ans": "I get to meet great people at my job."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260807",
+    "title": "English Time with Juls",
+    "date": "2026-08-07",
+    "topic": "The Silent W + Dropping the T",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: Juls's Classes & There Are No Silly Questions",
+        "expanded": false,
+        "content": "The last class of the summer intensive week, and the last before the August break.\n\n### The three weekly classes\n| Class | Day | Focus |\n|---|---|---|\n| **English Time** | Monday | Intermediate to advanced content, with a mix of grammar, vocabulary, pronunciation… |\n| **Essential English** | Wednesday | The **basis** of the language: frequent, fundamental concepts. Not necessarily *easier* |\n| **Natural English** | Friday | Using the language like a native, not like an academic book |\n\n### No hay preguntas tontas: there are no silly questions\nObsessing over levels (*I'm a B1…*) makes students afraid to ask \"basic\" questions, so their doubts never get solved and the mistakes stay. Ask, practise the solution, and the mistake goes away. A good teacher **never** judges.\n\n### Vocabulary\n| Expression | Spanish |\n|---|---|\n| **once in a blue moon** | de Pascuas a Ramos, muy de vuelta en cuando |\n| **a geek** | un friki |\n| **I could do it with my eyes closed** | lo podría hacer con los ojos cerrados |\n| **a punching bag** | un saco de boxeo *(bag, not sack)* |"
+      },
+      {
+        "title": "2. The Silent W (WR-)",
+        "expanded": false,
+        "content": "When a word starts with **WR**, the **W is silent**: just pronounce the R.\n- **writing** /ˈraɪtɪŋ/, not *\"gwriting\"* or *\"ua-riting\"*.\n- It's much easier to pronounce this way!\n\n| Word | Pronunciation | Spanish |\n|---|---|---|\n| **wrap** / **wrapping** | /ræp/ | envolver: *a chicken wrap*, *wrapping presents* |\n| **wrist** | /rɪst/ | muñeca (la articulación) |\n| **wrong** / **wrongly** | /rɒŋ/ | incorrecto / incorrectamente |\n| **writer** | /ˈraɪtə/ | escritor/a |\n| **wrestle** | /ˈresəl/ | forcejear, luchar (en plan juego) |\n| **wrinkles** | /ˈrɪŋkəlz/ | arrugas |\n\n**fight** vs. **wrestle**: *fight* = to fight for real; *wrestle* = to grapple or scuffle, more playful.\n\n### Practice\n- Are you good at **wrapping** presents?\n- Have you ever broken your **wrist**? → No, I've never broken my wrist.\n- Was the last answer **wrong**? → No, the last answer wasn't wrong.\n- Would you like to be a **writer**?\n- Did you use to **wrestle** with other children when you were younger?\n- Do people usually spell your name **wrongly**?\n- Are you getting **wrinkles** on your face?\n\n### Face vocabulary\n| English | Spanish |\n|---|---|\n| **crow's feet** | patas de gallo |\n| **forehead lines** | arrugas de la frente |\n| **smile lines** | líneas de expresión (de la sonrisa) |\n| **bags under the eyes** / **dark circles** | bolsas / ojeras |"
+      },
+      {
+        "title": "3. Dropping the T Between Words",
+        "expanded": false,
+        "content": "Some words **do** pronounce the T on their own, but **drop it in connected speech** when the next word starts with a consonant, to avoid a cluster of consonants. (This is different from *listen*, where the T is *always* silent.)\n\n| Written | Said |\n|---|---|\n| **next day** | *nex day* |\n| **most people** | *mos people* |\n| **just one** | *jus one* (in fast, colloquial speech, even before a vowel) |\n\nOnly the pronunciation changes, not the spelling. Say the words together, connected. Pronounce the T only if you want to stress the word strongly.\n\n### Practice (make it negative)\n- I have seven meetings next day. → I don't have seven meetings *nex(t) day*.\n- Most people play an instrument. → *Mos(t) people* don't play an instrument.\n- Just one person went to the cinema. → *Jus(t) one* person didn't go to the cinema."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · The Silent W",
+        "key": "juls_aug07_t1",
+        "qs": [
+          {
+            "q": "How do you pronounce 'writing'?",
+            "opts": [
+              "/ˈwraɪtɪŋ/ — with W",
+              "/ˈraɪtɪŋ/ — silent W",
+              "/ˈɡraɪtɪŋ/"
+            ],
+            "ans": "/ˈraɪtɪŋ/ — silent W"
+          },
+          {
+            "q": "What does 'to wrap' mean?",
+            "opts": [
+              "Envolver",
+              "Rapear",
+              "Romper"
+            ],
+            "ans": "Envolver"
+          },
+          {
+            "q": "What is your 'wrist'?",
+            "opts": [
+              "La muñeca (articulación)",
+              "El tobillo",
+              "El codo"
+            ],
+            "ans": "La muñeca (articulación)"
+          },
+          {
+            "q": "What's the difference between 'fight' and 'wrestle'?",
+            "opts": [
+              "'Wrestle' is more playful grappling; 'fight' is fighting for real",
+              "They are exactly the same",
+              "'Fight' is only for animals"
+            ],
+            "ans": "'Wrestle' is more playful grappling; 'fight' is fighting for real"
+          },
+          {
+            "q": "'Patas de gallo' in English are…",
+            "opts": [
+              "chicken feet",
+              "crow's feet",
+              "bird lines"
+            ],
+            "ans": "crow's feet"
+          },
+          {
+            "q": "What are 'wrinkles'?",
+            "opts": [
+              "Arrugas",
+              "Pecas",
+              "Granos"
+            ],
+            "ans": "Arrugas"
+          }
+        ]
+      },
+      {
+        "title": "Test · Dropping the T & Expressions",
+        "key": "juls_aug07_t2",
+        "qs": [
+          {
+            "q": "In connected speech, how is 'most people' usually pronounced?",
+            "opts": [
+              "mos(t) people — the T disappears",
+              "mos-tuh people",
+              "mo people"
+            ],
+            "ans": "mos(t) people — the T disappears"
+          },
+          {
+            "q": "Why does the T disappear in 'next day'?",
+            "opts": [
+              "Because 'next' never has a T sound",
+              "To avoid a difficult cluster of consonants",
+              "Because it's American English only"
+            ],
+            "ans": "To avoid a difficult cluster of consonants"
+          },
+          {
+            "q": "Which word ALWAYS has a silent T, even on its own?",
+            "opts": [
+              "just",
+              "listen",
+              "most"
+            ],
+            "ans": "listen"
+          },
+          {
+            "q": "'It only happens once in a blue moon' means…",
+            "opts": [
+              "It happens every month",
+              "It happens very rarely",
+              "It happens at night"
+            ],
+            "ans": "It happens very rarely"
+          },
+          {
+            "q": "'Un saco de boxeo' in English is…",
+            "opts": [
+              "a punching sack",
+              "a punching bag",
+              "a boxing sac"
+            ],
+            "ans": "a punching bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260831",
+    "title": "English Time with Juls",
+    "date": "2026-08-31",
+    "topic": "Adjectives with Over-",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: Back to the Routine",
+        "expanded": false,
+        "content": "The first class after the summer break. For Juls, **September feels more like the new year than January**.\n\n- Some people get depressed in September; others feel new motivation. Juls is in the second team.\n- **We have more power over how we feel than we think.** She decided to stop hating Sundays and the end of summer, and now she enjoys them.\n\n### Schedule\nMonday and Wednesday at **4:30** until 15 September; Friday (Natural English) at **2:00 PM**.\n\n### Vocabulary\n| Expression | Spanish |\n|---|---|\n| **back to reality / back to the routine** | vuelta a la realidad / a la rutina |\n| **to resume (classes)** | retomar (las clases) |\n| **bearable** | soportable |\n| **to ramble** / **to beat around the bush** | enrollarse / irse por las ramas |\n| **to mock / to imitate** | imitar (burlonamente) |\n| **second nature** | algo natural, automático |\n\n> Why speaking works better than writing: we remember songs after hearing them twice, but forget years of written study. The brain is built to learn language **orally**; writing came much later in evolution."
+      },
+      {
+        "title": "2. Adjectives with Over- (Sobre-)",
+        "expanded": false,
+        "content": "**over-** = *sobre-*: it means **too much**, and many of these words have a direct Spanish equivalent. They are written as **one word**.\n\n| Adjective | Meaning | Spanish |\n|---|---|---|\n| **overcrowded** | too many people in a place **at a specific moment** (concert, street, classroom) | abarrotado |\n| **overpopulated** | too many **inhabitants** (city, country) | superpoblado |\n| **overrated** | thought to be better than it really is | sobrevalorado *(to rate = valorar)* |\n| **overloaded** | with too much content or load | sobrecargado *(to load = cargar)* |\n| **overgrown** | (plants, garden) that has grown too much | sobrecrecido, descuidado *(grow → grown)* |\n| **overestimated** | thought to be more capable than they really are | sobreestimado |\n\n⚠ **Overwhelmed** is figurative (*sobrepasado*): *I'm overwhelmed with work.* **Overflowing** is only for liquids.\n\n> **Tip:** these are long words, so pronounce every syllable and exaggerate the **intonation**, like a song: *o-ver-PO-pu-la-ted*. The melody helps you remember them.\n\n### Practice (Ask me…)\n- Will your garden be **overgrown** in three weeks?\n- Was your boss **overestimated** by the CEO?\n- Do most people think that *Titanic* is **overrated**? → I don't think so, its popularity is well-deserved.\n- Which country is more **overpopulated**, India or Madagascar? → India, definitely.\n- Was it **overcrowded** last time you went to a concert?"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Adjectives with Over-",
+        "key": "juls_aug31_t1",
+        "qs": [
+          {
+            "q": "A concert with far too many people at that moment is…",
+            "opts": [
+              "overpopulated",
+              "overcrowded",
+              "overloaded"
+            ],
+            "ans": "overcrowded"
+          },
+          {
+            "q": "A country with too many inhabitants is…",
+            "opts": [
+              "overcrowded",
+              "overpopulated",
+              "overgrown"
+            ],
+            "ans": "overpopulated"
+          },
+          {
+            "q": "A film everyone says is great, but really isn't, is…",
+            "opts": [
+              "overrated",
+              "overestimated",
+              "overwhelmed"
+            ],
+            "ans": "overrated"
+          },
+          {
+            "q": "A boat carrying too much merchandise is…",
+            "opts": [
+              "overflowed",
+              "overloaded",
+              "overweighted"
+            ],
+            "ans": "overloaded"
+          },
+          {
+            "q": "A garden where the plants have grown too much is…",
+            "opts": [
+              "overgrowed",
+              "overgrown",
+              "overgrowing"
+            ],
+            "ans": "overgrown"
+          },
+          {
+            "q": "'Me has sobreestimado.' →",
+            "opts": [
+              "You have overrated me.",
+              "You have overestimated me.",
+              "You have overloaded me."
+            ],
+            "ans": "You have overestimated me."
+          },
+          {
+            "q": "'I'm ___ because I have too much work' (sobrepasado/a).",
+            "opts": [
+              "overwhelmed",
+              "overloaded",
+              "overcrowded"
+            ],
+            "ans": "overwhelmed"
+          },
+          {
+            "q": "'Enrollarse / irse por las ramas' →",
+            "opts": [
+              "to ramble / to beat around the bush",
+              "to rumble / to hit the bush",
+              "to roll / to go by the branches"
+            ],
+            "ans": "to ramble / to beat around the bush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260907",
+    "title": "English Time with Juls",
+    "date": "2026-09-07",
+    "topic": "Reported Speech",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Reported Speech: The Logic",
+        "expanded": false,
+        "content": "**Direct speech**: the exact words: *\"I'm hungry,\" Pepito said.*\n**Reported (indirect) speech**: we paraphrase the message: *Pepito said that he **was** hungry.*\n\nIt works **the same way as in Spanish**, so don't memorise tables: use your **logic**.\n\n### Why the tense goes one step back\nWhen you repeat what someone said, they said it **before now**, so the tense moves **one step back** on the timeline. Spanish does the same: *Pepito dijo que **tenía** hambre*, not *que tiene hambre*.\n\n### Other automatic changes (perspective)\n- **Possessives and pronouns**: *my brother* → *his brother*; *our holidays* → *their holidays*.\n- **Time expressions**: *last week* → **the week before**; *at the moment* → **at that moment**.\n\n### Tense changes seen in class\n| Direct | Reported |\n|---|---|\n| present simple (*visit*) | past simple (*visited*) |\n| present continuous (*am organizing*) | past continuous (*was organizing*) |\n| past simple (*got fired*) | **past perfect** (*had got fired*), the past of the past = *pluscuamperfecto* |\n| will | **would** + base verb (*would order*, never *would ordered*) |\n| can | **could** |\n| past perfect | stays the same (it can't go further back) |\n\n> If the situation is still true, you *can* keep the present (*Kevin said his brother visits…*), but if you don't know, the past is the safe option.\n\n### Is *that* optional?\nYes. *Peter said (that) he couldn't do it.* The two clauses have different subjects and work independently, so *that* is usually omitted."
+      },
+      {
+        "title": "2. Practice: Transform the Sentences",
+        "expanded": false,
+        "content": "| Direct speech | Reported speech |\n|---|---|\n| \"I'm hungry,\" Pepito said. | Pepito said that he **was** hungry. |\n| \"My brother visits his girlfriend every year,\" Kevin said. | Kevin said that **his** brother **visited** **his** girlfriend every year. |\n| \"I got fired last week,\" Peter said. | Peter said that he **had got fired** **the week before**. |\n| \"We went surfing on our last holidays,\" my parents said. | My parents said that they **had gone** surfing on **their** last holidays. |\n| \"I am organizing a launch party,\" my boss said. | My boss said that he **was organizing** a launch party. |\n| \"We work out three times a week,\" my friends said. | My friends said that they **worked out** three times a week. |\n| \"I found out the answer,\" Susan said. | Susan said that she **had found out** the answer. |\n| \"We will order three machines,\" my colleague said. | My colleague said that they **would order** three machines. |\n| \"I can't do it,\" Peter said. | Peter said that he **couldn't** do it. |\n| \"I broke up with my boyfriend,\" Lucy said. | Lucy said that she **had broken up** with **her** boyfriend. |\n| \"We won't do it,\" the policeman said. | The policeman said that they **wouldn't** do it. |\n| \"My mom is dealing with something at the moment,\" John said. | John said that **his** mom **was dealing** with something **at that moment**. |\n\n### Notes\n- ⚠ *had got fired*, not *had been got fired*: **get** already works as the passive auxiliary.\n- ⚠ **order** is a false friend: it means *pedir* (food, products), not *ordenar*.\n- **to deal with** someone/something = *lidiar con* alguien/algo.\n\n> **Practice idea:** tell a story out loud about your day: *My boss said that he was going to go to the zoo, but in the end he didn't go. Then he said that he would call me, but he never did.*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Reported Speech",
+        "key": "juls_sep07_t1",
+        "qs": [
+          {
+            "q": "\"I'm hungry,\" Pepito said. →",
+            "opts": [
+              "Pepito said that he is hungry.",
+              "Pepito said that he was hungry.",
+              "Pepito said that I was hungry."
+            ],
+            "ans": "Pepito said that he was hungry."
+          },
+          {
+            "q": "\"I got fired last week,\" Peter said. →",
+            "opts": [
+              "Peter said that he got fired last week.",
+              "Peter said that he had got fired the week before.",
+              "Peter said that he had been got fired the week before."
+            ],
+            "ans": "Peter said that he had got fired the week before."
+          },
+          {
+            "q": "\"We will order three machines,\" my colleague said. →",
+            "opts": [
+              "My colleague said that they would order three machines.",
+              "My colleague said that they would ordered three machines.",
+              "My colleague said that they will ordered three machines."
+            ],
+            "ans": "My colleague said that they would order three machines."
+          },
+          {
+            "q": "\"I am organizing a launch party,\" my boss said. →",
+            "opts": [
+              "My boss said that he is organizing a launch party.",
+              "My boss said that he was organizing a launch party.",
+              "My boss said that he had organize a launch party."
+            ],
+            "ans": "My boss said that he was organizing a launch party."
+          },
+          {
+            "q": "\"I can't do it,\" Peter said. →",
+            "opts": [
+              "Peter said that he can't do it.",
+              "Peter said that he couldn't do it.",
+              "Peter said that he wouldn't can do it."
+            ],
+            "ans": "Peter said that he couldn't do it."
+          },
+          {
+            "q": "\"My mom is dealing with something at the moment,\" John said. →",
+            "opts": [
+              "John said that his mom was dealing with something at that moment.",
+              "John said that my mom was dealing with something at the moment.",
+              "John said that his mom is dealing with something at the moment."
+            ],
+            "ans": "John said that his mom was dealing with something at that moment."
+          },
+          {
+            "q": "What is the reported-speech version of the past simple ('I found out')?",
+            "opts": [
+              "the past continuous (was finding out)",
+              "the past perfect (had found out)",
+              "the present perfect (has found out)"
+            ],
+            "ans": "the past perfect (had found out)"
+          },
+          {
+            "q": "In 'Peter said that he couldn't do it', the word 'that' is…",
+            "opts": [
+              "compulsory",
+              "optional",
+              "incorrect"
+            ],
+            "ans": "optional"
+          },
+          {
+            "q": "What does 'to order' mean in 'We will order three machines'?",
+            "opts": [
+              "Ordenar (put in order)",
+              "Pedir / encargar",
+              "Mandar (give a command)"
+            ],
+            "ans": "Pedir / encargar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260914",
+    "title": "English Time with Juls",
+    "date": "2026-09-14",
+    "topic": "Instead Of",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: New Schedule & Juls's Master's Degree",
+        "expanded": false,
+        "content": "### New schedule\nMonday and Wednesday classes are now at **5:00 PM** (half an hour earlier than before the summer); Friday stays at **2:00 PM**. Juls has started a **master's degree in teacher training**.\n\n### Her view on education\n- She studied **English philology** and has taught since she was 15–16; she enjoys teaching more now than when she started.\n- Learning is in our nature: children ask *why* all the time. Rigid, overly serious schooling **kills curiosity**, which creates a **vicious circle**, because teachers are trained the same way they were taught.\n- **You don't learn faster by taking it seriously.** The brain absorbs more when it's enjoying itself: *learning through playing*.\n\n### Vocabulary\n| Expression | Spanish |\n|---|---|\n| **Would you mind telling us…?** | ¿Te importaría contarnos…? *(mind + -ing)* |\n| **a master's degree** | un máster |\n| **teacher training** | formación del profesorado |\n| **obsolete** | obsoleto/a |\n| **bland** | soso/a, insulso/a |\n| **to kill curiosity** | matar la curiosidad |\n| **a vicious circle** | un círculo vicioso |\n| **experience is the best teacher** | la experiencia es la mejor maestra |"
+      },
+      {
+        "title": "2. Instead Of (En vez de / En lugar de)",
+        "expanded": false,
+        "content": "**instead of** = *en vez de, en lugar de* (⚠ *of* has only one F).\n\n| After *instead of* | Example |\n|---|---|\n| **noun / name** | *My sister went to Australia last year instead of **New Zealand**.* |\n| **verb → -ING** | ***Instead of traveling** so much, you should save money.* |\n| **object pronoun** | *She should marry me instead of **him**.* |\n\n### Why -ING?\n**Rule of thumb** (*la regla de oro*): after a **preposition**, a verb always takes **-ing** (the gerund). Spanish uses the infinitive (*en vez de **ir***), English uses the gerund (*instead of **going***).\n\n### Practice: build the sentence\n- **Instead of traveling** so much, you should save money.\n- **Instead of trying** an impossible diet, you should exercise more / do more exercise.\n- My sister went to Australia last year **instead of** New Zealand.\n- She should marry me **instead of him**.\n- **Instead of complaining** so much, you should do something about it.\n- I will call her tomorrow **instead of them**.\n\n### Translations\n- *En lugar de culpar a alguien, él debería aceptar su error.* → **Instead of blaming** someone, he should accept his mistake.\n- *En vez del lunes, ¿por qué no tenemos la clase el martes?* → **Instead of Monday**, why don't we have the class on Tuesday?\n- *Él debería contármelo a mí en lugar de a él.* → He should **tell me** instead of **him**.\n- *¿No preferirías viajar al pasado en vez de al futuro?* → Wouldn't you prefer to travel to the past **instead of** the future?\n- *En vez de ahorrar, ¿por qué no inviertes?* → **Instead of saving**, why don't you invest?\n\n### *Tell me*, not *tell me it*\nWith **tell**, the message is implied, so there's no need for *it*: *contármelo* → **tell me**. Add an object only to be specific: *tell me the truth / a secret*."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Instead Of",
+        "key": "juls_sep14_t1",
+        "qs": [
+          {
+            "q": "'En vez de viajar tanto, deberías ahorrar.' →",
+            "opts": [
+              "Instead of travel so much, you should save money.",
+              "Instead of traveling so much, you should save money.",
+              "Instead to travel so much, you should save money."
+            ],
+            "ans": "Instead of traveling so much, you should save money."
+          },
+          {
+            "q": "Why do we use -ING after 'instead of'?",
+            "opts": [
+              "Because it's a continuous action",
+              "Because a verb after a preposition takes the gerund",
+              "Because it's the past tense"
+            ],
+            "ans": "Because a verb after a preposition takes the gerund"
+          },
+          {
+            "q": "She should marry me instead of ___.",
+            "opts": [
+              "he",
+              "him",
+              "his"
+            ],
+            "ans": "him"
+          },
+          {
+            "q": "'Él debería contármelo a mí en lugar de a él.' →",
+            "opts": [
+              "He should tell it me instead of him.",
+              "He should tell me instead of him.",
+              "He should tell to me instead of he."
+            ],
+            "ans": "He should tell me instead of him."
+          },
+          {
+            "q": "'En vez de ahorrar, ¿por qué no inviertes?' →",
+            "opts": [
+              "Instead of saving, why don't you invest?",
+              "Instead of save, why you don't invest?",
+              "Instead saving, why don't you invest?"
+            ],
+            "ans": "Instead of saving, why don't you invest?"
+          },
+          {
+            "q": "'La regla de oro' (a rule that always works) in English is…",
+            "opts": [
+              "the golden rule of finger",
+              "the rule of thumb",
+              "the gold rule"
+            ],
+            "ans": "the rule of thumb"
+          },
+          {
+            "q": "'¿Te importaría contarnos…?' →",
+            "opts": [
+              "Would you mind to tell us…?",
+              "Would you mind telling us…?",
+              "Would you mind tell us…?"
+            ],
+            "ans": "Would you mind telling us…?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260921",
+    "title": "English Time with Juls",
+    "date": "2026-09-21",
+    "topic": "Easily + Superlatives",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: Learning a Second Language",
+        "expanded": false,
+        "content": "- **Everyone has already learned a language**: your first one. A second language isn't like learning to drive or play an instrument for the first time, so we should **mimic** the way we learned our first language.\n- A wise colleague (a retired university teacher with a PhD in education and AI) told Juls: *\"You never stop being a student. The moment you stop learning, you stop developing as a teacher.\"*\n- When students aren't progressing, it isn't always their fault: teachers should be **humble**, not *preachers*.\n\n### Vocabulary\n| Expression | Spanish |\n|---|---|\n| **stubborn** | cabezota, terco/a |\n| **humble** | humilde |\n| **to mimic** | imitar |\n| **my last days in my 20s** | mis últimos días con veintitantos |\n| **I feel like an impostor** | me siento un/a impostor/a |\n| **to know something by heart** | saberse algo de memoria |\n| **fingers crossed / touch wood** | crucemos los dedos / toco madera |\n\nAstronomical autumn starts around **22–23 September**; meteorological autumn starts on **1 September**."
+      },
+      {
+        "title": "2. Superlatives Review",
+        "expanded": false,
+        "content": "| Adjective | Superlative | Examples |\n|---|---|---|\n| **One syllable** | **the + -est** | big → the biggest, small → the smallest, fast → the fastest, short → the shortest |\n| **Two or more syllables** | **the most** + adjective | popular → the most popular, beautiful → the most beautiful |\n| ⚠ **Two syllables ending in -Y** | **the + -iest** (exception) | happy → the happiest, funny → the funniest, easy → the easiest, early → the earliest |\n| **Irregular** | change completely | good → better → the best; bad → worse → the worst; far → further → the furthest |\n\n❌ *the most happy*, *more happy* → ✅ **the happiest**, **happier**."
+      },
+      {
+        "title": "3. Easily + Superlative",
+        "expanded": false,
+        "content": "**easily** (adverb) + superlative = *fácilmente*: it's **clearly / obviously** number one. Another way to say **by far**.\n- Position: **between the verb and the superlative**, just like in Spanish.\n- *El fútbol es **fácilmente** el deporte más popular en España.* → *Football is **easily the most popular** sport in Spain.*\n- *This is **by far** the best class I've attended.*\n\n### Practice\n- Ferrari / popular Italian car → Ferrari is **easily the most popular** Italian car.\n- Michael Jordan / good basketball player → Michael Jordan is **easily the best** basketball player.\n- Coca-Cola / consumed soft drink → Coca-Cola is **easily the most consumed** soft drink.\n- Madrid / beautiful city in Europe → Madrid is **easily the most beautiful** city in Europe.\n- The discovery of penicillin / big discovery in history → The discovery of penicillin is **easily the biggest** discovery **in** history.\n- Jeff Bezos / rich man in the world → Jeff Bezos is **easily the richest** man in the world.\n- *Game of Thrones* / great TV show → *Game of Thrones* is **easily the greatest** TV show.\n\n### Translations\n- *Esta es fácilmente la persona más pequeña que he visto.* → This is easily **the smallest / tiniest / shortest** person I have (ever) seen.\n- *Ese fue, fácilmente, el momento más feliz de mi vida.* → That was easily **the happiest** moment of my life.\n\n### Refresco\n- **soft drink** (general), **fizzy drink** (British), **soda** (American). Choose one!\n- For water: **sparkling water**, not *fizzy water*."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Easily + Superlatives",
+        "key": "juls_sep21_t1",
+        "qs": [
+          {
+            "q": "Where does 'easily' go in a superlative sentence?",
+            "opts": [
+              "At the end of the sentence",
+              "Between the verb and the superlative",
+              "Before the subject"
+            ],
+            "ans": "Between the verb and the superlative"
+          },
+          {
+            "q": "Ferrari / popular Italian car →",
+            "opts": [
+              "Ferrari is the easily most popular Italian car.",
+              "Ferrari is easily the most popular Italian car.",
+              "Ferrari easily is the popularest Italian car."
+            ],
+            "ans": "Ferrari is easily the most popular Italian car."
+          },
+          {
+            "q": "What is the superlative of 'happy'?",
+            "opts": [
+              "the most happy",
+              "the happiest",
+              "the happyest"
+            ],
+            "ans": "the happiest"
+          },
+          {
+            "q": "Which two-syllable adjectives take -est instead of 'the most'?",
+            "opts": [
+              "Those ending in -Y",
+              "Those ending in -ful",
+              "Those ending in -ed"
+            ],
+            "ans": "Those ending in -Y"
+          },
+          {
+            "q": "Jeff Bezos / rich man in the world →",
+            "opts": [
+              "Jeff Bezos is easily the richest man in the world.",
+              "Jeff Bezos is easily the most rich man in the world.",
+              "Jeff Bezos is easily richer man in the world."
+            ],
+            "ans": "Jeff Bezos is easily the richest man in the world."
+          },
+          {
+            "q": "'Ese fue, fácilmente, el momento más feliz de mi vida.' →",
+            "opts": [
+              "That was easily the happiest moment of my life.",
+              "That was the easily most happy moment of my life.",
+              "That easily was the happier moment of my life."
+            ],
+            "ans": "That was easily the happiest moment of my life."
+          },
+          {
+            "q": "Which expression means the same as 'easily' + superlative?",
+            "opts": [
+              "by far",
+              "far away",
+              "so far"
+            ],
+            "ans": "by far"
+          },
+          {
+            "q": "'Agua con gas' →",
+            "opts": [
+              "fizzy water",
+              "sparkling water",
+              "soda water drink"
+            ],
+            "ans": "sparkling water"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20260928",
+    "title": "English Time with Juls",
+    "date": "2026-09-28",
+    "topic": "To Sound + New Adjectives",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. That Sounds + Adjective",
+        "expanded": false,
+        "content": "Just like Spanish *sonar* used figuratively (*suena bien, suena interesante*), English uses **sound** + **adjective**:\n\n> **(That) + noun + sound(s) + adjective**: *That sounds good.* / *That trip sounds lovely.*\n\n- Remember the **-s** in the third person: *That **sounds**…*\n- Start with **that** to make it a natural **reaction** to something someone just told you.\n- Only a single **adjective** fits after *sounds*: ❌ *That solution sounds a wild idea* → ✅ *That solution sounds **wild***.\n- ⚠ **ring** = *sonar* for a phone, alarm or doorbell; **sound** is the general verb. (*It rings a bell* = me suena.)\n\n### Practice\n| Spanish | English |\n|---|---|\n| Ese tema suena confuso. | That **topic** sounds **confusing**. |\n| Esa actuación suena horrorosa. | That **performance** sounds **awful**. |\n| Ese viaje suena adorable. | That **trip** sounds **lovely**. |\n| Esa historia suena sosa. | That **story** sounds **bland**. |\n| Esa opinión suena infundada. | That **opinion** sounds **unfounded**. |\n| Esa lesión suena grave. | That **injury** sounds **serious**. |\n| Ese procedimiento suena arriesgado. | That **procedure** sounds **risky**. |\n| Esa solución suena descabellada. | That **solution** sounds **far-fetched**. |\n| Esa excusa suena inventada. | That **excuse** sounds **made up**. |\n| Esa conversación suena controvertida. | That **conversation** sounds **controversial**. |\n| Ese invento suena innovador. | That **invention** sounds **innovative**. |\n| Esa ciudad suena deprimente/gris. | That **city** sounds **dreary**. |\n| Ese pueblo suena pintoresco. | That **village** sounds **picturesque**. |"
+      },
+      {
+        "title": "2. Notes on the New Adjectives",
+        "expanded": false,
+        "content": "- **awful** /ˈɔːfəl/: a great alternative to *terrible/horrible*. Long, closed *o* plus a weak *-ful*.\n- ⚠ **terrific** = **great, fantastic** (positive!), not *terrible*.\n- ⚠ **terrified** = how you **feel** (*aterrorizado/a*), not a description of a thing.\n- **lovely**: very British, used for everything nice: *Oh, lovely! That's lovely.*\n- ⚠ **bland** = **soso/a** (false friend, not *blando*): *The food is bland.*\n- **story** (a tale, a narrative) vs. **history** (past events): *the history of humanity*, *the story of my life*.\n- **topic** = a general subject (*tema*); **issue** = a more specific matter (*asunto*).\n- **serious** = *grave*. *Grave* exists, but it sounds excessive (and also means *tumba*).\n- **procedure** /prəˈsiːdʒə/: three syllables, stress on *-ce-*, with a voiced *dʒ* at the end.\n- **far-fetched** = *descabellado/a, rebuscado/a* (*fetch* = ir a buscar y traer, as in *play fetch* with a dog). Pronounce *-tched* /tʃt/.\n- **made up** = *inventado/a* (from the phrasal verb **make up**). Latin vs. Anglo-Saxon: *invented* is correct but sounds academic, so prefer the Anglo-Saxon / phrasal verb option.\n- **trip** (noun) vs. **travel** (verb). *Travels* as a noun is poetic or literary (*Travels with My Aunt*).\n- **invention** (not *invent*) and **innovative** (not *innovator*): watch the endings!\n- **dreary** = grey, gloomy **and** depressing, ideal for describing a place. (**gloomy** = sombrío, nublado.)\n- **picturesque** /ˌpɪktʃəˈresk/ = *pintoresco*, from *picture*."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · That Sounds + Adjective",
+        "key": "juls_sep28_t1",
+        "qs": [
+          {
+            "q": "'Esa excusa suena inventada.' (most natural) →",
+            "opts": [
+              "That excuse sounds invented.",
+              "That excuse sounds made up.",
+              "That excuse sound made up."
+            ],
+            "ans": "That excuse sounds made up."
+          },
+          {
+            "q": "What does 'terrific' mean?",
+            "opts": [
+              "Terrible",
+              "Great / fantastic",
+              "Terrified"
+            ],
+            "ans": "Great / fantastic"
+          },
+          {
+            "q": "'Esa historia suena sosa.' →",
+            "opts": [
+              "That story sounds bland.",
+              "That history sounds soft.",
+              "That story sounds blandly."
+            ],
+            "ans": "That story sounds bland."
+          },
+          {
+            "q": "'Esa solución suena descabellada.' →",
+            "opts": [
+              "That solution sounds far-fetched.",
+              "That solution sounds a wild idea.",
+              "That solution sounds far-fetching."
+            ],
+            "ans": "That solution sounds far-fetched."
+          },
+          {
+            "q": "A grey, cloudy and depressing city sounds…",
+            "opts": [
+              "dreary",
+              "dreamy",
+              "picturesque"
+            ],
+            "ans": "dreary"
+          },
+          {
+            "q": "'Ese pueblo suena pintoresco.' →",
+            "opts": [
+              "That village sounds painted.",
+              "That village sounds picturesque.",
+              "That village sounds pictorial."
+            ],
+            "ans": "That village sounds picturesque."
+          },
+          {
+            "q": "'Ese invento suena innovador.' →",
+            "opts": [
+              "That invent sounds innovator.",
+              "That invention sounds innovative.",
+              "That invention sounds innovator."
+            ],
+            "ans": "That invention sounds innovative."
+          },
+          {
+            "q": "'Esa lesión suena grave.' (most natural) →",
+            "opts": [
+              "That injury sounds serious.",
+              "That injury sounds grave.",
+              "That lesion sounds serious."
+            ],
+            "ans": "That injury sounds serious."
+          },
+          {
+            "q": "Which verb is used for a phone or an alarm (sonar)?",
+            "opts": [
+              "sound",
+              "ring",
+              "noise"
+            ],
+            "ans": "ring"
+          }
+        ]
+      }
+    ]
   }
 ]
