@@ -17551,5 +17551,965 @@
         ]
       }
     ]
+  },
+  {
+    "id": "brain_buffet_20260709",
+    "title": "Brain Buffet",
+    "date": "2026-07-09",
+    "topic": "Family and Relationships — Siblings and Success (Part 1)",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion — What Shapes Professional Success?",
+        "expanded": false,
+        "content": "What has the **biggest influence** on a person's professional success? Choose one!\n\n| | Factor |\n|---|---|\n| 🙂 | **Personality** — 🇺🇸 *per-so-NAL-i-dee* · 🇬🇧 *per-so-NAL-i-tee* |\n| 🍀 | **Luck** |\n| 🎓 | **Education** |\n| 👨‍👩‍👧 | **Family** |\n| 🤝 | **Friends** |\n| 🌍 | **Life experiences** |\n\n> The class answers: *life experiences*, *education*, *family and education* — they're all connected!"
+      },
+      {
+        "title": "2. Siblings — Brothers, Sisters or Siblings?",
+        "expanded": false,
+        "content": "**Siblings** = brothers and sisters (*hermanos*, without specifying gender).\n\n| You have… | You say… |\n|---|---|\n| two boys | *I have two **brothers**.* (only male) |\n| two girls | *I have two **sisters**.* (only female) |\n| one boy and one girl | *I have two **siblings**.* / *I have a brother and a sister.* |\n| no brothers or sisters | *I'm an **only child**.* |\n\n**Birth order:** the **oldest** / **eldest** child · the **middle** child · the **youngest** child\n\n💡 Use *siblings* when you don't want to specify the gender — e.g. *Why older **siblings** are more likely to be successful.*"
+      },
+      {
+        "title": "3. Reading — Why Older Siblings Are More Likely To Be Successful (Part 1)",
+        "expanded": false,
+        "content": "*Adapted from The Telegraph.*\n\n> \"I'm the oldest child. I make the rules,\" read a **mug** my family owned when I was small. \"I'm the middle child. I am the reason there are rules.\" And then underneath, \"I am the youngest child. I'm above the rules.\"\n>\n> We have lots of **preconceptions** about what the **birth order** of siblings means, and that mug seemed perfectly **accurate** to me: the responsible, **ambitious** eldest child, the middle child who is difficult to deal with, and the **easy-going** youngest. But what does this birth order mean when siblings grow up? Yes, people think that elder siblings are more ambitious, but is that really so, and does it mean that they **earn** more?\n>\n> We know that a person's parents, **spouse** and children all have significant effects on how **wealthy** they may become, but the **impact** of siblings is not so easy to see.\n\n---\n\n- **Mug** = a big cup (*taza*), the kind you use for *café con leche*.\n- **To earn** = to make money (*ganar dinero*).\n\n📖 **Reading tip:** read once for the general idea (*scanning*), read again for the details, then **summarise** it in your own words."
+      },
+      {
+        "title": "4. Vocabulary — Find the Word in the Text",
+        "expanded": false,
+        "content": "| Meaning | Word from the text |\n|---|---|\n| Correct and true | **accurate** |\n| Very motivated | **ambitious** |\n| Relaxed and not worried about things | **easy-going** (don't forget the hyphen!) |\n| Husband or wife | **spouse** (*cónyuge*) — pronounced *spouse*, no \"e\" sound at the end |\n| Having a lot of money, rich | **wealthy** (W-E-A-L-T-H-Y) |\n| A strong effect | **impact** |\n\n---\n\n### Fill in the gaps\n\n| Sentence | Answer |\n|---|---|\n| Even as a child, my brother was very ___ and always wanted to be the best student in his class. | **ambitious** |\n| I have a good relationship with my ___'s brother and sister. We often spend time together. | **spouse** |\n| I grew up with two ___, an older sister and a younger brother, and we used to argue a lot. | **siblings** |\n| My sister is quite ___. Even when things go wrong, she stays calm and doesn't panic. | **easy-going** |\n| My aunt and uncle became quite ___ after starting their own business, but they still live a very simple life. | **wealthy** |\n| My older sister had a big ___ on me because she encouraged me to study English and travel more. | **impact** |\n| My granddad told me amazing stories about his travels, but now I'm not sure how ___ they were. | **accurate** |\n\n💡 You always have an impact **on** something: *She had a big impact **on** me.*"
+      },
+      {
+        "title": "5. Translation Practice",
+        "expanded": false,
+        "content": "| Español | English |\n|---|---|\n| Buscamos a alguien tranquilo y relajado para trabajar con niños. | We**'re looking for** someone **easy-going** to work with children. |\n| Su predicción fue sorprendentemente precisa. | His prediction was **surprisingly accurate**. |\n| La familia es muy rica, pero vive de forma bastante sencilla. | The family is very **wealthy**, but **they** live quite **simply**. |\n| Ese profesor cambió mi vida más de lo que imagina. | That teacher had a bigger **impact on** my life than he **realises**. |\n\n⚠️ **Watch out!**\n- *Buscamos* = an action happening now → **present continuous**: *We're looking for…*\n- *Surprisingly* is an **adverb** (how it was) → add **-ly**.\n- *The family* is singular, but the people in it live simply → **they** live.\n- *Simply* or *in a simple way* — don't mix the two."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Siblings & Reading Vocabulary",
+        "key": "bb_20260709_vocab",
+        "qs": [
+          {
+            "q": "What does 'siblings' mean?",
+            "opts": [
+              "Mums and dads",
+              "Brothers and sisters",
+              "Aunts and uncles",
+              "Cousins"
+            ],
+            "ans": "Brothers and sisters"
+          },
+          {
+            "q": "You have one brother and one sister. Which sentence is correct?",
+            "opts": [
+              "I have two brothers.",
+              "I have two sisters.",
+              "I have two siblings.",
+              "I'm an only child."
+            ],
+            "ans": "I have two siblings."
+          },
+          {
+            "q": "What do you call a person with no brothers or sisters?",
+            "opts": [
+              "An only child",
+              "An eldest child",
+              "A single sibling",
+              "A lonely child"
+            ],
+            "ans": "An only child"
+          },
+          {
+            "q": "Which word means 'husband or wife'?",
+            "opts": [
+              "Sibling",
+              "Spouse",
+              "Parent",
+              "Partner-in-law"
+            ],
+            "ans": "Spouse"
+          },
+          {
+            "q": "Which word means 'relaxed and not worried about things'?",
+            "opts": [
+              "Ambitious",
+              "Accurate",
+              "Easy-going",
+              "Wealthy"
+            ],
+            "ans": "Easy-going"
+          },
+          {
+            "q": "Which word means 'correct and true'?",
+            "opts": [
+              "Accurate",
+              "Ambitious",
+              "Impact",
+              "Wealthy"
+            ],
+            "ans": "Accurate"
+          },
+          {
+            "q": "Which word means 'very motivated'?",
+            "opts": [
+              "Easy-going",
+              "Ambitious",
+              "Accurate",
+              "Spouse"
+            ],
+            "ans": "Ambitious"
+          },
+          {
+            "q": "What does 'to earn' mean in the text?",
+            "opts": [
+              "To learn",
+              "To make money",
+              "To spend money",
+              "To win a game"
+            ],
+            "ans": "To make money"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Gap-Fill & Translations",
+        "key": "bb_20260709_practice",
+        "qs": [
+          {
+            "q": "'My aunt and uncle became quite ___ after starting their own business.'",
+            "opts": [
+              "wealthy",
+              "easy-going",
+              "accurate",
+              "siblings"
+            ],
+            "ans": "wealthy"
+          },
+          {
+            "q": "'My older sister had a big ___ on me.'",
+            "opts": [
+              "spouse",
+              "impact",
+              "accurate",
+              "wealthy"
+            ],
+            "ans": "impact"
+          },
+          {
+            "q": "'I have a good relationship with my ___'s brother and sister.'",
+            "opts": [
+              "siblings",
+              "spouse",
+              "impact",
+              "ambitious"
+            ],
+            "ans": "spouse"
+          },
+          {
+            "q": "'Buscamos a alguien tranquilo y relajado para trabajar con niños.'",
+            "opts": [
+              "We look for someone easy-going to work with children.",
+              "We're looking for someone easy-going to work with children.",
+              "We looked for someone easy-going to work with children.",
+              "We have looked for someone easy-going to work with children."
+            ],
+            "ans": "We're looking for someone easy-going to work with children."
+          },
+          {
+            "q": "'Su predicción fue sorprendentemente precisa.'",
+            "opts": [
+              "His prediction was surprising accurate.",
+              "His prediction was surprisingly accurate.",
+              "His prediction was surprisingly accuracy.",
+              "His prediction surprised accurate."
+            ],
+            "ans": "His prediction was surprisingly accurate."
+          },
+          {
+            "q": "'La familia es muy rica, pero vive de forma bastante sencilla.'",
+            "opts": [
+              "The family is very wealthy, but they live quite simply.",
+              "The family is very wealthy, but it lives quite simple.",
+              "The family are very rich, but lives quite simply.",
+              "The family is very wealthy, but they live quite simple way."
+            ],
+            "ans": "The family is very wealthy, but they live quite simply."
+          },
+          {
+            "q": "'Ese profesor cambió mi vida más de lo que imagina.'",
+            "opts": [
+              "That teacher had a bigger impact in my life than he realises.",
+              "That teacher had a bigger impact on my life than he realises.",
+              "That teacher had a bigger impact at my life than he realises.",
+              "That teacher impacted my life more big than he realises."
+            ],
+            "ans": "That teacher had a bigger impact on my life than he realises."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain_buffet_20260716",
+    "title": "Brain Buffet",
+    "date": "2026-07-16",
+    "topic": "Reading! — Siblings and Success (Part 2)",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Review — Siblings and Success (Part 1)",
+        "expanded": false,
+        "content": "This class continues the article *\"Why Older Siblings Are More Likely To Be Successful\"* (see the Jul 9 class).\n\n- **Siblings** = brothers and sisters (*hermanos*), when you don't specify the gender.\n- Vocabulary from Part 1: **accurate** · **ambitious** · **easy-going** · **spouse** · **wealthy** · **impact**"
+      },
+      {
+        "title": "2. Reading Skill — What Does \"this\" Refer To?",
+        "expanded": false,
+        "content": "The pronoun **this** usually refers back to something **already mentioned** in the text, often close to it. Training your brain to find it is key for understanding articles, books and proficiency exams.\n\n> Research has found that older siblings often have higher IQs than younger siblings, and **this** (1) does lead to higher earnings on average, some data suggest. Research in 2021, analysing data from Denmark in the 1980s, found that older siblings earned about 2.4% more than younger ones. Researchers said that **this** (2) was because younger siblings were more likely to spend time in hospital as small children, and that **this** (3) had a negative effect on them throughout school and their early working lives. But **this** (4) doesn't tell the whole story, and it doesn't reflect what siblings themselves say about the impact they have had on each other's lives and earnings.\n\n| \"this\" | refers to… |\n|---|---|\n| (1) | the fact that older siblings have **higher IQs** than younger siblings |\n| (2) | the **2.4% salary difference** (not the hospital stays!) |\n| (3) | the fact that younger siblings **spent more time in hospital** |\n| (4) | the **explanation** that older siblings earn more |"
+      },
+      {
+        "title": "3. Reading — Siblings Can Push Each Other to Achieve",
+        "expanded": false,
+        "content": "🧠 **Before reading:** how do you think the relationship between two siblings, Divya and Aditya, who moved from India to the UK, impacted each other's professional success?\n\n> Aditya Anandkumar decided to move to the UK from India four years ago to go to university, partly because his eldest sister, Divya, had done it too. She started a master's in economics in 2021 at the University of Glasgow and later earned a PhD in game theory.\n>\n> *\"The fact that my sister was already in the UK made me realise that it was possible to go. Once someone in your family is already there, it's not a dream anymore,\"* he says. *\"Looking at Divya, I get inspiration from her.\"*\n>\n> Aditya, 24, and Divya, 31, now both work in London and live together. He's a financial reporter and she works for Amazon, and they earn about the same amount. Divya is slightly ahead in earnings if company shares are included.\n>\n> Divya says that being the eldest meant she spoke more to their parents about their finances, and that this encouraged her to earn well. Now the siblings support each other with career advice. Aditya says that he was lazier at school than Divya, but with time, his results got even better than hers.\n>\n> Siblings pushing each other in this way is called the **sibling spillover effect**. Emma Zeng, an academic at Yale University, says: *\"We found that having an academically successful older sibling positively affects the younger sibling's academic performance. He or she could be a very good **role model**.\"*\n\n💬 **The class's views:** it depends on personality and environment too · they have a good **rapport** and help each other · but the success of one can also have a *negative* effect on the other if the difference is big."
+      },
+      {
+        "title": "4. True or False? + The Sibling Spillover Effect",
+        "expanded": false,
+        "content": "| Statement | |\n|---|---|\n| The younger brother moved to the UK first. | ❌ False — Divya (the older sister) went first |\n| The siblings chose similar careers. | ❌ False — he's a financial reporter, she works for Amazon |\n| The sister makes more money. | ✅ True — slightly, if company shares are included |\n| The sister wanted to earn well because she had a rich friend. | ❌ False — conversations with her parents about finances encouraged her |\n| The sibling spillover effect is when one sibling's behaviour has a positive impact on the other. | ✅ True |\n\n---\n\n**Spillover** = *derrame* (from *to spill* = *derramar, verter*). Imagine a glass of water that overflows: everything around it gets wet. In the **sibling spillover effect**, the \"water\" is something **positive** — one sibling's success *spills over* and influences the siblings around them."
+      },
+      {
+        "title": "5. Translation Practice",
+        "expanded": false,
+        "content": "| Español | English |\n|---|---|\n| Mis hermanos siempre me ayudan cuando los necesito. | My **siblings** always help me when I need them. |\n| El informe no era del todo preciso. | The report wasn't **completely** / **entirely accurate**. |\n| A pesar de ser rico, lleva una vida sencilla. | **Despite being wealthy**, he lives a simple life. |\n\n💡 After **despite**, use the **-ing** form: *despite being…* — or *despite the fact that he's wealthy*."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Reading Comprehension",
+        "key": "bb_20260716_reading",
+        "qs": [
+          {
+            "q": "Who moved to the UK first?",
+            "opts": [
+              "Aditya, the younger brother",
+              "Divya, the older sister",
+              "They moved together",
+              "Their parents"
+            ],
+            "ans": "Divya, the older sister"
+          },
+          {
+            "q": "What does Aditya say about having his sister in the UK?",
+            "opts": [
+              "It made him realise that going was possible",
+              "It made him feel jealous",
+              "It made him want to stay in India",
+              "It made no difference to him"
+            ],
+            "ans": "It made him realise that going was possible"
+          },
+          {
+            "q": "Who earns slightly more?",
+            "opts": [
+              "Aditya",
+              "Divya, if company shares are included",
+              "Neither — they earn exactly the same",
+              "Their parents"
+            ],
+            "ans": "Divya, if company shares are included"
+          },
+          {
+            "q": "Why did Divya want to earn well?",
+            "opts": [
+              "She had a rich friend",
+              "She spoke more to their parents about their finances",
+              "Her brother pushed her",
+              "Her company offered shares"
+            ],
+            "ans": "She spoke more to their parents about their finances"
+          },
+          {
+            "q": "What is the 'sibling spillover effect'?",
+            "opts": [
+              "When siblings compete and argue",
+              "When one sibling's behaviour has a positive impact on the other",
+              "When younger siblings spend more time in hospital",
+              "When siblings earn the same salary"
+            ],
+            "ans": "When one sibling's behaviour has a positive impact on the other"
+          },
+          {
+            "q": "According to the 2021 Danish research, how much more did older siblings earn?",
+            "opts": [
+              "About 2.4% more",
+              "About 24% more",
+              "About 4.2% more",
+              "Twice as much"
+            ],
+            "ans": "About 2.4% more"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Reference Words & Vocabulary",
+        "key": "bb_20260716_language",
+        "qs": [
+          {
+            "q": "'Older siblings often have higher IQs than younger siblings, and this does lead to higher earnings.' What does 'this' refer to?",
+            "opts": [
+              "Higher earnings",
+              "The fact that older siblings have higher IQs",
+              "Younger siblings",
+              "The research"
+            ],
+            "ans": "The fact that older siblings have higher IQs"
+          },
+          {
+            "q": "'Older siblings earned about 2.4% more… Researchers said that this was because younger siblings were more likely to spend time in hospital.' What does 'this' refer to?",
+            "opts": [
+              "The time in hospital",
+              "The salary difference",
+              "The data from Denmark",
+              "The 1980s"
+            ],
+            "ans": "The salary difference"
+          },
+          {
+            "q": "What does 'spillover' mean?",
+            "opts": [
+              "Derrame",
+              "Empujón",
+              "Ventaja",
+              "Recuerdo"
+            ],
+            "ans": "Derrame"
+          },
+          {
+            "q": "'El informe no era del todo preciso.'",
+            "opts": [
+              "The report wasn't completely accurate.",
+              "The report wasn't all precise.",
+              "The report was no completely accurate.",
+              "The report wasn't complete accurate."
+            ],
+            "ans": "The report wasn't completely accurate."
+          },
+          {
+            "q": "'A pesar de ser rico, lleva una vida sencilla.'",
+            "opts": [
+              "Despite be wealthy, he lives a simple life.",
+              "Despite being wealthy, he lives a simple life.",
+              "Despite of being wealthy, he lives a simple life.",
+              "Despite to be wealthy, he lives a simple life."
+            ],
+            "ans": "Despite being wealthy, he lives a simple life."
+          },
+          {
+            "q": "Which form follows 'despite'?",
+            "opts": [
+              "The infinitive (to be)",
+              "The -ing form (being)",
+              "The past participle (been)",
+              "The base form (be)"
+            ],
+            "ans": "The -ing form (being)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain_buffet_20260917",
+    "title": "Brain Buffet",
+    "date": "2026-09-17",
+    "topic": "Articles — Hot Take",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion — Hot Takes",
+        "expanded": false,
+        "content": "A **hot take** = an **unpopular opinion** (*opinión polémica*): a controversial statement, often shared on social media, that goes against the mainstream.\n\nDo you agree or disagree?\n\n| | Hot take |\n|---|---|\n| 🔇 | Silence is better than music. |\n| 🥣 | Milk ruins cereal. |\n| 👶 | Parenting should require a licence. |\n| 💰 | Money can buy happiness. |\n| 🎭 | Shakespeare wasn't that great. |\n\n> *\"Silence is part of the music too.\"* · *\"Money can't always buy happiness, but it helps.\"*"
+      },
+      {
+        "title": "2. Articles — The Three Basic Rules",
+        "expanded": false,
+        "content": "**Definite article:** *the* · **Indefinite articles:** *a / an*. The same word can need *the*, *a* or **no article** — it depends on the context.\n\n| Sentence | Why? |\n|---|---|\n| *Bye, Dad, I'm going to **school**.* | school as an **institution** → no article |\n| *I'm at **the** school waiting for you.* | a school **both speakers know** |\n| *Look, Mummy, I think that's **the** moon.* | there's **only one** (our Moon) |\n| *Look at that tiny dot next to the planet. I think that's **a** moon.* | **naming** something |\n| ***The** bear's diet consists of roots, berries and insects.* | singular noun for things **in general** |\n| *See that cave? **A** bear lives there.* | **non-specific**, mentioned for the first time |\n| ***Children** love playing.* | **in general** → no article |\n| ***The** children love playing in the living room.* | **specific** children |\n\n---\n\n### A. No article\n- Things **in general** (plurals and uncountable nouns): *Games are popular among teenagers.* · *Grammar is hard.*\n- Someone is part of an **institution**: *They are in hospital.* · *She went to prison.* · *I'm going to school.*\n\n### B. Indefinite article (a / an)\n- **Naming** things: *This is a glass.* · *I think that's a moon.*\n- Mentioning something **for the first time** or **non-specific**: *I found a brick.* · *A bear lives there.*\n\n### C. Definite article (the)\n- Something **mentioned before** or that **both speakers understand**: *Have you seen the file?*\n- When there is **only one**: *The sky is blue.* · *The moon is our satellite.*\n- With **adjectives** and **singular nouns** for things **in general**: *I work with the elderly.* · *The compass has been used for thousands of years.*\n\n⚠️ *Compass has been used…* ❌ → ***The** compass has been used…* ✅ or ***Compasses** have been used…* ✅"
+      },
+      {
+        "title": "3. Reading — Articles in Context",
+        "expanded": false,
+        "content": "> Do you remember **the woman that I talked to yesterday**? She might be **the nicest** person I've ever met. She's **an architect** at my company. She joined the firm in **the 2010s**, and before that, she had worked in **Peru** and in **the UK**. Yesterday, I asked her to give me some advice on professional development, and she invited me for **lunch**. She said that it would give us more time to talk. So today, we're **taking a break** at 1:00, and we're going to that nice restaurant **round the corner**. I'm going to ask her about **the benefits of** working for architecture firms abroad. I'm hoping to get some sound professional advice **at last**.\n\n| Rule | Example from the text |\n|---|---|\n| **No article** with **meals** | *for **lunch*** · *coffee for breakfast* |\n| **No article** with most **place names** (cities, countries, continents) | *in **Peru*** · *in France* · *in Madrid* |\n| **The** with **defining relative clauses** (extra info that tells you *which* one) | ***the** woman that I talked to yesterday* |\n| **The** with **superlatives** | ***the** nicest person* · *the best* · *the most intelligent* |\n| **The** with **decades and centuries** | ***the** 2010s* · *the '90s* |\n| **The** with countries with **plural nouns or political terms**, and rivers, mountain ranges, oceans, seas, deserts | ***the** UK* · *the USA* · *the EU* · *the United States* |\n| **The** with something **defined by *of*** | ***the** benefits of working…* |\n| **Fixed expressions** (just learn them!) | *take **a** break* · *round **the** corner* · *at last* |\n| **A / an** when naming someone's **profession** | *She's **an** architect.* · *I'm **a** teacher.* |\n\n💡 New expression: **to hit the ground running** = to start something with energy and at full speed."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Hot Takes & Basic Article Rules",
+        "key": "bb_20260917_rules",
+        "qs": [
+          {
+            "q": "What is a 'hot take'?",
+            "opts": [
+              "A popular opinion",
+              "An unpopular, controversial opinion",
+              "A spicy dish",
+              "A breaking news story"
+            ],
+            "ans": "An unpopular, controversial opinion"
+          },
+          {
+            "q": "'Bye, Dad, I'm going to ___ school.' (the institution)",
+            "opts": [
+              "the",
+              "a",
+              "no article",
+              "an"
+            ],
+            "ans": "no article"
+          },
+          {
+            "q": "Looking at a picture of planets: 'Look at that tiny dot. I think that's ___ moon.'",
+            "opts": [
+              "the",
+              "a",
+              "no article",
+              "an"
+            ],
+            "ans": "a"
+          },
+          {
+            "q": "'___ sky is blue.'",
+            "opts": [
+              "The",
+              "A",
+              "No article",
+              "An"
+            ],
+            "ans": "The"
+          },
+          {
+            "q": "'___ are popular among teenagers.' (in general)",
+            "opts": [
+              "The games",
+              "A games",
+              "Games",
+              "An games"
+            ],
+            "ans": "Games"
+          },
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "Compass has been used for thousands of years.",
+              "The compass has been used for thousands of years.",
+              "A compasses have been used for thousands of years.",
+              "The compasses has been used for thousands of years."
+            ],
+            "ans": "The compass has been used for thousands of years."
+          },
+          {
+            "q": "'I work with ___ elderly.'",
+            "opts": [
+              "the",
+              "an",
+              "no article",
+              "a"
+            ],
+            "ans": "the"
+          },
+          {
+            "q": "'They are in ___ hospital.' (they were admitted, as patients)",
+            "opts": [
+              "the",
+              "a",
+              "no article",
+              "an"
+            ],
+            "ans": "no article"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Articles in Context",
+        "key": "bb_20260917_context",
+        "qs": [
+          {
+            "q": "'She invited me for ___ lunch.'",
+            "opts": [
+              "the",
+              "a",
+              "no article",
+              "an"
+            ],
+            "ans": "no article"
+          },
+          {
+            "q": "'She had worked in ___ Peru and in ___ UK.'",
+            "opts": [
+              "the / the",
+              "— / the",
+              "the / —",
+              "— / —"
+            ],
+            "ans": "— / the"
+          },
+          {
+            "q": "'Do you remember ___ woman that I talked to yesterday?'",
+            "opts": [
+              "a",
+              "the",
+              "no article",
+              "an"
+            ],
+            "ans": "the"
+          },
+          {
+            "q": "'She joined the firm in ___ 2010s.'",
+            "opts": [
+              "a",
+              "the",
+              "no article",
+              "an"
+            ],
+            "ans": "the"
+          },
+          {
+            "q": "'She's ___ architect at my company.'",
+            "opts": [
+              "a",
+              "an",
+              "the",
+              "no article"
+            ],
+            "ans": "an"
+          },
+          {
+            "q": "'She might be ___ nicest person I've ever met.'",
+            "opts": [
+              "a",
+              "the",
+              "no article",
+              "an"
+            ],
+            "ans": "the"
+          },
+          {
+            "q": "'I'm going to ask her about ___ benefits of working abroad.'",
+            "opts": [
+              "the",
+              "a",
+              "no article",
+              "an"
+            ],
+            "ans": "the"
+          },
+          {
+            "q": "Which is a fixed expression from the text?",
+            "opts": [
+              "take the break",
+              "round a corner",
+              "at last",
+              "at the last"
+            ],
+            "ans": "at last"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain_buffet_20260925",
+    "title": "Brain Buffet",
+    "date": "2026-09-25",
+    "topic": "Past Modal Verbs and Idioms",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Idioms for Emotions — Complete the Dialogues",
+        "expanded": false,
+        "content": "Words in the box: **air · dumps · feet · leaf · pink · thunder**\n\n| Dialogue | Answer |\n|---|---|\n| A: *Mike has just finished a meeting with his boss, and he has a face like ___.* B: *He might have been fired or something.* A: *He can't have been fired because he was promoted last week.* | **thunder** |\n| A: *Why aren't you walking on ___? The exams are over.* B: *Yeah, I know, but I might not have passed one of them.* | **air** |\n| A: *She was dead on her ___ and fell asleep right after she came home.* B: *She must have had a night shift this week. They're very exhausting.* | **feet** |\n| A: *What's wrong with him? He's shaking like a ___.* B: *He may have seen a ghost.* A: *Oh, come on, he couldn't have seen a ghost. Ghosts don't exist.* | **leaf** |\n| A: *Alex broke off her engagement to Max six months ago.* B: *Really? What happened?* A: *I think he could have cheated on her.* B: *She must have felt down in the ___. Poor thing.* | **dumps** |\n| A: *Frank is going to the Royal Gala Night this year.* B: *He must have been tickled ___ to get the invitation. He loves posh parties like that.* | **pink** |"
+      },
+      {
+        "title": "2. What Do the Idioms Mean?",
+        "expanded": false,
+        "content": "| Idiom | Emotion | Meaning |\n|---|---|---|\n| **to have a face like thunder** | 😠 anger | to look very angry |\n| **to be walking on air** | 🤩 euphoria | to be extremely happy (and relieved) |\n| **to be dead on your feet** | 😴 tiredness | to be exhausted |\n| **to be shaking like a leaf** | 😨 fear | to tremble because you're scared (not cold!) |\n| **to feel down in the dumps** | 😢 sadness | to feel very low, depressed |\n| **to be tickled pink** | 😊 delight | to be delighted — old-fashioned, rarely used today |\n\n💡 Bonus expressions from the class: **sooner rather than later** · **to be on the ball** (to be quick to react)."
+      },
+      {
+        "title": "3. Translation Practice — Idioms",
+        "expanded": false,
+        "content": "| Español | English |\n|---|---|\n| Después de la reunión, él tenía una cara de pocos amigos. | After the meeting, he had **a face like thunder**. |\n| Después de recibir la noticia, ella estaba en una nube. | After **hearing** the news, she was **walking on air**. |\n| Antes del examen, él temblaba como una hoja. | Before the exam, he was **shaking like a leaf**. |\n\n⚠️ With *news* we use **hear**, not *receive*: *after **hearing** the news*."
+      },
+      {
+        "title": "4. Grammar — Past Modals of Deduction",
+        "expanded": false,
+        "content": "We use **modal + have + past participle** to make **deductions and guesses about the past** — things we're not 100% sure about.\n\n| How sure? | Modal | Example |\n|---|---|---|\n| ✅ **Almost sure it's true** (very likely) | **must have** | *She **must have had** a night shift.* |\n| 🤔 **Less sure — possible** | **might / may / could have** | *He **might have been** fired.* · *He **may have seen** a ghost.* · *He **could have cheated** on her.* |\n| ❌ **Almost sure it's NOT true** (very unlikely / impossible) | **can't / couldn't have** | *He **can't have been** fired.* · *He **couldn't have seen** a ghost.* |\n\nNegative possibility: *I **might not have passed** one of them.*\n\n⚠️ **Have** is always there — but not *have had*! Use *have had* only when the main verb is *have*:\n- *She must **have had** a good time.* (verb: *have* a good time)\n- *He might **have committed** a crime.* ✅ — not ~~*have had committed*~~\n\nAnd always the **past participle** (third column): *must have **paid*** ✅ — not ~~*must have pay*~~."
+      },
+      {
+        "title": "5. Practice — React to the Situation",
+        "expanded": false,
+        "content": "| Situation | Clue | Reaction |\n|---|---|---|\n| Julie spent the weekend hiking with her best friend. | *must / have a good time* | She **must have had** a good time. |\n| Your son is at the police station. | *might / commit a crime* | He **might have committed** a crime. |\n| She saw her driving to work yesterday. | *can't / see her* | She **can't have seen** her. She's been out of town for the past week. |\n| They booked a luxury trip to the Caribbean. | *must / pay a lot of money* | They **must have paid** a lot of money. |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Emotion Idioms",
+        "key": "bb_20260925_idioms",
+        "qs": [
+          {
+            "q": "'He has a face like thunder.' How does he feel?",
+            "opts": [
+              "Happy",
+              "Angry",
+              "Tired",
+              "Scared"
+            ],
+            "ans": "Angry"
+          },
+          {
+            "q": "'Why aren't you walking on air? The exams are over.' What does 'walking on air' mean?",
+            "opts": [
+              "Very tired",
+              "Extremely happy",
+              "Very nervous",
+              "Bored"
+            ],
+            "ans": "Extremely happy"
+          },
+          {
+            "q": "'She was dead on her ___ and fell asleep right after she came home.'",
+            "opts": [
+              "legs",
+              "feet",
+              "bed",
+              "shoes"
+            ],
+            "ans": "feet"
+          },
+          {
+            "q": "'He's shaking like a leaf.' Why?",
+            "opts": [
+              "He's cold",
+              "He's scared",
+              "He's angry",
+              "He's excited"
+            ],
+            "ans": "He's scared"
+          },
+          {
+            "q": "'She must have felt down in the dumps.' How did she feel?",
+            "opts": [
+              "Very sad",
+              "Very angry",
+              "Delighted",
+              "Exhausted"
+            ],
+            "ans": "Very sad"
+          },
+          {
+            "q": "'He must have been tickled pink to get the invitation.' How did he feel?",
+            "opts": [
+              "Embarrassed",
+              "Delighted",
+              "Sick",
+              "Angry"
+            ],
+            "ans": "Delighted"
+          },
+          {
+            "q": "'Después de recibir la noticia, ella estaba en una nube.'",
+            "opts": [
+              "After receiving the news, she was walking on air.",
+              "After hearing the news, she was walking on air.",
+              "After hearing the news, she was dead on her feet.",
+              "After listening the news, she was in a cloud."
+            ],
+            "ans": "After hearing the news, she was walking on air."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Past Modals of Deduction",
+        "key": "bb_20260925_modals",
+        "qs": [
+          {
+            "q": "Which modal do we use when we're almost sure something IS true?",
+            "opts": [
+              "can't have",
+              "must have",
+              "might have",
+              "may have"
+            ],
+            "ans": "must have"
+          },
+          {
+            "q": "Which modal do we use when we're almost sure something is NOT true?",
+            "opts": [
+              "must have",
+              "could have",
+              "can't have",
+              "may have"
+            ],
+            "ans": "can't have"
+          },
+          {
+            "q": "Julie spent the weekend hiking with her best friend. → She ___ a good time.",
+            "opts": [
+              "must have",
+              "must have had",
+              "must had",
+              "must have have"
+            ],
+            "ans": "must have had"
+          },
+          {
+            "q": "Your son is at the police station. → He ___ a crime.",
+            "opts": [
+              "might have committed",
+              "might have had committed",
+              "might committed",
+              "might have commit"
+            ],
+            "ans": "might have committed"
+          },
+          {
+            "q": "They booked a luxury trip to the Caribbean. → They ___ a lot of money.",
+            "opts": [
+              "must have pay",
+              "must have paid",
+              "must paid",
+              "must have had paid"
+            ],
+            "ans": "must have paid"
+          },
+          {
+            "q": "'He couldn't have seen a ghost. Ghosts don't exist.' How sure is the speaker?",
+            "opts": [
+              "It's possible he saw one",
+              "He's almost sure he didn't see one",
+              "He's almost sure he saw one",
+              "He has no idea"
+            ],
+            "ans": "He's almost sure he didn't see one"
+          },
+          {
+            "q": "Which sentence expresses a possibility in the past?",
+            "opts": [
+              "He can't have been fired.",
+              "He might have been fired.",
+              "He must be fired.",
+              "He has been fired."
+            ],
+            "ans": "He might have been fired."
+          },
+          {
+            "q": "What is the structure of a past modal of deduction?",
+            "opts": [
+              "modal + past simple",
+              "modal + have + past participle",
+              "modal + had + infinitive",
+              "have + modal + -ing"
+            ],
+            "ans": "modal + have + past participle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain_buffet_20261001",
+    "title": "Brain Buffet",
+    "date": "2026-10-01",
+    "topic": "Gradable and Ungradable Adjectives — A Really Bad Day",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion — A Really Bad Day",
+        "expanded": false,
+        "content": "Look at the four situations. What do they have in common? Has any of them ever happened to you? Which is the worst?\n\n| | Situation |\n|---|---|\n| 🍽️ | A waiter **trips** and drops all the plates in a fancy restaurant. |\n| 🌧️ | A car drives through a **puddle** and **splashes** water all over a woman on her way to work. |\n| 🚆 | A man arrives on the platform just as his train leaves — he **missed** it. |\n| 💻 | Your computer crashes when you need it most, and you lose your work. |\n\n> *\"Setbacks, misfortunes and minor catastrophes.\"* · Lesson learned: **save your work as you go**!"
+      },
+      {
+        "title": "2. Vocabulary — Complete the Sentences",
+        "expanded": false,
+        "content": "Words: **quite bad · a bit hungry · really angry · completely exhausted · very sad · really terrified · absolutely filthy**\n\n| Sentence | Answer |\n|---|---|\n| My marks on the geography test were ___. I don't think my parents will be happy with me. | **quite bad** |\n| I was ___ when I got home. Unfortunately, when I opened the fridge, I saw it was empty. | **a bit hungry** |\n| Hugo was ___ when the bus driver drove off without him. He had to wait 30 minutes for the next one. | **really angry** |\n| After her 10-hour shift, Debbie was ___. She wanted to sleep, but her neighbour was playing loud music. | **completely exhausted** |\n| Tatiana was ___ when she didn't get the job she wanted. She thought the interview had gone well. | **very sad** |\n| Darius was ___ when he saw a big dog coming his way. Fortunately, it was friendly. | **really terrified** |\n| When Pedro got back from work, the kitchen was ___. The kids had promised to clean it, but they clearly hadn't. | **absolutely filthy** |\n\n💡 **Filthy** = extremely dirty (*asqueroso*)."
+      },
+      {
+        "title": "3. Synonyms — Which Is Stronger?",
+        "expanded": false,
+        "content": "| Gradable (weaker) | Ungradable (extreme) |\n|---|---|\n| bad | **awful** |\n| hungry | **starving** |\n| angry | **furious** |\n| tired | **exhausted** |\n| sad | **heartbroken** |\n| scared | **terrified** |\n| dirty | **filthy** |"
+      },
+      {
+        "title": "4. Grammar — Gradable vs. Ungradable Adjectives",
+        "expanded": false,
+        "content": "- **Gradable** adjectives (*angry, bad, dirty*) have a **weaker** meaning than **ungradable** adjectives (*terrified, awful, filthy*).\n- **Ungradable** adjectives are **not** used in comparative and superlative forms, because their meaning is already **extreme**. You can be *more tired* than someone, but not ~~*more exhausted*~~.\n\n| Before **gradable** adjectives (tell the *degree*) | Before **ungradable** adjectives (only *emphasise*) |\n|---|---|\n| **quite · a bit · very · really** | **completely · absolutely · really** |\n| *I was **a bit** / **quite** / **very** angry.* | *I was **absolutely** / **completely** furious.* |\n\n⭐ **Really** works with **both**: *really angry* ✅ · *really furious* ✅\n\n❌ ~~*very terrified*~~ · ~~*a bit exhausted*~~ · ~~*quite filthy*~~ — *terrified* is already the top level of fear: there are no degrees."
+      },
+      {
+        "title": "5. Practice — Choose the Right Word",
+        "expanded": false,
+        "content": "**A.** Akane had been driving for eight hours to visit her parents, and she was **completely** *(completely / very)* exhausted. When she got to their home, she discovered they were not there and was **quite scared** *(scared / terrified)*. When she called them, they told her that they had forgotten she was coming and had gone away for the weekend. They felt **absolutely** *(a bit / absolutely)* awful.\n\n**B.** Monica had been working hard, hoping to get a promotion. One day, her boss called her into the office, and she was excited for the good news. However, she was **very** *(very / completely)* sad when her boss asked her to sign a card for her colleague Diego, who had just received the promotion instead. Monica thought that Diego was **a bit** *(a bit / absolutely)* lazy. She felt **really angry / really furious** — ✅ **both**, because *really* goes with both!\n\n**C.** Aziz let his brother Abdul stay in his flat after he lost his job. One evening, when Aziz went out, Abdul invited his friends over. They were **absolutely / really starving** — ✅ **both** — so they made pasta for dinner. When Aziz returned home, the kitchen was very **dirty** *(dirty / filthy)*, as Abdul had not cleaned up his mess."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Strong Adjectives",
+        "key": "bb_20261001_vocab",
+        "qs": [
+          {
+            "q": "What is the extreme (ungradable) form of 'hungry'?",
+            "opts": [
+              "Starving",
+              "Thirsty",
+              "Empty",
+              "Furious"
+            ],
+            "ans": "Starving"
+          },
+          {
+            "q": "What is the extreme (ungradable) form of 'dirty'?",
+            "opts": [
+              "Messy",
+              "Filthy",
+              "Awful",
+              "Untidy"
+            ],
+            "ans": "Filthy"
+          },
+          {
+            "q": "What is the extreme (ungradable) form of 'sad'?",
+            "opts": [
+              "Upset",
+              "Heartbroken",
+              "Unhappy",
+              "Terrified"
+            ],
+            "ans": "Heartbroken"
+          },
+          {
+            "q": "What is the extreme (ungradable) form of 'scared'?",
+            "opts": [
+              "Nervous",
+              "Worried",
+              "Terrified",
+              "Furious"
+            ],
+            "ans": "Terrified"
+          },
+          {
+            "q": "What is the extreme (ungradable) form of 'angry'?",
+            "opts": [
+              "Furious",
+              "Annoyed",
+              "Upset",
+              "Awful"
+            ],
+            "ans": "Furious"
+          },
+          {
+            "q": "What is the extreme (ungradable) form of 'tired'?",
+            "opts": [
+              "Sleepy",
+              "Exhausted",
+              "Bored",
+              "Starving"
+            ],
+            "ans": "Exhausted"
+          },
+          {
+            "q": "What does 'filthy' mean?",
+            "opts": [
+              "Extremely dirty",
+              "Slightly dirty",
+              "Very tidy",
+              "Very hungry"
+            ],
+            "ans": "Extremely dirty"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Gradable vs. Ungradable",
+        "key": "bb_20261001_grammar",
+        "qs": [
+          {
+            "q": "'After driving for eight hours, she was ___ exhausted.'",
+            "opts": [
+              "very",
+              "a bit",
+              "completely",
+              "quite"
+            ],
+            "ans": "completely"
+          },
+          {
+            "q": "'She discovered they were not there and was quite ___.'",
+            "opts": [
+              "scared",
+              "terrified",
+              "furious",
+              "filthy"
+            ],
+            "ans": "scared"
+          },
+          {
+            "q": "'They felt ___ awful.'",
+            "opts": [
+              "a bit",
+              "absolutely",
+              "very",
+              "quite"
+            ],
+            "ans": "absolutely"
+          },
+          {
+            "q": "'She was ___ sad when her boss asked her to sign the card.'",
+            "opts": [
+              "completely",
+              "absolutely",
+              "very",
+              "totally"
+            ],
+            "ans": "very"
+          },
+          {
+            "q": "'When Aziz returned home, the kitchen was very ___.'",
+            "opts": [
+              "filthy",
+              "dirty",
+              "awful",
+              "starving"
+            ],
+            "ans": "dirty"
+          },
+          {
+            "q": "Which intensifier can be used with BOTH gradable and ungradable adjectives?",
+            "opts": [
+              "very",
+              "a bit",
+              "really",
+              "completely"
+            ],
+            "ans": "really"
+          },
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "I'm very terrified of big dogs.",
+              "I'm absolutely terrified of big dogs.",
+              "I'm a bit terrified of big dogs.",
+              "I'm quite terrified of big dogs."
+            ],
+            "ans": "I'm absolutely terrified of big dogs."
+          },
+          {
+            "q": "Why can't we say 'more exhausted than'?",
+            "opts": [
+              "Exhausted is an uncountable noun",
+              "Exhausted is already extreme, so it has no degrees",
+              "Exhausted is only used in the past",
+              "Exhausted needs 'the'"
+            ],
+            "ans": "Exhausted is already extreme, so it has no degrees"
+          }
+        ]
+      }
+    ]
   }
 ]
