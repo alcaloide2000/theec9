@@ -408,11 +408,13 @@ def _collect_reported_speech(kyle_classes):
     header_re = re.compile(r"^\|\s*Direct speech\s*\|\s*Reported speech\s*\|\s*$", re.IGNORECASE)
     sep_re = re.compile(r"^\|[\s:|-]+\|$")
     speaker_re = re.compile(r"^\*\*([^*]+?):\*\*\s*(.*)$")
-    lines_out, rules, dialogue_audio = [], [], {}
+    lines_out, rules, dialogue_audio, class_audio = [], [], {}, {}
     for cls in kyle_classes:
         for sec in cls.get("sections", []):
             for entry in sec.get("reported_audio", []):
                 dialogue_audio[(cls["date"], entry["dialogue"])] = entry
+            if sec.get("reported_audio_full"):
+                class_audio[cls["date"]] = sec["reported_audio_full"]
             content = sec.get("content", "")
             lines = content.split("\n")
             heading = None
@@ -443,10 +445,10 @@ def _collect_reported_speech(kyle_classes):
                     i = j
                 else:
                     i += 1
-    return lines_out, rules, dialogue_audio
+    return lines_out, rules, dialogue_audio, class_audio
 
 
-def _render_reported_speech(lines, rules, dialogue_audio):
+def _render_reported_speech(lines, rules, dialogue_audio, class_audio):
     st.markdown("## 📰 Reported Speech")
     if not lines and not rules:
         st.info("No reported speech content found yet.")
@@ -487,6 +489,26 @@ def _render_reported_speech(lines, rules, dialogue_audio):
             by_dialogue = {}
             for l in items:
                 by_dialogue.setdefault(l["dialogue"], []).append(l)
+            full = class_audio.get(date)
+            if full and len(full["timings"]) == 2 * len(items):
+                mode = st.radio(
+                    "Audio", ["Whole class (one track)", "By conversation"],
+                    horizontal=True, key=f"reported_mode_{date}",
+                )
+                if mode == "Whole class (one track)":
+                    groups = []
+                    for dialogue, d_items in by_dialogue.items():
+                        synth_items = []
+                        for l in d_items:
+                            synth_items.append({"text": l["direct"], "secondary": l["speaker"]})
+                            synth_items.append({"text": l["reported"], "secondary": "Reported speech"})
+                        groups.append({"name": dialogue, "items": synth_items})
+                    _render_agility_section_synced(
+                        {"audio": full["audio"], "timings": full["timings"], "groups": groups},
+                        title="The whole class in one track — report each line before the answer plays",
+                        blur_labels={"Reported speech"} if practice else (),
+                    )
+                    continue
             for dialogue, d_items in by_dialogue.items():
                 st.markdown(f"#### {dialogue}")
                 audio = dialogue_audio.get((date, dialogue))
