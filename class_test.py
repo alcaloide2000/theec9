@@ -72,7 +72,7 @@ def _inject_tab_avatars(pic_paths):
         with open(pic, "rb") as f:
             b64 = base64.b64encode(f.read()).decode()
         css_rules.append(f"""
-button[data-baseweb="tab"]:nth-child({i})::after {{
+[data-testid="stTab"]:nth-child({i})::after {{
     content: '';
     display: inline-block;
     width: 26px;
@@ -88,7 +88,8 @@ button[data-baseweb="tab"]:nth-child({i})::after {{
     border: 2px solid #d0d0d0;
 }}""")
     css_rules.append("""
-[role="tabpanel"] button[data-baseweb="tab"]::after {
+[role="tabpanel"] [data-testid="stTab"]::after,
+[data-testid="stTabPanel"] [data-testid="stTab"]::after {
     content: none !important;
     background-image: none !important;
     display: none !important;

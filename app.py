@@ -26,7 +26,7 @@ st.markdown("""
         scrollbar-width: none;
     }
     div[data-testid="stTabsBarContainer"]::-webkit-scrollbar { display: none; }
-    button[data-baseweb="tab"] { white-space: nowrap; }
+    [data-testid="stTab"] { white-space: nowrap; }
 </style>
 """, unsafe_allow_html=True)
 
