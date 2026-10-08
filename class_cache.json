@@ -21841,5 +21841,1666 @@
         ]
       }
     ]
+  },
+  {
+    "id": "julia_20260603",
+    "title": "Essential English",
+    "date": "2026-06-03",
+    "topic": "D vs. Th Sounds / How + Adjective + To Be",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. D vs. Th Sounds",
+        "expanded": false,
+        "content": "From a Spanish point of view these sounds seem similar, but they're **very different**.\n\n| Sound | How to make it | Examples |\n|---|---|---|\n| **TH** (/θ/, /ð/) | Like the Castilian Spanish **z/c** (*cerdo*): tongue between the teeth | *the, that, this, thick, thin, third, Thursday, Theo* |\n| **D** (/d/) | **Much stronger** than the soft Spanish D (*dedo, cada*): almost a **T, but with voice** | *do, dog, duck, Dutch, David, deadline, door* |\n\n### T vs. D: air vs. voice\n- **T** = only **air**; your throat **doesn't vibrate**.\n- **D** = the same mouth position **with voice**; your throat **vibrates**. Put a hand on your throat to check.\n\n> *Do you have a dog?* with a soft Spanish D sounds very Spanish. A tiny sound makes a big difference. **Exaggerate** while you practise.\n\n### Practice (make it a question)\n- I want to do that. → **Do** I want to **do that**?\n- They drink that thick drink all the time. → **Do they drink that thick drink** all the time?\n- That duck is Dutch. → Is **that duck Dutch**?\n- These are my thin diamonds. → Are **these** my **thin diamonds**?\n- This dog can do daring things. → Can **this dog do daring** things?\n- The deadline is on the third of December. → Is **the deadline** on **the third** of **December**?\n- The thin doll is next to the thick door. → Is **the thin doll** next to **the thick door**?\n- David does the laundry on Thursday. → **Does David do the** laundry on **Thursday**?\n- There are three days to dance with Theo. → Are **there three days** to **dance** with **Theo**?\n\n### Vocabulary\n| Word | Spanish |\n|---|---|\n| **thick** | grueso; espeso, denso (liquids) |\n| **thin** | fino, delgado |\n| **Dutch** | holandés, neerlandés |\n| **daring** | atrevido/a |\n| **a deadline** | una fecha límite |\n\n**Dates:** always **on the** + ordinal number: *on the third of December*. *Third* /θɜːd/: say *cerdo* without the *o*, and pronounce the final D clearly.\n\n**Tip:** practise little combos while driving or walking: *the door, the doll, the thick door, the thin doll…*"
+      },
+      {
+        "title": "2. How + Adjective + To Be",
+        "expanded": false,
+        "content": "*¿Cuántos años tienes?* → **How old are you?**, literally *¿cómo de mayor eres?*\n\nEnglish uses **one formula for every quality**, while Spanish changes the question each time (*¿cuánto mides?, ¿qué profundidad tiene?, ¿qué calor hace?*):\n\n> **How + adjective + to be + subject?**\n\n*How deep…? How big…? How hot…? How happy…? How excited…? How interested…?* (as in the Bee Gees song *How Deep Is Your Love?*)\n\n### Practice\n| Spanish | English |\n|---|---|\n| larga / esta clase | **How long is** this class? |\n| fría / tu ciudad en invierno | **How cold is** your city in winter? |\n| calurosa / tu ciudad en verano | **How hot is** your city in summer? |\n| altos / tus padres | **How tall are** your parents? |\n| ancha / tu calle | **How wide is** your street? |\n| antiguos / esos edificios | **How old are** those buildings? |\n| difícil / este ejercicio | **How difficult is** this exercise? |\n| pesado / David | **How heavy is** David? |\n| profunda / la piscina | **How deep is** the swimming pool? |\n| potente / tu portátil | **How powerful is** your laptop? |\n| rápidos / ellos | **How fast are** they? |\n\n### Vocabulary\n- **no tiene parangón** = **it's second to none** / it has no rival\n- **to nail it** = bordarlo: *I'm sure you're going to nail it (the exam).*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · D vs. Th Sounds",
+        "key": "julia_jun03_t1",
+        "qs": [
+          {
+            "q": "What is the difference between the English T and D?",
+            "opts": [
+              "T is only air; D is the same sound with voice (the throat vibrates)",
+              "D is softer than the Spanish D",
+              "There is no difference"
+            ],
+            "ans": "T is only air; D is the same sound with voice (the throat vibrates)"
+          },
+          {
+            "q": "Compared to Spanish, the English D is…",
+            "opts": [
+              "much softer",
+              "much stronger, almost like a T with voice",
+              "like a TH"
+            ],
+            "ans": "much stronger, almost like a T with voice"
+          },
+          {
+            "q": "What does 'Dutch' mean?",
+            "opts": [
+              "Danés",
+              "Holandés / neerlandés",
+              "Alemán"
+            ],
+            "ans": "Holandés / neerlandés"
+          },
+          {
+            "q": "What is a 'deadline'?",
+            "opts": [
+              "Una fecha límite",
+              "Una línea muerta",
+              "Un cementerio"
+            ],
+            "ans": "Una fecha límite"
+          },
+          {
+            "q": "What does 'daring' mean?",
+            "opts": [
+              "Atrevido/a",
+              "Querido/a",
+              "Aburrido/a"
+            ],
+            "ans": "Atrevido/a"
+          },
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "The deadline is the three of December.",
+              "The deadline is on the third of December.",
+              "The deadline is in third December."
+            ],
+            "ans": "The deadline is on the third of December."
+          },
+          {
+            "q": "'A thick drink' is a drink that is…",
+            "opts": [
+              "very cold",
+              "dense / espeso",
+              "very sweet"
+            ],
+            "ans": "dense / espeso"
+          }
+        ]
+      },
+      {
+        "title": "Test · How + Adjective + To Be",
+        "key": "julia_jun03_t2",
+        "qs": [
+          {
+            "q": "'¿Cuántos años tienes?' →",
+            "opts": [
+              "How many years do you have?",
+              "How old are you?",
+              "How old do you have?"
+            ],
+            "ans": "How old are you?"
+          },
+          {
+            "q": "'¿Cuánto miden tus padres?' →",
+            "opts": [
+              "How tall are your parents?",
+              "How much measure your parents?",
+              "How high do your parents measure?"
+            ],
+            "ans": "How tall are your parents?"
+          },
+          {
+            "q": "'¿Qué profundidad tiene la piscina?' →",
+            "opts": [
+              "How deep is the swimming pool?",
+              "What deep has the swimming pool?",
+              "How much depth is the swimming pool?"
+            ],
+            "ans": "How deep is the swimming pool?"
+          },
+          {
+            "q": "'¿Qué ancha es tu calle?' →",
+            "opts": [
+              "How wide is your street?",
+              "How large has your street?",
+              "How width is your street?"
+            ],
+            "ans": "How wide is your street?"
+          },
+          {
+            "q": "'¿Cuánto pesa David?' (with an adjective) →",
+            "opts": [
+              "How heavy is David?",
+              "How weight is David?",
+              "How much heavy David is?"
+            ],
+            "ans": "How heavy is David?"
+          },
+          {
+            "q": "'¿Qué calor hace en tu ciudad en verano?' →",
+            "opts": [
+              "How hot is your city in summer?",
+              "What heat makes your city in summer?",
+              "How much hot is in your city in summer?"
+            ],
+            "ans": "How hot is your city in summer?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260617",
+    "title": "Essential English",
+    "date": "2026-06-17",
+    "topic": "Someone, Something, Somewhere / To Go For A…",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Someone, Something, Somewhere",
+        "expanded": false,
+        "content": "| Spanish | English | For |\n|---|---|---|\n| alguien | **someone / somebody** (synonyms) | people |\n| algo | **something** | things |\n| algún lugar | **somewhere** | places |\n\nThey are used mainly in **affirmative** sentences (the negative version uses *any*), but they can also appear in questions.\n\n### Rules from the practice\n- **Keep the preposition** if the verb has one: *Who are you waiting **for**?* → *I'm waiting **for** someone.*\n- **Answer in the same tense** as the question.\n- Put **extra information** (time, place) **at the end**: *I learned something **today**.* Complements are \"accessories\" and go at the edges of the sentence.\n- ⚠ **No preposition before *somewhere***: *I want to go somewhere* (not ~~*go to somewhere*~~).\n\n### Practice\n- Who are you waiting for? → I'm waiting for **someone**.\n- What did you learn today? → I learned **something** today.\n- Where are you going tomorrow? → I'm going **somewhere** tomorrow.\n- What did you buy from the shop? → I bought **something** from the shop.\n- Where do you want to go tonight? → I want to go **somewhere** tonight.\n- Who are you looking for? → I'm looking for **someone**.\n- What do you want from the menu? → I want **something** from the menu.\n- Where did your family travel last summer? → My family traveled **somewhere** last summer.\n- Who is he speaking to? → He's speaking to **someone**.\n\n### Pronunciation: *bought* /bɔːt/\nLike *robot* → **bot**. Forget the G, the H and the U! Learning the spelling before the pronunciation creates bad habits; speaking first makes spelling easier later."
+      },
+      {
+        "title": "2. To Go For A… (Dar una vuelta)",
+        "expanded": false,
+        "content": "*Ir a dar una vuelta (andando, en coche, en bici…), darse un baño*: a short, light version of the activity, not a marathon!\n\n> **go for a + noun**\n\n| English | Spanish |\n|---|---|\n| **go for a walk** | dar un paseo / una vuelta |\n| **go for a run** | salir a correr un rato |\n| **go for a drive** | dar una vuelta en coche |\n| **go for a swim** | darse un baño |\n| **go for a bike ride** | dar una vuelta en bici |\n\n*Ride* alone could mean a motorbike, a horse or a bike, so specify: **bike** ride, **horse** ride, **motorbike** ride.\n\n### Practice (Ask me…)\n- Do you go for a walk every evening? → No, but I try to go for a walk every evening.\n- Did you go for a run last week? → No, I didn't go for a run last week. / Yes, I went for a run last week.\n- Do you go for a drive when you are worried? → In the past, yes, I went for a drive when I was worried.\n- Does the Iceman (Wim Hof) go for a swim in winter? → Yes, the Iceman goes for a swim in winter.\n\n### False friend: *to have the nerve*\n- **to be nervous** = estar nervioso/a\n- **to have the nerve (to…)** = tener morro, tener la poca vergüenza: *You have the nerve to come here after you told everyone my secret!*\n\n### Vocabulary\n- **I'm melting** = me estoy derritiendo\n- **to pass out** = desmayarse\n- **it is what it is** = es lo que hay\n- **therapeutic** = terapéutico\n- **a cottage** = una casita de campo"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Someone, Something, Somewhere",
+        "key": "julia_jun17_t1",
+        "qs": [
+          {
+            "q": "Who are you waiting for? →",
+            "opts": [
+              "I'm waiting someone.",
+              "I'm waiting for someone.",
+              "I'm waiting for something."
+            ],
+            "ans": "I'm waiting for someone."
+          },
+          {
+            "q": "Where do you want to go tonight? →",
+            "opts": [
+              "I want to go to somewhere tonight.",
+              "I want to go somewhere tonight.",
+              "I want to go tonight somewhere to."
+            ],
+            "ans": "I want to go somewhere tonight."
+          },
+          {
+            "q": "What did you learn today? →",
+            "opts": [
+              "I learned today something.",
+              "I learned something today.",
+              "I learned someone today."
+            ],
+            "ans": "I learned something today."
+          },
+          {
+            "q": "Are 'someone' and 'somebody' synonyms?",
+            "opts": [
+              "Yes, both are correct",
+              "No, 'somebody' is only for men",
+              "No, 'someone' is only for questions"
+            ],
+            "ans": "Yes, both are correct"
+          },
+          {
+            "q": "How do you pronounce 'bought'?",
+            "opts": [
+              "/bɔːt/ — like 'bot'",
+              "/bɔːɡht/",
+              "/baʊɡt/"
+            ],
+            "ans": "/bɔːt/ — like 'bot'"
+          },
+          {
+            "q": "Where did your family travel last summer? →",
+            "opts": [
+              "My family traveled somewhere last summer.",
+              "My family traveled to somewhere last summer.",
+              "My family traveled last summer something."
+            ],
+            "ans": "My family traveled somewhere last summer."
+          }
+        ]
+      },
+      {
+        "title": "Test · To Go For A…",
+        "key": "julia_jun17_t2",
+        "qs": [
+          {
+            "q": "'Voy a dar una vuelta en coche.' →",
+            "opts": [
+              "I'm going to go for a drive.",
+              "I'm going to give a turn by car.",
+              "I'm going to go for a car."
+            ],
+            "ans": "I'm going to go for a drive."
+          },
+          {
+            "q": "'Me voy a dar un baño (en la piscina).' →",
+            "opts": [
+              "I'm going to have a bath.",
+              "I'm going to go for a swim.",
+              "I'm going to go for a bath."
+            ],
+            "ans": "I'm going to go for a swim."
+          },
+          {
+            "q": "'Dar una vuelta en bici' →",
+            "opts": [
+              "go for a ride",
+              "go for a bike ride",
+              "go for a bike"
+            ],
+            "ans": "go for a bike ride"
+          },
+          {
+            "q": "Did you go for a run last week? → No, …",
+            "opts": [
+              "I didn't go for a run last week.",
+              "I didn't went for a run last week.",
+              "I don't go for run last week."
+            ],
+            "ans": "I didn't go for a run last week."
+          },
+          {
+            "q": "'You have the nerve to come here!' means…",
+            "opts": [
+              "¡Qué nervioso estás!",
+              "¡Qué morro tienes de venir aquí!",
+              "¡Qué valiente eres!"
+            ],
+            "ans": "¡Qué morro tienes de venir aquí!"
+          },
+          {
+            "q": "'Estoy nerviosa' →",
+            "opts": [
+              "I have nerves.",
+              "I am nervous.",
+              "I have the nerve."
+            ],
+            "ans": "I am nervous."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260624",
+    "title": "Essential English",
+    "date": "2026-06-24",
+    "topic": "A Lot vs. Really / The Extra Syllable in -es",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Why the \"Basics\" Matter",
+        "expanded": false,
+        "content": "Julia recently took the official **C2 exam**. Her speaking partner used advanced vocabulary and idioms, but his mistakes were all with **beginner concepts**. It happens to everyone, Julia included.\n\n- Beginner concepts aren't *less important*; they're **more frequent** (subjects, *to be*, *have*, *do*…). That's why they come first.\n- We tend to **rush through** them because they're easy, but they need constant practice until they're **subconscious**.\n- English grammar *is* easier than Spanish (*do/does* vs. *hago, haces, hace…*), but without enough practice we still say *she do*.\n\n### Vocabulary\n| Expression | Spanish |\n|---|---|\n| **to lose my train of thought** | perder el hilo |\n| **to stay hydrated** | mantenerse hidratado/a |\n| **dizzy** | mareado/a |\n| **gaps** | huecos, carencias |\n| **better late than never** | más vale tarde que nunca |\n| **not my cup of tea** | no es lo mío |"
+      },
+      {
+        "title": "2. Me gusta mucho: A Lot / Very Much / Really",
+        "expanded": false,
+        "content": "❌ ~~*I like a lot chocolate.*~~ English is strict about word order: *a lot* is extra information, so it goes **at the end**.\n\n| Option | Position | Example |\n|---|---|---|\n| **a lot** (most common) | **at the end** | *I like chocolate **a lot**.* |\n| **very much** | at the end | *I like chocolate **very much**.* |\n| **really** (very native, most frequent) | **before the verb** | *I **really** like chocolate.* |\n\n> **Use *really*!** It goes before the verb, so it doesn't matter how long the sentence is: *My friends **really** like going to the beach* (instead of the tempting mistake ~~*My friends like a lot going to the beach*~~).\n\n*really like, really love, really enjoy, really prefer, really hate…*\n\n**chocolate** has two syllables: /ˈtʃɒklət/.\n\n### Practice\n- Do you like children? → I like children a lot. / I really like children.\n- Do you like Japanese food? → I like Japanese food a lot. / I really like Japanese food.\n- Do you like cats? → I like cats a lot. / I really like cats.\n- Do you like rock music? → I like rock music a lot. / I really like rock music.\n- Do you like mac and cheese? → I like mac and cheese a lot. / I really like mac and cheese. *(mac and cheese = macarrones con queso, a very American dish)*\n- Do you like reading thrillers? → I like reading thrillers a lot. / I really like reading thrillers.\n- Do your friends like going to the beach? → My friends like going to the beach a lot. / My friends really like going to the beach.\n- Does your brother like going to the gym? → My brother likes going to the gym a lot. / My brother really likes going to the gym.\n- Does she like skiing? → She likes skiing a lot. / She really likes skiing.\n- Do you like dancing? → I like dancing a lot. / I really like dancing."
+      },
+      {
+        "title": "3. Pronunciation: The Extra Syllable /ɪz/",
+        "expanded": false,
+        "content": "After **s, ss, ch, sh, x, z, ge** sounds, the plural **-es** and the third-person **-es** add an **extra syllable** /ɪz/. Without it, the S can't be heard and it sounds singular. **Say it clearly, without fear!**\n\n*class → class**es*** (two syllables), *watch → watch**es***\n\n### Practice\n| Sentence | Change | Answer |\n|---|---|---|\n| There is a beach in Valencia. | plural | There are some **beaches** in Valencia. |\n| I catch the ball. | 3rd person | She **catches** the ball. |\n| She broke the glass. | plural | She broke the **glasses**. |\n| I can see the bus. | plural | I can see the **buses**. |\n| I ate a sandwich. | plural | I ate some **sandwiches**. |\n| I watch TV. | 3rd person | She **watches** TV. |\n| There has been a change. | plural | There have been some **changes**. |\n| I work for my boss. | plural | I work for my **bosses**. |\n| I have a class this week. | plural | I have some **classes** this week. |\n| I push the door. | 3rd person | She **pushes** the door. |\n| I ate a peach for dessert. | plural | I ate some **peaches** for dessert. |\n| I change jobs every year. | 3rd person | She **changes** jobs every year. |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · A Lot vs. Really",
+        "key": "julia_jun24_t1",
+        "qs": [
+          {
+            "q": "'Me gusta mucho el chocolate.' →",
+            "opts": [
+              "I like a lot chocolate.",
+              "I like chocolate a lot.",
+              "I a lot like chocolate."
+            ],
+            "ans": "I like chocolate a lot."
+          },
+          {
+            "q": "Where does 'really' go?",
+            "opts": [
+              "At the end of the sentence",
+              "Before the verb: I really like…",
+              "After the object"
+            ],
+            "ans": "Before the verb: I really like…"
+          },
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "My friends like a lot going to the beach.",
+              "My friends really like going to the beach.",
+              "My friends like going a lot to the beach."
+            ],
+            "ans": "My friends really like going to the beach."
+          },
+          {
+            "q": "Does your brother like going to the gym? →",
+            "opts": [
+              "My brother really likes going to the gym.",
+              "My brother really like going to the gym.",
+              "My brother likes a lot going to the gym."
+            ],
+            "ans": "My brother really likes going to the gym."
+          },
+          {
+            "q": "Why is 'really' often the best option?",
+            "opts": [
+              "It goes before the verb, so sentence length doesn't matter",
+              "It is more formal",
+              "It's the only correct option"
+            ],
+            "ans": "It goes before the verb, so sentence length doesn't matter"
+          },
+          {
+            "q": "'Not my cup of tea' means…",
+            "opts": [
+              "No es lo mío",
+              "No me gusta el té",
+              "No es mi taza"
+            ],
+            "ans": "No es lo mío"
+          }
+        ]
+      },
+      {
+        "title": "Test · The Extra Syllable",
+        "key": "julia_jun24_t2",
+        "qs": [
+          {
+            "q": "How many syllables does 'classes' have?",
+            "opts": [
+              "One",
+              "Two",
+              "Three"
+            ],
+            "ans": "Two"
+          },
+          {
+            "q": "I watch TV (third person) →",
+            "opts": [
+              "She watch TV.",
+              "She watchs TV.",
+              "She watches TV."
+            ],
+            "ans": "She watches TV."
+          },
+          {
+            "q": "There has been a change (plural) →",
+            "opts": [
+              "There have been some changes.",
+              "There has been some change.",
+              "There have been some changs."
+            ],
+            "ans": "There have been some changes."
+          },
+          {
+            "q": "I can see the bus (plural) →",
+            "opts": [
+              "I can see the bus.",
+              "I can see the buses.",
+              "I can see the buss."
+            ],
+            "ans": "I can see the buses."
+          },
+          {
+            "q": "Which word does NOT add an extra syllable in the plural?",
+            "opts": [
+              "beach",
+              "glass",
+              "cat"
+            ],
+            "ans": "cat"
+          },
+          {
+            "q": "I push the door (third person) →",
+            "opts": [
+              "She pushs the door.",
+              "She pushes the door.",
+              "She push the door."
+            ],
+            "ans": "She pushes the door."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260701",
+    "title": "Essential English",
+    "date": "2026-07-01",
+    "topic": "How Much / How Many · Regular Verbs Pronunciation · Easy/Difficult To Do",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. How Much / How Many",
+        "expanded": false,
+        "content": "| | For | Example |\n|---|---|---|\n| **How many** | **countable** nouns | *How many books…?* |\n| **How much** | **uncountable** nouns | *How much money…?* |\n\n⚠ Classic confusion: **much → uncountable**, **many → countable**.\n\n### Watch out\n- **people** is **countable** in English (= persons): *How **many** people does he know?* (In Spanish, *gente* feels uncountable.)\n- The **word you choose** decides: *How **much time**…?* vs. *How **many minutes**…?*; *How **much money**…?* vs. *How **many euros**…?*\n- With *haber* (*hay*) don't forget **there**, which acts as the subject: *How much sugar is **there** in your coffee?*\n- Use the **same tense** as the answer.\n\n### Practice (answer → question)\n- She reads a lot of books. → **How many books does she read?**\n- I want to have a lot of money. → **How much money do you want to have?**\n- He knows a lot of people. → **How many people does he know?**\n- We had five minutes. → **How much time / How many minutes did we have?**\n- There is too much sugar in my coffee. → **How much sugar is there in your coffee?**\n- There were two problems. → **How many problems were there?**\n- I spent five euros. → **How much money / How many euros did you spend?**\n- You can bring a couple of friends. → **How many friends can I bring?**\n- My boss works five days a week. → **How many days does your boss work?**"
+      },
+      {
+        "title": "2. Regular Verbs: Pronouncing -ED",
+        "expanded": false,
+        "content": "Grammatically, regular verbs are easy: just add **-ed**. The challenge is the **pronunciation**.\n\n- In most cases **don't add an extra syllable**: the E disappears and you add a consonant sound to the end of the verb. *asked* = one syllable.\n- Pronounce it almost like a **T**, with air. The tendency is to say a soft Spanish D that nobody hears.\n- **Exaggerate**: often the -ed is the only sign that you're talking about the past. *Better to overdo it than to fall short.*\n- Linking with the next word is easiest before a **vowel** (*we missed_our flight*). Otherwise a tiny pause is fine.\n\n### Tricks for consonant clusters\n- **-cked / -sked** → say *cata* without the vowels: **/kt/** (*asked, packed*)\n- **-nged** → say *chita* without the vowels: **/dʒd/** (*changed*)\n\n### Practice (tomorrow → yesterday)\n- I'll ask him tomorrow. → I **asked** him yesterday.\n- She'll finish the project tomorrow. → She **finished** the **project** /ˈprɒdʒekt/ yesterday.\n- We'll miss our flight tomorrow. → We **missed** our flight yesterday.\n- They'll announce the date tomorrow. → They **announced** the date yesterday.\n- We'll discuss the figures tomorrow. → We **discussed** the figures yesterday.\n- We'll introduce them tomorrow. → We **introduced** them yesterday.\n- He'll notice the problem tomorrow. → He **noticed** the problem yesterday.\n- She'll answer your questions tomorrow. → She **answered** your questions yesterday.\n- We'll change jobs tomorrow. → We **changed** jobs yesterday.\n- They'll pack a suitcase tomorrow. → They **packed** a suitcase yesterday.\n\n### False friends\n- **figures** = cifras, números (not *figuras*)\n- **to notice** = darse cuenta, notar (not *notificar*)\n- **cambiar de trabajo** → **change jobs** (plural, no preposition)"
+      },
+      {
+        "title": "3. Easy / Difficult + To + Verb",
+        "expanded": false,
+        "content": "Spanish: *fácil **de** hacer*. English: just the **infinitive with to**: *easy **to do**, difficult **to understand***.\n\n**Negative questions:** put the auxiliary in the negative: *It isn't easy…* → ***Why isn't it** easy…?*\n\n### Practice (ask why)\n- It isn't easy to remember birthdays. → **Why isn't it easy to remember** birthdays?\n- It isn't difficult to learn a language. → Why isn't it difficult to learn a language?\n- It isn't easy to meet new people. → Why isn't it easy to meet new people?\n- It isn't difficult to make new friends. → Why isn't it difficult to make new friends?\n- It isn't easy to wake up early. → Why isn't it easy to wake up early?\n- It isn't difficult to get a degree. → Why isn't it difficult to get a degree?\n- It isn't easy to be on time. → Why isn't it easy to be on time?\n- It isn't difficult to lose your phone. → Why isn't it difficult to lose your phone?\n- It isn't easy to get lost. → Why isn't it easy to get lost?"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · How Much / How Many",
+        "key": "julia_jul01_t1",
+        "qs": [
+          {
+            "q": "He knows a lot of people. →",
+            "opts": [
+              "How much people does he know?",
+              "How many people does he know?",
+              "How many people he knows?"
+            ],
+            "ans": "How many people does he know?"
+          },
+          {
+            "q": "I want to have a lot of money. →",
+            "opts": [
+              "How many money do you want to have?",
+              "How much money do you want to have?",
+              "How much money you want have?"
+            ],
+            "ans": "How much money do you want to have?"
+          },
+          {
+            "q": "There is too much sugar in my coffee. →",
+            "opts": [
+              "How much sugar is in your coffee there?",
+              "How much sugar is there in your coffee?",
+              "How many sugar is there in your coffee?"
+            ],
+            "ans": "How much sugar is there in your coffee?"
+          },
+          {
+            "q": "There were two problems. →",
+            "opts": [
+              "How many problems were there?",
+              "How much problems were there?",
+              "How many problems there were?"
+            ],
+            "ans": "How many problems were there?"
+          },
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "How many time did we have?",
+              "How much minutes did we have?",
+              "How many minutes did we have?"
+            ],
+            "ans": "How many minutes did we have?"
+          },
+          {
+            "q": "My boss works five days a week. →",
+            "opts": [
+              "How many days does your boss work?",
+              "How many days do your boss works?",
+              "How much days does your boss work?"
+            ],
+            "ans": "How many days does your boss work?"
+          }
+        ]
+      },
+      {
+        "title": "Test · Regular Verbs & Easy To Do",
+        "key": "julia_jul01_t2",
+        "qs": [
+          {
+            "q": "How many syllables does 'asked' have?",
+            "opts": [
+              "One",
+              "Two",
+              "Three"
+            ],
+            "ans": "One"
+          },
+          {
+            "q": "How should the -ed in 'missed' sound?",
+            "opts": [
+              "Like a soft Spanish D",
+              "Almost like a T, with air: /mɪst/",
+              "Like an extra syllable: /mɪsed/"
+            ],
+            "ans": "Almost like a T, with air: /mɪst/"
+          },
+          {
+            "q": "What does 'figures' mean in 'We discussed the figures'?",
+            "opts": [
+              "Figuras",
+              "Cifras / números",
+              "Personajes"
+            ],
+            "ans": "Cifras / números"
+          },
+          {
+            "q": "What does 'to notice' mean?",
+            "opts": [
+              "Notificar",
+              "Darse cuenta / notar",
+              "Dar noticias"
+            ],
+            "ans": "Darse cuenta / notar"
+          },
+          {
+            "q": "'Cambiamos de trabajo ayer.' →",
+            "opts": [
+              "We changed of job yesterday.",
+              "We changed jobs yesterday.",
+              "We changed the job yesterday."
+            ],
+            "ans": "We changed jobs yesterday."
+          },
+          {
+            "q": "'Es fácil de entender.' →",
+            "opts": [
+              "It's easy of understanding.",
+              "It's easy to understand.",
+              "It's easy understand."
+            ],
+            "ans": "It's easy to understand."
+          },
+          {
+            "q": "It isn't easy to wake up early. Ask why →",
+            "opts": [
+              "Why it isn't easy to wake up early?",
+              "Why isn't it easy to wake up early?",
+              "Why isn't easy wake up early?"
+            ],
+            "ans": "Why isn't it easy to wake up early?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260708",
+    "title": "Essential English",
+    "date": "2026-07-08",
+    "topic": "False Friends / Some and Any as Pronouns",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. False Friends: English Words We Use Wrongly in Spanish",
+        "expanded": false,
+        "content": "Spanish borrows some English words but gives them a different meaning, which creates confusion.\n\n| Spanish use | Correct English | What the English word really means |\n|---|---|---|\n| **ser un friki** | **a geek** / **a nerd** (synonyms); adjective: **geeky** | **freaky** = creepy, unsettling (*que da mal rollo*): *This place is very freaky.* |\n| **ser un crack / un hacha** | **to be a star** / **a champion**; *amazing, superb* | **a crack** = una grieta, una raja; **to crack** = resquebrajar, partir: *I cracked my tooth.* |\n| **hacer playback** | **to lip-sync** (*lip* = labio + *sync* = sincronía) | **a playback** / **to play back** = a recorded replay (match, concert, video) |\n\n- ⚠ **a crack** (grieta) vs. **a gap** (hueco).\n- **on** the wall / **on** the ceiling: any surface, even a vertical or upside-down one, takes *on*.\n\n### Practice (answer the questions)\n- Are you a **nerd**? → I think I'm not a nerd.\n- Do you know a lot of **geeks**? → Yes, I think I know a lot of geeks.\n- Do you like watching **freaky** films? → I don't usually like watching freaky films.\n- Is Lionel Messi a **champion** footballer? → Yes, Lionel Messi is a champion footballer.\n- Is there a **crack** on your wall? → No, there isn't a crack on my wall.\n- Does Shakira **lip-sync**? → I think Shakira doesn't lip-sync.\n- Are you watching **playbacks** for the World Cup? → No, I'm not watching playbacks for the World Cup.\n- Do you lip-sync in the car? → No, I don't lip-sync in the car, I sing.\n\n### Translations\n- *¿Crees que él está haciendo playback?* → Do you think he is **lip-syncing**?\n- *Me gusta Peter, creo que es un crack.* → I like Peter, I think he's **a star**.\n- *Ellos eran frikis y eran buenos estudiantes.* → They were **geeks / nerds** and they were good students.\n- *Hay una raja en la pantalla de mi ordenador.* → There is **a crack on** my computer screen."
+      },
+      {
+        "title": "2. Some and Any as Pronouns",
+        "expanded": false,
+        "content": "*Some* and *any* usually go with a noun (*some people, any water*), but they can also stand **alone** (*alguno/ninguno, algo/nada*) to **avoid repetition** when the noun was already mentioned.\n\n- Positive → **some**: *Yes, I have **some**.*\n- Negative → **any**: *No, I don't have **any**.*\n\n### Practice (positive / negative)\n| Question | Positive | Negative |\n|---|---|---|\n| Do you have any money? | Yes, I have some. | No, I don't have any. |\n| Can you give me more time? | Yes, I can give you some more. | No, I can't give you any more. |\n| How many people do you know? | I know some. | I don't know any. |\n| How many are there? | There are some. | There aren't any. |\n| Did you have a lot of food? | Yes, I had some. | No, I didn't have any. |\n| Is he having problems? | Yes, he's having some. | No, he isn't having any. |\n| Would you like some help? | Yes, I would like some. | No, I wouldn't like any. |\n| How much money did you win? | I won some. | I didn't win any. |\n| Is there any time left? | Yes, there is some left. | No, there isn't any left. |\n| How many products will they sell? | They will sell some. | They won't sell any. |\n| How many children were there? | There were some. | There weren't any. |\n| How many birds did you see? | I saw some. | I didn't see any. |\n\n**left** = *que queda, sobrante*: *Is there any time **left**?* (¿Queda tiempo?)"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · False Friends",
+        "key": "julia_jul08_t1",
+        "qs": [
+          {
+            "q": "'Soy un friki (de los videojuegos)' →",
+            "opts": [
+              "I'm a freaky.",
+              "I'm a geek.",
+              "I'm a crack."
+            ],
+            "ans": "I'm a geek."
+          },
+          {
+            "q": "What does 'freaky' mean in English?",
+            "opts": [
+              "Creepy / que da mal rollo",
+              "Very intelligent",
+              "A fan of video games"
+            ],
+            "ans": "Creepy / que da mal rollo"
+          },
+          {
+            "q": "'Peter es un crack' →",
+            "opts": [
+              "Peter is a crack.",
+              "Peter is a star.",
+              "Peter is a freak."
+            ],
+            "ans": "Peter is a star."
+          },
+          {
+            "q": "What does 'a crack' mean in English?",
+            "opts": [
+              "Un as, un experto",
+              "Una grieta / raja",
+              "Un hueco grande"
+            ],
+            "ans": "Una grieta / raja"
+          },
+          {
+            "q": "'Hacer playback' →",
+            "opts": [
+              "to playback",
+              "to lip-sync",
+              "to play the back"
+            ],
+            "ans": "to lip-sync"
+          },
+          {
+            "q": "What is 'a playback' in English?",
+            "opts": [
+              "Singing with a recording",
+              "A recorded replay of an event",
+              "A background singer"
+            ],
+            "ans": "A recorded replay of an event"
+          },
+          {
+            "q": "'Hay una raja en la pantalla de mi ordenador.' →",
+            "opts": [
+              "There is a crack in my computer screen.",
+              "There is a crack on my computer screen.",
+              "There is a gap at my computer screen."
+            ],
+            "ans": "There is a crack on my computer screen."
+          }
+        ]
+      },
+      {
+        "title": "Test · Some and Any as Pronouns",
+        "key": "julia_jul08_t2",
+        "qs": [
+          {
+            "q": "Do you have any money? (positive) →",
+            "opts": [
+              "Yes, I have any.",
+              "Yes, I have some.",
+              "Yes, I have some money some."
+            ],
+            "ans": "Yes, I have some."
+          },
+          {
+            "q": "Did you have a lot of food? (negative) →",
+            "opts": [
+              "No, I didn't have some.",
+              "No, I didn't have any.",
+              "No, I had any."
+            ],
+            "ans": "No, I didn't have any."
+          },
+          {
+            "q": "How many children were there? (negative) →",
+            "opts": [
+              "There weren't any.",
+              "There wasn't some.",
+              "There were any."
+            ],
+            "ans": "There weren't any."
+          },
+          {
+            "q": "'¿Queda tiempo?' →",
+            "opts": [
+              "Is there any time left?",
+              "Does time stay?",
+              "Is there any time remain?"
+            ],
+            "ans": "Is there any time left?"
+          },
+          {
+            "q": "How many products will they sell? (negative) →",
+            "opts": [
+              "They won't sell some.",
+              "They won't sell any.",
+              "They will sell any."
+            ],
+            "ans": "They won't sell any."
+          },
+          {
+            "q": "Why do we use 'some' or 'any' alone?",
+            "opts": [
+              "To avoid repeating the noun already mentioned",
+              "Because the noun is uncountable",
+              "Because it's more formal"
+            ],
+            "ans": "To avoid repeating the noun already mentioned"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260715",
+    "title": "Essential English",
+    "date": "2026-07-15",
+    "topic": "Above and Over",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. On, Above, Over",
+        "expanded": false,
+        "content": "In Spanish we just say *encima / por encima*, but English makes a clear distinction:\n\n| Preposition | Contact? | Key idea | Example |\n|---|---|---|---|\n| **on** | ✅ touching | resting on top (*encima, apoyado*) | *The pen is **on** the notebook.* |\n| **above** | ❌ no contact | **static**, no movement (*por encima, más arriba*) | *The pen is **above** the notebook.* |\n| **over** | ❌ usually no contact | **movement** going across | *The pen is going **over** the notebook.* |\n\n### Exception: *over* for covering\nWhen something **covers** something else, use **over** even with contact, because the focus is on the *movement* that \"hugs\" or covers it: *I put the band **over** the notebook.* / *There's a blanket **over** the bed.*\n\n- *a blanket **on** the bed* = correct, but it suggests it's lying there (or folded).\n- *a blanket **over** the bed* = spread out, covering it.\n- *a blanket **above** the bed* = impossible, unless it's a flying ghost! 👻\n\n> It's often not about right vs. wrong but about **what you want to express**: *The clouds are above / over the city* (static vs. moving).\n\n### Pronunciation\n- **over** /ˈəʊvə/: English *O* /əʊ/ + a buzzing **V** (like a fly). The final R is optional (US vs. UK).\n- **above** /əˈbʌv/: B **and** V, plus the \"sophisticated\" vowel /ʌ/: try to say an *A* with your mouth half-closed. Repeat it a million times to build **muscle memory**."
+      },
+      {
+        "title": "2. Practice",
+        "expanded": false,
+        "content": "### Above (no contact, static)\n- the clouds / the city → The clouds are **above** the city. *(over also possible if they're moving)*\n- the window / the radiator → The window is **above** the radiator.\n- a clock / the door → A clock is **above** the door.\n- the painting / the sofa → The painting is **above** the sofa.\n- a shelf / the table → There is a shelf **above** the table.\n- an apartment / the shop → There is an apartment **above** the shop.\n- the mirror / the sink → The mirror is **above** the sink.\n\n### Over (movement or covering)\n- Are we flying over Paris? → Yes, we are flying **over** Paris.\n- Can you throw the ball over the wall? → Yes, I can **throw** *(lanzar)* the ball **over** the wall.\n- Can the dog jump over the fence? → Yes, the dog can jump **over** the **fence** *(valla, verja)*.\n- Is there a blanket over the bed? → Yes, there is a **blanket** *(manta)* **over** the bed.\n- Are we crossing the bridge over the river? → Yes, we are crossing the **bridge** **over** the river.\n- Can you put a cloth over the table? → Yes, I can put a **cloth** *(paño, mantel; tablecloth)* **over** the table.\n- Are you putting a jacket over your jumper? → Yes, I'm putting a jacket **over** my **jumper**.\n\n### Vocabulary\n| English | Spanish |\n|---|---|\n| **sink** | lavabo / fregadero |\n| **jumper** (UK) / **sweater** (US) | jersey |\n| **jersey** | camiseta de equipo (deportes) |\n| **cardigan** | rebeca |\n| **to get my nails / hair done** | hacerme las uñas / el pelo (someone else does it) |\n| **to lurk** | husmear, mirar sin participar |\n| **a rip-off** | un robo, una estafa (too expensive) |"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Above and Over",
+        "key": "julia_jul15_t1",
+        "qs": [
+          {
+            "q": "Which preposition means 'on top, touching'?",
+            "opts": [
+              "on",
+              "above",
+              "over"
+            ],
+            "ans": "on"
+          },
+          {
+            "q": "What is the main difference between 'above' and 'over'?",
+            "opts": [
+              "'Above' is static; 'over' usually implies movement or covering",
+              "'Above' has contact; 'over' doesn't",
+              "There is no difference"
+            ],
+            "ans": "'Above' is static; 'over' usually implies movement or covering"
+          },
+          {
+            "q": "The mirror / the sink →",
+            "opts": [
+              "The mirror is over the sink moving.",
+              "The mirror is above the sink.",
+              "The mirror is on the sink."
+            ],
+            "ans": "The mirror is above the sink."
+          },
+          {
+            "q": "'Estamos sobrevolando París.' →",
+            "opts": [
+              "We are flying above Paris.",
+              "We are flying over Paris.",
+              "We are flying on Paris."
+            ],
+            "ans": "We are flying over Paris."
+          },
+          {
+            "q": "A blanket spread out covering the bed is…",
+            "opts": [
+              "a blanket above the bed",
+              "a blanket over the bed",
+              "a blanket at the bed"
+            ],
+            "ans": "a blanket over the bed"
+          },
+          {
+            "q": "What is a 'fence'?",
+            "opts": [
+              "Una valla / verja",
+              "Una defensa",
+              "Un muro de piedra"
+            ],
+            "ans": "Una valla / verja"
+          },
+          {
+            "q": "'Jersey' (prenda de abrigo) in British English is…",
+            "opts": [
+              "a jersey",
+              "a jumper",
+              "a cardigan"
+            ],
+            "ans": "a jumper"
+          },
+          {
+            "q": "'Me voy a hacer las uñas (en el salón).' →",
+            "opts": [
+              "I'm going to do my nails.",
+              "I'm going to get my nails done.",
+              "I'm going to make my nails."
+            ],
+            "ans": "I'm going to get my nails done."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260722",
+    "title": "Essential English",
+    "date": "2026-07-22",
+    "topic": "Vocabulary About Films",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Discussion: The Odyssey",
+        "expanded": false,
+        "content": "Julia went to the cinema to see Christopher Nolan's ***The Odyssey*** (Matt Damon, Anne Hathaway as Penelope, Tom Holland, Zendaya) and loved it.\n\n- *It was very long, but it didn't feel long*, which is a good sign.\n- No **CGI** (*computer-generated images*), beautiful photography and music.\n- *It's worth watching in the cinema* (*merece la pena verla en el cine*).\n- For Julia, two things are essential: a good **plot** and believable **acting**. She always prefers the **original version** (*versión original*) over **dubbing** (*doblaje*).\n- She also recommends ***Marty Supreme*** (Timothée Chalamet, a table tennis player).\n\n### Summer schedule (July 2026)\nMonday and Wednesday classes at **4:30 PM**; Friday at 2:00 PM; a special summer week at the start of August.\n\n### Expressions\n- **to enjoy life to the fullest** = disfrutar la vida al máximo\n- **don't give away any spoilers** = no hagas spoilers\n- **to be the spitting image of someone** = ser clavadito/a a alguien: *Matt Damon is the spitting image of Odysseus.* (*to spit* = escupir)"
+      },
+      {
+        "title": "2. Film Vocabulary",
+        "expanded": false,
+        "content": "### Film vs. movie\n- **film** = British; **movie** = American. Today they're interchangeable.\n- **the cinema** = international; **the movies** = American only: *going to the movies* = ir al cine.\n\n| English | Spanish | Notes |\n|---|---|---|\n| **script** | el guion | The written document: every line, dialogue and action |\n| **plot** / **storyline** | el argumento, la trama | The story itself (*story* is more general) |\n| **cast** | el reparto | Also a verb: *They **cast** Matt Damon* = le dieron el papel (past: *cast*) |\n| **actor / actress** | actor / actriz | One of the few gendered pairs; many now use *actor* for everyone. Plural **actresses** has an extra syllable! |\n| **acting** | la actuación | |\n| **dubbing** | el doblaje | |\n| **original version** | versión original | |\n| **CGI** | imágenes generadas por ordenador | |\n\n### Practice (Ask me…)\n- Was the **script** too complicated to follow? → No, the script wasn't too complicated to follow.\n- Do you value originality in a **plot**? → Yes, I really value originality in a plot / **storyline**.\n- Was Brad Pitt a member of the **cast**? → No, Brad Pitt wasn't a member of the cast. *(He was in Troy!)*\n- Do you know any **actresses** in person? → No, I don't know any professional actresses in person."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Film Vocabulary",
+        "key": "julia_jul22_t1",
+        "qs": [
+          {
+            "q": "What is the difference between 'film' and 'movie'?",
+            "opts": [
+              "'Film' is British and 'movie' is American",
+              "'Film' is for old films only",
+              "'Movie' is for cartoons"
+            ],
+            "ans": "'Film' is British and 'movie' is American"
+          },
+          {
+            "q": "'Going to the movies' (American) means…",
+            "opts": [
+              "Ir al cine",
+              "Rodar una película",
+              "Ver películas en casa"
+            ],
+            "ans": "Ir al cine"
+          },
+          {
+            "q": "What is the 'script'?",
+            "opts": [
+              "El reparto",
+              "El guion",
+              "La banda sonora"
+            ],
+            "ans": "El guion"
+          },
+          {
+            "q": "What is the 'plot'?",
+            "opts": [
+              "El argumento / la trama",
+              "El escenario",
+              "El director"
+            ],
+            "ans": "El argumento / la trama"
+          },
+          {
+            "q": "'El reparto' in English is…",
+            "opts": [
+              "the cast",
+              "the crew",
+              "the delivery"
+            ],
+            "ans": "the cast"
+          },
+          {
+            "q": "How many syllables does 'actresses' have?",
+            "opts": [
+              "Two",
+              "Three",
+              "Four"
+            ],
+            "ans": "Three"
+          },
+          {
+            "q": "'Eres clavadito a tu madre.' →",
+            "opts": [
+              "You are the spitting image of your mother.",
+              "You are the nail of your mother.",
+              "You are the same picture as your mother."
+            ],
+            "ans": "You are the spitting image of your mother."
+          },
+          {
+            "q": "'Merece la pena verla en el cine.' →",
+            "opts": [
+              "It's worth watching in the cinema.",
+              "It deserves the pain to watch in the cinema.",
+              "It's worth to watch it in the cinema."
+            ],
+            "ans": "It's worth watching in the cinema."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260729",
+    "title": "Essential English",
+    "date": "2026-07-29",
+    "topic": "Apart From, Except For / And a Half",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Keeping Your English on Holiday",
+        "expanded": false,
+        "content": "Next week (first week of August) is a **summer intensive week**: classes Monday–Thursday at 4:30 PM, and Friday at 2:00 PM.\n\n### How to protect your English in the summer\n- Memorising long lists of phrasal verbs on holiday is a **waste of time**, sorry to be the **party pooper** (*aguafiestas*)!\n- Instead, **solidify what you already have**: focus on the essentials, the sentences you use all the time.\n- **Speak to yourself / think out loud**: describe how you feel while walking on the beach, getting ready, brushing your teeth… *\"I'm feeling really good today because I had a wonderful breakfast…\"*\n- After two weeks without speaking, your own voice in English sounds strange. Speaking keeps your mouth and voice used to it.\n- **Learning must be enjoyable to be effective**, for children and adults alike.\n\n### Like a child learning to speak\nRepetition with **intonation** (not flat), like an adult teaching a child: *pen… pen… can you say pen?* That musicality is why we remember songs so well.\n\n### Vocabulary\n- **a party pooper** = un/a aguafiestas\n- **to take something for granted** = dar algo por sentado\n- **to think out loud** = pensar en voz alta\n- **unless** = a menos que: *Unless you are 18, you can't drink alcohol.*\n- **let alone** = y mucho menos, ni te cuento"
+      },
+      {
+        "title": "2. Apart From & Except For",
+        "expanded": false,
+        "content": "| Spanish | English | Synonyms |\n|---|---|---|\n| **aparte de** | **apart from** (one P!) | besides |\n| **excepto** | **except for** | but, other than |\n\n- **except** /ɪkˈsept/: ignore the C, just say the X sound /ks/.\n- The **for** in *except for* is optional before a noun, but since it's sometimes required, **always use it** and you'll never be wrong.\n- After a preposition (*from, for*), a verb takes **-ing**: *apart from read**ing***, *except for cook**ing***.\n\n### Practice: apart from\n- basketball / he plays tennis → **Apart from** basketball, he plays tennis.\n- the kitchen / we are renovating the bathroom → **Apart from** the kitchen, we are renovating the bathroom.\n- Susan / all my brothers are coming → **Apart from** Susan, all my brothers are coming.\n- reading reports / I send emails → **Apart from reading** reports, I send emails.\n- washing my hands / I brush my teeth → **Apart from washing** my hands, I brush my teeth.\n\n### Practice: except for\n- We are open every day **except for** Sundays.\n- I talk to everyone **except for** your sister.\n- It rained every day **except for** the last day.\n- She eats everything **except for** fish.\n- Everyone makes mistakes **except for** the boss.\n- The children do everything **except for cooking**.\n- I can do everything **except for dancing**."
+      },
+      {
+        "title": "3. Two and a Half Weeks (Word Order)",
+        "expanded": false,
+        "content": "English is strict about word order. *Dos semanas y media* → **two and a half weeks** (not ~~*two weeks and a half*~~).\n\n> **number + and a half + unit**: the **unit always goes last**.\n\n**half** /hɑːf/: the L is silent!\n\n### Translations\n- *Peter se comió tres pizzas y media anoche.* → Peter ate **three and a half pizzas** last night.\n- *Tenemos dos minutos y medio para terminar.* → We have **two and a half minutes** to finish.\n- *Ellos recibieron cuatro clases y media de inglés.* → They received **four and a half English classes**.\n- *Mi hija vivió en Londres seis meses y medio.* → My **daughter** lived in London **for** six and a half months.\n\n### Notes\n- **daughter** /ˈdɔːtə/: **GH** is silent and **AU** sounds like *o* (as in *autumn, August, audience, Australia*).\n- For a **duration**, English needs **for**: *lived in London **for** six and a half months* (Spanish uses no preposition)."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Apart From & Except For",
+        "key": "julia_jul29_t1",
+        "qs": [
+          {
+            "q": "'Aparte del inglés, hablo chino.' →",
+            "opts": [
+              "Apart of English, I speak Chinese.",
+              "Apart from English, I speak Chinese.",
+              "Except English, I speak Chinese."
+            ],
+            "ans": "Apart from English, I speak Chinese."
+          },
+          {
+            "q": "reading reports / I send emails →",
+            "opts": [
+              "Apart from read reports, I send emails.",
+              "Apart from reading reports, I send emails.",
+              "Apart from to read reports, I send emails."
+            ],
+            "ans": "Apart from reading reports, I send emails."
+          },
+          {
+            "q": "'Abrimos todos los días excepto los domingos.' →",
+            "opts": [
+              "We are open every day except for Sundays.",
+              "We are open every day apart Sundays.",
+              "We are open every day unless Sundays."
+            ],
+            "ans": "We are open every day except for Sundays."
+          },
+          {
+            "q": "The children do everything except for ___.",
+            "opts": [
+              "cook",
+              "cooking",
+              "to cook"
+            ],
+            "ans": "cooking"
+          },
+          {
+            "q": "How do you pronounce 'except'?",
+            "opts": [
+              "/ɪkˈsept/ — just the X sound, ignore the C",
+              "/ekˈθept/",
+              "/ɪksˈkept/"
+            ],
+            "ans": "/ɪkˈsept/ — just the X sound, ignore the C"
+          },
+          {
+            "q": "What does 'unless' mean?",
+            "opts": [
+              "A menos que",
+              "Aparte de",
+              "Excepto"
+            ],
+            "ans": "A menos que"
+          },
+          {
+            "q": "'Un aguafiestas' →",
+            "opts": [
+              "a party pooper",
+              "a party water",
+              "a fiesta killer"
+            ],
+            "ans": "a party pooper"
+          }
+        ]
+      },
+      {
+        "title": "Test · And a Half",
+        "key": "julia_jul29_t2",
+        "qs": [
+          {
+            "q": "'Dos semanas y media' →",
+            "opts": [
+              "two weeks and a half",
+              "two and a half weeks",
+              "two weeks and half"
+            ],
+            "ans": "two and a half weeks"
+          },
+          {
+            "q": "'Peter se comió tres pizzas y media.' →",
+            "opts": [
+              "Peter ate three pizzas and a half.",
+              "Peter ate three and a half pizzas.",
+              "Peter ate three and half pizzas."
+            ],
+            "ans": "Peter ate three and a half pizzas."
+          },
+          {
+            "q": "'Mi hija vivió en Londres seis meses y medio.' →",
+            "opts": [
+              "My daughter lived in London six months and a half.",
+              "My daughter lived in London for six and a half months.",
+              "My daughter lived in London during six and half months."
+            ],
+            "ans": "My daughter lived in London for six and a half months."
+          },
+          {
+            "q": "How do you pronounce 'half'?",
+            "opts": [
+              "/hælf/ — with L",
+              "/hɑːf/ — silent L",
+              "/hɑːlv/"
+            ],
+            "ans": "/hɑːf/ — silent L"
+          },
+          {
+            "q": "How do you pronounce 'daughter'?",
+            "opts": [
+              "/ˈdaʊɡtə/",
+              "/ˈdɔːtə/ — GH silent, AU like 'o'",
+              "/ˈdɔːɡhtə/"
+            ],
+            "ans": "/ˈdɔːtə/ — GH silent, AU like 'o'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260902",
+    "title": "Essential English",
+    "date": "2026-09-02",
+    "topic": "To Be In Charge Of / Live vs. Leave",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Discussion: September, the Real New Year",
+        "expanded": false,
+        "content": "- For Julia, **September feels like the new year**: new motivation, a new journal, and this year she's starting a **master's degree** (online), so she's a student again. January is her least favourite month.\n- The **\"-ber\" months** (September–December) are special. Five members of her family have birthdays in January.\n- *My birthday **falls on** a Thursday this year* (*cae en jueves*). She's turning 30!\n\n### Vocabulary\n| Expression | Spanish |\n|---|---|\n| **tan lines** | las marcas del moreno |\n| **a bun** (French bun) | un moño |\n| **to fall on (a day)** | caer en (un día) |\n| **to be on the same boat** | estar en el mismo barco |\n| **to keep you updated** | manteneros informados |\n| **to start the house from the roof** | empezar la casa por el tejado |\n\n> **Homework = oral practice.** Find excuses to use each new expression in real contexts while you walk, cook or drive. Julia learned most of her English (and even her linguistics) by analysing real speech, for fun."
+      },
+      {
+        "title": "2. To Be In Charge Of",
+        "expanded": false,
+        "content": "**to be in charge of** = *estar a cargo de, ser el encargado de*\n\n- + **noun**: *I'm in charge of the class.*\n- + **verb → -ing** (it comes after a preposition): *I'm in charge of prepar**ing** the class.*\n\n### Practice (has to → is in charge of)\n- He has to wash the car. → He's **in charge of washing** the car.\n- She has to walk the dog. → She's **in charge of walking** the dog.\n- They have to make the bed. → They are **in charge of making** the bed.\n- You have to mop the floor. → You are **in charge of mopping** the floor. *(mop = pasar la mopa, fregar)*\n- He has to pick up the children. → He's **in charge of picking up** the children.\n- I have to find train tickets. → I'm **in charge of finding** train tickets.\n- She has to host the program. → She's **in charge of hosting** the program.\n- You have to teach Chinese. → You are **in charge of teaching** Chinese.\n- The boss has to write the reports. → The boss is **in charge of writing** the reports.\n\n**to host** = to be the host, the one running something: *host a party* (organise it, ser el anfitrión), *host a program* (present it).\n\n> **Practise it for real:** *I don't like to be in charge of accounting, but I like to be in charge of managing people…*"
+      },
+      {
+        "title": "3. Live vs. Leave",
+        "expanded": false,
+        "content": "| Verb | Vowel | Spanish |\n|---|---|---|\n| **leave** /liːv/ | **smiling i**: long, wide, like the Spanish *i* | irse, marcharse, dejar |\n| **live** /lɪv/ | **lazy i**: short, serious face, between *i* and *e* | vivir |\n\n**Trick:** for the short /ɪ/, keep your face serious and your mouth more closed. If you try to say *i*, it comes out closer to *e*.\n\n### Practice (Ask me…)\n- Would you like to **live** in another country?\n- Would you like to **leave** your country? → No, I wouldn't like to live in another country and I wouldn't like to leave my country.\n- Do you **leave** a party when you are bored?\n- Do you **live** a happy life?"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · To Be In Charge Of",
+        "key": "julia_sep02_t1",
+        "qs": [
+          {
+            "q": "'Estoy a cargo de preparar la clase.' →",
+            "opts": [
+              "I'm in charge of prepare the class.",
+              "I'm in charge of preparing the class.",
+              "I'm on charge to prepare the class."
+            ],
+            "ans": "I'm in charge of preparing the class."
+          },
+          {
+            "q": "She has to walk the dog. →",
+            "opts": [
+              "She's in charge of walking the dog.",
+              "She's in charge to walk the dog.",
+              "She's at charge of walking the dog."
+            ],
+            "ans": "She's in charge of walking the dog."
+          },
+          {
+            "q": "Why do we use -ing after 'in charge of'?",
+            "opts": [
+              "Because the verb comes after a preposition",
+              "Because it's a continuous action",
+              "Because it's in the past"
+            ],
+            "ans": "Because the verb comes after a preposition"
+          },
+          {
+            "q": "What does 'to mop the floor' mean?",
+            "opts": [
+              "Barrer el suelo",
+              "Fregar el suelo / pasar la mopa",
+              "Aspirar"
+            ],
+            "ans": "Fregar el suelo / pasar la mopa"
+          },
+          {
+            "q": "'To host a TV program' means…",
+            "opts": [
+              "Presentar un programa",
+              "Ver un programa",
+              "Grabar un programa"
+            ],
+            "ans": "Presentar un programa"
+          },
+          {
+            "q": "'Mi cumpleaños cae en jueves este año.' →",
+            "opts": [
+              "My birthday falls on a Thursday this year.",
+              "My birthday drops in Thursday this year.",
+              "My birthday is falling at Thursday this year."
+            ],
+            "ans": "My birthday falls on a Thursday this year."
+          }
+        ]
+      },
+      {
+        "title": "Test · Live vs. Leave",
+        "key": "julia_sep02_t2",
+        "qs": [
+          {
+            "q": "Which verb has the long 'smiling' /iː/ sound?",
+            "opts": [
+              "live",
+              "leave",
+              "both"
+            ],
+            "ans": "leave"
+          },
+          {
+            "q": "What does 'to leave' mean?",
+            "opts": [
+              "Vivir",
+              "Irse / marcharse / dejar",
+              "Querer"
+            ],
+            "ans": "Irse / marcharse / dejar"
+          },
+          {
+            "q": "'¿Te gustaría vivir en otro país?' →",
+            "opts": [
+              "Would you like to leave in another country?",
+              "Would you like to live in another country?",
+              "Would you like living in other country?"
+            ],
+            "ans": "Would you like to live in another country?"
+          },
+          {
+            "q": "'¿Te vas de una fiesta cuando te aburres?' →",
+            "opts": [
+              "Do you live a party when you are bored?",
+              "Do you leave a party when you are bored?",
+              "Do you go off a party when you bored?"
+            ],
+            "ans": "Do you leave a party when you are bored?"
+          },
+          {
+            "q": "How do you make the short /ɪ/ in 'live'?",
+            "opts": [
+              "Smile widely, like the Spanish i",
+              "Keep a serious face, mouth more closed, between i and e",
+              "Round your lips like an o"
+            ],
+            "ans": "Keep a serious face, mouth more closed, between i and e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260909",
+    "title": "Essential English",
+    "date": "2026-09-09",
+    "topic": "Another vs. Some More / To Be Under the Weather",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Another vs. Some More (Extra Quantity)",
+        "expanded": false,
+        "content": "How to say *algo más / alguno más* (an extra quantity):\n\n| Case | Use | Example |\n|---|---|---|\n| **One** (countable, singular) | **another** / **one more** | *I have **another** class / **one more** class.* (not ~~*one class more*~~) |\n| **More than one** (countable, plural) | **some more** | *I have **some more** classes.* |\n| **Uncountable** | **some more** (never *another*) | *I have **some more** time / energy.* |\n\n- **another** = otro/a (singular); **other** = otros/as (plural).\n- *I have other classes after this one* isn't a huge mistake, but it sounds odd: *other* refers to a different **type**, not an extra quantity.\n- *There are more bananas* is OK, but **some more** is better: *some* points to a specific extra group, while *more* alone sounds very open.\n\n### Practice (there is / there are)\n| Word | Sentence |\n|---|---|\n| bananas | There are **some more** bananas. |\n| pepper | There is **some more** pepper. *(pimienta)* / There is **another** pepper. *(pimiento)* |\n| notebooks | There are **some more** notebooks. |\n| day | There is **another** day. / There is **one more** day. |\n| milk | There is **some more** milk. |\n| coffee | There is **some more** coffee. |\n| excuse | There is **another** excuse. / There is **one more** excuse. |\n| opportunities | There are **some more** opportunities. |\n| energy | There is **some more** energy. |\n| parties | There are **some more** parties. |\n| volunteer | There is **another** volunteer. |\n\n**pepper** = *pimienta* (uncountable) **and** *pimiento* (countable). ⚠ Spelled *pepper*, not *paper*!"
+      },
+      {
+        "title": "2. To Be Under the Weather",
+        "expanded": false,
+        "content": "**to be under the weather** = *estar pachucho/a*, not feeling well (but not really sick).\n\n### ⚠ *Me encuentro mal* ≠ *I feel bad*\n- **I feel bad** = emotional: guilt or regret (*me siento mal, he metido la pata*).\n- **I feel poorly** / **I'm under the weather** = physically unwell (*me encuentro mal*).\n- Also: *I don't feel very well*, *I feel ill*.\n\n### Practice (Ask me…)\n- Were you under the weather this morning? → No, I wasn't under the weather this morning.\n- Do you feel poorly right now? → No, I don't feel poorly right now.\n- Are you usually under the weather in winter? → No, I'm not usually under the weather in winter.\n- What do you do when you are under the weather? → I go to bed when I am under the weather.\n\n### Tip: find speakers you understand\nFind someone (YouTube, radio, podcast) who **enunciates**, has a neutral accent, pauses and organises their speech, and who talks about something you enjoy. Understanding them gives you **motivation**. And try the other classes even if you don't understand everything: you'll understand more than you think."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Another vs. Some More",
+        "key": "julia_sep09_t1",
+        "qs": [
+          {
+            "q": "'Tengo otra clase después de esta.' →",
+            "opts": [
+              "I have other class after this one.",
+              "I have another class after this one.",
+              "I have some more class after this one."
+            ],
+            "ans": "I have another class after this one."
+          },
+          {
+            "q": "'Tengo algunas clases más.' →",
+            "opts": [
+              "I have some more classes.",
+              "I have another classes.",
+              "I have other more classes."
+            ],
+            "ans": "I have some more classes."
+          },
+          {
+            "q": "Can we use 'another' with uncountable nouns (time, energy)?",
+            "opts": [
+              "Yes, always",
+              "No, we use 'some more'",
+              "Only in questions"
+            ],
+            "ans": "No, we use 'some more'"
+          },
+          {
+            "q": "milk →",
+            "opts": [
+              "There is another milk.",
+              "There is some more milk.",
+              "There are some more milks."
+            ],
+            "ans": "There is some more milk."
+          },
+          {
+            "q": "volunteer →",
+            "opts": [
+              "There is another volunteer.",
+              "There is some more volunteer.",
+              "There are another volunteer."
+            ],
+            "ans": "There is another volunteer."
+          },
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "I have one class more.",
+              "I have one more class.",
+              "I have more one class."
+            ],
+            "ans": "I have one more class."
+          },
+          {
+            "q": "Why does 'pepper' allow both 'some more pepper' and 'another pepper'?",
+            "opts": [
+              "It means both pimienta (uncountable) and pimiento (countable)",
+              "It's an irregular plural",
+              "Because it's British English"
+            ],
+            "ans": "It means both pimienta (uncountable) and pimiento (countable)"
+          }
+        ]
+      },
+      {
+        "title": "Test · Under the Weather",
+        "key": "julia_sep09_t2",
+        "qs": [
+          {
+            "q": "'Estoy un poco pachucho.' →",
+            "opts": [
+              "I'm a bit under the weather.",
+              "I'm a bit over the weather.",
+              "I'm a bit bad weather."
+            ],
+            "ans": "I'm a bit under the weather."
+          },
+          {
+            "q": "What does 'I feel bad' usually mean in English?",
+            "opts": [
+              "I feel physically ill",
+              "I feel guilty / emotionally bad",
+              "I feel cold"
+            ],
+            "ans": "I feel guilty / emotionally bad"
+          },
+          {
+            "q": "'Me encuentro mal' (físicamente) →",
+            "opts": [
+              "I feel poorly.",
+              "I feel bad.",
+              "I find me bad."
+            ],
+            "ans": "I feel poorly."
+          },
+          {
+            "q": "Were you under the weather this morning? → No, …",
+            "opts": [
+              "I wasn't under the weather this morning.",
+              "I didn't under the weather this morning.",
+              "I weren't under the weather this morning."
+            ],
+            "ans": "I wasn't under the weather this morning."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260916",
+    "title": "Essential English",
+    "date": "2026-09-16",
+    "topic": "Singular Reflexive Pronouns",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Reflexive Pronouns",
+        "expanded": false,
+        "content": "New schedule: Monday and Wednesday at **5:00 PM**, Friday at **2:00 PM**.\n\nSpanish has no single word for these. We say *yo mismo, tú mismo, ella misma…*\n\n| Subject | Reflexive pronoun |\n|---|---|\n| I | **myself** |\n| you | **yourself** |\n| he | **himself** (not ~~*hisself*~~) |\n| she | **herself** |\n| it | **itself** |\n\n> **Rule:** when the **subject and the object are the same** person or thing, the object must be reflexive: *I love **myself*** (not ~~*I love me*~~).\n\n### Learn verbs as a \"pack\" with their preposition\nThe preposition depends on the **verb**, not on what comes after, so learn them together: **look at, talk to, point at, listen to, laugh at, play against**. And remember some verbs take **no** preposition: **record, hurt, teach**.\n\n### Natural English vs. Spanish\n- *Está hablando sola* → **She's talking to herself** (*talking alone* only means nobody is physically with her).\n- *Es autodidacta / aprende sola* → **She's teaching herself**.\n- *Me río de mí mismo* → **I'm laughing at myself** (*at*, not *of*).\n\n**laugh** /lɑːf/: the GH sounds like F, with a wide open A."
+      },
+      {
+        "title": "2. Practice",
+        "expanded": false,
+        "content": "Make a present continuous sentence, then ask *why*:\n\n| Prompt | Sentence | Question |\n|---|---|---|\n| he / look at | He's looking at **himself**. | Why is he looking at himself? |\n| she / talk to | She's talking to **herself**. | Why is she talking to herself? |\n| I / point at | I'm pointing at **myself**. | Why am I pointing at myself? |\n| you / listen to | You're listening to **yourself**. | Why are you listening to yourself? |\n| she / teach | She's teaching **herself**. | Why is she teaching herself? |\n| he / play against | He's playing against **himself**. | Why is he playing against himself? |\n| I / laugh at | I'm laughing at **myself**. | Why am I laughing at myself? |\n| you / record | You're recording **yourself**. | Why are you recording yourself? |\n| she / hurt | She's hurting **herself**. | Why is she hurting herself? |\n\n- **play with** = jugar con; **play against** = jugar contra (competition).\n\n### *By myself* = on my own\n**by + reflexive** at the end of a sentence means *alone, without help* (*por mí mismo/a, solo/a*). Here it's an **extra complement**, not the object:\n- *I'm recording **myself*** = I'm the object (me grabo a mí mismo).\n- *I'm recording **by myself*** = I'm recording on my own (grabo yo solo).\n- 🎵 *All by myself, don't wanna be all by myself anymore…*\n\n### Vocabulary\n- **chilly** = fresquito\n- **a breeze** = una brisa\n- **a bloodline** = un linaje, una línea de sangre"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Reflexive Pronouns",
+        "key": "julia_sep16_t1",
+        "qs": [
+          {
+            "q": "When do we use a reflexive pronoun?",
+            "opts": [
+              "When the subject and the object are the same",
+              "In every question",
+              "Only in the past"
+            ],
+            "ans": "When the subject and the object are the same"
+          },
+          {
+            "q": "He / look at →",
+            "opts": [
+              "He's looking at hisself.",
+              "He's looking at himself.",
+              "He's looking himself."
+            ],
+            "ans": "He's looking at himself."
+          },
+          {
+            "q": "'Ella está hablando sola (consigo misma).' →",
+            "opts": [
+              "She's talking alone.",
+              "She's talking to herself.",
+              "She's talking at her."
+            ],
+            "ans": "She's talking to herself."
+          },
+          {
+            "q": "'Me estoy riendo de mí mismo.' →",
+            "opts": [
+              "I'm laughing of myself.",
+              "I'm laughing at myself.",
+              "I'm laughing me."
+            ],
+            "ans": "I'm laughing at myself."
+          },
+          {
+            "q": "'Te estás grabando a ti mismo.' →",
+            "opts": [
+              "You're recording to yourself.",
+              "You're recording yourself.",
+              "You're recording at yourself."
+            ],
+            "ans": "You're recording yourself."
+          },
+          {
+            "q": "'Ella se está haciendo daño.' →",
+            "opts": [
+              "She's hurting herself.",
+              "She's hurting to herself.",
+              "She's hurting her."
+            ],
+            "ans": "She's hurting herself."
+          },
+          {
+            "q": "What does 'I did it by myself' mean?",
+            "opts": [
+              "Lo hice yo solo, sin ayuda",
+              "Me lo hice a mí mismo",
+              "Lo hice para mí"
+            ],
+            "ans": "Lo hice yo solo, sin ayuda"
+          },
+          {
+            "q": "'Es autodidacta, está aprendiendo sola.' (natural English) →",
+            "opts": [
+              "She's teaching herself.",
+              "She's learning alone herself.",
+              "She's autodidact herself."
+            ],
+            "ans": "She's teaching herself."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260923",
+    "title": "Essential English",
+    "date": "2026-09-23",
+    "topic": "Success, Successful and To Succeed",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Discussion: Glasses & Check-ups Before 30",
+        "expanded": false,
+        "content": "Julia is wearing **glasses** for the first time: she has **astigmatism** (*astigmatismo*). The day before turning 30, she got all her check-ups done.\n\n### Vocabulary\n| English | Spanish |\n|---|---|\n| **to stare at something** | mirar fijamente algo |\n| **tired eyes** | vista cansada |\n| **noticeable** | notorio, que se nota |\n| **to get a blood test** | hacerse un análisis de sangre |\n| **a dental cleaning** | una limpieza dental |\n| **cavities** | caries |\n| **aches and pains** | achaques, dolores |\n| **a physical therapist** | un/a fisioterapeuta |\n| **Do what I say, not what I do.** | Haz lo que digo y no lo que hago. |\n| **picky** | quisquilloso/a |\n| **a cuppa** | una taza de té (UK, informal) |\n| **a splash of milk** | un chorrito de leche |\n\n> Julia's perfect cuppa: a big mug, boiling water, a bag of black tea (Yorkshire Tea or PG Tips) and **a splash of milk**."
+      },
+      {
+        "title": "2. Success · Successful · Succeed",
+        "expanded": false,
+        "content": "| Type | Word | Spanish | Pronunciation |\n|---|---|---|---|\n| **noun** | **success** | éxito | /səkˈses/ (stress at the end, first U like a weak *a*) |\n| **adjective** | **successful** | exitoso/a | /səkˈsesfəl/ |\n| **verb** | **succeed** | triunfar, tener éxito | /səkˈsiːd/ (double E = smiling *i*) |\n\n- The suffix **-ful** has only **one L** (*full* has two): *beautiful, useful, successful*.\n- **succeed** is **regular**: past **succeeded** (extra syllable, like *celebrated*).\n- *To be successful* also works, but **succeed** is the verb.\n- *La clave **del** éxito* → **the key to success** (*to*, and no article for general concepts: ~~*the hard work*~~).\n\n### Practice (Ask me…)\n- Do you own a **successful** company? → No, I don't own a successful company.\n- Do you feel **successful**? → Yes, I feel successful.\n- Is the key **to success** hard work? → In my opinion, yes, one of the keys to success is hard work.\n- Do you want to **succeed** in life? → Yes, of course, I want to succeed in life.\n- What do you do to celebrate **success**?\n- Who is the most **successful** person you know?\n- When did you **succeed** for the first time? → I **succeeded** when…\n- Can you have **success** with a **successful** idea?\n\n> **A great conversation starter:** *When did you succeed for the first time?* For Julia, it was winning a bike in a drawing competition at age six, and later starting her radio show."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Success, Successful, Succeed",
+        "key": "julia_sep23_t1",
+        "qs": [
+          {
+            "q": "Which one is the noun (éxito)?",
+            "opts": [
+              "success",
+              "successful",
+              "succeed"
+            ],
+            "ans": "success"
+          },
+          {
+            "q": "Which one is the verb (triunfar)?",
+            "opts": [
+              "success",
+              "succeed",
+              "successful"
+            ],
+            "ans": "succeed"
+          },
+          {
+            "q": "How is 'successful' spelled?",
+            "opts": [
+              "successfull",
+              "successful",
+              "sucessful"
+            ],
+            "ans": "successful"
+          },
+          {
+            "q": "What is the past of 'succeed'?",
+            "opts": [
+              "succeed",
+              "succeeded",
+              "succeedd"
+            ],
+            "ans": "succeeded"
+          },
+          {
+            "q": "'La clave del éxito es el trabajo duro.' →",
+            "opts": [
+              "The key of the success is the hard work.",
+              "The key to success is hard work.",
+              "The key to the success is the hard work."
+            ],
+            "ans": "The key to success is hard work."
+          },
+          {
+            "q": "'¿Tienes una empresa exitosa?' →",
+            "opts": [
+              "Do you own a success company?",
+              "Do you own a successful company?",
+              "Do you own a succeed company?"
+            ],
+            "ans": "Do you own a successful company?"
+          },
+          {
+            "q": "Where is the stress in 'success'?",
+            "opts": [
+              "On the first syllable: SUC-cess",
+              "On the second syllable: suc-CESS",
+              "On both equally"
+            ],
+            "ans": "On the second syllable: suc-CESS"
+          },
+          {
+            "q": "'Haz lo que digo y no lo que hago.' →",
+            "opts": [
+              "Do what I say, not what I do.",
+              "Make what I say and not what I make.",
+              "Do as I do, not as I say."
+            ],
+            "ans": "Do what I say, not what I do."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20260930",
+    "title": "Essential English",
+    "date": "2026-09-30",
+    "topic": "To Wear + Clothes Vocabulary",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. To Wear (Llevar puesto)",
+        "expanded": false,
+        "content": "**to wear** /weə/ = *llevar puesto* (same pronunciation as *where*). Spanish has no single verb for it; English does.\n\n### ⚠ Present continuous for what you're wearing now\n| Spanish | English | Meaning |\n|---|---|---|\n| ¿Qué llevas puesto? | **What are you wearing?** | right now |\n| Llevo una camiseta marrón. | **I'm wearing** a brown T-shirt. | right now |\n| ¿Qué te pones (normalmente)? | **What do you wear** to work? | routine → *I usually wear a suit.* |\n\nSpanish uses the present simple, but English is more logical: the action is happening **now**, so use the **present continuous**. ❌ *I wear a blue dress (today).*\n\n### Practice (question → answer)\n- Peter → **What is Peter wearing?** → (un jersey azul) Peter is wearing a blue **jumper**.\n- They → **What are they wearing?** → (una mochila amarilla) They are wearing a yellow **backpack**.\n- Susan → **What is Susan wearing?** → (calcetines rojos) Susan is wearing red **socks**.\n- My sister → **What is your sister wearing?** → (medias negras) My sister is wearing black **tights**. → (ajustadas) She's wearing **tight black tights**.\n\n### Expressions from the class\n- **to beat around the bush** / **to ramble** = irse por las ramas, enrollarse: *I'm going to stop rambling.*\n- **straightforward** = claro, directo\n- **far-fetched** = descabellado (review from Monday)"
+      },
+      {
+        "title": "2. Clothes Vocabulary",
+        "expanded": false,
+        "content": "### *Ropa* = **clothes**\n- **clothes** is **plural** but **uncountable**: ❌ *one cloth, two cloths*.\n- *Una prenda de ropa* = **a piece of clothing**: *I bought a piece of clothing.* / *I have a lot of clothes.*\n\n| Spanish | British | American | Notes |\n|---|---|---|---|\n| jersey (de punto) / sudadera sin capucha | **jumper** | **sweater** | |\n| sudadera con capucha | **hoodie** | **hoodie** | from **hood** = capucha (also *capó* of a car) |\n| camiseta de equipo deportivo | **jersey** | **jersey** | ⚠ *jersey* ≠ jersey! |\n| mochila | **backpack** | **backpack** | *back* (espalda) + *pack*, not ~~*bagpack*~~; *backpackers* = mochileros |\n| calcetines | **socks** | **socks** | |\n| medias (enteras) | **tights** | **tights** | from **tight** = ajustado. ⚠ *panties* = women's underwear |\n| medias largas / hasta la rodilla | **stockings** | **stockings** | also the Christmas stockings on the fireplace |\n\n- **bag** = bolsa (too general for *mochila*).\n- **Robin Hood**: *robin* = petirrojo, *hood* = capucha. (*Robin de los Bosques* came from confusing *hood* with *wood*.)"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · To Wear & Clothes",
+        "key": "julia_sep30_t1",
+        "qs": [
+          {
+            "q": "'¿Qué llevas puesto (ahora)?' →",
+            "opts": [
+              "What do you wear?",
+              "What are you wearing?",
+              "What are you carrying?"
+            ],
+            "ans": "What are you wearing?"
+          },
+          {
+            "q": "'Llevo un vestido azul (hoy).' →",
+            "opts": [
+              "I wear a blue dress.",
+              "I'm wearing a blue dress.",
+              "I'm carrying a blue dress."
+            ],
+            "ans": "I'm wearing a blue dress."
+          },
+          {
+            "q": "'What do you wear to work?' asks about…",
+            "opts": [
+              "what you're wearing right now",
+              "what you usually wear (routine)",
+              "what you wore yesterday"
+            ],
+            "ans": "what you usually wear (routine)"
+          },
+          {
+            "q": "'Una prenda de ropa' →",
+            "opts": [
+              "a cloth",
+              "a piece of clothing",
+              "a clothe"
+            ],
+            "ans": "a piece of clothing"
+          },
+          {
+            "q": "'Una sudadera con capucha' →",
+            "opts": [
+              "a jumper",
+              "a hoodie",
+              "a jersey"
+            ],
+            "ans": "a hoodie"
+          },
+          {
+            "q": "'Una mochila' →",
+            "opts": [
+              "a bagpack",
+              "a backpack",
+              "a bag"
+            ],
+            "ans": "a backpack"
+          },
+          {
+            "q": "'Medias' (enteras) in English are…",
+            "opts": [
+              "panties",
+              "tights",
+              "socks"
+            ],
+            "ans": "tights"
+          },
+          {
+            "q": "What is a 'jersey' in English?",
+            "opts": [
+              "Un jersey de punto",
+              "Una camiseta de equipo deportivo",
+              "Una chaqueta"
+            ],
+            "ans": "Una camiseta de equipo deportivo"
+          },
+          {
+            "q": "'Irse por las ramas' →",
+            "opts": [
+              "to beat around the bush",
+              "to go by the branches",
+              "to beat the tree"
+            ],
+            "ans": "to beat around the bush"
+          }
+        ]
+      }
+    ]
   }
 ]
