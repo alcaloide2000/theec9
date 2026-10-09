@@ -397,5 +397,38 @@
         ]
       }
     ]
+  },
+  {
+    "particle": "up",
+    "concepts": [
+      {
+        "concept": "Starting / activating",
+        "es": "arrancar, poner en marcha",
+        "icon": "🔑",
+        "note": "you <b>start</b> (or <b>start up</b>) an engine, never <i>begin</i> one",
+        "verbs": [
+          {
+            "verb": "start up",
+            "meaning": "start (an engine); set up (a business)",
+            "example": "Have you ever thought about starting up a business?",
+            "cls": "kyle_20261006"
+          }
+        ]
+      },
+      {
+        "concept": "Final result",
+        "es": "acabar, terminar (en/haciendo)",
+        "icon": "🏁",
+        "note": "followed by <b>-ing</b>, a place or an adjective",
+        "verbs": [
+          {
+            "verb": "end up",
+            "meaning": "finally do something / finally be somewhere",
+            "example": "I came to Spain thinking I would stay for one year, and I ended up staying for 20.",
+            "cls": "kyle_20261006"
+          }
+        ]
+      }
+    ]
   }
 ]

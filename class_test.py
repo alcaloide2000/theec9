@@ -555,7 +555,7 @@ def _load_phrasal_wall():
         return json.load(f)
 
 
-_WALL_COLORS = {"in": "#2e86de", "into": "#8e44ad", "out": "#e67e22"}
+_WALL_COLORS = {"in": "#2e86de", "into": "#8e44ad", "out": "#e67e22", "up": "#27ae60"}
 
 
 def _render_phrasal_wall(wall):
