@@ -24090,5 +24090,457 @@
         ]
       }
     ]
+  },
+  {
+    "id": "brain_buffet_20261008",
+    "title": "Brain Buffet",
+    "date": "2026-10-08",
+    "topic": "Zero, First and Second Conditionals",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion — Food Talk & Paying Attention",
+        "expanded": false,
+        "content": "### Restaurant expressions\n- **What's today's special?** / **What do you have on the menu today?**: ask the waiter for dishes that aren't on the regular menu.\n- **sooner rather than later** = pronto, sin que tarde demasiado.\n- **to hit the ground running** = empezar con fuerza, sin perder tiempo.\n- Brazilian food from the class: **brigadeiro** (condensed milk + chocolate), **feijoada** (black beans with sausage and meat, *the dark fabada*), **rodízio** (all-you-can-eat meat brought to your table).\n- **offal** = casquería · **tripe** = callos.\n\n### Are you aware of your surroundings?\n*To be aware of your surroundings* = estar atento a tu alrededor. Answer quickly, without thinking:\n- What colour are your teacher's eyes? (*green*)\n- What trees grow on your street?\n- What is the first shop you pass when you leave your home?\n- How many keys are on your **keyring**?\n- Which direction do you usually turn when you leave your home?\n\nVocabulary: **willow** (sauce) · **pine** (pino) · **cypress** (ciprés) · **dry cleaner's** (tintorería) · **beauty parlour** (salón de belleza) · **gas station** (gasolinera)."
+      },
+      {
+        "title": "2. Match the Halves — How Easy Is It for You to Focus?",
+        "expanded": false,
+        "content": "*How easy or hard is it for you to concentrate and stay focused?*\n\n| First half | Second half |\n|---|---|\n| **A.** It depends on where I am. If I work in a quiet place, | I **focus** much better. |\n| **B.** It's usually harder for me to focus with other people around, for example, at home. So if I work from home next week, | I**'ll ask** my family not to enter my room. |\n| **C.** My phone makes it so much harder for me. If I **didn't check** my messages so often, | I **would stay** focused for longer. |\n\nA = **zero** conditional · B = **first** conditional · C = **second** conditional."
+      },
+      {
+        "title": "3. Grammar — Zero, First and Second Conditionals",
+        "expanded": false,
+        "content": "A conditional links two things: one thing has to happen **first** for the second thing to happen.\n\n| Type | Use | Structure | Example |\n|---|---|---|---|\n| **Zero** | facts, things that are **always** true | **If** + present simple, + present simple | If I work in a quiet place, I **focus** much better. |\n| **First** | a **real** future possibility | **If** + present simple, + **will / won't** + infinitive | If I work from home next week, I **will ask** my family not to enter my room. |\n| **Second** | an **imaginary** situation in the present or future | **If** + past simple, + **would / wouldn't / could** + infinitive | If I **didn't check** my messages so often, I **would stay** focused for longer. |\n\n- **First conditional is real, not imaginary.** It isn't a fact *yet*, but it's possible and likely: *si trabajo desde casa*, then I really will tell them. Nothing is invented.\n- **Second conditional is imaginary.** The reality is the opposite: I **do** check my messages. *Si no mirara el móvil…* is a life I'm imagining.\n- ⚠ Never use **will** in the second conditional. Use **would / wouldn't** (or **could**).\n- Don't forget the **comma** after the *if* clause.\n\n💡 Practice tip: write a short paragraph (a little story) that uses all three conditionals together instead of loose sentences."
+      },
+      {
+        "title": "4. Practice — Choose the Correct Option",
+        "expanded": false,
+        "content": "| Sentence | Answer | Type |\n|---|---|---|\n| If I ___ enough sleep, I find it difficult to focus. | **don't get** | zero |\n| If I could choose any place to study, I'd ___ a quiet library. | **pick** | second |\n| I ___ distracted more easily if my desk is messy. | **get** | zero |\n| I'd ___ my work faster if I didn't have so many distractions at home. | **finish** | second |\n| If I work under pressure, I often ___ better. | **focus** | zero |\n| If I find a quiet café tomorrow, ___ work there instead of the office. | **I'll** | first |\n\n💡 **to ace it** = sacar matrícula, hacerlo perfecto (*You aced it!*)."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Which Conditional?",
+        "key": "bb_20261008_types",
+        "qs": [
+          {
+            "q": "'If I work in a quiet place, I focus much better.' This is…",
+            "opts": [
+              "the zero conditional",
+              "the first conditional",
+              "the second conditional",
+              "the third conditional"
+            ],
+            "ans": "the zero conditional"
+          },
+          {
+            "q": "The zero conditional is used for…",
+            "opts": [
+              "facts or things that are always true",
+              "imaginary situations",
+              "past regrets",
+              "polite requests"
+            ],
+            "ans": "facts or things that are always true"
+          },
+          {
+            "q": "'If I work from home next week, I'll ask my family not to enter my room.' This describes…",
+            "opts": [
+              "a real future possibility",
+              "an imaginary present situation",
+              "a general fact",
+              "a past habit"
+            ],
+            "ans": "a real future possibility"
+          },
+          {
+            "q": "'If I didn't check my messages so often, I would stay focused for longer.' What is the reality?",
+            "opts": [
+              "I check my messages a lot.",
+              "I never check my messages.",
+              "I will stop checking my messages.",
+              "I checked my messages yesterday."
+            ],
+            "ans": "I check my messages a lot."
+          },
+          {
+            "q": "The second conditional describes…",
+            "opts": [
+              "an imaginary situation in the present or future",
+              "a real future possibility",
+              "something that is always true",
+              "a finished past action"
+            ],
+            "ans": "an imaginary situation in the present or future"
+          },
+          {
+            "q": "What does 'to be aware of your surroundings' mean?",
+            "opts": [
+              "estar atento a tu alrededor",
+              "estar rodeado de gente",
+              "estar perdido",
+              "ser consciente de tus errores"
+            ],
+            "ans": "estar atento a tu alrededor"
+          },
+          {
+            "q": "At a restaurant, you want the dish that isn't on the regular menu. You ask:",
+            "opts": [
+              "What's today's special?",
+              "What's today's especial?",
+              "What's the special of today?",
+              "Which is the today's special?"
+            ],
+            "ans": "What's today's special?"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Conditional Structures",
+        "key": "bb_20261008_structure",
+        "qs": [
+          {
+            "q": "Zero conditional structure:",
+            "opts": [
+              "If + present simple, + present simple",
+              "If + present simple, + will + infinitive",
+              "If + past simple, + would + infinitive",
+              "If + past simple, + will + infinitive"
+            ],
+            "ans": "If + present simple, + present simple"
+          },
+          {
+            "q": "First conditional structure:",
+            "opts": [
+              "If + present simple, + will + infinitive",
+              "If + present simple, + would + infinitive",
+              "If + past simple, + will + infinitive",
+              "If + will, + present simple"
+            ],
+            "ans": "If + present simple, + will + infinitive"
+          },
+          {
+            "q": "Second conditional structure:",
+            "opts": [
+              "If + past simple, + would + infinitive",
+              "If + present simple, + will + infinitive",
+              "If + past simple, + will + infinitive",
+              "If + would, + past simple"
+            ],
+            "ans": "If + past simple, + would + infinitive"
+          },
+          {
+            "q": "If I ___ enough sleep, I find it difficult to focus.",
+            "opts": [
+              "don't get",
+              "didn't get",
+              "won't get",
+              "wouldn't get"
+            ],
+            "ans": "don't get"
+          },
+          {
+            "q": "If I could choose any place to study, I'd ___ a quiet library.",
+            "opts": [
+              "pick",
+              "picked",
+              "will pick",
+              "picking"
+            ],
+            "ans": "pick"
+          },
+          {
+            "q": "I'd ___ my work faster if I didn't have so many distractions at home.",
+            "opts": [
+              "finish",
+              "finished",
+              "will finish",
+              "finishing"
+            ],
+            "ans": "finish"
+          },
+          {
+            "q": "If I find a quiet café tomorrow, ___ work there instead of the office.",
+            "opts": [
+              "I'll",
+              "I'd",
+              "I",
+              "I'm"
+            ],
+            "ans": "I'll"
+          },
+          {
+            "q": "Which sentence is WRONG?",
+            "opts": [
+              "If I had more time, I will travel.",
+              "If I had more time, I would travel.",
+              "If I have time, I will travel.",
+              "If I have time, I travel."
+            ],
+            "ans": "If I had more time, I will travel."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20261005",
+    "title": "English Time with Juls",
+    "date": "2026-10-05",
+    "topic": "Do vs. Make",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: Learn by Speaking",
+        "expanded": false,
+        "content": "Juls's story of a beginner student in his 50s/60s who started with almost zero English, one class a week, and progressed fast:\n- The first ingredient is **motivation**; the second is being **focused** and practising outside the class.\n- Because he learned by **speaking** from day one (not on paper), he remembers the third-person **-s** (*he plays*) more often than more advanced students.\n- Paper is an **accessory**; the method is simply *speaking English in an English class*.\n- Practise the sentences out loud: when driving, in the shower, during the day.\n\n### Vocabulary\n- **to look after** (a cat) = cuidar\n- **autumnal** = otoñal\n- **tight schedule** = agenda apretada\n- **it doesn't jibe with** = no cuadra con\n- **collocation** = words that always go together, like a pack (verb + noun, adjective + noun…). Not a phrasal verb.\n- The goal is to know the right one **by ear** (*por oído*): *it sounds wrong*."
+      },
+      {
+        "title": "2. Do vs. Make Collocations",
+        "expanded": false,
+        "content": "There are some rules, but the real goal is **repetition** until the wrong one sounds horrible.\n\n| Collocation | Spanish | Example from class |\n|---|---|---|\n| **do damage** | hacer daño (a cosas/situaciones) | Is the new policy **doing** any damage? / The new boss **did** some damage. |\n| **make an assumption** | presuponer, prejuzgar | Do you like to **make assumptions** about people? / Did you **make the wrong assumption** when you met your neighbour? |\n| **do business** | hacer negocios | It's a pleasure **doing business** with him. / I don't want to **do business** with greedy people. |\n| **make an excuse** | poner una excusa | Did you use to **make a lot of excuses** as a teenager? |\n| **do the bare minimum** | hacer lo mínimo | Some people **do the bare minimum**. |\n| **make (a) noise / a sound** | hacer ruido / un sonido | Are your neighbours **making a lot of noise**? |\n| **do someone a favour** | hacer un favor a alguien | Can you **do me a favour**? / I **did my friend a favour** last week. |\n\n### Notes\n- ⚠ **do damage** is for things and situations (*negative effects*), not people. For a person, say **hurt** or **cause pain**.\n- **greed** = avaricia (one of the seven deadly sins) → **greedy** = avaricioso.\n- **bare** = desnudo, básico: *the bare minimum* is the minimum with no extras. In English you need **bare**, not just *the minimum*.\n- Opposite: **to go the extra mile** = esforzarse de más.\n- *Do someone a favour* can sound strange, but it's correct: **do**, never *make*."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Do vs. Make",
+        "key": "juls_oct05_t1",
+        "qs": [
+          {
+            "q": "Is the new policy ___ any damage?",
+            "opts": [
+              "doing",
+              "making",
+              "having",
+              "giving"
+            ],
+            "ans": "doing"
+          },
+          {
+            "q": "Do you like to ___ assumptions about people?",
+            "opts": [
+              "make",
+              "do",
+              "take",
+              "give"
+            ],
+            "ans": "make"
+          },
+          {
+            "q": "It's a pleasure ___ business with him.",
+            "opts": [
+              "doing",
+              "making",
+              "having",
+              "taking"
+            ],
+            "ans": "doing"
+          },
+          {
+            "q": "Did you use to ___ a lot of excuses as a teenager?",
+            "opts": [
+              "make",
+              "do",
+              "tell",
+              "say"
+            ],
+            "ans": "make"
+          },
+          {
+            "q": "'Hacer lo mínimo' →",
+            "opts": [
+              "do the bare minimum",
+              "make the bare minimum",
+              "do the minimum bare",
+              "make the minimum"
+            ],
+            "ans": "do the bare minimum"
+          },
+          {
+            "q": "Are your neighbours ___ a lot of noise?",
+            "opts": [
+              "making",
+              "doing",
+              "having",
+              "giving"
+            ],
+            "ans": "making"
+          },
+          {
+            "q": "Can you ___ me a favour?",
+            "opts": [
+              "do",
+              "make",
+              "give",
+              "take"
+            ],
+            "ans": "do"
+          },
+          {
+            "q": "'Greedy' means…",
+            "opts": [
+              "avaricioso",
+              "generoso",
+              "envidioso",
+              "perezoso"
+            ],
+            "ans": "avaricioso"
+          },
+          {
+            "q": "The opposite of 'doing the bare minimum' is…",
+            "opts": [
+              "going the extra mile",
+              "doing the extra mile",
+              "making the extra mile",
+              "going the bare mile"
+            ],
+            "ans": "going the extra mile"
+          },
+          {
+            "q": "To say that you hurt a PERSON, use…",
+            "opts": [
+              "hurt",
+              "do damage",
+              "make damage",
+              "do harm a person"
+            ],
+            "ans": "hurt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20261007",
+    "title": "Essential English",
+    "date": "2026-10-07",
+    "topic": "Introduction to the Verb To Tell",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Say vs. Tell",
+        "expanded": false,
+        "content": "**tell** = *decir* **and** *contar*. Don't trust the Spanish translation (*decir = say, contar = tell*); it often misleads.\n\n| | **say** | **tell** |\n|---|---|---|\n| Receiver | not needed (*dices algo al aire*) | normally **there is a receiver** |\n| Protagonist | the **message** | the message **and** the receiver |\n| Example | *Say something.* / *Say it.* | *Tell me.* / *My son **told me** that.* |\n\n### Typical mistakes\n- ❌ *My son **said me** that…* → ✅ My son **told me** that… (you are the receiver)\n- ❌ *As Pepito **told**, it's very important…* → ✅ As Pepito **said**, … (no receiver, the focus is the message)\n- ❌ *Tell it.* → ✅ **Say it.** (*dilo*)\n- *Dímelo* → **Tell me.** (*Say it to me* is possible but much less common.)\n\n### The hidden \"it\"\nWith **tell**, the message (*lo*) is implied, so you **don't** add **it**: *dímelo* → **tell me**, not ❌ *tell it me*. Only the receiver pronoun is needed.\n\n💡 *There's a saying that **goes**…* = hay un dicho que dice… (not *goes on*, which means *sigue*)."
+      },
+      {
+        "title": "2. Imperative with Tell",
+        "expanded": false,
+        "content": "The imperative is the only form with **no subject**: that's what distinguishes *tell* (imperative) from *tell* (present simple).\n\n| Person | Positive | Negative |\n|---|---|---|\n| they | **Tell them.** | **Don't tell them.** |\n| she | **Tell her.** | **Don't tell her.** |\n| he | **Tell him.** | **Don't tell him.** |\n| we | **Tell us.** | **Don't tell us.** |\n| I | **Tell me.** | **Don't tell me.** |"
+      },
+      {
+        "title": "3. VIP Collocations with Tell",
+        "expanded": false,
+        "content": "A few objects always go with **tell** (not *say*). In these cases the **object** is the protagonist, the receiver is optional and no preposition is needed. (Compare: **say sorry** is a *say* collocation.)\n\n| Spanish | English |\n|---|---|\n| contar una historia / un cuento | **tell a story** |\n| decir / contar la verdad | **tell the truth** |\n| decir / contar una mentira | **tell a lie** |\n| contar un chiste | **tell a joke** |\n| contar un secreto | **tell a secret** |\n\n- ⚠ **story** (relato, cuento, can be fiction) vs. **history** (past events: *the history of humanity*).\n- 🎵 Fleetwood Mac: *Tell me lies, tell me sweet little lies*.\n- Other things (*a presentation, a meeting, a conversation*) are **not** in this VIP group and need a preposition. Coming in the next class.\n\n### Practice: answer my questions (tell + receiver + object)\n| Question | Answer |\n|---|---|\n| Are you telling me the truth? | Yes, I'm **telling you the truth**. |\n| Is she telling you a lie? | Yes, she's **telling me a lie**. |\n| Can you tell us a story? | Yes, I can **tell you a story**. |\n| Can you tell them a secret? | Yes, I can **tell them a secret**. |\n| Is he telling you a joke? | Yes, he's **telling me a joke**. |\n| Are you telling him the truth? | Yes, I'm **telling him the truth**. |\n| Are they telling her a lie? | Yes, they're **telling her a lie**. |\n\n### Expressions from the class\n- **long weekend** = puente\n- **to lack** = faltar (*it's lacking the object*)\n- **cloudy, rainy days** = días nubladitos y lluviosos"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Say vs. Tell",
+        "key": "julia_oct07_t1",
+        "qs": [
+          {
+            "q": "'Mi hijo me dijo que…' →",
+            "opts": [
+              "My son told me that…",
+              "My son said me that…",
+              "My son told that…",
+              "My son said to that…"
+            ],
+            "ans": "My son told me that…"
+          },
+          {
+            "q": "'Como dijo Pepito, es muy importante…' (speaking to the class, no receiver) →",
+            "opts": [
+              "As Pepito said, …",
+              "As Pepito told, …",
+              "As Pepito told it, …",
+              "As Pepito said me, …"
+            ],
+            "ans": "As Pepito said, …"
+          },
+          {
+            "q": "'Dímelo' →",
+            "opts": [
+              "Tell me.",
+              "Tell it me.",
+              "Say me.",
+              "Tell me it."
+            ],
+            "ans": "Tell me."
+          },
+          {
+            "q": "'Dilo' (al aire, without a receiver) →",
+            "opts": [
+              "Say it.",
+              "Tell it.",
+              "Tell.",
+              "Say me it."
+            ],
+            "ans": "Say it."
+          },
+          {
+            "q": "'No se lo digas a ella' →",
+            "opts": [
+              "Don't tell her.",
+              "Don't say her.",
+              "Don't tell it her.",
+              "Not tell her."
+            ],
+            "ans": "Don't tell her."
+          },
+          {
+            "q": "'Contar un chiste' →",
+            "opts": [
+              "tell a joke",
+              "say a joke",
+              "count a joke",
+              "speak a joke"
+            ],
+            "ans": "tell a joke"
+          },
+          {
+            "q": "'Decir la verdad' →",
+            "opts": [
+              "tell the truth",
+              "say the truth",
+              "speak the truth",
+              "talk the truth"
+            ],
+            "ans": "tell the truth"
+          },
+          {
+            "q": "'Contar un cuento' →",
+            "opts": [
+              "tell a story",
+              "tell a history",
+              "say a story",
+              "count a story"
+            ],
+            "ans": "tell a story"
+          },
+          {
+            "q": "Is she telling you a lie? → Yes, …",
+            "opts": [
+              "she's telling me a lie.",
+              "she's saying me a lie.",
+              "she's telling a lie me.",
+              "she's telling it me."
+            ],
+            "ans": "she's telling me a lie."
+          },
+          {
+            "q": "'Hay un dicho que dice…' →",
+            "opts": [
+              "There's a saying that goes…",
+              "There's a saying that goes on…",
+              "There's a saying that tells…",
+              "There's a saying that says me…"
+            ],
+            "ans": "There's a saying that goes…"
+          }
+        ]
+      }
+    ]
   }
 ]
