@@ -408,13 +408,15 @@ def _collect_reported_speech(kyle_classes):
     header_re = re.compile(r"^\|\s*Direct speech\s*\|\s*Reported speech\s*\|\s*$", re.IGNORECASE)
     sep_re = re.compile(r"^\|[\s:|-]+\|$")
     speaker_re = re.compile(r"^\*\*([^*]+?):\*\*\s*(.*)$")
-    lines_out, rules, dialogue_audio, class_audio = [], [], {}, {}
+    lines_out, rules, dialogue_audio, class_audio, all_audio = [], [], {}, {}, None
     for cls in kyle_classes:
         for sec in cls.get("sections", []):
             for entry in sec.get("reported_audio", []):
                 dialogue_audio[(cls["date"], entry["dialogue"])] = entry
             if sec.get("reported_audio_full"):
                 class_audio[cls["date"]] = sec["reported_audio_full"]
+            if sec.get("reported_audio_all"):
+                all_audio = sec["reported_audio_all"]
             content = sec.get("content", "")
             lines = content.split("\n")
             heading = None
@@ -445,10 +447,10 @@ def _collect_reported_speech(kyle_classes):
                     i = j
                 else:
                     i += 1
-    return lines_out, rules, dialogue_audio, class_audio
+    return lines_out, rules, dialogue_audio, class_audio, all_audio
 
 
-def _render_reported_speech(lines, rules, dialogue_audio, class_audio):
+def _render_reported_speech(lines, rules, dialogue_audio, class_audio, all_audio=None):
     st.markdown("## 📰 Reported Speech")
     if not lines and not rules:
         st.info("No reported speech content found yet.")
@@ -479,6 +481,25 @@ def _render_reported_speech(lines, rules, dialogue_audio, class_audio):
         key="reported_practice",
     )
     st.divider()
+
+    # One track with every dialogue of every class, oldest class first. Only shown while it
+    # still covers exactly the current lines (a new class makes it stale until regenerated).
+    ordered = sorted(lines, key=lambda l: l["from_date"])
+    if (all_audio and all_audio.get("dates") == sorted({l["from_date"] for l in lines})
+            and len(all_audio["timings"]) == 2 * len(ordered)):
+        groups = []
+        for l in ordered:
+            name = f"{l['from_date']} · {l['dialogue']}"
+            if not groups or groups[-1]["name"] != name:
+                groups.append({"name": name, "items": []})
+            groups[-1]["items"].append({"text": l["direct"], "secondary": l["speaker"]})
+            groups[-1]["items"].append({"text": l["reported"], "secondary": "Reported speech"})
+        _render_agility_section_synced(
+            {"audio": all_audio["audio"], "timings": all_audio["timings"], "groups": groups},
+            title="All the classes in one track — report each line before the answer plays",
+            blur_labels={"Reported speech"} if practice else (),
+        )
+        st.divider()
 
     grouped = {}
     for l in lines:
