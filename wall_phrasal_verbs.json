@@ -430,5 +430,42 @@
         ]
       }
     ]
+  },
+  {
+    "particle": "back",
+    "concepts": [
+      {
+        "concept": "Returning",
+        "es": "devolver",
+        "icon": "↩️",
+        "note": "you pay <b>back</b> the <i>person</i>, you pay <b>off</b> the <i>debt</i>",
+        "verbs": [
+          {
+            "verb": "pay back",
+            "meaning": "return money to the person who lent it",
+            "example": "If someone lends you money, you pay them back.",
+            "cls": "kyle_20261013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "particle": "off",
+    "concepts": [
+      {
+        "concept": "Completing / clearing",
+        "es": "liquidar, terminar de pagar",
+        "icon": "✅",
+        "verbs": [
+          {
+            "verb": "pay off",
+            "meaning": "finish paying a debt or a loan",
+            "example": "I'm paying off my boat.",
+            "cls": "kyle_20261013"
+          }
+        ]
+      }
+    ]
   }
 ]
