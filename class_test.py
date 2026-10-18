@@ -8,6 +8,23 @@ import pathlib
 
 st.set_page_config(page_title="Reviewing The English Collective", layout="wide")
 
+# Link the web app manifest (static/manifest.json) into the page head so Chrome
+# on Android offers "Install app" and opens it full-screen from the home screen.
+st.html("""<script>
+(function() {
+  var head = window.parent.document.head;
+  if (head.querySelector('link[rel="manifest"]')) return;
+  [['link', {rel: 'manifest', href: '/app/static/manifest.json'}],
+   ['link', {rel: 'apple-touch-icon', href: '/app/static/icon-192.png'}],
+   ['meta', {name: 'theme-color', content: '#1f4e9c'}],
+   ['meta', {name: 'mobile-web-app-capable', content: 'yes'}]].forEach(function(t) {
+    var el = window.parent.document.createElement(t[0]);
+    for (var k in t[1]) el.setAttribute(k, t[1][k]);
+    head.appendChild(el);
+  });
+})();
+</script>""", unsafe_allow_javascript=True)
+
 st.title("Reviewing The English Collective")
 
 BASE_PATH = pathlib.Path(__file__).parent

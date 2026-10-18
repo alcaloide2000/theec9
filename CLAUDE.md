@@ -33,6 +33,7 @@ streamlit run app.py --server.port=8501
 | `mindmap_kyle.html` | Interactive markmap mind map of all Kyle class content — searchable, expandable |
 | `mindmap_kyle_network.html` | Alternative vis-network graph view of Kyle class content (not maintained since Jun 2026; new classes only go into `mindmap_kyle.html`) |
 | `static/mindmap_kyle.html` | Copy of `mindmap_kyle.html` served at `/app/static/mindmap_kyle.html` via Streamlit static serving |
+| `static/manifest.json`, `static/icon-192.png`, `static/icon-512.png` | Web app manifest + icons that make `class_test.py` installable on Android (Chrome → "Install app"). A `st.html` script right after `st.set_page_config` in `class_test.py` adds the `<link rel="manifest">` and `theme-color` tags to the page head |
 | `.streamlit/config.toml` | Enables `enableStaticServing = true` so files in `static/` are publicly accessible |
 
 ## app.py architecture
