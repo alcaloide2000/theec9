@@ -309,6 +309,8 @@ Two separate Render web services, both auto-deploy on push to `master` at `githu
 | Main app | `streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true` |
 | Class test | `streamlit run class_test.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true` |
 
+**Installed Android app (PWA):** the Class test service is installed on Juan's Android phone as a web app (confirmed working Oct 18, 2026). Install: open the Render URL in Chrome → ⋮ → **Install app** (or **Add to Home screen** → Install). It opens full-screen (`display: standalone`) but always loads the live Render site, so new classes show up after a normal push with no reinstall. There is no service worker and no offline mode. Manifest `scope`/`start_url` are `/` even though the manifest lives at `/app/static/`, which is allowed because manifest scope (unlike service-worker scope) isn't limited to its own folder. The icons are a generated blue square with white "EC" text; replacing them only needs new PNGs at the same paths and sizes (192 and 512, content kept in the centre ~60% since they're marked `maskable`). The manifest link is injected by JS after load, which Chrome accepts. If "Install app" stops appearing, check that the `<link rel="manifest">` is still in the page head (a Streamlit upgrade could change how `st.html(..., unsafe_allow_javascript=True)` runs). `app.py` is not installable; it has no such snippet.
+
 ## Gitignored files
 
 `users.json`, `progress.json`, `history.json`, `classes.json`, `.streamlit/secrets.toml`, `assets/classes/**/*.mp4`
