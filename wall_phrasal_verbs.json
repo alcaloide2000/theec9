@@ -335,6 +335,12 @@
             "meaning": "apagarse by itself (no object)",
             "example": "A fire needs oxygen, otherwise it goes out.",
             "cls": "kyle_20260929"
+          },
+          {
+            "verb": "turn out",
+            "meaning": "switch off (the lights)",
+            "example": "Turn out the lights.",
+            "cls": "kyle_20261027"
           }
         ]
       },
@@ -428,6 +434,115 @@
             "cls": "kyle_20261006"
           }
         ]
+      },
+      {
+        "concept": "Improving / refreshing",
+        "es": "mejorar, pulir, repasar",
+        "icon": "📈",
+        "verbs": [
+          {
+            "verb": "brush up on",
+            "meaning": "refresh and improve something you already know",
+            "example": "I want to brush up on my English.",
+            "cls": "kyle_20261020"
+          },
+          {
+            "verb": "pick up",
+            "meaning": "improve, speed up",
+            "example": "Inevitably, my Italian soon picked up.",
+            "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Collecting / lifting",
+        "es": "recoger",
+        "icon": "🫳",
+        "verbs": [
+          {
+            "verb": "pick up",
+            "meaning": "collect someone or something; lift it from the ground; tidy",
+            "example": "I picked up my brother from school. · Pick up your toys!",
+            "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Acquiring",
+        "es": "aprender, pillar, adquirir, captar",
+        "icon": "🧲",
+        "verbs": [
+          {
+            "verb": "pick up",
+            "meaning": "learn without studying; get or buy; receive a radio signal",
+            "example": "I picked up a lot of Italian when I was in Milan.",
+            "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Noticing",
+        "es": "darse cuenta",
+        "icon": "👀",
+        "verbs": [
+          {
+            "verb": "pick up on",
+            "meaning": "notice something",
+            "example": "He picked up all my mistakes until I began to pick up on them myself.",
+            "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Optional up (emphasis)",
+        "es": "el up apenas aporta: da énfasis",
+        "icon": "⬆️",
+        "verbs": [
+          {
+            "verb": "hurry up",
+            "meaning": "hurry",
+            "example": "Come on, hurry up!",
+            "cls": "kyle_20261027"
+          },
+          {
+            "verb": "call up",
+            "meaning": "call (on the phone)",
+            "example": "I'm going to call up my brother.",
+            "cls": "kyle_20261027"
+          },
+          {
+            "verb": "fix up",
+            "meaning": "repair, do up",
+            "example": "He's fixing the house up.",
+            "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Exploding / inflating",
+        "es": "explotar, volar · inflar",
+        "icon": "💥",
+        "verbs": [
+          {
+            "verb": "blow up",
+            "meaning": "explode or destroy with explosives; inflate",
+            "example": "They blew up the bridge. · Blow up the balloons.",
+            "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Admiring",
+        "es": "admirar",
+        "icon": "🌟",
+        "verbs": [
+          {
+            "verb": "look up to",
+            "meaning": "admire and respect someone",
+            "example": "I look up to my parents.",
+            "cls": "kyle_20261027"
+          }
+        ]
       }
     ]
   },
@@ -463,6 +578,50 @@
             "meaning": "finish paying a debt or a loan",
             "example": "I'm paying off my boat.",
             "cls": "kyle_20261013"
+          }
+        ]
+      },
+      {
+        "concept": "Dismissing",
+        "es": "despedir (por falta de trabajo)",
+        "icon": "📦",
+        "verbs": [
+          {
+            "verb": "lay off",
+            "meaning": "dismiss workers because there isn't enough work",
+            "example": "There have been massive layoffs in that sector.",
+            "cls": "kyle_20261020"
+          }
+        ]
+      },
+      {
+        "concept": "Writing off",
+        "es": "dar por perdido, amortizar",
+        "icon": "🗑️",
+        "verbs": [
+          {
+            "verb": "write off",
+            "meaning": "accept that something is lost or worthless",
+            "example": "My scooter was a write-off.",
+            "cls": "kyle_20261027"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "particle": "down",
+    "concepts": [
+      {
+        "concept": "Looking down on",
+        "es": "menospreciar",
+        "icon": "👎",
+        "verbs": [
+          {
+            "verb": "look down on",
+            "meaning": "think you're better than someone",
+            "example": "It's just not very nice to look down on people.",
+            "cls": "kyle_20261027"
           }
         ]
       }

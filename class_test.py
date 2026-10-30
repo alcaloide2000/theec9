@@ -594,7 +594,7 @@ def _load_phrasal_wall():
 
 
 _WALL_COLORS = {"in": "#2e86de", "into": "#8e44ad", "out": "#e67e22", "up": "#27ae60",
-                "back": "#c0392b", "off": "#5d6d7e"}
+                "back": "#c0392b", "off": "#5d6d7e", "down": "#b7950b"}
 
 
 def _render_phrasal_wall(wall):

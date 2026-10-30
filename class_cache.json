@@ -25739,5 +25739,1836 @@
         ]
       }
     ]
+  },
+  {
+    "id": "natural_20261016",
+    "title": "Natural English",
+    "date": "2026-10-16",
+    "topic": "Natural Idioms: Missing the Point, On the Same Page, Second Thoughts, Torn Between, Up For It",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Idioms vs. Collocations",
+        "expanded": false,
+        "content": "Today's goal: go beyond perfectly correct textbook English with phrases that come naturally in conversation, and learn **when** to use them. Knowing an idiom isn't enough if you never know the right moment for it.\n\n- **an idiom** = *una expresión* (false friend: it doesn't mean *idioma*)\n- **a collocation** = words that always go together. Spanish says *tomar una decisión*; English says **make a decision** (✗ ~~take/do a decision~~).\n\nToday's idioms express a **reaction and an emotion in very few words**, and they're **polite**: the English pay a lot of attention to politeness, and a direct *You don't understand* or *Do we agree?* can sound aggressive."
+      },
+      {
+        "title": "2. Five Reaction Idioms",
+        "expanded": false,
+        "content": "| Instead of… | Say… | Spanish idea |\n|---|---|---|\n| *You don't understand.* (sounds intense) | **I think you're missing the point.** | te estás desviando de lo importante |\n| *Do we agree?* (sounds like \"you'd better agree\") | **We're on the same page.** · **Are we on the same page?** | estamos de acuerdo, vamos en el mismo equipo |\n| *I'm not sure.* (sounds dry, they may take it badly) | **I'm having second thoughts.** | me lo estoy repensando |\n| *I can't decide.* | **I'm torn between** Italy **and** Greece. | tengo el corazón partido entre dos |\n| *Yes, I want to.* | **I'm up for it.** · *I'm up for a beer / a movie / a party.* | me apetece, me apunto |\n\n- **torn** is the participle of *tear* (*rasgar*): something split or ripped, like a T-shirt, not **broken** (a mechanism that doesn't work). Used figuratively for being divided between two options.\n- **second thoughts** isn't about two options: it means you've thought again and you're **less sure** than before.\n- In **up for it**, *it* is the \"wildcard\" for whatever was suggested."
+      },
+      {
+        "title": "3. React Naturally",
+        "expanded": false,
+        "content": "Julia gives the situation; you react with the idiom.\n\n- Italy or Greece? Both sound equally appealing. *So where are you going on holiday?* → **I'm torn between Italy and Greece.**\n- Your friend keeps talking about the great salary, but your problem is the horrible schedule. → **I think you're missing the point. The salary is good, but I don't like the schedule.**\n- You agreed to move to another city, but now you don't want to leave your friends and family. → **Well, I'm having second thoughts because I don't want to leave my friends and family.**\n- You and your manager agree on the deadline, details, budget and priorities. → **Great, we're on the same page.**\n- *Are you excited about camping this weekend?* → **Yeah, of course. I'm definitely up for it.**\n\n### Ask me\n- *Are your sister and you usually on the same page?*\n- *Do a lot of your students usually miss the point during the classes?*\n- *Are you up for an adventure this weekend?* — *No, I'm not up for an adventure this weekend. I need to rest.*\n- *Are you having second thoughts about your professional career?*\n\n### Fire round\n- A friend insists on a solution that doesn't address the real problem → **I think you're missing the point.**\n- Someone suggests an activity you're genuinely excited about → **I'm up for it!**\n- Two equally good jobs → **I'm torn between the two jobs.**\n- You and your partner expect the same from a weekend away → **We're on the same page.**\n\n> Practise by imagining real situations: at the supermarket, *I'm torn between the blue one and the big one, because this one is better but that one is cheaper.*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Natural Idioms",
+        "key": "natural_20261016_idioms",
+        "qs": [
+          {
+            "q": "Someone is misunderstanding you. The polite reaction is:",
+            "opts": [
+              "You don't understand.",
+              "I think you're missing the point.",
+              "You are losing the point.",
+              "You don't catch me."
+            ],
+            "ans": "I think you're missing the point."
+          },
+          {
+            "q": "A friendlier way to say 'We agree':",
+            "opts": [
+              "We are in the same page.",
+              "We're on the same page.",
+              "We are on the same paper.",
+              "We are at one page."
+            ],
+            "ans": "We're on the same page."
+          },
+          {
+            "q": "You agreed to something but now you're not so sure. You say:",
+            "opts": [
+              "I'm having second thoughts.",
+              "I'm having two thoughts.",
+              "I'm torn up.",
+              "I'm thinking seconds."
+            ],
+            "ans": "I'm having second thoughts."
+          },
+          {
+            "q": "You can't choose between two options:",
+            "opts": [
+              "I'm broken between them.",
+              "I'm torn between them.",
+              "I'm tearing between them.",
+              "I'm up between them."
+            ],
+            "ans": "I'm torn between them."
+          },
+          {
+            "q": "'Do you want to come to the cinema?' — enthusiastic answer:",
+            "opts": [
+              "I'm up to it.",
+              "I'm up for it.",
+              "I'm on it.",
+              "I'm up of it."
+            ],
+            "ans": "I'm up for it."
+          },
+          {
+            "q": "'Torn' is used for things that are…",
+            "opts": [
+              "mechanically broken",
+              "split or ripped",
+              "lost",
+              "repaired"
+            ],
+            "ans": "split or ripped"
+          },
+          {
+            "q": "'Tomar una decisión' →",
+            "opts": [
+              "take a decision",
+              "do a decision",
+              "make a decision",
+              "give a decision"
+            ],
+            "ans": "make a decision"
+          },
+          {
+            "q": "An 'idiom' is…",
+            "opts": [
+              "a language (idioma)",
+              "an expression",
+              "a grammar rule",
+              "a collocation"
+            ],
+            "ans": "an expression"
+          },
+          {
+            "q": "Natural question for your colleague:",
+            "opts": [
+              "Do a lot of your colleagues miss the point during meetings?",
+              "Do a lot of your colleagues lose the point during meetings?",
+              "Are a lot of your colleagues missing point in meetings?",
+              "Do a lot of your colleagues miss on the point during meetings?"
+            ],
+            "ans": "Do a lot of your colleagues miss the point during meetings?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20261019",
+    "title": "English Time with Juls",
+    "date": "2026-10-19",
+    "topic": "Remember to Do vs. Remember Doing",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Remember vs. Remind",
+        "expanded": false,
+        "content": "Juls was having a hard day and was honest about it: *teachers and students are human beings, and it's normal to have a bad day.* The class was her \"little distraction\". Students sent good vibes.\n\nToday: two verbs that Spanish translates as **recordar / acordarse**, but which English uses strictly.\n\n- **remember** = your brain **retrieves** information that is already in your memory. An individual, autonomous action: *I remember a name.*\n- **remind** = someone or something **triggers** the memory: a person helps another person remember (*Remind me to do my homework*), or something makes you think of another thing (*You remind me of your mother*). There's always a second party.\n\n| | Spanish idea |\n|---|---|\n| *I remember locking the door.* | tengo el **recuerdo** de haber cerrado |\n| *Remind me to lock the door.* | dame el **recordatorio** de cerrar |\n\n**Remind** is continued in the Oct 26 class."
+      },
+      {
+        "title": "2. Remember + Noun, To or -ing",
+        "expanded": false,
+        "content": "Three structures:\n\n1. **remember + noun**: *Do you remember your best friend from school?*\n2. **remember + to + infinitive**: *Did you remember to close the window?* (*¿te acordaste de cerrar…?*)\n3. **remember + -ing**: *Do you remember closing the window?* (*¿recuerdas haber cerrado…?*)\n\n### The key: what comes first?\n- **remember to do** → first you remember, **then** you do the action. An intention for the future, like an agenda reminder. ***Do you remember to call your parents every week?***\n- **remember doing** → first the action happened, **then** you remember it. A memory of the past. ***Do you remember traveling with your parents when you were young?***\n\nDavid's summary: *remember to = recordar hacer algo · remember + -ing = recordar haber hecho algo.* (He adds it's a typical question in B2 public exams.)\n\n### Ask me\n- *Does your boss **remember seeing** you for the first time?* (a memory)\n- *Does your boss **remember to send** you an email every day?* (an intention, then the action)\n- *Does your sister **remember talking** to you every week?* (her memory is terrible: *memoria de chorlito*)\n- *Does your sister **remember to talk** to you every week?* (yes, she calls every week)\n- *Do you **remember picking up** your parents at the airport?* vs. *Do you **remember to pick** your parents up at the airport?*"
+      },
+      {
+        "title": "3. Translations",
+        "expanded": false,
+        "content": "| Spanish | English |\n|---|---|\n| Recuerdo perfectamente la primera vez que nos conocimos. | I remember perfectly the first time we met. |\n| Nunca me acuerdo de comprar leche. | I never remember to buy milk. |\n| ¿Qué es esto? No recuerdo comprarlo. | What is this? I don't remember buying it. |\n| ¿Recuerdas tener la conversación con ella la semana pasada? | Do you remember having the conversation with her last week? |\n| Acuérdate de tener una conversación con ella hoy. | Remember to have a conversation with her today. |\n| ¿Recuerdas haber tenido clase conmigo por primera vez? | Do you remember having a class with me for the first time? |\n| ¿Te acuerdas de conectarte a mis clases cada semana? | Do you remember to connect to my classes every week? |\n\n> Juls uses Spanish on purpose: comparing with the language you know shows that languages work in similar ways, with different versions of the same thing."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Remember To vs. Remember -ing",
+        "key": "juls_oct19_t1",
+        "qs": [
+          {
+            "q": "'I remember locking the door' means…",
+            "opts": [
+              "I have to lock the door.",
+              "I have the memory of locking the door.",
+              "Someone reminded me to lock the door.",
+              "I always lock the door."
+            ],
+            "ans": "I have the memory of locking the door."
+          },
+          {
+            "q": "With 'remember to do', what comes first?",
+            "opts": [
+              "the action, then the memory",
+              "remembering, then the action",
+              "both at the same time",
+              "someone else reminds you"
+            ],
+            "ans": "remembering, then the action"
+          },
+          {
+            "q": "'Nunca me acuerdo de comprar leche' →",
+            "opts": [
+              "I never remember buying milk.",
+              "I never remember to buy milk.",
+              "I never remind to buy milk.",
+              "I never remember buy milk."
+            ],
+            "ans": "I never remember to buy milk."
+          },
+          {
+            "q": "'No recuerdo comprarlo' →",
+            "opts": [
+              "I don't remember to buy it.",
+              "I don't remember buying it.",
+              "I don't remind buying it.",
+              "I don't remember to buying it."
+            ],
+            "ans": "I don't remember buying it."
+          },
+          {
+            "q": "'Do you remember traveling with your parents when you were young?' asks about…",
+            "opts": [
+              "an intention",
+              "a memory",
+              "an obligation",
+              "a reminder"
+            ],
+            "ans": "a memory"
+          },
+          {
+            "q": "'¿Te acordaste de cerrar la ventana?' →",
+            "opts": [
+              "Did you remember closing the window?",
+              "Did you remember to close the window?",
+              "Did you remind to close the window?",
+              "Do you remember closed the window?"
+            ],
+            "ans": "Did you remember to close the window?"
+          }
+        ]
+      },
+      {
+        "title": "Test · Remember or Remind?",
+        "key": "juls_oct19_t2",
+        "qs": [
+          {
+            "q": "Which verb needs a second person or thing that triggers the memory?",
+            "opts": [
+              "remember",
+              "remind",
+              "both",
+              "neither"
+            ],
+            "ans": "remind"
+          },
+          {
+            "q": "'Recuérdame cerrar la puerta' →",
+            "opts": [
+              "Remember me to lock the door.",
+              "Remind me to lock the door.",
+              "Remind me locking the door.",
+              "Remember me locking the door."
+            ],
+            "ans": "Remind me to lock the door."
+          },
+          {
+            "q": "'Recuerdo perfectamente la primera vez que nos conocimos' →",
+            "opts": [
+              "I remind perfectly the first time we met.",
+              "I remember perfectly the first time we met.",
+              "I remember perfectly to meet the first time.",
+              "I remind me perfectly the first time we met."
+            ],
+            "ans": "I remember perfectly the first time we met."
+          },
+          {
+            "q": "'Acuérdate de tener una conversación con ella hoy' →",
+            "opts": [
+              "Remember having a conversation with her today.",
+              "Remember to have a conversation with her today.",
+              "Remind to have a conversation with her today.",
+              "Remember to having a conversation with her today."
+            ],
+            "ans": "Remember to have a conversation with her today."
+          },
+          {
+            "q": "'Does your sister remember to talk to you every week?' asks if she…",
+            "opts": [
+              "has the memory of talking to you",
+              "doesn't forget to talk to you every week",
+              "reminds you to talk",
+              "talked to you once"
+            ],
+            "ans": "doesn't forget to talk to you every week"
+          },
+          {
+            "q": "'Your sister has a terrible memory' in colloquial Spanish:",
+            "opts": [
+              "tiene memoria de elefante",
+              "tiene memoria de chorlito",
+              "tiene la cabeza en su sitio",
+              "tiene buena cabeza"
+            ],
+            "ans": "tiene memoria de chorlito"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kyle_20261020",
+    "title": "English with Kyle",
+    "date": "2026-10-20",
+    "topic": "Reading: Picasso's Napkin · Present Continuous (Describing a Picture) · Travel, Trip, Journey, Cruise, Crossing, Flight",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "Kyle started a couple of minutes late after *a little technical hiccup* (*hiccup* = *hipo*, but also a small technical problem). Translate first, then check the notes.\n\n| Spanish | English |\n|---|---|\n| Me duele tragar. | It hurts to swallow. |\n| Estas máquinas me vuelven loco. | These machines drive me crazy. |\n| Las dos empresas se fusionaron. | The two companies merged. |\n| Se tardaron meses en negociar la fusión. | It took them months to negotiate the merger. |\n| El activo y el pasivo deben ser iguales. | Assets and liabilities should be equal. |\n| Ha habido despidos masivos en ese sector. | There have been massive layoffs in that sector. |\n| ¿A qué te dedicas? | What do you do? |\n| Quiero pulir mi inglés. | I want to brush up on my English. |\n| Se te olvidó poner el acento. | You forgot to put the accent. |\n\n**Key notes:**\n\n- **It hurts to** + infinitive: *It hurts to swallow* (✗ ~~Swallowing hurts me~~). No *me* needed.\n- **to drive someone crazy** = *volver loco*: *These machines drive me crazy* · *She drives me crazy* (✗ ~~they get me crazy~~). *They make me go crazy* also works.\n- **to merge** = *fusionarse* · **a merger** = *una fusión* (ends in -er, not *emerge*).\n- **tardar** → the subject is **it**: *It took them months* · *It takes 10 minutes to boil an egg* · *It takes me 11 minutes, because I like it extra hard.*\n- **to fire** someone = *echar* (it's their fault) ≠ **to lay someone off** = *despedir* because the business needs fewer people · UK: **to be made redundant**.\n- **What do you do?** = *¿A qué te dedicas?* (compare *What are you doing?* · *What did you do yesterday?*).\n- **to brush up on** = *pulir, repasar* something you already know: *I want to brush up on my French someday.* It needs **on**.\n- **to boost** = *impulsar* (a rocket **booster**). **to make up** = *recuperar* (a class), *hacer las paces*, *inventarse* (an excuse); Kyle's podcast episode covers it."
+      },
+      {
+        "title": "2. Reading: Picasso's Napkin",
+        "expanded": false,
+        "content": "A short anecdote (there are several versions of it): an American woman in a Paris restaurant sees Picasso at a nearby table and asks him to draw something simple for her daughter. He draws a charming scene on his napkin in fifteen seconds and asks for **$15,000**. *But it only took you 15 seconds!* — *Yes, but it took me 15 years to learn how to draw that in 15 seconds.*\n\n**Useful language from the story:**\n- **to notice** someone = *fijarse en, darse cuenta* · **a nearby table** = *una mesa cercana*\n- **a fan of his** = *fan suyo* (✗ ~~a fan of him~~), like **a friend of mine / of yours**\n- **to pull out** a pen = *sacar* · **a napkin** = *una servilleta*\n- **That'll be $15,000.** = the usual way to ask for payment (*son 15.000 dólares*)\n- **It only took you 15 seconds** → *tardar* with **it** again\n\n**The discussion:** you don't pay for the time, you pay for the **solution** and for the years of investment behind it. A graphic designer or \"the friend who's good with computers\" who fixes something in ten minutes still spent years learning to do it that fast.\n- **to monetize your skills** · **a return on investment** · **to be entitled to** (part of the money)\n- **At the end of the day, he was a genius.** = *al fin y al cabo*\n- *It might as well be me who makes the money* = *más vale que sea yo*"
+      },
+      {
+        "title": "3. Present Continuous: Describing a Picture",
+        "expanded": false,
+        "content": "Describing pictures is Kyle's recommended way to practise the **present continuous**: *What is happening?*\n\n### Picture A: Pierre in the rain\n- *Pierre **is leaving** in a hurry.* · *He's **carrying** an umbrella and a **briefcase**.* (*maletín*; a **suitcase** is a *maleta*)\n- *He's **looking at** / **checking** his watch.* (✗ ~~watching his watch~~) · a **watch** = *reloj de pulsera*\n- *A woman **is yelling to** him: \"Pierre!\" She's **trying to get his attention**.*\n- *It's raining.* · ***It's pouring.*** = *llueve a cántaros* (more natural than *raining cats and dogs*)\n\n### Picture B: lunch in a restaurant\n- *Aki Morita **is pouring** wine into **Luigi's glass**.* (**to pour** = *echar*)\n- Saxon genitive, no article: **Luigi's glass** (✗ ~~the glass of Luigi~~) · **the king's crown** · **the president's speech**\n- *Aki **is eating** rice **with chopsticks**.* (*palillos*) · *Luigi **is eating** spaghetti **with a fork and spoon**.*\n- *They're **sitting** at a **restaurant table**.* (✗ ~~the table's restaurant~~)\n- Students added: *They're talking about their next trip to Europe* · *It looks like a business lunch.*"
+      },
+      {
+        "title": "4. Travel Words: Travel, Journey, Trip, Cruise, Crossing, Flight",
+        "expanded": false,
+        "content": "A short reading: *My friend Eliza works for a hotel company in Rome.* Her company **sends her on trips** to faraway hotels, so she spends hours on planes and trains. On a long **journey** she reads or listens to music, and **traveling** isn't a problem if she has a good book. But she hates the **cruises** her company also sells, because boats make her sick: even the short sea **crossing** between France and England was too long for her. Two 15-hour **flights** in a week are normal for her.\n\n| Word | Definition |\n|---|---|\n| **to travel** | to go from one place to another |\n| **a journey** | when you travel from one place to another (the trajectory, more \"epic\") |\n| **a cruise** | a holiday on a ship that stops to visit places |\n| **a trip** | when you visit a place for a short time and then come back (*ida y vuelta*) |\n| **a crossing** | a journey across a large area of water, like a sea |\n| **a flight** | when you go somewhere by plane |\n\n- **travel** is normally a **verb** (*I like to travel*), or an uncountable noun (*Travel is wonderful*); **trip** is always a **noun**: *We took a trip to the beach.*\n- Look at the grammar: *To travel **is** to go…* · *If you go on a journey, you **travel**…*\n- José Luis looked it up: New York → Singapore is about **18 h 40 min**, over 15,000 km."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20261020_warmup",
+        "qs": [
+          {
+            "q": "How do you say 'Me duele tragar'?",
+            "opts": [
+              "It hurts to swallow.",
+              "Swallowing hurts me.",
+              "It hurts me swallow.",
+              "Me hurts to swallow."
+            ],
+            "ans": "It hurts to swallow."
+          },
+          {
+            "q": "'Estas máquinas me vuelven loco' →",
+            "opts": [
+              "These machines get me crazy.",
+              "These machines drive me crazy.",
+              "These machines turn me crazy.",
+              "These machines are driving crazy me."
+            ],
+            "ans": "These machines drive me crazy."
+          },
+          {
+            "q": "A 'fusión' of two companies is…",
+            "opts": [
+              "a fusion",
+              "an emerge",
+              "a merger",
+              "a mixing"
+            ],
+            "ans": "a merger"
+          },
+          {
+            "q": "'Se tardaron meses en negociar la fusión' →",
+            "opts": [
+              "They took months negotiating the merger.",
+              "It took them months to negotiate the merger.",
+              "They lasted months to negotiate the merger.",
+              "It took months them to negotiate the merger."
+            ],
+            "ans": "It took them months to negotiate the merger."
+          },
+          {
+            "q": "The economy is bad and the company doesn't need so many people. It…",
+            "opts": [
+              "fires them",
+              "lays them off",
+              "lays them out",
+              "puts them off"
+            ],
+            "ans": "lays them off"
+          },
+          {
+            "q": "'¿A qué te dedicas?' →",
+            "opts": [
+              "What are you doing?",
+              "What do you dedicate?",
+              "What do you do?",
+              "What is your dedication?"
+            ],
+            "ans": "What do you do?"
+          },
+          {
+            "q": "'Quiero pulir mi inglés' →",
+            "opts": [
+              "I want to polish my English.",
+              "I want to brush up my English on.",
+              "I want to brush up on my English.",
+              "I want to make up my English."
+            ],
+            "ans": "I want to brush up on my English."
+          },
+          {
+            "q": "'Assets and liabilities' are…",
+            "opts": [
+              "activos y pasivos",
+              "acciones y deudas",
+              "ventas y compras",
+              "ingresos y gastos"
+            ],
+            "ans": "activos y pasivos"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Picasso & Present Continuous",
+        "key": "kyle_20261020_picture",
+        "qs": [
+          {
+            "q": "'Su hija, que era fan suyo' → her daughter, who was…",
+            "opts": [
+              "a fan of him",
+              "a fan of his",
+              "a his fan",
+              "a fan from him"
+            ],
+            "ans": "a fan of his"
+          },
+          {
+            "q": "Picasso asks for payment. The natural phrase is:",
+            "opts": [
+              "That'll be $15,000.",
+              "That is costing $15,000.",
+              "You must to pay $15,000.",
+              "It does $15,000."
+            ],
+            "ans": "That'll be $15,000."
+          },
+          {
+            "q": "Pierre has a small case for documents in his hand. He's carrying a…",
+            "opts": [
+              "suitcase",
+              "briefcase",
+              "handcase",
+              "bagcase"
+            ],
+            "ans": "briefcase"
+          },
+          {
+            "q": "Which is correct?",
+            "opts": [
+              "He's watching his watch.",
+              "He's looking at his watch.",
+              "He's seeing his watch.",
+              "He looks his watch now."
+            ],
+            "ans": "He's looking at his watch."
+          },
+          {
+            "q": "Aki is putting wine in his friend's glass. He's…",
+            "opts": [
+              "pouring wine into Luigi's glass",
+              "pouring wine into the glass of Luigi",
+              "throwing wine into Luigi's glass",
+              "pouring wine into the Luigi's glass"
+            ],
+            "ans": "pouring wine into Luigi's glass"
+          },
+          {
+            "q": "'Está lloviendo a cántaros' (natural English) →",
+            "opts": [
+              "It's pouring.",
+              "It's raining dogs.",
+              "It's pouring cats.",
+              "It's falling water."
+            ],
+            "ans": "It's pouring."
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Travel, Trip, Journey…",
+        "key": "kyle_20261020_travel",
+        "qs": [
+          {
+            "q": "Which word is normally a verb?",
+            "opts": [
+              "trip",
+              "travel",
+              "journey",
+              "flight"
+            ],
+            "ans": "travel"
+          },
+          {
+            "q": "A holiday on a ship that stops to visit places is a…",
+            "opts": [
+              "crossing",
+              "cruise",
+              "flight",
+              "journey"
+            ],
+            "ans": "cruise"
+          },
+          {
+            "q": "You go somewhere for a short time and come back: a…",
+            "opts": [
+              "trip",
+              "travel",
+              "crossing",
+              "cruise"
+            ],
+            "ans": "trip"
+          },
+          {
+            "q": "A journey across a large area of water, like the English Channel, is a…",
+            "opts": [
+              "crossing",
+              "cruise",
+              "trip",
+              "travel"
+            ],
+            "ans": "crossing"
+          },
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "We did a travel to the beach.",
+              "We took a trip to the beach.",
+              "We travelled a trip to the beach.",
+              "We took a travel to the beach."
+            ],
+            "ans": "We took a trip to the beach."
+          },
+          {
+            "q": "Which word is the 'trajectory' of travelling, the more 'epic' word?",
+            "opts": [
+              "trip",
+              "journey",
+              "flight",
+              "cruise"
+            ],
+            "ans": "journey"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20261021",
+    "title": "Essential English",
+    "date": "2026-10-21",
+    "topic": "Get On / Off, Get In / Out Of · In or On a Vehicle · Corridor vs. Aisle",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Discussion: No Question Is Too Basic",
+        "expanded": false,
+        "content": "Julia's favourite part of teaching is the **human aspect**: students have to be vulnerable, make mistakes and leave their comfort zone. Artemisa: *You really make me feel safe as a student.*\n\nDon't be afraid to ask \"basic\" questions. We practise **linguistic discrimination** against ourselves (*with my level I should already know this*), but there are lots of **blurred lines** (*líneas borrosas*) between levels. Those questions often help the whole class.\n\nJulia never knew her level for years: what matters is **how comfortable you feel speaking**. *Your level is: you can communicate.*\n\n**Useful vocabulary:**\n- **sibarita** → no perfect English word: **a gourmet**, **luxury-loving**\n- **the inner critic** = *la voz crítica interior*\n- **to put someone on the spot** = *poner a alguien en un aprieto*"
+      },
+      {
+        "title": "2. Corridor vs. Aisle",
+        "expanded": false,
+        "content": "Both are *pasillo* in Spanish.\n\n- **a corridor** = a passage that is a **closed space** with walls: in a house or a building.\n- **an aisle** (pronounced like *I'll*) = a passage **without walls**, between rows: in a **supermarket** (shelves), a **church** (pews), a **plane** (seats).\n- *A tunnel is a corridor?* In theory… but a tunnel is just **a tunnel**."
+      },
+      {
+        "title": "3. In or On a Vehicle?",
+        "expanded": false,
+        "content": "Common tricks: public vs. private transport (ambiguous: what about a private jet?), big vs. small (ambiguous), **with an aisle → on** (good, but a taxi can be confusing).\n\n**Julia's favourite rule:** can you **stand up and walk** inside the vehicle, even three steps?\n- **Yes → on**: you get *on top of* it and walk around: **on the bus / train / plane / tram / boat / ship**\n- **No → in**: you get *inside* and stay seated: **in the car / taxi / helicopter**"
+      },
+      {
+        "title": "4. Get On / Off · Get In / Out Of",
+        "expanded": false,
+        "content": "Spanish is flexible (*subirse al tren* or *entrar en el tren*); English is strict. The verb is always **get**; the particle changes.\n\n| Vehicle | Enter | Exit |\n|---|---|---|\n| **on** vehicles (bus, train, plane, tram, boat) | **get on** | **get off** (on ↔ off, like a switch) |\n| **in** vehicles (car, taxi, helicopter) | **get in** | **get out of** (*get out the car* is also accepted) |\n\n**off** (double F, the opposite of *on*) ≠ **of** (one F, the linking preposition in *out of*): *Get out of my way!*\n\n### Practice: subject + vehicle + time\n- *Peter, plane, yesterday* → *Peter **got on** a plane yesterday.* / *Peter **got off** a plane yesterday.*\n- *I, taxi, tomorrow* → *I will **get in** a taxi tomorrow.* / *I will **get out of** a taxi tomorrow.*\n- *I, boat, right now* → *I'm **getting on** a boat right now.* / *I'm **getting off** a boat right now.*\n- *My boss, helicopter, every Monday* → *My boss **gets in** a helicopter every Monday.* / *My boss **gets out of** a helicopter every Monday.*\n\n### Ask me why\n- *I can't get out of the car.* → *Why can't you get out of the car?*\n- *She's getting on the train.* → *Why is she getting on the train?*\n- *They didn't get off the tram.* → *Why didn't they get off the tram?*\n- *He wants to get on the ship.* → *Why does he want to get on the ship?*"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · In / On & Get On / Off / In / Out",
+        "key": "julia_oct21_t1",
+        "qs": [
+          {
+            "q": "You can stand up and walk inside a bus, so you are…",
+            "opts": [
+              "in the bus",
+              "on the bus",
+              "at the bus",
+              "into the bus"
+            ],
+            "ans": "on the bus"
+          },
+          {
+            "q": "'Me meto en el coche' →",
+            "opts": [
+              "I get on the car.",
+              "I get in the car.",
+              "I get off the car.",
+              "I get into on the car."
+            ],
+            "ans": "I get in the car."
+          },
+          {
+            "q": "'Peter se bajó del avión ayer' →",
+            "opts": [
+              "Peter got out of a plane yesterday.",
+              "Peter got off a plane yesterday.",
+              "Peter got down a plane yesterday.",
+              "Peter got of a plane yesterday."
+            ],
+            "ans": "Peter got off a plane yesterday."
+          },
+          {
+            "q": "'Saldré de un taxi mañana' →",
+            "opts": [
+              "I will get off a taxi tomorrow.",
+              "I will get out of a taxi tomorrow.",
+              "I will get out off a taxi tomorrow.",
+              "I will get down a taxi tomorrow."
+            ],
+            "ans": "I will get out of a taxi tomorrow."
+          },
+          {
+            "q": "'My boss ___ a helicopter every Monday' (enters):",
+            "opts": [
+              "gets on",
+              "gets in",
+              "gets off",
+              "gets out"
+            ],
+            "ans": "gets in"
+          },
+          {
+            "q": "'Why didn't they ___ the tram?' (exit)",
+            "opts": [
+              "get out",
+              "get off",
+              "get of",
+              "get in"
+            ],
+            "ans": "get off"
+          },
+          {
+            "q": "In 'get out of the car', 'of' is…",
+            "opts": [
+              "the opposite of 'on'",
+              "the linking preposition (one F)",
+              "a mistake",
+              "the same as 'off'"
+            ],
+            "ans": "the linking preposition (one F)"
+          }
+        ]
+      },
+      {
+        "title": "Test · Corridor, Aisle & Vocabulary",
+        "key": "julia_oct21_t2",
+        "qs": [
+          {
+            "q": "The 'pasillo' in a plane is…",
+            "opts": [
+              "a corridor",
+              "an aisle",
+              "a hall",
+              "a tunnel"
+            ],
+            "ans": "an aisle"
+          },
+          {
+            "q": "The 'pasillo' in your house is…",
+            "opts": [
+              "a corridor",
+              "an aisle",
+              "a row",
+              "a lane"
+            ],
+            "ans": "a corridor"
+          },
+          {
+            "q": "An aisle is a passage…",
+            "opts": [
+              "with walls and a door",
+              "without walls, between rows",
+              "under the ground",
+              "outside a building"
+            ],
+            "ans": "without walls, between rows"
+          },
+          {
+            "q": "'Líneas borrosas' →",
+            "opts": [
+              "grey lines",
+              "blurred lines",
+              "blind lines",
+              "dark lines"
+            ],
+            "ans": "blurred lines"
+          },
+          {
+            "q": "'Poner a alguien en un aprieto' →",
+            "opts": [
+              "to put someone on the spot",
+              "to put someone in the point",
+              "to put someone on the line",
+              "to put someone off"
+            ],
+            "ans": "to put someone on the spot"
+          },
+          {
+            "q": "Which vehicle uses 'on'?",
+            "opts": [
+              "a taxi",
+              "a car",
+              "a tram",
+              "a helicopter"
+            ],
+            "ans": "a tram"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain_buffet_20261022",
+    "title": "Brain Buffet",
+    "date": "2026-10-22",
+    "topic": "Supply Chain",
+    "teacher": "brain_buffet",
+    "sections": [
+      {
+        "title": "1. Discussion — Autumn Is Here",
+        "expanded": false,
+        "content": "The temperatures have officially dropped where Giovanna lives in France: **it's proper cold**, grey, cloudy, rainy and **chilly**. Most students prefer it: *I think we are sick of the sun in Madrid* · *The sun is overrated* · *It was about time to get the autumn clothes out.*\n\n- **fall** (US) = **autumn** (UK) = *otoño*, when the leaves fall from the trees. Both are correct.\n- In Brazil (and Byron's country) there are really only two seasons: *the tropical weather that has passed and the tropical weather that's coming*. That's why Giovanna loves seeing the colours change in Europe.\n- Gossip: her phone company (Orange) had an outage in her region, with no mobile or internet connection: like the Spanish **apagón**, but not with electricity.\n- Her kids are on **school holidays** for two weeks, so you may hear them in the background."
+      },
+      {
+        "title": "2. What Is a Supply Chain?",
+        "expanded": false,
+        "content": "**Warm-up:** choose apples, a book or a laptop. What **two things need to happen** before you can buy it in a shop?\n\nGiovanna's example, bread: *The baker needs to **come up with** a recipe, and the bakery needs to **order** flour and other ingredients.*\n\nStudents' answers:\n- *Apples have to be **grown**, and the farmer has to **send** them to the shop.* (Elena)\n- *A writer creates the book; then it has to be **printed** and **published**.* (Salvador)\n- *The trees are **cut down** and **turned into** paper.* · *The parts are **delivered** to the factory, where the laptop is **put together**.*\n\nA **supply chain** is that whole chain of events (Artemisa: *cadena de sucesos*) that has to happen for a product to be available in the shop. It's usually longer than we think. Note: it's not what **you** do to go and buy it, it's what has to happen for the product to **reach** the shop."
+      },
+      {
+        "title": "3. Supply Chain Vocabulary",
+        "expanded": false,
+        "content": "*Many supply chains start with **raw materials** like metal, wood or eggs, used by a **manufacturer** to make products. Materials can be **sourced** locally or bought abroad, so you need reliable **suppliers**. Parts that don't arrive on time cause **delays**, which lead to a **shortage** of products and empty shelves. Without **shipping**, products wouldn't arrive, and any **disruption** means unhappy customers.*\n\n| Word | Definition | Spanish |\n|---|---|---|\n| **raw materials** | basic goods used to make products | materias primas |\n| **a manufacturer** | a company which makes finished products | fabricante |\n| **to source** | to get something from a particular place | abastecerse de, obtener |\n| **a supplier** | a company which provides materials to another company | proveedor |\n| **a delay** | a situation when something happens later than planned | retraso |\n| **a shortage** | a situation when there isn't enough of something needed or wanted | escasez |\n| **shipping** | the transportation of goods | envío, transporte |\n| **a disruption** | a situation when something doesn't happen as usual | interrupción, alteración |\n\n- **shipping** = *envío* ≠ **delivery** = *entrega*. *We all hate paying for shipping when we buy online.*"
+      },
+      {
+        "title": "4. Practice & Translations",
+        "expanded": false,
+        "content": "### Complete the gaps\n- **Shipping** this product is a challenge because it can break easily.\n- To make this product, you need dozens of different **raw materials**.\n- A **delay** in providing this product might cost lives. (*might* = a possibility)\n- This product has only a few ingredients, but each comes from a different **supplier** / **source**.\n- The car **manufacturer** had a problem when this essential part didn't arrive.\n- A **disruption** in the supply of this hygiene product would cause a lot of stress for customers. (It reminds everyone of COVID.)\n- To make the flavours for this product, the company must **source** fruit from around the world.\n- A **shortage of** this product might have very serious consequences.\n\n> **a shortage of** + product (*a shortage of milk*), not ~~a shortage in providing~~: that's **a delay in** providing.\n\n### Translations\n| Spanish | English |\n|---|---|\n| El proveedor no ha llegado. | The supplier hasn't arrived yet. |\n| Necesitamos materias primas. | We need raw materials. |\n| Hay un retraso en la entrega. | There's a delay in the delivery. |\n| La interrupción afecta la producción. | The disruption affects / impacts production. |\n\n**Tip for vocabulary:** keep a list, write one sentence with a new word every day, and try to use it in conversation, or in your head if you have no one to talk to."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Supply Chain Vocabulary",
+        "key": "bb_20261022_vocabulary",
+        "qs": [
+          {
+            "q": "Basic goods used to make products (metal, wood, eggs) are…",
+            "opts": [
+              "raw materials",
+              "manufacturers",
+              "shortages",
+              "deliveries"
+            ],
+            "ans": "raw materials"
+          },
+          {
+            "q": "A company which makes finished products is a…",
+            "opts": [
+              "supplier",
+              "manufacturer",
+              "source",
+              "shipper"
+            ],
+            "ans": "manufacturer"
+          },
+          {
+            "q": "A company which provides materials to another company is a…",
+            "opts": [
+              "manufacturer",
+              "supplier",
+              "customer",
+              "retailer"
+            ],
+            "ans": "supplier"
+          },
+          {
+            "q": "When something happens later than planned, there's a…",
+            "opts": [
+              "shortage",
+              "delay",
+              "disruption",
+              "shipping"
+            ],
+            "ans": "delay"
+          },
+          {
+            "q": "When there isn't enough of something that's needed, there's a…",
+            "opts": [
+              "delay",
+              "shortage",
+              "supply",
+              "source"
+            ],
+            "ans": "shortage"
+          },
+          {
+            "q": "'To source' something means to…",
+            "opts": [
+              "sell it abroad",
+              "get it from a particular place",
+              "send it by ship",
+              "make it in a factory"
+            ],
+            "ans": "get it from a particular place"
+          },
+          {
+            "q": "'Shipping' is…",
+            "opts": [
+              "the transportation of goods",
+              "the delivery to your hand",
+              "a kind of boat",
+              "a shortage of ships"
+            ],
+            "ans": "the transportation of goods"
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Practice & Translations",
+        "key": "bb_20261022_practice",
+        "qs": [
+          {
+            "q": "A ___ in providing this product might cost lives.",
+            "opts": [
+              "shortage",
+              "delay",
+              "supplier",
+              "manufacturer"
+            ],
+            "ans": "delay"
+          },
+          {
+            "q": "A ___ of this product might have very serious consequences.",
+            "opts": [
+              "delay",
+              "shortage",
+              "shipping",
+              "source"
+            ],
+            "ans": "shortage"
+          },
+          {
+            "q": "'El proveedor no ha llegado' →",
+            "opts": [
+              "The provider didn't arrive yet.",
+              "The supplier hasn't arrived yet.",
+              "The manufacturer hasn't arrived yet.",
+              "The supply hasn't arrived yet."
+            ],
+            "ans": "The supplier hasn't arrived yet."
+          },
+          {
+            "q": "'Hay un retraso en la entrega' →",
+            "opts": [
+              "There's a delay in the shipping.",
+              "There's a delay in the delivery.",
+              "There's a shortage in the delivery.",
+              "There's a retard in the delivery."
+            ],
+            "ans": "There's a delay in the delivery."
+          },
+          {
+            "q": "'Otoño' in American English:",
+            "opts": [
+              "autumn",
+              "fall",
+              "winter",
+              "harvest"
+            ],
+            "ans": "fall"
+          },
+          {
+            "q": "To make the flavours, the company must ___ fruit from around the world.",
+            "opts": [
+              "source",
+              "ship",
+              "delay",
+              "short"
+            ],
+            "ans": "source"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kyle_20261022",
+    "title": "English with Kyle",
+    "date": "2026-10-22",
+    "topic": "To vs. For (Purpose) · What Is It For? Everyday Objects · Pronouncing the Letter I",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "A Thursday-evening class (with a few connection problems). Imagine someone (*él*) is late:\n\n| Spanish | English |\n|---|---|\n| ¿Cuánto suele tardar en venir? | How long does it usually take him to come? |\n| Suele tardar aproximadamente una hora. | It usually takes him about an hour. |\n| A lo mejor ha tenido un accidente. | Maybe he's had an accident. |\n| ¿Cuánto tiempo vas a esperar? | How long are you going to wait? |\n| Unos minutos más. | A few more minutes. |\n| ¿Y después qué harás? | And then what will you do? |\n| No tengo ni idea. | I have no idea. |\n| Ha habido unos cambios recientemente. | There have been some changes recently. |\n\n**Key notes:**\n- **tardar** → **it** is the subject: ✗ ~~How long does he usually take?~~ → ✓ **How long does it usually take him?**\n- Approximations: use **about** or **around**, not *more or less*: *It usually takes me about an hour to wash my hair* (Kyle: that's a lie, it takes him 60 seconds).\n- **A few more minutes** and **a few minutes more** are both fine.\n- **There have been** = *ha habido* · **recently / lately** = *recientemente, últimamente*."
+      },
+      {
+        "title": "2. To vs. For",
+        "expanded": false,
+        "content": "### For: what something is for (or the reason)\n**be + for + -ing** (or a noun) describes what something is used for, or the reason for something:\n- *Pens are **for writing**.* · *A light bulb is **for lighting up** a room.*\n- *The app is **for learning** English.* · *These shoes are **for running**.*\n- *Thank you **for helping** me.*\n\n### To: why someone does something (purpose)\n**to + infinitive** explains why someone does something:\n- *I study English **to get** a better job.* · *I went to the bank **to withdraw** some money.*\n- *We bought a computer **to work** from home.* · *I use my pen **to write**.*\n\n> ⚠️ **Never ~~for to~~**: ✗ ~~I have my phone for to call~~ → ✓ *I have my phone **for calling*** · *Phones are **for calling*** · *I use my phone **to call**.*\n\n### Translation practice\n| Spanish | English |\n|---|---|\n| Instalamos esta máquina para controlar el proceso. | We installed this machine to control (to monitor) the process. |\n| ¿Para qué quieres esto? | What do you want this for? |\n| ¿Por qué quieres mejorar tu inglés? | Why do you want to improve your English? |\n| Voy al supermercado para comprar leche. | I'm going to the supermarket to buy some milk. |\n| Este cuchillo es para cortar pan. | This knife is for cutting bread. |\n| He llamado al médico para pedir cita. | I've called the doctor to make an appointment. |\n| Gracias por ayudarme con el trabajo. | Thank you for helping me with the job. |\n| Necesito unas gafas para leer. | I need some glasses to read. |\n\n- In questions, **for** goes at the end: ***What** do you want this **for**?* · ***What** is this knife **for**?*\n- **a job** (countable: *My brother has two jobs*) ≠ **work** (uncountable: *I have a lot of work*)."
+      },
+      {
+        "title": "3. What Is It For? Everyday Objects",
+        "expanded": false,
+        "content": "For each object: **What is it for?** → *It's for + -ing* · **What do you use it for?** → *I use it to + verb*.\n\n- **a can opener** (UK **tin opener**): *A can opener is for opening cans. I use it to open cans.*\n- **a stapler** (**staples**, **to staple**): *A stapler is for stapling papers.* Kyle: *I use my stapler **to keep my papers from blowing away** in the wind.*\n- **a printer**: *A printer is for printing documents. I use it to **print out** class plans.*\n- **a pencil sharpener**: *It's for sharpening pencils.* Kyle also uses his to sharpen a stick **to roast marshmallows** (*nubes*).\n- **a toaster**: *A toaster is for toasting bread / making toast.*\n- **a bottle opener**: *It's for opening bottles.* (the metal tops are **bottle caps**, *chapas*)\n\n### Jam: three (or four) meanings\n- **a jam** = *un atasco*: **a traffic jam** · **a paper jam** (in the printer) · **a staple jam**; *the staples **get jammed** / get stuck*\n- **to jam** something in = *meter con fuerza*: *He jammed the key into the lock.*\n- **a jam** = a great song: *That's a jam!*\n- **jam** = *mermelada* (*strawberry jam*) ≠ **marmalade** = citrus jam, often made with Seville oranges and their **rind**\n\n### More words from the chat\n- **to thrive** = more than survive, to grow really well: Kyle's Instagram headline video, *Lavender Thrives North of Cortez*.\n- the Spanish **bar de toda la vida** → what Kyle and his friends call an **old man bar**, where he used to **kill time** between classes."
+      },
+      {
+        "title": "4. Pronunciation: The Letter I",
+        "expanded": false,
+        "content": "English has several ways to pronounce **i**. Learn the pronunciation **at the same moment** you learn the word: it isn't like Spanish, where each vowel has one sound.\n\n### /aɪ/ (as in *my*)\n- *The **miner** drew a **diagram** of a **triangle**.*\n- *The **private** company **triumphed** at the **tribunal**.* (Kyle once helped some lost Americans in the Madrid metro trying to reach \"Tribunal\".)\n- *My **microwave** cooks food in no **time**.*\n- *My **Chinese bride** is an **ideal driver**.* (**bride** = *novia* on the wedding day)\n\n### /ɜː/ (as in *her*)\n- *This is the **third shirt** I've bought this year.*\n- *The **firm** took its clients to the **circus**.* (**a firm** = a company, e.g. a law firm)\n\n### Mixed\n- *The **fire required** immediate attention.* (**immediate** = adjective · **immediately** = adverb)\n- *You never see an **Irishman** get **irate**.* (**irate** = really angry; *nunca se ve* → **never** + present simple)"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20261022_warmup",
+        "qs": [
+          {
+            "q": "'¿Cuánto suele tardar en venir (él)?' →",
+            "opts": [
+              "How long does he usually take to come?",
+              "How long does it usually take him to come?",
+              "How much does he usually delay to come?",
+              "How long it usually takes him to come?"
+            ],
+            "ans": "How long does it usually take him to come?"
+          },
+          {
+            "q": "The most natural way to approximate in English:",
+            "opts": [
+              "It takes him more or less an hour.",
+              "It takes him about an hour.",
+              "It takes him approximately one hour more or less.",
+              "It takes him around of an hour."
+            ],
+            "ans": "It takes him about an hour."
+          },
+          {
+            "q": "'Unos minutos más' →",
+            "opts": [
+              "Some minutes plus.",
+              "A few more minutes.",
+              "More few minutes.",
+              "A more few minutes."
+            ],
+            "ans": "A few more minutes."
+          },
+          {
+            "q": "'Ha habido unos cambios recientemente' →",
+            "opts": [
+              "There has been some changes recently.",
+              "There have been some changes recently.",
+              "It has been some changes recently.",
+              "There were being some changes recently."
+            ],
+            "ans": "There have been some changes recently."
+          },
+          {
+            "q": "'¿Y después qué harás?' →",
+            "opts": [
+              "And then what will you do?",
+              "And after what you will do?",
+              "And then what do you will do?",
+              "And later what will do you?"
+            ],
+            "ans": "And then what will you do?"
+          },
+          {
+            "q": "'No tengo ni idea' →",
+            "opts": [
+              "I don't have nor idea.",
+              "I have no idea.",
+              "I haven't idea.",
+              "I have not any idea neither."
+            ],
+            "ans": "I have no idea."
+          },
+          {
+            "q": "'A lo mejor ha tenido un accidente' →",
+            "opts": [
+              "Maybe he's had an accident.",
+              "Maybe he has an accident.",
+              "At best he had an accident.",
+              "Maybe he's been an accident."
+            ],
+            "ans": "Maybe he's had an accident."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · To vs. For",
+        "key": "kyle_20261022_to_for",
+        "qs": [
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "I have my phone for to call.",
+              "I have my phone for calling.",
+              "I have my phone for call.",
+              "I have my phone to calling."
+            ],
+            "ans": "I have my phone for calling."
+          },
+          {
+            "q": "'Voy al supermercado para comprar leche' →",
+            "opts": [
+              "I'm going to the supermarket for buy some milk.",
+              "I'm going to the supermarket for to buy some milk.",
+              "I'm going to the supermarket to buy some milk.",
+              "I'm going to the supermarket for buying some milk."
+            ],
+            "ans": "I'm going to the supermarket to buy some milk."
+          },
+          {
+            "q": "'Este cuchillo es para cortar pan' →",
+            "opts": [
+              "This knife is to cutting bread.",
+              "This knife is for cutting bread.",
+              "This knife is for to cut bread.",
+              "This knife is for cut bread."
+            ],
+            "ans": "This knife is for cutting bread."
+          },
+          {
+            "q": "'¿Para qué quieres esto?' →",
+            "opts": [
+              "For what do you want this?",
+              "What do you want this for?",
+              "Why do you want for this?",
+              "What for you want this?"
+            ],
+            "ans": "What do you want this for?"
+          },
+          {
+            "q": "'Thank you ___ helping me with the job.'",
+            "opts": [
+              "to",
+              "for",
+              "for to",
+              "of"
+            ],
+            "ans": "for"
+          },
+          {
+            "q": "We use **to + infinitive** to…",
+            "opts": [
+              "describe what an object is used for with 'be'",
+              "explain why someone does something",
+              "say thank you",
+              "form questions with 'what'"
+            ],
+            "ans": "explain why someone does something"
+          },
+          {
+            "q": "'Tengo mucho trabajo' →",
+            "opts": [
+              "I have a lot of jobs.",
+              "I have a lot of work.",
+              "I have many works.",
+              "I have much job."
+            ],
+            "ans": "I have a lot of work."
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Objects, Jam & the Letter I",
+        "key": "kyle_20261022_objects",
+        "qs": [
+          {
+            "q": "What is a stapler for?",
+            "opts": [
+              "It's for staple papers.",
+              "It's for stapling papers.",
+              "It's to stapling papers.",
+              "It's for to staple papers."
+            ],
+            "ans": "It's for stapling papers."
+          },
+          {
+            "q": "'Un atasco de papel en la impresora' →",
+            "opts": [
+              "a paper stuck",
+              "a paper jam",
+              "a paper marmalade",
+              "a paper traffic"
+            ],
+            "ans": "a paper jam"
+          },
+          {
+            "q": "Marmalade is…",
+            "opts": [
+              "any kind of jam",
+              "a citrus jam, e.g. made with oranges",
+              "a strawberry jam",
+              "a traffic jam in the UK"
+            ],
+            "ans": "a citrus jam, e.g. made with oranges"
+          },
+          {
+            "q": "'Lavender thrives north of Cortez' means the lavender…",
+            "opts": [
+              "is dying",
+              "is growing very well",
+              "is being sold",
+              "is being planted"
+            ],
+            "ans": "is growing very well"
+          },
+          {
+            "q": "In which word is the **i** pronounced /ɜː/, like in 'her'?",
+            "opts": [
+              "triangle",
+              "third",
+              "driver",
+              "private"
+            ],
+            "ans": "third"
+          },
+          {
+            "q": "'Irate' means…",
+            "opts": [
+              "Irish",
+              "really angry",
+              "tired",
+              "calm"
+            ],
+            "ans": "really angry"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natural_20261023",
+    "title": "Natural English",
+    "date": "2026-10-23",
+    "topic": "Adjective Order (OSASCOMP)",
+    "teacher": "natural",
+    "sections": [
+      {
+        "title": "1. Feeling Like Yourself in English",
+        "expanded": false,
+        "content": "A new student told Julia: *I want to feel like myself when I speak English*, because nerves hide her real personality. Julia's analogy:\n\n- **The engine** = confidence, fluency, relaxation, joy, being present.\n- **The fuel** = grammar, vocabulary, phrasal verbs, expressions, pronunciation.\n\nThe fuel is useless if the engine isn't working. Language is only **the middleman**: what matters is **the message** you want to share. In a conversation, don't spend your energy wondering *Am I showing my level? Am I using enough adjectives?* and miss what the other person is saying.\n\nByron's tip: *Speak to your doggy, to yourself, to your roomie, to your imaginary friend.*\n\n**Useful vocabulary:**\n- **itchy** eyes = *me pican los ojos* · **the middleman** = *el intermediario* · **willpower** = *fuerza de voluntad*"
+      },
+      {
+        "title": "2. The Order of Adjectives",
+        "expanded": false,
+        "content": "Spanish is flexible with word order; English is strict. **Golden rule: your opinion comes first.** Then go from **general to specific**, ending with the type/purpose, which sits glued to the noun.\n\n| | Category | Examples |\n|---|---|---|\n| **O** | Opinion | beautiful, boring, interesting, useful, lovely, stylish |\n| **S** | Size | big, small, long, tiny, enormous |\n| **A** | Age | new, modern, old, young, antique |\n| **S** | Shape | round, square, irregular, straight |\n| **C** | Colour | blue, red, black |\n| **O** | Origin | Spanish, Japanese, Italian, French |\n| **M** | Material | leather, cotton, silk, metal, wooden, denim |\n| **P** | Purpose / type | **coffee** table, **running** shoes, **kitchen** sink, **dining** table, **sports** car |\n\n**Acronym: OSASCOMP.** Purpose + noun form a \"pack\": ✗ ~~a coffee round table~~ → ✓ **a round coffee table**.\n\nAnother way to see it: *beautiful* can describe almost anything, *Italian* lots of things, *leather* only some objects. The more specific the adjective, the closer it goes to the noun."
+      },
+      {
+        "title": "3. A Check, Not a Rule to Recite",
+        "expanded": false,
+        "content": "Don't try to run *O-S-A-S-C-O-M-P* in your head mid-conversation; the other person would wait forever. Use it as a **check**:\n\n1. You describe something with several adjectives and it **sounds a bit off**.\n2. You check: *Did I say the colour before my opinion?* Nothing ever goes before your opinion.\n3. You repeat the correct version out loud until it becomes automatic.\n\nEventually your own instinct will tell you *this sounds wrong*, which is exactly the goal: you've naturalized it so well that an alarm goes off when the order is wrong.\n\n**Ambiguous cases:** *fast* isn't strictly an opinion, but it's relative (fast compared to what?), so it goes near the front: **a fast new Japanese sports car**."
+      },
+      {
+        "title": "4. Practice: Put Them in Order",
+        "expanded": false,
+        "content": "Say each one out loud.\n\n| Adjectives + noun | Correct order |\n|---|---|\n| leather, beautiful, Italian · handbag | **a beautiful Italian leather handbag** |\n| little, charming, old · village | **a charming little old village** |\n| blue, stylish, denim · jacket | **a stylish blue denim jacket** |\n| wooden, enormous, dining, antique · table | **an enormous antique wooden dining table** |\n| Japanese, fast, new, sports · car | **a fast new Japanese sports car** |\n| round, lovely, small · mirror | **a lovely small round mirror** |\n\nHomework: describe objects around you and decide which adjective goes first and why."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Adjective Order",
+        "key": "natural_20261023_adjective_order",
+        "qs": [
+          {
+            "q": "Which adjective always goes first?",
+            "opts": [
+              "colour",
+              "size",
+              "opinion",
+              "material"
+            ],
+            "ans": "opinion"
+          },
+          {
+            "q": "Choose the correct order:",
+            "opts": [
+              "an Italian beautiful leather handbag",
+              "a beautiful Italian leather handbag",
+              "a leather beautiful Italian handbag",
+              "a beautiful leather Italian handbag"
+            ],
+            "ans": "a beautiful Italian leather handbag"
+          },
+          {
+            "q": "Choose the correct order:",
+            "opts": [
+              "a little charming old village",
+              "a charming old little village",
+              "a charming little old village",
+              "an old charming little village"
+            ],
+            "ans": "a charming little old village"
+          },
+          {
+            "q": "Choose the correct order:",
+            "opts": [
+              "a blue stylish denim jacket",
+              "a stylish denim blue jacket",
+              "a stylish blue denim jacket",
+              "a denim stylish blue jacket"
+            ],
+            "ans": "a stylish blue denim jacket"
+          },
+          {
+            "q": "Choose the correct order:",
+            "opts": [
+              "a coffee round table",
+              "a round coffee table",
+              "a table round coffee",
+              "a coffee table round"
+            ],
+            "ans": "a round coffee table"
+          },
+          {
+            "q": "Choose the correct order:",
+            "opts": [
+              "an enormous antique wooden dining table",
+              "an antique enormous dining wooden table",
+              "a wooden enormous antique dining table",
+              "an enormous wooden antique dining table"
+            ],
+            "ans": "an enormous antique wooden dining table"
+          },
+          {
+            "q": "In OSASCOMP, the M stands for…",
+            "opts": [
+              "Modern",
+              "Material",
+              "Mood",
+              "Measure"
+            ],
+            "ans": "Material"
+          },
+          {
+            "q": "Choose the correct order:",
+            "opts": [
+              "a small lovely round mirror",
+              "a lovely round small mirror",
+              "a lovely small round mirror",
+              "a round lovely small mirror"
+            ],
+            "ans": "a lovely small round mirror"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "juls_20261026",
+    "title": "English Time with Juls",
+    "date": "2026-10-26",
+    "topic": "Remind + To, Remind + About, Remind + Of",
+    "teacher": "juls",
+    "sections": [
+      {
+        "title": "1. Discussion: The Clocks Went Back",
+        "expanded": false,
+        "content": "The clocks changed this weekend: one extra hour of sleep on Saturday, but it gets dark earlier, which makes Juls sad. A student likes it: *it's easier to get my children to go to bed.* Others are happier now that **the temperature is cooler**; Juls's ideal is about 12 degrees for a walk, and she hates **windy** days.\n\nQuick recap of Oct 19:\n- *I remember calling you* → it happened, and I have the memory.\n- *I (always) remember to call you* → I keep it in mind (*I have this obligation*), then I do it.\n\n**Useful vocabulary:**\n- **a thick jumper** = *un jersey gordo* · **thick socks** · *my feet are super cold*\n- **to be inclined to** = *inclinarse por* · *it depends on the season of life*"
+      },
+      {
+        "title": "2. Remind: Three Structures",
+        "expanded": false,
+        "content": "With **remind** there are always **two parties**: the one who has the information and the one who receives it. It can be the same person with a reflexive pronoun (*I remind myself*): the organized you reminds the forgetful you.\n\n| Structure | Use | Example |\n|---|---|---|\n| **remind + person + to + verb** | a reminder that is an **action** (only the infinitive) | *Pepito reminds Juanito **to open** the windows.* |\n| **remind + person + about + noun** | a reminder that is a **thing** | *Pepito reminds Juanito **about** the meeting.* |\n| **remind + person + of + person/thing** | something **inspires** a memory or a similarity | *You remind me **of** your mother.* |\n\n### Complete the sentence\n- *Have you **reminded** Jeff **to bring** his credit card?* (present perfect → participle *reminded*)\n- *She forgot to **remind** him **about** the potential problem.*\n- ***Remind** me **to take** my camera with me, please.*\n- *Your mouth and eyes **remind** me **of** your father.*\n- *Can you **remind** us **to call** him?*\n- *She **reminded** them **about** the meeting last week.*\n- *She **reminds** me **of** Scarlett Johansson.*\n\n### Translations\n| Spanish | English |\n|---|---|\n| Recuérdale a él cerrar la puerta antes de salir. | Remind him to close the door before leaving. |\n| ¿Te recuerdo a alguien? | Do I remind you of someone / anyone? |\n| Él no me recordó la hora, así que llegué tarde. | He didn't remind me about the time, so I was late. |\n\n- **close** vs. **shut**: practically synonyms; **shut** is more abrupt, or stresses that it must be properly closed: *Remember to shut the door.*\n- **to be late** is more natural than *arrive late*: *I was late · I'll be late.*"
+      },
+      {
+        "title": "3. Celebrity Lookalikes",
+        "expanded": false,
+        "content": "**A lookalike** (from *look like*) = someone who looks like you; **a celebrity lookalike** is a famous one.\n\nJuls's dad is her real lookalike: same nose and eyes, but almost 70, 100 kilos and a big white beard **like Santa Claus**. On a train in December some children asked him *Excuse me, are you Santa Claus?* He said *Yes, I am. How did you discover me?* and told them he was visiting his family before starting work, and that he gets down the chimney by magic because he's very agile. Students: *For those boys, he really was him* · *He **reminded them of** Santa.*\n\nFrom the chat: *Some friends call me Keanu* (Keanu Reeves, when he had longer hair, **combed back**) · *My wife says I **remind her of** Sergio Fernández* (a TVE cook). Juls often hears *You look like my neighbour / my cousin* from strangers.\n\n- Some people don't know how to **interact with children**; Juls and her dad find it very natural."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Remind: To, About, Of",
+        "key": "juls_oct26_t1",
+        "qs": [
+          {
+            "q": "'Remind me ___ my camera with me, please.'",
+            "opts": [
+              "take",
+              "to take",
+              "taking",
+              "of taking"
+            ],
+            "ans": "to take"
+          },
+          {
+            "q": "'She forgot to remind him ___ the potential problem.'",
+            "opts": [
+              "to",
+              "of",
+              "about",
+              "for"
+            ],
+            "ans": "about"
+          },
+          {
+            "q": "'Your mouth and eyes remind me ___ your father.'",
+            "opts": [
+              "about",
+              "to",
+              "of",
+              "for"
+            ],
+            "ans": "of"
+          },
+          {
+            "q": "'Have you ___ Jeff to bring his credit card?'",
+            "opts": [
+              "remind",
+              "reminded",
+              "remembered",
+              "reminding"
+            ],
+            "ans": "reminded"
+          },
+          {
+            "q": "'¿Te recuerdo a alguien?' →",
+            "opts": [
+              "Do I remember you someone?",
+              "Do I remind you of someone?",
+              "Do I remind you about someone?",
+              "Am I reminding you to someone?"
+            ],
+            "ans": "Do I remind you of someone?"
+          },
+          {
+            "q": "'Recuérdale a él cerrar la puerta antes de salir' →",
+            "opts": [
+              "Remind him closing the door before leaving.",
+              "Remind him to close the door before leaving.",
+              "Remember him to close the door before leaving.",
+              "Remind him of close the door before leaving."
+            ],
+            "ans": "Remind him to close the door before leaving."
+          },
+          {
+            "q": "Which preposition do we use when something inspires a memory or similarity?",
+            "opts": [
+              "to",
+              "about",
+              "of",
+              "with"
+            ],
+            "ans": "of"
+          }
+        ]
+      },
+      {
+        "title": "Test · Lookalikes & Vocabulary",
+        "key": "juls_oct26_t2",
+        "qs": [
+          {
+            "q": "A 'celebrity lookalike' is…",
+            "opts": [
+              "a fan of a celebrity",
+              "a famous person who looks like you",
+              "a photo of a celebrity",
+              "a celebrity's assistant"
+            ],
+            "ans": "a famous person who looks like you"
+          },
+          {
+            "q": "Natural way to say 'llegué tarde':",
+            "opts": [
+              "I arrived late.",
+              "I was late.",
+              "I came lately.",
+              "I did late."
+            ],
+            "ans": "I was late."
+          },
+          {
+            "q": "The difference between 'close' and 'shut' the door:",
+            "opts": [
+              "'shut' is more abrupt or emphatic",
+              "'close' is only British",
+              "'shut' is only for windows",
+              "there is no difference at all in use"
+            ],
+            "ans": "'shut' is more abrupt or emphatic"
+          },
+          {
+            "q": "The children asked Juls's dad if he was…",
+            "opts": [
+              "Father Christmas's brother",
+              "Santa Claus",
+              "a train driver",
+              "a cook from TV"
+            ],
+            "ans": "Santa Claus"
+          },
+          {
+            "q": "'Un jersey gordo' →",
+            "opts": [
+              "a fat jumper",
+              "a thick jumper",
+              "a big jacket",
+              "a heavy shirt"
+            ],
+            "ans": "a thick jumper"
+          },
+          {
+            "q": "'She reminds me of Scarlett Johansson' means…",
+            "opts": [
+              "She tells me to remember Scarlett.",
+              "She makes me think of Scarlett because they're similar.",
+              "She remembers Scarlett.",
+              "She talks about Scarlett."
+            ],
+            "ans": "She makes me think of Scarlett because they're similar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kyle_20261027",
+    "title": "English with Kyle",
+    "date": "2026-10-27",
+    "topic": "Pick Up: Picking Up the Lingo · Even vs. Not Even · Optional Up, Blow Up / Out, Look Up To",
+    "teacher": "kyle",
+    "sections": [
+      {
+        "title": "1. Warm-Up Translations",
+        "expanded": false,
+        "content": "Olivia was back after a while (*It's been a while* = *hace tiempo*). Translate first, then check the notes.\n\n| Spanish | English |\n|---|---|\n| ¿Cuánto crees que vamos a tardar? | How long do you think it's going to take us? |\n| ¿Tenemos suficiente gente? | Do we have enough people? |\n| Mi amigo no está de acuerdo con tu sugerencia. | My friend doesn't agree with your suggestion. |\n| Dile que me llame. | Tell him to call me. |\n| ¿Funciona? | Does it work? |\n| Tenemos que darnos prisa. | We have to hurry. |\n| Voy a llamar a mi hermano. | I'm going to call (up) my brother. |\n| La habitación está llena de humo. | The room is full of smoke. |\n\n**Key notes:**\n- **take** (*tardar*) ≠ **last** (*durar*): **How long does it take to + verb?** (time needed to reach an end: *to boil an egg*) · **How long does the + noun last?** (a duration: *the movie*).\n- **¿Funciona?** → **Does it work?** It's a question, so you need three words: auxiliary + subject + verb. (*a functioning phone* = one that is capable of working.)\n- **have to** ≈ **must**; Kyle says *have to* about ten times more often.\n- **Tell him to call me**: *tell* + person + **to** + verb."
+      },
+      {
+        "title": "2. Phrasal Verbs from the Warm-Up",
+        "expanded": false,
+        "content": "### The optional *up*\nWith many verbs **up** adds little meaning, just a slightly different feeling:\n- **hurry up** (*Come on, hurry up!*) · **call up** (*I'm calling him up*) · **fix up** (*He's fixing the house up* = *arreglando*) · **make up** a batch of cookies\n\n### Blow\n- **to blow** = *soplar*\n- **to blow up** = *explotar, volar* (*blow up a bridge*) and *inflar* (*blow up a balloon*)\n- **to blow out** = *apagar soplando*: *Blow out the candles.* **Out** = extinction: **put out** the fire · **turn out** the lights\n\n### Look up to / look down on\n- **to look up to** someone = *admirar*: *I look up to my parents.* Successful people become **role models**, and people look up to them.\n- **to look down on** someone = *menospreciar*: *It's just not very nice to look down on people.*"
+      },
+      {
+        "title": "3. Reading: Picking Up the Lingo",
+        "expanded": false,
+        "content": "**Lingo** = the local way of speaking: *If we go down to Andalusia, Tania can help us pick up the local lingo.* Kyle wrote a short story that uses **pick up** in almost every sentence.\n\n**The story, in short:** the narrator **picked up** a lot of Italian in Milan, but not through the usual academic path. He did **pick up** a grammar book in a secondhand bookstore, but it didn't help, and his first month was spent speaking English with friends from Manchester; he even managed to **pick up** BBC Radio 4. Then he crashed his scooter (it was **a write-off**), **picked himself up** and decided to **hitch a lift** back into town. An elderly man **picked him up**: he **turned out to be** a retired Italian teacher. The teacher **picked up** all his mistakes until he began to **pick up on** them himself. His Italian soon **picked up**, and he even **picked up** a bit of a Milanese accent.\n\n**Useful language:**\n- **mind you** = *a pesar de lo que acabo de decir*\n- **I did pick up a good grammar book**: the auxiliary **did** adds emphasis (*sí compré un libro, pero…*); *I picked up…* is the neutral form\n- **a write-off** = completely destroyed, worthless (from accounting: an asset that is **written off**)\n- **to hitch a lift** / **to hitchhike** = *hacer autostop*\n- **to turn out to be** = *resultar ser* · **elderly** = polite word for *old*"
+      },
+      {
+        "title": "4. The Meanings of Pick Up",
+        "expanded": false,
+        "content": "| Meaning | Spanish | Example |\n|---|---|---|\n| collect a person or thing | recoger | *I picked up my brother from school.* · *I found five euros on the street and picked it up.* |\n| tidy up | recoger, ordenar | *Pick up your toys!* |\n| learn without studying | aprender, pillar | *I picked up a lot of Italian in Milan.* · *I picked up a lot of useful tips during the course.* |\n| buy, get | adquirir, comprar | *I picked up a nice shirt in the secondhand store.* · *I need to pick up some eggs.* |\n| receive a signal | captar, sintonizar | *On a good night my father can pick up radio stations from Boston.* |\n| correct a mistake | corregir | *A good teacher should pick up the mistakes the student makes.* |\n| improve, speed up | mejorar, acelerar | *My Spanish really picked up when I started spending time with Spanish speakers.* · *pick up the pace* |\n| **pick up on** something | darse cuenta | *I didn't pick up on the fact that he was angry until after the party.* |\n| **pick yourself up** | levantarse (tras caer) | *I picked myself up and decided to hitch a lift.* |\n\n> Don't confuse it with **brush up on** (Oct 20): *refresh* something you already know, e.g. *I need to brush up on my French.*"
+      },
+      {
+        "title": "5. Even vs. Not Even",
+        "expanded": false,
+        "content": "Kyle recorded a video on this (to be shared in the clubhouse).\n\n- **even** = *incluso*: *Everyone had fun at the party, **even** my grandmother.*\n- **not even** = *ni siquiera*: *No one arrived on time, **not even** the teacher.*\n- Inside the sentence: *She **didn't even** call me.* (*ni siquiera me llamó*) · *I **even** had time to watch the second episode.*\n\n### Join the two sentences\n| Prompt | With even / not even |\n|---|---|\n| No one knew the answer. The best student didn't know it either. | No one knew the answer, **not even** the best student. |\n| Everyone on the team scored. The goalkeeper scored too. | Everyone on the team scored, **even** the goalkeeper. |\n| Everyone on the ship got sick. The captain got sick too. | Everyone on the ship got sick, **even** the captain. |\n| Nobody remembered the words. The composer didn't either. | Nobody remembered the words, **not even** the composer. |\n| Everyone took Friday off. The boss did too. | Everyone took Friday off, **even** the boss. |\n| Everyone fell asleep during the speech. So did the master of ceremonies. | Everyone fell asleep during the speech, **even** the master of ceremonies (the **MC**). |\n| No one could find a logical explanation. The teacher couldn't either. | Nobody could find a logical explanation, **not even** the teacher. |\n\n**Students' examples:** *Not even a professional would know how to solve the problem.* · *Even Maradona was impressed the first time he saw Messi play.* · *Not even an expert would know **what wine this is*** (indirect question, so no inversion).\n\n### Even, odd and *even Steven*\n- **even numbers** (2, 4, 6) = *pares* · **odd numbers** (1, 3, 5) = *impares*\n- **odd** also = *raro*: *He's a very odd guy* · *He has an odd accent* · *It smelled odd* (≈ **weird**)\n- **even Steven** = *estamos en paz*: you cooked for me, I cooked for you, now we're even Steven.\n- **a big turnout** = a good attendance (for Conversation Club)."
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1 · Warm-Up Translations",
+        "key": "kyle_20261027_warmup",
+        "qs": [
+          {
+            "q": "'¿Cuánto crees que vamos a tardar?' →",
+            "opts": [
+              "How long do you think it's going to take us?",
+              "How long do you think we're going to last?",
+              "How much do you think we will delay?",
+              "How long you think it's going to take us?"
+            ],
+            "ans": "How long do you think it's going to take us?"
+          },
+          {
+            "q": "Which one means 'durar'?",
+            "opts": [
+              "take",
+              "last",
+              "spend",
+              "delay"
+            ],
+            "ans": "last"
+          },
+          {
+            "q": "'Mi amigo no está de acuerdo con tu sugerencia' →",
+            "opts": [
+              "My friend isn't agree with your suggestion.",
+              "My friend doesn't agree with your suggestion.",
+              "My friend not agrees with your suggestion.",
+              "My friend isn't according with your suggestion."
+            ],
+            "ans": "My friend doesn't agree with your suggestion."
+          },
+          {
+            "q": "'Dile que me llame' →",
+            "opts": [
+              "Say him to call me.",
+              "Tell him to call me.",
+              "Tell him that calls me.",
+              "Say to him call me."
+            ],
+            "ans": "Tell him to call me."
+          },
+          {
+            "q": "'¿Funciona?' →",
+            "opts": [
+              "Works?",
+              "Does it work?",
+              "Is it working it?",
+              "Does it function it?"
+            ],
+            "ans": "Does it work?"
+          },
+          {
+            "q": "'Tenemos que darnos prisa' →",
+            "opts": [
+              "We have to give us hurry.",
+              "We have to hurry.",
+              "We must to hurry.",
+              "We have hurry."
+            ],
+            "ans": "We have to hurry."
+          },
+          {
+            "q": "'La habitación está llena de humo' →",
+            "opts": [
+              "The room is full of smoke.",
+              "The room is full with smoke.",
+              "The room is fill of smoke.",
+              "The room is full of smoking."
+            ],
+            "ans": "The room is full of smoke."
+          }
+        ]
+      },
+      {
+        "title": "Test 2 · Pick Up & Phrasal Verbs",
+        "key": "kyle_20261027_pick_up",
+        "qs": [
+          {
+            "q": "'I picked up a lot of Italian in Milan' means I…",
+            "opts": [
+              "bought Italian books",
+              "learned Italian without formal study",
+              "collected Italian people",
+              "corrected my Italian"
+            ],
+            "ans": "learned Italian without formal study"
+          },
+          {
+            "q": "'My Italian soon picked up' means it…",
+            "opts": [
+              "got worse",
+              "improved",
+              "was collected",
+              "stopped"
+            ],
+            "ans": "improved"
+          },
+          {
+            "q": "'I didn't pick up on the fact that he was angry' →",
+            "opts": [
+              "No recogí que estaba enfadado.",
+              "No me di cuenta de que estaba enfadado.",
+              "No mejoré su enfado.",
+              "No capté la radio."
+            ],
+            "ans": "No me di cuenta de que estaba enfadado."
+          },
+          {
+            "q": "'Apagar soplando las velas' →",
+            "opts": [
+              "blow up the candles",
+              "blow out the candles",
+              "put up the candles",
+              "blow off the candles"
+            ],
+            "ans": "blow out the candles"
+          },
+          {
+            "q": "'To look up to someone' means…",
+            "opts": [
+              "to admire them",
+              "to look for them",
+              "to look down on them",
+              "to visit them"
+            ],
+            "ans": "to admire them"
+          },
+          {
+            "q": "'My scooter was a write-off' means it was…",
+            "opts": [
+              "written in a book",
+              "completely destroyed",
+              "stolen",
+              "sold"
+            ],
+            "ans": "completely destroyed"
+          },
+          {
+            "q": "'Hacer autostop de vuelta a la ciudad' →",
+            "opts": [
+              "hitch a lift back into town",
+              "pick a lift back into town",
+              "hike a lift back into town",
+              "hitch up back into town"
+            ],
+            "ans": "hitch a lift back into town"
+          }
+        ]
+      },
+      {
+        "title": "Test 3 · Even vs. Not Even",
+        "key": "kyle_20261027_even",
+        "qs": [
+          {
+            "q": "'Ni siquiera me llamó' →",
+            "opts": [
+              "She even didn't call me.",
+              "She didn't even call me.",
+              "She not even called me.",
+              "Even she didn't called me."
+            ],
+            "ans": "She didn't even call me."
+          },
+          {
+            "q": "Everyone took Friday off. The boss took Friday off too. →",
+            "opts": [
+              "Everyone took Friday off, not even the boss.",
+              "Everyone took Friday off, even the boss.",
+              "Everyone took Friday off, even not the boss.",
+              "Everyone took Friday off, also even the boss."
+            ],
+            "ans": "Everyone took Friday off, even the boss."
+          },
+          {
+            "q": "No one knew the answer. The teacher didn't know it either. →",
+            "opts": [
+              "No one knew the answer, even the teacher.",
+              "No one knew the answer, not even the teacher.",
+              "No one knew the answer, neither even the teacher.",
+              "No one knew the answer, even not the teacher."
+            ],
+            "ans": "No one knew the answer, not even the teacher."
+          },
+          {
+            "q": "'Even numbers' are…",
+            "opts": [
+              "números impares",
+              "números pares",
+              "números raros",
+              "números iguales"
+            ],
+            "ans": "números pares"
+          },
+          {
+            "q": "'He has an odd accent' means his accent is…",
+            "opts": [
+              "strange",
+              "excellent",
+              "Irish",
+              "even"
+            ],
+            "ans": "strange"
+          },
+          {
+            "q": "Which sentence is correct?",
+            "opts": [
+              "Not even an expert would know what wine is this.",
+              "Not even an expert would know what wine this is.",
+              "Even not an expert would know what wine this is.",
+              "Not even an expert would know what is wine this."
+            ],
+            "ans": "Not even an expert would know what wine this is."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "julia_20261028",
+    "title": "Essential English",
+    "date": "2026-10-28",
+    "topic": "Question Mix with Wh- Words (Answer → Question)",
+    "teacher": "julia",
+    "sections": [
+      {
+        "title": "1. Why Practise the \"Easy\" Things?",
+        "expanded": false,
+        "content": "Many experienced students keep making \"silly mistakes\" (Julia doesn't like the phrase: there are no silly mistakes) with basic things, like *people is*. Julia had the same experience: fluent and advanced, but still slipping on basics, because she'd moved on to advanced material and ignored what she considered **done**.\n\n- The **foundation** is there, but it isn't **solid** enough. The only fix is **repetition**, with lots of different examples.\n- Don't write the sentences down during the exercises: focus on **understanding** and answering orally. Paper → head → paper is much less effective. You can still note down a word.\n- Practise outside class by talking to yourself: on a walk, cleaning, in the shower."
+      },
+      {
+        "title": "2. Mastering the Interrogative: Answer → Question",
+        "expanded": false,
+        "content": "Julia gives the answer; you give the question with the right **wh- word** and **tense**.\n\n| Answer | Question |\n|---|---|\n| They are drinking coffee. | What are they drinking? |\n| Tom is going to teach you English. | What is Tom going to teach me? |\n| The meeting will be tomorrow at 5:00 p.m. | When will the meeting be? |\n| He was fired because he was a disaster. | Why was he fired? |\n| I forgot the documents. | What did you forget? |\n| Mary is speaking to Susan. | Who is Mary speaking to? |\n| The new office was opened in Vigo. | Where was the new office opened? |\n| I was late because the traffic was horrible. | Why were you late? |\n| They were eating lunch. | What were they doing? |\n| I am looking at Peter. | Who are you looking at? |\n| I love my job because my students are fantastic. | Why do you love your job? |"
+      },
+      {
+        "title": "3. Grammar Notes",
+        "expanded": false,
+        "content": "### The question sandwich\n**auxiliary** (first slice of bread) + **subject** (always in the middle, a person or a thing) + **verb** (last slice).\n- ✗ ~~When will be the meeting?~~ → ✓ **When will the meeting be?** (a very typical mistake: Spanish ends with *la reunión*)\n- ✗ ~~Where was opened the new office?~~ → ✓ **Where was the new office opened?**\n- ✗ ~~Why he was fired?~~ → ✓ **Why was he fired?**\n\n### After *did*, the base verb\n**did** already marks the past, so the verb stays in the present: *What did you **forget**? · What did you **do**? · What did you **find**?*\n\n### Prepositions go at the end\nSpanish puts them first (*¿con quién…?*); English leaves them at the end, in a pack with the verb: ***Who** is Mary speaking **to**?* · ***Who** are you looking **at**?*\n\n### Passive: participle, not past\nArtemisa asked why *was … opened* has two \"pasts\": **opened** is a **participle** (passive: someone opened it). *Where was the new office **open**?* would mean where it *was* open, a state. Compare: *How was the document **written**?* (✗ ~~write~~)\n\n### Vocabulary\n- **to be fired** = *ser despedido* ↔ **to be hired** = *ser contratado* (one letter of difference)\n- **to be late** is more natural than *arrive late*: *I was late* → ***Why were you late?*** (*you* → **were**)"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test · Answer → Question",
+        "key": "julia_oct28_t1",
+        "qs": [
+          {
+            "q": "Answer: 'The meeting will be tomorrow at 5:00 p.m.' Question?",
+            "opts": [
+              "When will be the meeting?",
+              "When will the meeting be?",
+              "When the meeting will be?",
+              "When is going the meeting to be?"
+            ],
+            "ans": "When will the meeting be?"
+          },
+          {
+            "q": "Answer: 'I forgot the documents.' Question?",
+            "opts": [
+              "What did you forgot?",
+              "What did you forget?",
+              "What you forgot?",
+              "What do you forgot?"
+            ],
+            "ans": "What did you forget?"
+          },
+          {
+            "q": "Answer: 'Mary is speaking to Susan.' Question?",
+            "opts": [
+              "To who is speaking Mary?",
+              "Who is Mary speaking to?",
+              "Who Mary is speaking to?",
+              "Who is speaking Mary to?"
+            ],
+            "ans": "Who is Mary speaking to?"
+          },
+          {
+            "q": "Answer: 'The new office was opened in Vigo.' Question?",
+            "opts": [
+              "Where was opened the new office?",
+              "Where was the new office opened?",
+              "Where the new office was opened?",
+              "Where was the new office open?"
+            ],
+            "ans": "Where was the new office opened?"
+          },
+          {
+            "q": "Answer: 'I was late because the traffic was horrible.' Question?",
+            "opts": [
+              "Why was you late?",
+              "Why were you late?",
+              "Why you were late?",
+              "Why did you late?"
+            ],
+            "ans": "Why were you late?"
+          },
+          {
+            "q": "Answer: 'They were eating lunch.' Question?",
+            "opts": [
+              "What were they doing?",
+              "What they were doing?",
+              "What did they doing?",
+              "What were they do?"
+            ],
+            "ans": "What were they doing?"
+          },
+          {
+            "q": "Answer: 'I am looking at Peter.' Question?",
+            "opts": [
+              "Who are you looking?",
+              "Who are you looking at?",
+              "At who you are looking?",
+              "Who you are looking at?"
+            ],
+            "ans": "Who are you looking at?"
+          }
+        ]
+      },
+      {
+        "title": "Test · Grammar & Vocabulary",
+        "key": "julia_oct28_t2",
+        "qs": [
+          {
+            "q": "In the 'question sandwich', what goes in the middle?",
+            "opts": [
+              "the auxiliary",
+              "the subject",
+              "the verb",
+              "the wh- word"
+            ],
+            "ans": "the subject"
+          },
+          {
+            "q": "'Ser despedido' →",
+            "opts": [
+              "to be fired",
+              "to be hired",
+              "to be fried",
+              "to be retired"
+            ],
+            "ans": "to be fired"
+          },
+          {
+            "q": "'Ser contratado' →",
+            "opts": [
+              "to be fired",
+              "to be hired",
+              "to be higher",
+              "to be contracted out"
+            ],
+            "ans": "to be hired"
+          },
+          {
+            "q": "After 'did' in a question, the verb goes in…",
+            "opts": [
+              "the past",
+              "the base form",
+              "the -ing form",
+              "the participle"
+            ],
+            "ans": "the base form"
+          },
+          {
+            "q": "'How was the document ___?'",
+            "opts": [
+              "write",
+              "wrote",
+              "written",
+              "writing"
+            ],
+            "ans": "written"
+          },
+          {
+            "q": "The most natural way to say 'llegué tarde':",
+            "opts": [
+              "I arrived late.",
+              "I was late.",
+              "I came late of time.",
+              "I did late."
+            ],
+            "ans": "I was late."
+          }
+        ]
+      }
+    ]
   }
 ]
