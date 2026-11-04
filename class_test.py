@@ -5,8 +5,18 @@ import re
 import streamlit as st
 import json
 import pathlib
+from PIL import Image
 
-st.set_page_config(page_title="Reviewing The English Collective", layout="wide")
+BASE_PATH = pathlib.Path(__file__).parent
+LOGO_ON_NAVY = BASE_PATH / "assets/EC logo in blue with white.png"
+LOGO_ON_LIGHT = BASE_PATH / "assets/eclogo.png"
+
+st.set_page_config(
+    page_title="Reviewing The English Collective",
+    # Favicon: just the speech-bubble mark from the left of the logo.
+    page_icon=Image.open(LOGO_ON_LIGHT).crop((0, 0, 186, 186)),
+    layout="wide",
+)
 
 # Link the web app manifest (static/manifest.json) into the page head so Chrome
 # on Android offers "Install app" and opens it full-screen from the home screen.
@@ -16,7 +26,7 @@ st.html("""<script>
   if (head.querySelector('link[rel="manifest"]')) return;
   [['link', {rel: 'manifest', href: '/app/static/manifest.json'}],
    ['link', {rel: 'apple-touch-icon', href: '/app/static/icon-192.png'}],
-   ['meta', {name: 'theme-color', content: '#1f4e9c'}],
+   ['meta', {name: 'theme-color', content: '#002462'}],
    ['meta', {name: 'mobile-web-app-capable', content: 'yes'}]].forEach(function(t) {
     var el = window.parent.document.createElement(t[0]);
     for (var k in t[1]) el.setAttribute(k, t[1][k]);
@@ -25,9 +35,76 @@ st.html("""<script>
 })();
 </script>""", unsafe_allow_javascript=True)
 
+# Brand theme, taken from theenglishcollective.com: navy header, blue actions, red
+# active-tab underline, Poppins. It is CSS here rather than a [theme] block because
+# .streamlit/config.toml is shared with app.py, which should keep its own look.
+_BRAND_CSS = """
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.stApp, .stApp p, .stApp li, .stApp label, .stApp input, .stApp textarea, .stApp button,
+.stApp summary, .stApp td, .stApp th, .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6 {
+    font-family: 'Poppins', 'Source Sans Pro', sans-serif;
+}
+/* Streamlit sets color-scheme on .stApp, so light-dark() follows the live theme.
+   st.context.theme can't choose these: it is unreliable on a session's first run. */
+.stApp {
+    --ec-card: light-dark(#FFFFFF, transparent);
+    --ec-border: light-dark(#E7E9EC, rgba(250,250,250,.2));
+    --ec-heading: light-dark(#002462, #DDE5FF);
+    --ec-link: light-dark(#385DFF, #8FA6FF);
+    background: light-dark(#FAFBFD, #0E1117);
+}
+.stApp h1, .stApp h2, .stApp h3, .stApp h4 { color: var(--ec-heading); font-weight: 700; }
+.stApp h1 { text-align: center; text-decoration: underline; text-underline-offset: 6px; font-size: clamp(1.5rem, 5vw, 2.4rem); }
+.stMarkdown a { color: var(--ec-link); }
+
+/* Top bar with the logo */
+[data-testid="stHeader"] { background: #002462; }
+[data-testid="stHeader"] button, [data-testid="stHeader"] a,
+[data-testid="stHeader"] [data-testid="stIconMaterial"] { color: #fff; }
+[data-testid="stHeaderLogo"] { height: 44px; max-width: 60vw; }
+[data-testid="stMainBlockContainer"] { padding-top: 5.5rem; }
+
+/* Teacher tabs: navy band, like the site's menu */
+[role="tablist"] { background: #002462; border-radius: 8px; padding: 6px 12px 0 12px; }
+[data-testid="stTab"] p { color: #fff; font-weight: 600; font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; }
+[data-testid="stTab"]:hover p { color: #fff; opacity: .8; }
+[data-testid="stTab"][data-selected] > div:not([data-testid="stMarkdownContainer"]) { background: #E80000; height: 3px; }
+[data-testid="stTab"]::after { border-color: #fff !important; }
+
+/* Sub-tabs inside a teacher tab: plain, blue when active */
+[data-testid="stTabPanel"] [role="tablist"] { background: transparent; border-radius: 0; padding: 0; }
+[data-testid="stTabPanel"] [data-testid="stTab"] p { color: var(--ec-heading); font-size: .85rem; letter-spacing: 0; text-transform: none; }
+[data-testid="stTabPanel"] [data-testid="stTab"][data-selected] p { color: var(--ec-link); font-weight: 700; }
+[data-testid="stTabPanel"] [data-testid="stTab"][data-selected] > div:not([data-testid="stMarkdownContainer"]) { background: var(--ec-link); }
+
+/* Buttons */
+[data-testid="stBaseButton-primary"] { background: #385DFF; border-color: #385DFF; color: #fff; font-weight: 600; }
+[data-testid="stBaseButton-primary"]:hover { background: #1E42DD; border-color: #1E42DD; color: #fff; }
+[data-testid="stBaseButton-secondary"], [data-testid="stBaseLinkButton-secondary"] { font-weight: 500; }
+[data-testid="stBaseButton-secondary"]:hover, [data-testid="stBaseLinkButton-secondary"]:hover {
+    border-color: var(--ec-link); color: var(--ec-link);
+}
+
+/* Radios and toggles */
+[data-testid="stRadioOption"][data-selected] > div:first-of-type > div:first-child { background: #385DFF; border-color: #385DFF; }
+[data-testid="stCheckbox"] label[data-selected] > div:first-of-type { background: #385DFF; }
+
+/* Section cards */
+[data-testid="stExpander"] details { background: var(--ec-card); border: 1px solid var(--ec-border); border-radius: 10px; }
+[data-testid="stExpander"] summary { font-weight: 600; color: var(--ec-heading); }
+[data-testid="stExpander"] summary:hover { color: var(--ec-link); }
+
+/* Markdown tables */
+.stMarkdown table th { background: #002462; color: #fff; }
+.stMarkdown table th * { color: #fff; }
+"""
+
+st.html(f"<style>{_BRAND_CSS}</style>")
+
+st.logo(str(LOGO_ON_NAVY), size="large")
 st.title("Reviewing The English Collective")
 
-BASE_PATH = pathlib.Path(__file__).parent
 CACHE_PATH = BASE_PATH / "class_cache.json"
 WALL_PATH = BASE_PATH / "wall_phrasal_verbs.json"
 
@@ -207,7 +284,8 @@ def _render_agility_section_synced(sec, title="Agility Accelerator", blur_labels
             )
 
     component_html = f"""<style>
-body{{font-family:"Source Sans Pro",sans-serif;margin:0;padding:0;}}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body{{font-family:'Poppins','Source Sans Pro',sans-serif;margin:0;padding:0;}}
 .group-name{{font-weight:700;margin:14px 0 6px 0;}}
 .sentence{{padding:6px 8px;border-bottom:1px solid rgba(128,128,128,0.25);margin-bottom:2px;border-radius:6px;transition:background .15s;}}
 .sentence.active{{background:rgba(255,205,0,0.32);}}
@@ -964,3 +1042,12 @@ else:
 
     with tab_brain_buffet:
         _render_teacher_tab(brain_buffet_classes, "sel_brain_buffet")
+
+# Footer logo: on a white chip because eclogo.png's black lettering vanishes in dark mode.
+_footer_logo = base64.b64encode(LOGO_ON_LIGHT.read_bytes()).decode()
+st.html(
+    '<div style="text-align:center;margin:3rem 0 1rem 0;padding-top:1.5rem;border-top:1px solid rgba(128,128,128,.25)">'
+    '<a href="https://theenglishcollective.com/programs/" target="_blank" rel="noopener">'
+    f'<img src="data:image/png;base64,{_footer_logo}" alt="The English Collective" '
+    'style="height:56px;max-width:80%;box-sizing:content-box;background:#fff;padding:8px 14px;border-radius:10px"></a></div>'
+)

@@ -68,6 +68,13 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 
 **Page title:** "Reviewing The English Collective" — set in both `st.set_page_config` and `st.title()`.
 
+**Brand theme:** styled after `theenglishcollective.com` (navy `#002462`, blue `#385DFF` / hover `#1E42DD`, red `#E80000`, Poppins) by `_BRAND_CSS` at the top of `class_test.py`. It is CSS, not a `[theme]` block, because `.streamlit/config.toml` is shared with `app.py`, which keeps its own look. Three details to keep:
+- `@import` must stay the first rule in `_BRAND_CSS`, or the font silently doesn't load.
+- Colours that differ between light and dark mode use `light-dark()` in the `--ec-*` variables on `.stApp`, where Streamlit sets `color-scheme`. Don't use `st.context.theme.type` for this: it reported "light" on a dark-theme server (Streamlit documents it as unreliable on a session's first run).
+- Selectors use `data-testid`, so re-check them when bumping Streamlit. To find anything left in Streamlit's default red, scan the page for computed colours equal to `rgb(255, 75, 75)`.
+
+Logos: `assets/EC logo in blue with white.png` goes in the navy top bar via `st.logo`. `assets/eclogo.png` goes in the page footer (on a white chip, since its black lettering vanishes in dark mode) and its left part is cropped for the favicon. The script opens `eclogo.png` at startup, so both files must be committed. The sync player's iframe loads Poppins separately.
+
 **Five outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls", "Natural English", "Brain Buffet"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"` / `"natural"` / `"brain_buffet"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls` / `sel_natural` / `sel_brain_buffet`) for the selected class index.
 
 **Kyle sub-tabs:** The English with Kyle tab contains seven nested sub-tabs: `st.tabs(["Classes", "🧠 Mind Map", "🦜 Warm-Up Linguo", "📘 Agility Accelerator", "❓ The Interrogative Challenge", "📰 Reported Speech", "🧱 Wall of Phrasal Verbs"])`. The Reported Speech sub-tab is described under "Reported Speech" below. The Classes sub-tab renders the class selector and content. The Mind Map sub-tab shows a full-width `st.link_button` that opens `/app/static/mindmap_kyle.html` in a new browser tab. The Warm-Up Linguo sub-tab runs a Duolingo-style quiz (see below). The Agility Accelerator sub-tab renders the standalone `kyle_agility_accelerator` entry (see below). The Interrogative Challenge sub-tab renders statement/question pairs collected from all dated Kyle classes, grouped by class then section, each with click-to-hear synced audio (see below).
