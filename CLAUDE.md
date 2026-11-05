@@ -30,6 +30,7 @@ streamlit run app.py --server.port=8501
 | `Procfile` | Render start command for `app.py` |
 | `requirements.txt` | `streamlit`, `pandas`, `gTTS`, `openpyxl` |
 | `assets/profilepictures/` | Circular avatar images shown in tab labels (`kyle.jpg`, `julia.jpg`, `juls.jpg`, `brain_buffet.png`) |
+| `assets/EC logo in blue with white.png`, `assets/eclogo.png` | The English Collective logos used by `class_test.py` (see "Brand theme") |
 | `mindmap_kyle.html` | Interactive markmap mind map of all Kyle class content — searchable, expandable |
 | `mindmap_kyle_network.html` | Alternative vis-network graph view of Kyle class content (not maintained since Jun 2026; new classes only go into `mindmap_kyle.html`) |
 | `static/mindmap_kyle.html` | Copy of `mindmap_kyle.html` served at `/app/static/mindmap_kyle.html` via Streamlit static serving |
@@ -74,6 +75,8 @@ Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely 
 - Selectors use `data-testid`, so re-check them when bumping Streamlit. To find anything left in Streamlit's default red, scan the page for computed colours equal to `rgb(255, 75, 75)`.
 
 Logos: `assets/EC logo in blue with white.png` goes in the navy top bar via `st.logo`. `assets/eclogo.png` goes in the page footer (on a white chip, since its black lettering vanishes in dark mode) and its left part is cropped for the favicon. The script opens `eclogo.png` at startup, so both files must be committed. The sync player's iframe loads Poppins separately.
+
+**Previous look:** the Git tag `pre-brand-theme` (on GitHub, pointing to `633a4e2`) is the whole app as it was before this theme, kept at the user's request. Don't delete or move it. The theme itself is commit `a671993`. To see the old version, use `git show pre-brand-theme:class_test.py` or a `git worktree`; to take the theme off the live site, `git revert a671993` and push (with the user's OK).
 
 **Five outer tabs:** `st.tabs(["English with Kyle", "Essential English · Julia", "English Time with Juls", "Natural English", "Brain Buffet"])`. Classes are split by the `teacher` field (`"kyle"` / `"julia"` / `"juls"` / `"natural"` / `"brain_buffet"`). Each tab has its own session state key (`sel_kyle` / `sel_julia` / `sel_juls` / `sel_natural` / `sel_brain_buffet`) for the selected class index.
 
