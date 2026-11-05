@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 92" role="img" aria-label="A hand lifting a barbell with the letters E and C on its weights">
+  <!-- Arm, behind the bar -->
+  <path d="M79 44h22l3 42a6 6 0 0 1-6 6H82a6 6 0 0 1-6-6z" fill="#F5B83D" stroke="#B97F12" stroke-width="2"/>
+  <rect x="76" y="58" width="28" height="9" rx="2" fill="#E80000"/>
+  <!-- Back of the fist, behind the bar -->
+  <rect x="75" y="22" width="30" height="32" rx="9" fill="#F5B83D" stroke="#B97F12" stroke-width="2"/>
+  <!-- Bar -->
+  <rect x="0" y="27" width="180" height="10" rx="5" fill="#8A94A6"/>
+  <!-- Red collars next to each weight -->
+  <rect x="66" y="21" width="6" height="22" rx="2" fill="#E80000"/>
+  <rect x="108" y="21" width="6" height="22" rx="2" fill="#E80000"/>
+  <!-- Fingers wrapped over the bar, then the thumb -->
+  <g fill="#F5B83D" stroke="#B97F12" stroke-width="1.5">
+    <rect x="75" y="19" width="7.5" height="24" rx="3.75"/>
+    <rect x="82.5" y="18" width="7.5" height="25" rx="3.75"/>
+    <rect x="90" y="18" width="7.5" height="25" rx="3.75"/>
+    <rect x="97.5" y="19" width="7.5" height="24" rx="3.75"/>
+    <rect x="78" y="38" width="24" height="9" rx="4.5"/>
+  </g>
+  <!-- Left weight: E. Letters are shapes, not text, so they don't depend on a font. -->
+  <circle cx="36" cy="32" r="30" fill="#385DFF"/>
+  <circle cx="36" cy="32" r="25" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M27 18h19v6H34v5h10v6H34v5h12v6H27z" fill="#FFFFFF"/>
+  <!-- Right weight: C -->
+  <circle cx="144" cy="32" r="30" fill="#385DFF"/>
+  <circle cx="144" cy="32" r="25" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M154 22.5A13.5 13.5 0 1 0 154 41.5" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+</svg>

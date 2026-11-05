@@ -100,10 +100,32 @@ _BRAND_CSS = """
 .stMarkdown table th * { color: #fff; }
 """
 
-st.html(f"<style>{_BRAND_CSS}</style>")
+# Barbell icon left of the page title. Scoped by the container key so that "# "
+# headings inside class content don't get it too.
+_GYM_ICON = base64.b64encode((BASE_PATH / "assets/gym_icon.svg").read_bytes()).decode()
+_GYM_ICON_CSS = f"""
+.st-key-gym_title h1::before {{
+    content: "";
+    display: inline-block;
+    width: 3.5em;
+    height: 1.8em;
+    margin-right: .35em;
+    vertical-align: middle;
+    background: url("data:image/svg+xml;base64,{_GYM_ICON}") center / contain no-repeat;
+}}
+"""
+
+st.html(f"<style>{_BRAND_CSS}{_GYM_ICON_CSS}</style>")
 
 st.logo(str(LOGO_ON_NAVY), size="large")
-st.title("The gym")
+with st.container(key="gym_title"):
+    st.title("The gym")
+st.write(
+    "Welcome to the Gym! Review your Favourite English Collective classes and "
+    "challenge yourself with the class content. Choose the class you want to "
+    "review and pick the date of the class. Explore the various parts of the "
+    "class and take a test at the end!"
+)
 
 CACHE_PATH = BASE_PATH / "class_cache.json"
 WALL_PATH = BASE_PATH / "wall_phrasal_verbs.json"
