@@ -543,6 +543,39 @@
             "cls": "kyle_20261027"
           }
         ]
+      },
+      {
+        "concept": "Increasing",
+        "es": "subir, dispararse",
+        "icon": "📊",
+        "note": "<b>go up</b> is neutral; <b>shoot up</b> is sudden and strong",
+        "verbs": [
+          {
+            "verb": "go up",
+            "meaning": "increase, rise",
+            "example": "Sales went up significantly last month.",
+            "cls": "kyle_20261029"
+          },
+          {
+            "verb": "shoot up",
+            "meaning": "increase suddenly and strongly",
+            "example": "Sales shot up last month.",
+            "cls": "kyle_20261029"
+          }
+        ]
+      },
+      {
+        "concept": "Cheering up",
+        "es": "animar(se)",
+        "icon": "😄",
+        "verbs": [
+          {
+            "verb": "cheer up",
+            "meaning": "become or make someone happier",
+            "example": "Cheer up, things will get better.",
+            "cls": "kyle_20261029"
+          }
+        ]
       }
     ]
   },
