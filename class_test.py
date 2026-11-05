@@ -12,7 +12,7 @@ LOGO_ON_NAVY = BASE_PATH / "assets/EC logo in blue with white.png"
 LOGO_ON_LIGHT = BASE_PATH / "assets/eclogo.png"
 
 st.set_page_config(
-    page_title="Reviewing The English Collective",
+    page_title="The gym",
     # Favicon: just the speech-bubble mark from the left of the logo.
     page_icon=Image.open(LOGO_ON_LIGHT).crop((0, 0, 186, 186)),
     layout="wide",
@@ -103,7 +103,7 @@ _BRAND_CSS = """
 st.html(f"<style>{_BRAND_CSS}</style>")
 
 st.logo(str(LOGO_ON_NAVY), size="large")
-st.title("Reviewing The English Collective")
+st.title("The gym")
 
 CACHE_PATH = BASE_PATH / "class_cache.json"
 WALL_PATH = BASE_PATH / "wall_phrasal_verbs.json"

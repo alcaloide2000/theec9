@@ -66,7 +66,7 @@ Single-file Streamlit app backed by `the.xlsx`.
 
 Lightweight standalone app — no auth, no Excel, no other tabs. Reads entirely from `class_cache.json`.
 
-**Page title:** "Reviewing The English Collective" — set in both `st.set_page_config` and `st.title()`.
+**Page title:** "The gym" — set in both `st.set_page_config` and `st.title()`.
 
 **Brand theme:** styled after `theenglishcollective.com` (navy `#002462`, blue `#385DFF` / hover `#1E42DD`, red `#E80000`, Poppins) by `_BRAND_CSS` at the top of `class_test.py`. It is CSS, not a `[theme]` block, because `.streamlit/config.toml` is shared with `app.py`, which keeps its own look. Three details to keep:
 - `@import` must stay the first rule in `_BRAND_CSS`, or the font silently doesn't load.
