@@ -401,6 +401,19 @@
             "cls": "kyle_20260908"
           }
         ]
+      },
+      {
+        "concept": "Deciphering",
+        "es": "divisar, descifrar, entender",
+        "icon": "🔎",
+        "verbs": [
+          {
+            "verb": "make out",
+            "meaning": "manage to see or hear something unclear",
+            "example": "It's so far away that I can hardly make it out.",
+            "cls": "kyle_20261110"
+          }
+        ]
       }
     ]
   },
@@ -655,6 +668,37 @@
             "meaning": "think you're better than someone",
             "example": "It's just not very nice to look down on people.",
             "cls": "kyle_20261027"
+          }
+        ]
+      },
+      {
+        "concept": "Calming",
+        "es": "calmar(se), tranquilizar",
+        "icon": "😌",
+        "verbs": [
+          {
+            "verb": "calm down",
+            "meaning": "make someone (or yourself) calm; separable",
+            "example": "The teacher calmed me down.",
+            "cls": "kyle_20261110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "particle": "apart",
+    "concepts": [
+      {
+        "concept": "Distinguishing",
+        "es": "distinguir",
+        "icon": "⚖️",
+        "verbs": [
+          {
+            "verb": "tell apart",
+            "meaning": "see the difference between two similar things",
+            "example": "I can tell Coke and Pepsi apart.",
+            "cls": "kyle_20261110"
           }
         ]
       }
