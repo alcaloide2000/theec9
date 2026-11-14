@@ -414,6 +414,19 @@
             "cls": "kyle_20261110"
           }
         ]
+      },
+      {
+        "concept": "Highlighting / revealing",
+        "es": "realzar · sacar a la luz",
+        "icon": "✨",
+        "verbs": [
+          {
+            "verb": "bring out",
+            "meaning": "make a feature stand out; reveal",
+            "example": "Your new hairstyle really brings out your cheekbones.",
+            "cls": "kyle_20261112"
+          }
+        ]
       }
     ]
   },
@@ -587,6 +600,46 @@
             "meaning": "become or make someone happier",
             "example": "Cheer up, things will get better.",
             "cls": "kyle_20261029"
+          }
+        ]
+      },
+      {
+        "concept": "Raising a topic",
+        "es": "sacar un tema · salir un tema",
+        "icon": "💬",
+        "note": "<b>bring up</b> = someone raises it (transitive) · <b>come up</b> = it comes up on its own (intransitive)",
+        "verbs": [
+          {
+            "verb": "bring up",
+            "meaning": "mention / raise a topic",
+            "example": "All of a sudden, David brought up football.",
+            "cls": "kyle_20261112"
+          },
+          {
+            "verb": "come up",
+            "meaning": "(a topic) arise on its own",
+            "example": "I don't normally bring up politics in class, but yesterday it came up.",
+            "cls": "kyle_20261112"
+          }
+        ]
+      },
+      {
+        "concept": "Upbringing",
+        "es": "criarse · hacerse mayor",
+        "icon": "🧒➡️🧑",
+        "note": "<b>be brought up</b> takes <i>to be</i> · <b>grow up</b> doesn't",
+        "verbs": [
+          {
+            "verb": "be brought up",
+            "meaning": "be raised (criarse)",
+            "example": "I was born in Digby, but I was brought up in Liverpool.",
+            "cls": "kyle_20261112"
+          },
+          {
+            "verb": "grow up",
+            "meaning": "become an adult, mature",
+            "example": "Michael Jackson never grew up.",
+            "cls": "kyle_20261112"
           }
         ]
       }
